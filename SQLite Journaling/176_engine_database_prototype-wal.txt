@@ -1,0 +1,36 @@
+7
+{jF
+7
+{jF
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+7
+{jF5X
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)]
+=tableCurrentWifiRingerStateEntityCurrentWifiRingerStateEntity
+CREATE TABLE `CurrentWifiRingerStateEntity` (`id` INTEGER NOT NULL, `startDateTime` TEXT, `ssid` TEXT, `ringerMode` INTEGER NOT NULL, PRIMARY KEY(`id`))z
+7tableBucketEntityBucketEntity
+CREATE TABLE `BucketEntity` (`id` INTEGER NOT NULL, `states` BLOB, PRIMARY KEY(`id`))W
+1@Pr
+Md4e22cbc01c5365ceb7d552f2f5c5ab3
+2023-05-01T21:21:45.711+08:00[Australia/Perth]<unknown ssid>
+7
+{jFz
+Pm&
+
+2023-05-02T08:18:28.873+08:00[Australia/Perth]<unknown ssid>
+2023-05-02T21:00:00.328+08:00[Australia/Perth]<unknown ssid>
+7
+{jF'aV
+2023-05-04T08:49:27.826+08:00[Australia/Perth]<unknown ssid>
+2023-05-04T13:00:00.168+08:00[Australia/Perth]<unknown ssid>
+2023-05-04T17:00:00.168+08:00[Australia/Perth]<unknown ssid>
+7
+{jFzC
+7
+{jF.@3
+2023-05-04T21:00:00.133+08:00[Australia/Perth]<unknown ssid>
+2023-05-09T11:58:38.840+08:00[Australia/Perth]<unknown ssid>

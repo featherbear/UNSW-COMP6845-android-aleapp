@@ -1,0 +1,13 @@
+=SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+tablemetadatametadata
+CREATE TABLE `metadata` (`address` TEXT NOT NULL, `migrated` INTEGER NOT NULL, `a2dpSupportsOptionalCodecs` INTEGER NOT NULL, `a2dpOptionalCodecsEnabled` INTEGER NOT NULL, `last_active_time` INTEGER NOT NULL, `is_active_a2dp_device` INTEGER NOT NULL, `a2dp_connection_policy` INTEGER, `a2dp_sink_connection_policy` INTEGER, `hfp_connection_policy` INTEGER, `hfp_client_connection_policy` INTEGER, `hid_host_connection_policy` INTEGER, `pan_connection_policy` INTEGER, `pbap_connection_policy` INTEGER, `pbap_client_connection_policy` INTEGER, `map_connection_policy` INTEGER, `sap_connection_policy` INTEGER, `hearing_aid_connection_policy` INTEGER, `hap_client_connection_policy` INTEGER, `map_client_connection_policy` INTEGER, `le_audio_connection_policy` INTEGER, `volume_control_connection_policy` INTEGER, `csip_set_coordinator_connection_policy` INTEGER, `le_call_control_connection_policy` INTEGER, `bass_client_connection_policy` INTEGER, `battery_connection_policy` INTEGER, `manufacturer_name` BLOB, `model_name` BLOB, `software_version` BLOB, `hardware_version` BLOB, `companion_app` BLOB, `main_icon` BLOB, `is_untethered_headset` BLOB, `untethered_left_icon` BLOB, `untethered_right_icon` BLOB, `untethered_case_icon` BLOB, `untethered_left_battery` BLOB, `untethered_right_battery` BLOB, `untethered_case_battery` BLOB, `untethered_left_charging` BLOB, `untethered_right_charging` BLOB, `untethered_case_charging` BLOB, `enhanced_settings_ui_uri` BLOB, `device_type` BLOB, `main_battery` BLOB, `main_charging` BLOB, `main_low_battery_threshold` BLOB, `untethered_left_low_battery_threshold` BLOB, `untethered_right_low_battery_threshold` BLOB, `untethered_case_low_battery_threshold` BLOB, `spatial_audio` BLOB, `fastpair_customized` BLOB, `le_audio` BLOB, PRIMARY KEY(`address`))/
+indexsqlite_autoindex_metadata_1metadata
+Mba0a06f58eaae06198b90b4f6e5eb553
+LocalStorage
+%	LocalStorage

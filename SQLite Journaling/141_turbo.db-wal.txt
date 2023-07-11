@@ -1,0 +1,109 @@
+	$	0	<	H	T	`	l	x	
+
+ 
+,
+8
+D
+P
+\
+h
+t
+
+&1<GR]hs~
+#.9DOZep{
+
+ 
++
+6
+A
+L
+W
+b
+m
+x
+
+Brh}
+
+?a@z
+
+>g@y
+
+<@xw
+
+/XW
+
+y(N
+
+c D
+
+<XA
+
+xP-
+
+8I(*
+
+WX&
+
+	p
+
+[X
+
+]0	
+
+
+s
+R
+1
+
+kJ)
+cB!
+
+
+|
+[
+:
+
+	t	S	2	
+Australia/Perth
+
+ T
+cd8]
+]&XZ
+XL(W
+La`M
+JBhK
+BrhD
+?a@A
+>g@@
+L_u?
+
+JE
+kk
+(hH
+
+
+ttv
+FfIt]-
+)#p'
+
+]ve
+#HB
+
+\jCcS
+{7S$%k
+
+f\]
+mi*
+
+Bf'$3
+SQLite format 3
+Qtablebattery_eventbattery_event
+CREATE TABLE battery_event(timestamp_millis INTEGER PRIMARY KEY DESC, battery_level INTEGER, charge_type INTEGER, battery_saver INTEGER, timezone TEXT, place_key INTEGER, FOREIGN KEY(place_key) REFERENCES charging_places(_id))9
+indexsqlite_autoindex_battery_event_1battery_event
+tablecharging_placescharging_places
+CREATE TABLE charging_places(_id INTEGER PRIMARY KEY, place_name TEXT, place_api_id TEXT, UNIQUE(place_api_id) ON CONFLICT IGNORE)=
+indexsqlite_autoindex_charging_places_1charging_places
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+2s4+
+

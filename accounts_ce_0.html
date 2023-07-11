@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ALEAPP - Accounts_ce report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Highlight.js -->
+        <link rel="stylesheet" href="_elements/highlight.min.css">
+        <script src="_elements/highlight.min.js"></script>
+        <!-- Cal-Heatmap -->
+        <script src="_elements/d3.v7.min.js"></script>
+        <script src="_elements/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="_elements/cal-heatmap.css">
+        <script src="_elements/popper.min.js"></script>
+        <script src="_elements/Tooltip.min.js"></script>
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chat.css">
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+        <link href="_elements/timeline/css/timeline.min.css" rel="stylesheet" />
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">ALEAPP 3.1.8</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+<h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Saved Reports
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="index.html">
+            <span data-feather="home"></span> Report Home
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_ce
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Authtokens_0.html">
+            <span data-feather="key"></span> Authtokens_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link  active" href="accounts_ce_0.html">
+            <span data-feather="user"></span> accounts_ce_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_de
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_de_0.html">
+            <span data-feather="user"></span> accounts_de_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Adb Hosts
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="ADB Hosts.html">
+            <span data-feather="terminal"></span> ADB Hosts
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Android System Intelligence
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SimpleStorage - App Launch.html">
+            <span data-feather="loader"></span> SimpleStorage - App Launch
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        App Roles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Android 11 Roles_0.html">
+            <span data-feather="tool"></span> Android 11 Roles_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Bluetooth Connections
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Adapter Information.html">
+            <span data-feather="bluetooth"></span> Bluetooth Adapter Information
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Connections.html">
+            <span data-feather="bluetooth"></span> Bluetooth Connections
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Browser Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome Browser Cache.html">
+            <span data-feather="chrome"></span> Chrome Browser Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Calendar
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calendar - Calendars.html">
+            <span data-feather="calendar"></span> Calendar - Calendars
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Chromium
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies-01.html">
+            <span data-feather="chrome"></span> Chrome - Cookies-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies.html">
+            <span data-feather="chrome"></span> Chrome - Cookies
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads-01.html">
+            <span data-feather="download"></span> Chrome - Downloads-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads.html">
+            <span data-feather="download"></span> Chrome - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor-01.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms.html">
+            <span data-feather="search"></span> Chrome - Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History-01.html">
+            <span data-feather="chrome"></span> Chrome - Web History-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History.html">
+            <span data-feather="chrome"></span> Chrome - Web History
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits-01.html">
+            <span data-feather="globe"></span> Chrome - Web Visits-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits.html">
+            <span data-feather="globe"></span> Chrome - Web Visits
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Health Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Application Usage.html">
+            <span data-feather="bar-chart-2"></span> Turbo - Application Usage
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Phone Battery.html">
+            <span data-feather="battery-charging"></span> Turbo - Phone Battery
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Info
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Partner Settings.html">
+            <span data-feather="settings"></span> Partner Settings
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SIM_info_0.html">
+            <span data-feather="info"></span> SIM_info_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings_Secure_0.html">
+            <span data-feather="settings"></span> Settings_Secure_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Digital Wellbeing
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Account Data.html">
+            <span data-feather="user"></span> Account Data
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Events.html">
+            <span data-feather="layers"></span> Events
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Downloads
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Native Downloads.html">
+            <span data-feather="download"></span> Native Downloads
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Emulated Storage Metadata
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Downloads.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Files.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Files
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Images.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Images
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Encrypting Media Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker Database.html">
+            <span data-feather="lock"></span> Calculator Locker Database
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker.html">
+            <span data-feather="lock"></span> Calculator Locker
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Files by Google
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Files by Google - Files Master.html">
+            <span data-feather="file"></span> Files by Google - Files Master
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Firebase Cloud Messaging
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.android.vending.html">
+            <span data-feather="database"></span> FCM-Dump-com.android.vending
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.gm.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.gm
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.googlequicksearchbox.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.googlequicksearchbox
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.zhiliaoapp.musically.html">
+            <span data-feather="database"></span> FCM-Dump-com.zhiliaoapp.musically
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        GEO Location
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Search History Maps.html">
+            <span data-feather="map-pin"></span> Google Search History Maps
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gboard Keyboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gboard - Sessions.html">
+            <span data-feather="edit-3"></span> Gboard - Sessions
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gmail
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Active.html">
+            <span data-feather="at-sign"></span> Gmail - Active
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - App Emails.html">
+            <span data-feather="at-sign"></span> Gmail - App Emails
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Label Details.html">
+            <span data-feather="mail"></span> Gmail - Label Details
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Messages
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Messages.html">
+            <span data-feather="message-circle"></span> Google Messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Photos
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos-1) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos-1) - Local Media
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Cache.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Cache
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Local Media
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Play
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Searches.html">
+            <span data-feather="search"></span> Google Play Searches
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Image Manager Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Image Manager Cache.html">
+            <span data-feather="image"></span> Image Manager Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Installed Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Icons.html">
+            <span data-feather="package"></span> App Icons
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Updates (Frosting.db).html">
+            <span data-feather="package"></span> App Updates (Frosting.db)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Links for Apps.html">
+            <span data-feather="package"></span> Google Play Links for Apps
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS).html">
+            <span data-feather="package"></span> Installed Apps (GMS)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS)_0.html">
+            <span data-feather="package"></span> Installed Apps (GMS)_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Library).html">
+            <span data-feather="package"></span> Installed Apps (Library)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Vending).html">
+            <span data-feather="package"></span> Installed Apps (Vending)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Packages.html">
+            <span data-feather="package"></span> Packages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Permissions
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml.html">
+            <span data-feather="check"></span> Appops.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permission Trees.html">
+            <span data-feather="check"></span> Permission Trees
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permissions.html">
+            <span data-feather="check"></span> Permissions
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Runtime Permissions_0.html">
+            <span data-feather="check"></span> Runtime Permissions_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Power Events
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Last Boot Time.html">
+            <span data-feather="power"></span> Last Boot Time
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Shutdown Checkpoints.html">
+            <span data-feather="power"></span> Shutdown Checkpoints
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Privacy Dashboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Privacy Dashboard.html">
+            <span data-feather="eye"></span> Privacy Dashboard
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Recent Activity
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Recent Activity_0.html">
+            <span data-feather="activity"></span> Recent Activity_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SMS & MMS
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SMS messages.html">
+            <span data-feather="message-square"></span> SMS messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SQLite Journaling
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Strings - SQLite Journal & WAL.html">
+            <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Settings Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings Services - Battery Usage.html">
+            <span data-feather="battery-charging"></span> Settings Services - Battery Usage
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Usage Stats
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="OS Version.html">
+            <span data-feather="bar-chart-2"></span> OS Version
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="UsageStats_0.html">
+            <span data-feather="bar-chart-2"></span> UsageStats_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        WiFi Profiles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wi-Fi Profiles.html">
+            <span data-feather="wifi"></span> Wi-Fi Profiles
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 0.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 1.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 1
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Wipe & Setup
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml Setup Wizard.html">
+            <span data-feather="loader"></span> Appops.xml Setup Wizard
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Factory Reset.html">
+            <span data-feather="loader"></span> Factory Reset
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Setup_Wizard_Info.xml.html">
+            <span data-feather="loader"></span> Setup_Wizard_Info.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Suggestions.xml.html">
+            <span data-feather="loader"></span> Suggestions.xml
+        </a>
+    </li>
+    
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="display-5">Accounts_ce report</h1>
+                    <h6 class="animated fadeIn mb-3"></h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 1</h6><p class="lead">Accounts_ce located at: C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\system_ce\0\accounts_ce.db</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Name</th><th class="th-sm">Type</th><th class="th-sm">Password</th></tr></thead><tbody><tr><td>tom.jonsey91@gmail.com</td><td>com.google</td><td>aas_et/AKppINYw3besTWoD1Z3E5PWQmN4tqo21pa8JB2K-vj00k3hMU9IhoPhFz5an0N7rwoW5vd35M187XZkulomWqeQs8udjAApjYBtTOhnuKnoHS7CbqRTVJ9HGO2PeSQWhx_7NaKeP4B4SCQH_ctM5lw4kjFbPspgjQQ9KYduu9P9ephy89wXv93xazrMmU05JDU2vr9rmXFxgqCZIsylfE8U=</td></tr></tbody><tfoot><tr><th>Name</th><th>Type</th><th>Password</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <!-- Chart.js -->
+    <script type="text/javascript" src="_elements/chart.umd.min.js"></script>
+    <script type="text/javascript" src="_elements/moment.min.js"></script>
+    <script type="text/javascript" src="_elements/timeline/js/timeline.min.js"></script>
+    <!-- Garmin Functions -->
+    <script type="text/javascript" src="_elements/garmin-functions.js"></script>
+    <script type="text/javascript" src="_elements/chat.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

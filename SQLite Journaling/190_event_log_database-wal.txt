@@ -1,0 +1,57 @@
+
+a
+,
+w7
+B
+
+CurrentMcmProxyConfig{"enabled":"true"}9
+JobExecuting{"details":"HealthCheckJobService 27"}9
+JobExecuting{"details":"HealthCheckJobService 28"}.
+JobExecuting{"details":"HealthCheckJobService 28"}
+
+
+X
+
+
+ 0b
+	c	#
+OFD
+
+}7
+
+
+c
+#
+n9
+y9
+JobExecuting{"details":"HealthCheckJobService 27"}
+DeviceBooted{}9
+CurrentMcmProxyConfig{"enabled":"true"}
+CurrentMcmProxyConfig{"enabled":"true"}.
+M_M
+
+Qo4'0
+
+M?9*w
+
+L~P{
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)Y
+Utableevent_log_descriptorevent_log_descriptor
+CREATE TABLE `event_log_descriptor` (`timestamp` INTEGER NOT NULL, `uid` INTEGER NOT NULL, `event` TEXT NOT NULL, `details` TEXT NOT NULL, PRIMARY KEY(`timestamp`))W
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+4YM>]
+z.GEL'
+m(5R
+H,q
+
+
+a
+,
+=O-
+
+w7
+\#0
+

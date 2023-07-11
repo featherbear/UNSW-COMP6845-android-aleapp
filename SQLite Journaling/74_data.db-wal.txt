@@ -1,0 +1,111 @@
+<&b?
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+q5Xs
+nV9
+
+en_US
+qvFPmu
+nlSQLite format 3
+"3c
+
+qrO
+oVI
+
+qaZ.)
+o2I
+
+s%
+
+8jH
+
+q4_ 
+5	xplat_schema_version
+
+
+r
+	F	
+
+tableTaskRecurrencesTaskRecurrences
+CREATE TABLE "TaskRecurrences" ("TaskRecurrenceId" TEXT PRIMARY KEY ON CONFLICT ABORT, "TaskRecurrence" BLOB, "EffectiveTaskRecurrence" BLOB, "OriginalTaskRecurrence" BLOB, "HasDirtyState" INTEGER, "ShardId" TEXT, "TaskRecurrenceIdWithoutShard" TEXT)
+O
+{tableTasksTasksCREATE TABLE "Tasks" ("TaskId" TEXT PRIMARY KEY ON CONFLICT ABORT, "TaskListId" TEXT, "DueDate" TEXT, "Completed" INTEGER, "TaskRecurrenceId" TEXT, "Task" BLOB, "EffectiveTask" BLOB, "OriginalTask" BLOB, "HasDirtyState" INTEGER, "ShardId" TEXT, "TaskIdWithoutShard" TEXT, "SourceId" TEXT, "DocumentLinkId" TEXT))
+	tableClientSyncStateClientSyncState
+CREATE TABLE "ClientSyncState" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "ClientSyncState" BLOB, "HasPendingSyncDown" INTEGER)u
+9tableTaskListsTaskLists
+CREATE TABLE "TaskLists" ("TaskListId" TEXT PRIMARY KEY ON CONFLICT ABORT, "TaskList" BLOB, "EffectiveTaskList" BLOB, "OriginalTaskList" BLOB, "HasDirtyState" INTEGER, "ShardId" TEXT, "TaskListIdWithoutShard" TEXT)A
+QtableUserPrefsUserPrefs
+CREATE TABLE "UserPrefs" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "UserPrefs" BLOB, "EffectiveUserPrefs" BLOB, "OriginalUserPrefs" BLOB, "HasDirtyState" INTEGER)7
+indexsqlite_autoindex_UserMetadata_1UserMetadata
+itableUserMetadataUserMetadata
+CREATE TABLE "UserMetadata" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "UserMetadata" BLOB, "EffectiveUserMetadata" BLOB, "OriginalUserMetadata" BLOB, "HasDirtyState" INTEGER)1
+indexsqlite_autoindex_TaskLists_1TaskLists
+indexsqlite_autoindex_TaskRecurrences_1TaskRecurrences
+indexsqlite_autoindex_Tasks_1Tasks
+
+indexsqlite_autoindex_Operations_1Operations
+itableOperationsOperations
+CREATE TABLE "Operations" ("OperationId" TEXT PRIMARY KEY ON CONFLICT ABORT, "Operation" BLOB, "ShardId" TEXT))
+indexsqlite_autoindex_Rooms_1Rooms	f
++tableRoomsRooms
+CREATE TABLE "Rooms" ("RoomId" TEXT PRIMARY KEY ON CONFLICT ABORT, "Room" BLOB);
+indexsqlite_autoindex_GlobalMetadata_1GlobalMetadata
+etableGlobalMetadataGlobalMetadata
+CREATE TABLE "GlobalMetadata" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "LastRoomDataRefreshTimestamp" BLOB)=
+indexsqlite_autoindex_ClientSyncState_1ClientSyncState
+Ytablesqlite_sequencesqlite_sequence0CREATE TABLE sqlite_sequence(name,seq)*1
+wtablexplat_schema_versionxplat_schema_version/CREATE TABLE "xplat_schema_version" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "version" INTEGER)M
+AtableGlobalMetadataTableGlobalMetadataTable
+CREATE TABLE "GlobalMetadataTable" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "LastRoomDataRefreshTimestamp" BLOB, "LastDocumentDataRefreshTimestamp" BLOB)	.
+MtableDocumentsTableDocumentsTable,CREATE TABLE "DocumentsTable" ("DocumentId" TEXT PRIMARY KEY ON CONFLICT ABORT, "Document" BLOB);/
+indexsqlite_autoindex_DocumentsTable_1DocumentsTable-V-
+}indexSourceIdIndexTasks+CREATE INDEX "SourceIdIndex" ON "Tasks" ("SourceId" ASC)x,
+indexUserActions_ShardIdIndexUserActions*CREATE INDEX "UserActions_ShardIdIndex" ON "UserActions" ("ShardId" ASC)
+otableUserActionsUserActions(CREATE TABLE "UserActions" ("UserActionId" TEXT PRIMARY KEY ON CONFLICT ABORT, "ShardId" TEXT, "UserAction" BLOB)5+
+indexsqlite_autoindex_UserActions_1UserActions)
+_indexIDX_ClientSyncState_HasPendingSyncDown_ascClientSyncState'CREATE INDEX "IDX_ClientSyncState_HasPendingSyncDown_asc" ON "ClientSyncState" ("HasPendingSyncDown" ASC)
+WindexTaskLists_TaskListIdIndexTaskLists&CREATE INDEX "TaskLists_TaskListIdIndex" ON "TaskLists" ("ShardId" ASC, "TaskListIdWithoutShard" ASC)p'
+indexTaskLists_ShardIdIndexTaskLists%CREATE INDEX "TaskLists_ShardIdIndex" ON "TaskLists" ("ShardId" ASC)>&
+indexTaskRecurrences_TaskRecurrenceIdIndexTaskRecurrences$CREATE INDEX "TaskRecurrences_TaskRecurrenceIdIndex" ON "TaskRecurrences" ("ShardId" ASC, "TaskRecurrenceIdWithoutShard" ASC)
+-indexTaskRecurrences_ShardIdIndexTaskRecurrences#CREATE INDEX "TaskRecurrences_ShardIdIndex" ON "TaskRecurrences" ("ShardId" ASC)
+$
+GindexTasks_TaskRecurrenceIdIndexTasks"CREATE INDEX "Tasks_TaskRecurrenceIdIndex" ON "Tasks" ("ShardId" ASC, "TaskRecurrenceId" ASC)
+YindexTasks_CompletedTasksIndexTasks!CREATE INDEX "Tasks_CompletedTasksIndex" ON "Tasks" ("ShardId" ASC, "TaskListId" ASC, "Completed" ASC)o"
+#indexTasks_DueDateIndexTasks CREATE INDEX "Tasks_DueDateIndex" ON "Tasks" ("ShardId" ASC, "DueDate" ASC)x!
+/indexTasks_TaskListIdIndexTasks
+CREATE INDEX "Tasks_TaskListIdIndex" ON "Tasks" ("ShardId" ASC, "TaskListId" ASC)x 
+7indexTasks_TaskIdIndexTasks
+CREATE INDEX "Tasks_TaskIdIndex" ON "Tasks" ("ShardId" ASC, "TaskIdWithoutShard" ASC)`
+indexTasks_ShardIdIndexTasks
+CREATE INDEX "Tasks_ShardIdIndex" ON "Tasks" ("ShardId" ASC)t
+indexOperations_ShardIdIndexOperations
+CREATE INDEX "Operations_ShardIdIndex" ON "Operations" ("ShardId" ASC)3
+indexsqlite_autoindex_RoomsTable_1RoomsTable
+5tableRoomsTableRoomsTable
+CREATE TABLE "RoomsTable" ("RoomId" TEXT PRIMARY KEY ON CONFLICT ABORT, "Room" BLOB)E
+indexsqlite_autoindex_GlobalMetadataTable_1GlobalMetadataTable
+indexDocumentLinkIdIndexTasks.CREATE INDEX "DocumentLinkIdIndex" ON "Tasks" ("DocumentLinkId" ASC)?
+indexsqlite_autoindex_UserExperimental_1UserExperimental
+WtableUserExperimentalUserExperimental
+CREATE TABLE "UserExperimental" ("Id" TEXT PRIMARY KEY ON CONFLICT ABORT, "EffectiveUserExperimental" BLOB, "OriginalUserExperimental" BLOB, "HasDirtyState" INTEGER)1
+indexsqlite_autoindex_UserPrefs_1UserPrefs
+HkgO
+u:
+
+u:~default
+
+~default
+My Tasks
+user
+u:~default
+!	u:~default
+userZ
+~default
+
+q<$k
+	u:~default
+'GT
+
+u:
+

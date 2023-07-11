@@ -1,0 +1,193 @@
+﻿Visit Timestamp	URL	Title	Duration	Transition Type	Qualifier(s)	From Visit URL
+2023-05-01 13:24:20	"https://www.google.com/search?q=magisk&oq=magisk&aqs=chrome..69i57.1010j0j7&client=ms-android-vf-au-
+rvc3&sourceid=chrome-mobile&ie=UTF-8"	magisk - Google Search	00:00:02.638	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 13:24:23	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=magisk&oq=magisk&aqs=chrome..69i57.1010j0j7&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 13:24:24	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 13:24:24	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 13:51:25	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		RELOAD	CHAIN_START, CHAIN_END	
+2023-05-01 13:51:33	"https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512
+j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8"	where to buy fruit - Google Search	00:00:04.209	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 13:51:37	https://www.harrisfarm.com.au/collections/fruit	Buy Fruit Online | Shop Online with Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 13:51:40	"https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512
+j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8"	where to buy fruit - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:08	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	busybox - Google Search	00:00:03.196	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:11	https://busybox.net/	BusyBox		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 14:32:17	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	busybox - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:21	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search	00:00:00.338	LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:21	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1
+2023-05-01 14:32:21	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:22	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/latest	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/tag/1.34.1	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/tag/1.34.1	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:25	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	FORWARD_BACK, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:27	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:32	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1&sbfbu=1&pi=busybox"	busybox - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:33	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search	00:00:00.503	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:33	"https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&
+oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAz
+IKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCA
+AQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIAB
+CKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-
+serp"	busybox apk - Google Search	00:00:01.031	FORM_SUBMIT	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1
+2023-05-01 14:33:34	"https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&
+oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAz
+IKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCA
+AQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIAB
+CKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-
+serp"	busybox apk - Google Search	00:00:03.566	LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-serp
+2023-05-01 14:33:38	https://www.google.com/amp/s/m.apkpure.com/busybox/stericson.busybox/amp	BusyBox APK for Android Download		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-serp
+2023-05-01 14:33:46	"https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21E
+MWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ."	Getting Started in BusyBox	00:00:16.411	LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:52	"https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21E
+MWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ.#google_vignette"	Getting Started in BusyBox		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:34:02	https://m.apkpure.com/busybox/stericson.busybox/download	Download BusyBox latest 64 Android APK		LINK	CHAIN_START, CHAIN_END	https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21EMWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ.
+2023-05-01 14:35:51	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search		GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:35:53	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8#sbfbu=1&pi=toybox%20apl"	toybox apl - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:35:54	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search	00:00:04.752	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:35:58	"https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&o
+q=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUI
+ABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-
+gws-wiz-serp"	toybox apk - Google Search	00:00:01.440	FORM_SUBMIT	CHAIN_START, CHAIN_END	https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i650j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 14:36:00	"https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&o
+q=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUI
+ABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-
+gws-wiz-serp"	toybox apk - Google Search		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&oq=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-gws-wiz-serp
+2023-05-01 14:36:13	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search	12:57:47.027	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 03:35:32	"https://7news-com-au.cdn.ampproject.org/v/s/7news.com.au/travel/tourism/urgent-warning-for-aussies-
+travelling-to-bali-c-
+10508319.amp?amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16829982112584&c
+si=0&referrer=https%3A%2F%2Fwww.google.com"	Indonesian visa application scam: Urgent warning for Aussies travelling to Bali | 7NEWS		LINK	FROM_API, CHAIN_START, CHAIN_END	
+2023-05-02 03:35:33	"https://7news-com-au.cdn.ampproject.org/v/s/7news.com.au/travel/tourism/urgent-warning-for-aussies-
+travelling-to-bali-c-
+10508319.amp?amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16829982112584&c
+si=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2F7news.com.au%2Ftravel%2Ftourism%2F
+urgent-warning-for-aussies-travelling-to-bali-c-10508319"	Indonesian visa application scam: Urgent warning for Aussies travelling to Bali | 7NEWS		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:18	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search		RELOAD	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:22	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	where to buy apples - Google Search	00:00:04.508	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 03:37:27	https://www.harrisfarm.com.au/collections/apples	Buy apples online | Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-02 03:37:29	https://www.harrisfarm.com.au/collections/apples	Buy apples online | Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:33	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	where to buy apples - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 05:22:23	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8#sbfbu=1&pi=where%20to%20buy%20apples"	where to buy apples - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 05:22:51	"https://www.google.com/search?q=news+today&oq=news&aqs=chrome.1.69i57j0i271l2.1663j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	news today - Google Search		GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+﻿2023-05-01 13:24:20	"https://www.google.com/search?q=magisk&oq=magisk&aqs=chrome..69i57.1010j0j7&client=ms-android-vf-au-
+rvc3&sourceid=chrome-mobile&ie=UTF-8"	magisk - Google Search	00:00:02.638	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 13:24:23	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=magisk&oq=magisk&aqs=chrome..69i57.1010j0j7&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 13:24:24	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 13:24:24	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 13:51:25	https://github.com/topjohnwu/Magisk/releases	Releases · topjohnwu/Magisk		RELOAD	CHAIN_START, CHAIN_END	
+2023-05-01 13:51:33	"https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512
+j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8"	where to buy fruit - Google Search	00:00:04.209	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 13:51:37	https://www.harrisfarm.com.au/collections/fruit	Buy Fruit Online | Shop Online with Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 13:51:40	"https://www.google.com/search?q=where+to+buy+fruit&oq=where+to+buy+fruit&aqs=chrome..69i57j0i433i512
+j0i512j0i457i512j0i402i650l2j0i512l9.3120j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8"	where to buy fruit - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:08	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	busybox - Google Search	00:00:03.196	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:11	https://busybox.net/	BusyBox		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 14:32:17	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	busybox - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:32:21	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search	00:00:00.338	LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:21	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1
+2023-05-01 14:32:21	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:22	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/latest	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/tag/1.34.1	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:32:26	https://github.com/meefik/busybox/releases/tag/1.34.1	Release BusyBox 1.34.1 · meefik/busybox · GitHub		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:25	https://github.com/meefik/busybox	GitHub - meefik/busybox: BusyBox for Android		LINK	FORWARD_BACK, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:27	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:32	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1&sbfbu=1&pi=busybox"	busybox - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:33	"https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1"	busybox - Google Search	00:00:00.503	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:33:33	"https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&
+oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAz
+IKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCA
+AQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIAB
+CKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-
+serp"	busybox apk - Google Search	00:00:01.031	FORM_SUBMIT	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox&oq=busybox&aqs=chrome..69i57j0i512l14.3567j0j9&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8#ip=1
+2023-05-01 14:33:34	"https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&
+oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAz
+IKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCA
+AQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIAB
+CKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-
+serp"	busybox apk - Google Search	00:00:03.566	LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-serp
+2023-05-01 14:33:38	https://www.google.com/amp/s/m.apkpure.com/busybox/stericson.busybox/amp	BusyBox APK for Android Download		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=busybox+apk&client=ms-android-vf-au-rvc3&ei=aM1PZI_eKdGl2roP_ZiokAU&oq=busybox&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYATIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIKCAAQigUQsAMQQzIMCAAQigUQsAMQChBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDMgoIABCKBRCwAxBDSgQIQRgAUABYAGDYCWgBcAB4AIABAIgBAJIBAJgBAMgBEcABAQ&sclient=mobile-gws-wiz-serp
+2023-05-01 14:33:46	"https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21E
+MWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ."	Getting Started in BusyBox	00:00:16.411	LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:33:52	"https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21E
+MWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ.#google_vignette"	Getting Started in BusyBox		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:34:02	https://m.apkpure.com/busybox/stericson.busybox/download	Download BusyBox latest 64 Android APK		LINK	CHAIN_START, CHAIN_END	https://m.apkpure.com/busybox/stericson.busybox/download-apk-info?_gl=1*128ic4w*_ga*YW1wLU1aRTkwY21EMWVsanJhNnA2ZzNHV0JXcWlhXzRXNjctcHZmOFRaZ1E1TFRvMlNVNWQyeGl5QVVSbzhjb0cxbGQ.
+2023-05-01 14:35:51	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search		GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:35:53	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8#sbfbu=1&pi=toybox%20apl"	toybox apl - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-01 14:35:54	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search	00:00:04.752	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-01 14:35:58	"https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&o
+q=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUI
+ABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-
+gws-wiz-serp"	toybox apk - Google Search	00:00:01.440	FORM_SUBMIT	CHAIN_START, CHAIN_END	https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i650j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-01 14:36:00	"https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&o
+q=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUI
+ABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-
+gws-wiz-serp"	toybox apk - Google Search		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=toybox+apk&client=ms-android-vf-au-rvc3&ei=R85PZL6lNtSn2roPi5KqgA0&oq=toybox+apk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADICCCkyAggpMggIABCKBRCRAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB5KBAhBGABQAFgAYABoAHAAeACAAdwOiAHFG5IBAzgtMpgBAA&sclient=mobile-gws-wiz-serp
+2023-05-01 14:36:13	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search	12:57:47.027	GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 03:35:32	"https://7news-com-au.cdn.ampproject.org/v/s/7news.com.au/travel/tourism/urgent-warning-for-aussies-
+travelling-to-bali-c-
+10508319.amp?amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16829982112584&c
+si=0&referrer=https%3A%2F%2Fwww.google.com"	Indonesian visa application scam: Urgent warning for Aussies travelling to Bali | 7NEWS		LINK	FROM_API, CHAIN_START, CHAIN_END	
+2023-05-02 03:35:33	"https://7news-com-au.cdn.ampproject.org/v/s/7news.com.au/travel/tourism/urgent-warning-for-aussies-
+travelling-to-bali-c-
+10508319.amp?amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16829982112584&c
+si=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2F7news.com.au%2Ftravel%2Ftourism%2F
+urgent-warning-for-aussies-travelling-to-bali-c-10508319"	Indonesian visa application scam: Urgent warning for Aussies travelling to Bali | 7NEWS		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:18	"https://www.google.com/search?q=toybox+apl&oq=toybox+apl&aqs=chrome..69i57j46i67i175i199i650j0i67i65
+0j46i199i433i465i512j46i67i650j0i433i512l3j46i199i433i465i512j0i433i512j46i175i199i512j0i433i512j46i
+175i199i512j0i433i512l2.2094j0j4&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	toybox apl - Google Search		RELOAD	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:22	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	where to buy apples - Google Search	00:00:04.508	GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 03:37:27	https://www.harrisfarm.com.au/collections/apples	Buy apples online | Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8
+2023-05-02 03:37:29	https://www.harrisfarm.com.au/collections/apples	Buy apples online | Harris Farm Markets | Harris Farm Markets		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 03:37:33	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	where to buy apples - Google Search		GENERATED	FORWARD_BACK, FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	
+2023-05-02 05:22:23	"https://www.google.com/search?q=where+to+buy+apples&oq=where+to+buy+apples&aqs=chrome..69i57j0i512l2
+j0i457i512j0i402i650j0i512l10.11298j0j1&client=ms-android-vf-au-rvc3&sourceid=chrome-
+mobile&ie=UTF-8#sbfbu=1&pi=where%20to%20buy%20apples"	where to buy apples - Google Search		LINK	CHAIN_START, CHAIN_END	
+2023-05-02 05:22:51	"https://www.google.com/search?q=news+today&oq=news&aqs=chrome.1.69i57j0i271l2.1663j0j9&client=ms-
+android-vf-au-rvc3&sourceid=chrome-mobile&ie=UTF-8"	news today - Google Search		GENERATED	FROM_ADDRESS_BAR, CHAIN_START, CHAIN_END	

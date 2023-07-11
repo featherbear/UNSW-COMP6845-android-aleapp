@@ -1,0 +1,48 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)~
+tableVerificationRequestParamsVerificationRequestParams
+CREATE TABLE `VerificationRequestParams` (`id` TEXT NOT NULL, `packageName` TEXT NOT NULL, `domainsSetId` TEXT NOT NULL, `domains` TEXT NOT NULL, `status` INTEGER NOT NULL, PRIMARY KEY(`id`))Q
+indexsqlite_autoindex_VerificationRequestParams_1VerificationRequestParams
+M7ba7829c2aa8132a474f982594c257ee
+UOU3
+c84893ec-0e09-4b7e-80c5-454a9764ec93com.google.android.apps.messagingfbe4fccf-89e0-4066-9200-9311330b8225messages.google.com
+U	c84893ec-0e09-4b7e-80c5-454a9764ec93
+UWUW
+3777be8e-3327-4ffa-8084-0b5a37930980com.google.android.apps.work.clouddpcd9647c21-8104-44ef-834c-460e730fd778enterprise-staging.sandbox.google.com
+U	3777be8e-3327-4ffa-8084-0b5a37930980
+7f1e1e85-24a4-48b3-88cb-f3678df5a961com.google.android.apps.work.clouddpc4242c5d6-cb87-40cf-a0a2-d341f6282877enterprise-staging.sandbox.google.com
+U	7f1e1e85-24a4-48b3-88cb-f3678df5a961
+U=U!
+6f701bdb-67bf-4aa1-8cdb-925a2fd9544bcom.zhiliaoapp.musically846ab414-dee9-4bab-a4a3-a1d788ca7bd7app-va.tiktokv.com vm.tiktok.com m.tiktok.com vt.tiktok.com www.tiktok.com
+U	6f701bdb-67bf-4aa1-8cdb-925a2fd9544b
+U=U)
+fa6b635a-a878-4263-8d1c-f9b1e3840c29com.zhiliaoapp.musically846ab414-dee9-4bab-a4a3-a1d788ca7bd7link.e.tiktok.com us.tiktok.com t.tiktok.com oec-api.tiktokv.com www.tiktok.in
+U	fa6b635a-a878-4263-8d1c-f9b1e3840c29
+U=UK
+caa932cf-e392-4be3-adcf-c0a2c37a4c5dcom.zhiliaoapp.musically846ab414-dee9-4bab-a4a3-a1d788ca7bd7shop.tiktok.com www.tiktokv.com
+U	caa932cf-e392-4be3-adcf-c0a2c37a4c5d
+U=U'
+ca6296d9-1f41-4bc6-8516-d668a35c216bcom.zhiliaoapp.musically7ddbc6e1-6457-40b3-8567-ac7714646829www.tiktok.in
+U	ca6296d9-1f41-4bc6-8516-d668a35c216b
+L|P?_3
+VOHB
+8e79f37b-24bb-4a0a-859b-9a4d999edaf2com.zhiliaoapp.musically6a2c4458-856a-4c7b-9b6b-8c84742e74cawww.tiktok.in
+U	8e79f37b-24bb-4a0a-859b-9a4d999edaf2
+49d7dea1-7874-4878-b2f3-583da4b290f1com.zhiliaoapp.musically9657d449-6600-4cd6-8ea0-f1b43c0b79bawww.tiktok.in
+
+Kf5
+U	49d7dea1-7874-4878-b2f3-583da4b290f1
+rqM
+
+a873b7ab-9d3b-4ff9-9731-f7e658598dd8com.zhiliaoapp.musically9657d449-6600-4cd6-8ea0-f1b43c0b79bawww.tiktok.in
+U	a873b7ab-9d3b-4ff9-9731-f7e658598dd8
+af2716c0-b3c4-423b-a2e8-16d3cad1ddbccom.google.android.apps.work.clouddpc4242c5d6-cb87-40cf-a0a2-d341f6282877enterprise-staging.sandbox.google.com
+U	af2716c0-b3c4-423b-a2e8-16d3cad1ddbc
+Z+Cr4)
+
+fcddf668-b27e-4c23-a763-116f89e5107acom.zhiliaoapp.musically1a1c4de0-bddf-492d-ab66-77aada250f1bwww.tiktok.in
+U	fcddf668-b27e-4c23-a763-116f89e5107a

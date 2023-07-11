@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4iY1U2xZsCdBEG21l7WM-iT_1mC4Xy9CTq&skey=62c1cbfccc78b4b2&v=v34) format('woff2');
+}

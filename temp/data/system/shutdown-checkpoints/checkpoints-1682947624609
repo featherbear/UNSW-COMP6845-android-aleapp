@@ -1,0 +1,20 @@
+Shutdown request from BINDER for reason userrequested at 2023-05-01 21:27:04.599 GMT+08:00 (epoch=1682947624599)
+com.android.server.statusbar.StatusBarManagerService.reboot
+From process com.android.systemui (pid=2702)
+
+Shutdown request from SYSTEM at 2023-05-01 21:27:04.600 GMT+08:00 (epoch=1682947624600)
+com.android.server.power.ShutdownThread.shutdownInner
+ at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:245)
+ at com.android.server.statusbar.StatusBarManagerService.lambda$reboot$5(StatusBarManagerService.java:1481)
+ at com.android.server.statusbar.StatusBarManagerService.$r8$lambda$OwBHc8REiqmJuTXfrcUSjpBgn3s(Unknown Source:0)
+ at com.android.server.statusbar.StatusBarManagerService$$ExternalSyntheticLambda2.run(Unknown Source:4)
+ at android.os.Handler.handleCallback(Handler.java:942)
+ at android.os.Handler.dispatchMessage(Handler.java:99)
+ at android.os.Looper.loopOnce(Looper.java:201)
+ at android.os.Looper.loop(Looper.java:288)
+ at com.android.server.SystemServer.run(SystemServer.java:962)
+ at com.android.server.SystemServer.main(SystemServer.java:647)
+ at java.lang.reflect.Method.invoke(Native Method)
+ at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+ at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:914)
+

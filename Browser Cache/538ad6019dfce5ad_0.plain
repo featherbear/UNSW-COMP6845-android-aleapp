@@ -1,0 +1,242 @@
+(function() {
+    var loadScript = function(url, callback){
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+
+      // If the browser is Internet Explorer.
+      if (script.readyState){ 
+        script.onreadystatechange = function(){
+          if (script.readyState == "loaded" || script.readyState == "complete"){
+            script.onreadystatechange = null;
+            callback();
+          }
+        };
+      // For any other browser.
+      } else {
+        script.onload = function(){
+          callback();
+        };
+      }
+
+      script.src = url;
+      document.getElementsByTagName("head")[0].appendChild(script);
+    };
+
+    var jQueryUILoaded = function() {
+      return !((typeof jQuery.ui === 'undefined') || (parseInt(jQuery.ui.version) === 1 && parseFloat(jQuery.ui.version.replace(/^1\./,'')) < 9.1));
+    }
+
+    var localDeliveryScript = function($){
+      $(function() {
+
+        function unavailable(date) {    
+          var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+          var ymd = date.getFullYear() + "/" + ("0" + (date.getMonth() + 1)).slice(-2) + "/" + ("0" + date.getDate()).slice(-2);
+          var day = new Date(ymd).getDay();
+
+          for (var i = 0; i < unavailableDates.length; i++) {
+              if ((ymd >= unavailableDates[i].start_at) && (ymd <= unavailableDates[i].end_at) ) {
+                  return [false, "disabled", "Booked Out"];            
+              }
+          }
+
+          if($.inArray(days[day], unavailableDays) >= 0)
+          {
+              return [false, "disabled", "Booked Out"]; 
+          }
+          
+          var now = new Date();
+
+          if(now.toDateString() === date.toDateString())
+          {
+              var dayOfWeek = date.getDay();
+              var endTime = new Date (date.toDateString() + ' ' + deliveryHours[(dayOfWeek * 2) + 1]);
+
+              now.setUTCHours(now.getUTCHours() + minimumHourOffset)
+
+              if(now > endTime)
+              {
+                  return [false, "disabled", "Booked Out"];
+              }
+          }
+
+          
+          return [true, "enabled", "Book Now"];  
+
+        }
+
+        function convertHourToAMPM(hour) {
+          var ampm = hour >= 12 ? 'PM' : 'AM';
+          hour = hour % 12;
+          hour = hour ? hour : 12;
+          return hour + ':00' + ' ' + ampm;
+        }
+
+        function getAvailableTimesLiquid(date) {
+          var dayOfWeek = date.getDay();
+
+          var startTime = new Date (date.toDateString());
+          var endTime = new Date (date.toDateString());
+
+          startTime.setHours(deliveryHours[dayOfWeek * 2].slice(0, -3));
+          endTime.setHours(deliveryHours[dayOfWeek * 2 + 1].slice(0, -3));
+
+          var minTime = new Date();
+
+          minTime.setHours(minTime.getHours() + minimumHourOffset);
+
+          if(minTime  > startTime)
+          {
+            startTime = minTime;
+          }
+
+          $('#timeDiv').show();
+          var mySelect = $('#local_delivery');
+          mySelect.empty();
+
+          var i = 0;
+          for (i = startTime; i < endTime; i.setMinutes(i.getMinutes() + 60)) {
+            var end = new Date(i);
+            end.setMinutes(end.getMinutes() + 60);
+            end = new Date(i);
+            end.setMinutes(end.getMinutes() + 60);
+
+            var val = i.toDateString() + ' between ' + convertHourToAMPM(i.getHours()) + ' and ' + convertHourToAMPM(end.getHours());
+            var text = convertHourToAMPM(i.getHours()) + ' to ' + convertHourToAMPM(end.getHours());                
+
+            mySelect.append($('<option></option>').val(val).html(text));
+          }
+
+          if( mySelect.has('option').length <= 0 )
+          {
+            alert(noSlotsMessage);    
+            $('#timeDiv').hide();
+          }
+        }
+
+        function getAvailableTimesLiquidAllDay(date) {
+          var dayOfWeek = date.getDay();
+
+          var startTime = new Date (date.toDateString());
+          var endTime = new Date (date.toDateString());
+
+          startTime.setHours(deliveryHours[dayOfWeek * 2].slice(0, -3));
+          endTime.setHours(deliveryHours[dayOfWeek * 2 + 1].slice(0, -3));
+
+          var mySelect = $('#local_delivery');
+          mySelect.empty();
+
+          var val = startTime.toDateString() + ' between ' + convertHourToAMPM(startTime.getHours()) + ' and ' + convertHourToAMPM(endTime.getHours());
+          var text = convertHourToAMPM(startTime.getHours()) + ' to ' + convertHourToAMPM(endTime.getHours());                
+
+          mySelect.append($('<option></option>').val(val).html(text));
+        }
+
+        function getAvailableTimesServer(date) {
+            $("#loading").show();
+            var version = (typeof(localDeliveryVersion) == 'undefined') ? 1 : localDeliveryVersion;
+            var localDeliveryURL = (version == 2) ? 'https://localdelivery.herokuapp.com/delivery_slots.json' : 'https://localdelivery.herokuapp.com/slots.json';
+            $.ajax({
+                  url: localDeliveryURL,
+                  dataType: 'jsonp',
+                  data: { "url": Shopify.shop, "date":date},
+                  contentType: 'application/json',
+                  timeout: 20000,
+                  success: function(data, status, xhr) {
+                      $("#loading").hide();
+                      $('#timeDiv').show();
+
+                      // update the select
+                      var mySelect = $('#local_delivery');
+                      mySelect.empty();
+                      
+                      for (var i = 0; i < data.length; i++) {
+                        var text = data[i];
+                        var val = date.toDateString() + ' between ' + text.replace("to","and");
+                        mySelect.append($('<option></option>').val(val).html(text));
+                      }
+
+                      if( mySelect.has('option').length <= 0 )
+                      {
+                        alert(noSlotsMessage);    
+                        $('#timeDiv').hide();
+                      }
+
+                  },
+                  error: function(xhr, status, error) {
+                      $("#loading").hide();
+                      // error occured - just use the core hours
+                      getAvailableTimesLiquid(date);
+                  }
+            });
+        } 
+
+        $("#loading").hide();
+
+        var minimumHourOffset = (typeof(minimumHour) === 'undefined') ? 0 : minimumHour;
+        var postSelectCallBack = (typeof(ldPostSelectCallBack) === 'undefined') ? function() {} : ldPostSelectCallBack;
+        var postDateInitCallBack = (typeof(ldPostDateInitCallBack) === 'undefined') ? function() {} : ldPostDateInitCallBack;
+        var noSlotsMessage = (typeof(ldNoSlotsMessage) === 'undefined') ? "no slots available" : ldNoSlotsMessage;
+
+        $( "#datepicker" ).datepicker({
+          onSelect: function(dateText, inst) {
+            var date = new Date(dateText);
+            var version = (typeof(localDeliveryVersion) == 'undefined') ? 1 : localDeliveryVersion;
+
+            if(rateLimitEnabled || (version == 2))
+            {
+              getAvailableTimesServer(date);
+            }
+            else if((typeof(allDayEnabled) === 'undefined') ? false : allDayEnabled)
+            {
+              getAvailableTimesLiquidAllDay(date);
+            }
+            else
+            {
+              getAvailableTimesLiquid(date);
+            }
+
+            // do callback for post select generation
+            postSelectCallBack($);
+            
+          },
+          beforeShowDay: unavailable, 
+          minDate: typeof(minimumDate) == 'undefined' ? 0 : minimumDate,
+          maxDate: typeof(maximumDate) == 'undefined' ? null : maximumDate,
+          dateFormat: typeof(dateFormat) == 'undefined' ? "yy/mm/dd" : dateFormat
+        });
+
+        // do callback for post datepicker init
+        postDateInitCallBack($);
+      });
+    };
+
+    if ((typeof jQuery === 'undefined') || (parseInt(jQuery.fn.jquery) === 1 && parseFloat(jQuery.fn.jquery.replace(/^1\./,'')) < 8.3)) {
+      loadScript('//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function(){
+        jQuery183 = jQuery;
+
+        if(jQueryUILoaded()) {
+          jQuery183.noConflict(true);
+          localDeliveryScript(jQuery183);
+        } else {
+          jQuery183.getScript('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js', function() {
+            jQuery183.noConflict(true);
+            localDeliveryScript(jQuery183);
+          });
+        }
+      });
+    } else {
+      if(jQueryUILoaded()) {
+        localDeliveryScript(jQuery);
+      } else {
+        jQuery.getScript('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js', function() {
+          localDeliveryScript(jQuery);
+        });
+      }
+    }
+
+  })();
+
+
+      
+

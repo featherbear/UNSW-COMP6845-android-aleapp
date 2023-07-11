@@ -1,0 +1,14 @@
+MSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+tSQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+ytableContactScoreContactScore
+CREATE TABLE `ContactScore` (`normalizedNumber` TEXT NOT NULL, `score` REAL NOT NULL, PRIMARY KEY(`normalizedNumber`))7
+indexsqlite_autoindex_ContactScore_1ContactScore
+`^	G
+`^ 
+M52ff05d06828e12996b17c4b86a0f8c5
+`^yAGK)

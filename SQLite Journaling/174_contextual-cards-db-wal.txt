@@ -1,0 +1,13 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+StableCardEntityCardEntity
+CREATE TABLE `CardEntity` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `cardId` TEXT NOT NULL)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+!tableCardInteractionEntityCardInteractionEntity
+CREATE TABLE `CardInteractionEntity` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `cardId` TEXT NOT NULL, `cardInteraction` INTEGER NOT NULL, `offsetDateTime` TEXT NOT NULL, `zoneId` TEXT NOT NULL)W
+Mb20bb50841ac6526c80fb967224a715b

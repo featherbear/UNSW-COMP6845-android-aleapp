@@ -1,0 +1,18 @@
+ro76;^
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)q
+9tablesessionsession
+CREATE TABLE `session` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `session_type` INTEGER NOT NULL, `session_version` INTEGER NOT NULL, `start_time` INTEGER NOT NULL, `end_time` INTEGER NOT NULL, `blob` BLOB)
+Wtablenotification_aggregated_statsnotification_aggregated_stats
+CREATE TABLE `notification_aggregated_stats` (`week_nbr` INTEGER NOT NULL, `package_name` TEXT NOT NULL, `channel_name` TEXT NOT NULL, `user_id` INTEGER NOT NULL, `signal` INTEGER NOT NULL, `count` INTEGER NOT NULL, PRIMARY KEY(`week_nbr`, `package_name`, `channel_name`, `user_id`, `signal`))Y
+indexsqlite_autoindex_notification_aggregated_stats_1notification_aggregated_stats
+roV_
+ro<e
+romGt
+Mbb4928094f16fe05478ff6785d21d3dc

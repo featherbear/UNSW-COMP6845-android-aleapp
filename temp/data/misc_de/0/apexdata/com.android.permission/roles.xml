@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<roles version="-1" packagesHash="00CA7B2D0A4FFD737837575C5D67958D7EDCAAF898A094CB8CA42DCFBE8DF3B3">
+  <role name="android.app.role.SYSTEM_CONTACTS">
+    <holder name="com.google.android.contacts" />
+  </role>
+  <role name="android.app.role.SYSTEM_SETTINGS_INTELLIGENCE">
+    <holder name="com.google.android.settings.intelligence" />
+  </role>
+  <role name="android.app.role.SYSTEM_SUPERVISION">
+    <holder name="com.google.android.gms.supervision" />
+  </role>
+  <role name="android.app.role.DEVICE_POLICY_MANAGEMENT">
+    <holder name="com.google.android.apps.work.clouddpc" />
+  </role>
+  <role name="android.app.role.COMPANION_DEVICE_WATCH" />
+  <role name="android.app.role.CALL_SCREENING" />
+  <role name="android.app.role.SYSTEM_NOTIFICATION_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.SYSTEM_BLUETOOTH_STACK">
+    <holder name="com.google.android.bluetooth" />
+  </role>
+  <role name="android.app.role.COMPANION_DEVICE_APP_STREAMING" />
+  <role name="android.app.role.SYSTEM_DOCUMENT_MANAGER">
+    <holder name="com.google.android.documentsui" />
+  </role>
+  <role name="android.app.role.SYSTEM_GALLERY">
+    <holder name="com.google.android.apps.photos" />
+  </role>
+  <role name="android.app.role.SYSTEM_APP_PROTECTION_SERVICE">
+    <holder name="com.google.android.odad" />
+  </role>
+  <role name="android.app.role.SYSTEM_SHELL">
+    <holder name="com.android.shell" />
+  </role>
+  <role name="android.app.role.SYSTEM_WELLBEING">
+    <holder name="com.google.android.apps.wellbeing" />
+  </role>
+  <role name="android.app.role.SYSTEM_VISUAL_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.SYSTEM_TEXT_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.SYSTEM_AUTOMOTIVE_PROJECTION">
+    <holder name="com.google.android.projection.gearhead" />
+  </role>
+  <role name="android.app.role.SYSTEM_ACTIVITY_RECOGNIZER">
+    <holder name="com.google.android.gms" />
+  </role>
+  <role name="android.app.role.SYSTEM_COMPANION_DEVICE_PROVIDER">
+    <holder name="com.google.android.gms" />
+  </role>
+  <role name="android.app.role.SMS">
+    <holder name="com.google.android.apps.messaging" />
+  </role>
+  <role name="android.app.role.SYSTEM_UI_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.DIALER">
+    <holder name="com.google.android.dialer" />
+  </role>
+  <role name="android.app.role.HOME">
+    <holder name="com.google.android.apps.nexuslauncher" />
+  </role>
+  <role name="android.app.role.SYSTEM_SPEECH_RECOGNIZER">
+    <holder name="com.google.android.tts" />
+  </role>
+  <role name="android.app.role.COMPANION_DEVICE_COMPUTER" />
+  <role name="android.app.role.SYSTEM_UI">
+    <holder name="com.android.systemui" />
+  </role>
+  <role name="android.app.role.SYSTEM_WIFI_COEX_MANAGER" />
+  <role name="android.app.role.ASSISTANT">
+    <holder name="com.google.android.googlequicksearchbox" />
+  </role>
+  <role name="android.app.role.SYSTEM_AMBIENT_AUDIO_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.EMERGENCY">
+    <holder name="com.google.android.apps.safetyhub" />
+  </role>
+  <role name="android.app.role.CALL_REDIRECTION" />
+  <role name="android.app.role.SYSTEM_AUDIO_INTELLIGENCE">
+    <holder name="com.google.android.as" />
+  </role>
+  <role name="android.app.role.BROWSER">
+    <holder name="com.android.chrome" />
+  </role>
+</roles>

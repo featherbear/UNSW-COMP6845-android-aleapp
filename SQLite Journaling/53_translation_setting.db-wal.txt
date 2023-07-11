@@ -1,0 +1,15 @@
+ *lGSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+etablelanguagelanguage
+CREATE TABLE `language` (`name` TEXT NOT NULL, `usage` INTEGER NOT NULL, `size` INTEGER NOT NULL, `preference` INTEGER NOT NULL, `target` INTEGER NOT NULL, `capability` INTEGER NOT NULL, `use_area` INTEGER NOT NULL, PRIMARY KEY(`name`))/
+indexsqlite_autoindex_language_1language
+pG*
+
+Md7a430f02ba0cc1aac2321f07e07e8be
+?,,FX"
+

@@ -1,0 +1,12 @@
+3xSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+tablesign_in_recordssign_in_records
+CREATE TABLE `sign_in_records` (`gamePackageName` TEXT NOT NULL, `signInState` INTEGER NOT NULL, `signedInPlayerId` TEXT, `signInStrategy` INTEGER NOT NULL, `preferredPlayerIdForSignIn` TEXT, `lastSignedInTimestamp` INTEGER NOT NULL, PRIMARY KEY(`gamePackageName`))=
+indexsqlite_autoindex_sign_in_records_1sign_in_records
+T9::5
+M06fc1f2a91b9b67399e5fac01b643909

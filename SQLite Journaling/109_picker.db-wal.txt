@@ -1,0 +1,81 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+*5R8
+Gh%
+
+en_US
+indexmime_type_album_indexalbum_media
+CREATE INDEX mime_type_album_index on album_media(mime_type)_
+}indexsize_album_indexalbum_media
+CREATE INDEX size_album_index on album_media(size_bytes)o
+indexdate_taken_album_indexalbum_media
+CREATE INDEX date_taken_album_index on album_media(date_taken_ms)f
+indexcloud_id_album_indexalbum_media
+CREATE INDEX cloud_id_album_index on album_media(cloud_id)f
+indexlocal_id_album_indexalbum_media
+CREATE INDEX local_id_album_index on album_media(local_id)V
+uindexis_favorite_indexmedia
+CREATE INDEX is_favorite_index on media(is_favorite)P
+
+mindexmime_type_indexmedia
+CREATE INDEX mime_type_index on media(mime_type)G
+eindexsize_indexmedia
+CREATE INDEX size_index on media(size_bytes)V
+windexdate_taken_indexmedia
+CREATE INDEX date_taken_index on media(date_taken_ms)S
+
+qindexis_visible_indexmediaCREATE INDEX is_visible_index on media(is_visible)M	
+iindexcloud_id_indexmediaCREATE INDEX cloud_id_index on media(cloud_id)M
+iindexlocal_id_indexmedia
+CREATE INDEX local_id_index on media(local_id)
+5tablealbum_mediaalbum_media
+CREATE TABLE album_media (_id INTEGER PRIMARY KEY AUTOINCREMENT,local_id TEXT,cloud_id TEXT,album_id TEXT,date_taken_ms INTEGER NOT NULL CHECK(date_taken_ms >= 0),sync_generation INTEGER NOT NULL CHECK(sync_generation >= 0),size_bytes INTEGER NOT NULL CHECK(size_bytes > 0),duration_ms INTEGER CHECK(duration_ms >= 0),mime_type TEXT NOT NULL,standard_mime_type_extension INTEGER,CHECK((local_id IS NULL AND cloud_id IS NOT NULL) OR (local_id IS NOT NULL AND cloud_id IS NULL)),UNIQUE(local_id,  album_id),UNIQUE(cloud_id, album_id))5
+indexsqlite_autoindex_album_media_2album_media	5
+indexsqlite_autoindex_album_media_1album_media
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+tablemediamedia
+CREATE TABLE media (_id INTEGER PRIMARY KEY AUTOINCREMENT,local_id TEXT,cloud_id TEXT UNIQUE,is_visible INTEGER CHECK(is_visible == 1),date_taken_ms INTEGER NOT NULL CHECK(date_taken_ms >= 0),sync_generation INTEGER NOT NULL CHECK(sync_generation >= 0),size_bytes INTEGER NOT NULL CHECK(size_bytes > 0),duration_ms INTEGER CHECK(duration_ms >= 0),mime_type TEXT NOT NULL,standard_mime_type_extension INTEGER,is_favorite INTEGER,CHECK(local_id IS NOT NULL OR cloud_id IS NOT NULL),UNIQUE(local_id, is_visible)))
+indexsqlite_autoindex_media_2media
+indexsqlite_autoindex_media_1media
+*J|[
+*s{<9
+^SQLite format 3
+CREATE TABLE android_metadata (locale TEXT)i
+1000000022
+cO"#
+image/png
+!		1000000022
+	media
+!	1000000022
+* 8y
+	image/png
+1000000024
+aimage/jpeg)
+media
+<U@
+
+*V.Q
+image/jpeg
+1000000027
+
+I77
+image/jpeg*
+1000000028
+N9
+{image/jpeg*
+1000000029
+'ITOY
+h<}a
+A-7
+
+*NQA
+1000000039
+image/png)
+1000000040
+image/png*
+*2j
+
+z5+G
+

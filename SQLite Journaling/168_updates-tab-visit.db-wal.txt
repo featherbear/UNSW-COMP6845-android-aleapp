@@ -1,0 +1,18 @@
+-O#1ks$
+-O#1ks
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+-O#1ks_5K
+-O#1ks,4
+-O#1ksM
+en_US
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)'
+!tabletabVisittabVisit
+CREATE TABLE `tabVisit` (`userId` TEXT NOT NULL, `fprint` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL, PRIMARY KEY(`userId`, `fprint`))/
+indexsqlite_autoindex_tabVisit_1tabVisit
+-O#1kss
+-O#1ks#a
+-O#1ksV2
+M8d7ca31fe855ba374242668003164d59

@@ -1,0 +1,592 @@
+
+`
+*
+
+	Y	^
+/product/media/audio/ui/Dock.oggP*
+/product/media/audio/ui/LowBattery.oggO2
+/product/media/audio/ui/InCallNotification.oggN0
+/product/media/audio/ui/KeypressStandard.oggM/
+/product/media/audio/ui/KeypressInvalid.oggL&
+/product/media/audio/ui/Undock.oggK*
+/product/media/audio/ui/NFCSuccess.oggJ'
+/product/media/audio/ui/Trusted.oggI3
+/product/media/audio/ui/NFCTransferComplete.oggH)
+/product/media/audio/ui/audio_end.oggG+
+/product/media/audio/ui/Effect_Tick.oggF.
+/product/media/audio/ui/audio_initiate.oggE4
+/product/media/audio/ui/reverse_charging_end.oggD*
+/product/media/audio/ui/NFCFailure.oggC7
+/product/media/audio/ui/WirelessChargingStarted.oggB4
+/product/media/audio/ui/NFCTransferInitiated.oggA.
+/product/media/audio/ui/KeypressDelete.ogg@.
+/product/media/audio/ui/KeypressReturn.ogg?,
+/product/media/audio/ui/NFCInitiated.ogg>)
+/product/media/audio/ui/VideoStop.ogg=,
+/product/media/audio/ui/camera_focus.ogg<$
+/product/media/audio/ui/Lock.ogg;2
+/product/media/audio/ui/AttentionalHaptics.ogg:/
+/product/media/audio/ui/ChargingStarted.ogg96
+/product/media/audio/ui/reverse_charging_start.ogg8,
+/product/media/audio/ui/camera_click.ogg70
+/product/media/audio/ui/KeypressSpacebar.ogg6&
+/product/media/audio/ui/Unlock.ogg5+
+/product/media/audio/ui/VideoRecord.ogg4
+/product/media/audio/ui3+
+/product/media/audio/alarms/Icicles.ogg2*
+/product/media/audio/alarms/Spokes.ogg11
+/product/media/audio/alarms/Gentle_breeze.ogg02
+/product/media/audio/alarms/Full_of_wonder.ogg/.
+/product/media/audio/alarms/Jump_start.ogg./
+/product/media/audio/alarms/Fresh_start.ogg-2
+/product/media/audio/alarms/Bright_morning.ogg,2
+/product/media/audio/alarms/Early_twilight.ogg+/
+/product/media/audio/alarms/A_real_hoot.ogg*0
+/product/media/audio/alarms/Cuckoo_clock.ogg)-
+/product/media/audio/alarms/Sunshower.ogg(0
+/product/media/audio/alarms/Loose_change.ogg'/
+/product/media/audio/alarms/Rolling_fog.ogg&
+/product/media/audio/alarms%.
+/product/media/audio/ringtones/Zen_too.ogg$8
+/product/media/audio/ringtones/The_big_adventure.ogg#4
+/product/media/audio/ringtones/Monkey_around.ogg".
+/product/media/audio/ringtones/Hotline.ogg!5
+/product/media/audio/ringtones/Lost_and_found.ogg /
+/product/media/audio/ringtones/Lollipop.ogg
+/product/media/audio/ringtones/Schools_out.ogg
+/product/media/audio/ringtones/Crackle.ogg
+/product/media/audio/ringtones/Leaps_and_bounds.ogg
+/product/media/audio/ringtones/Copycat.ogg
+/product/media/audio/ringtones/Your_new_adventure.ogg
+/product/media/audio/ringtones/Mash_up.ogg
+/product/media/audio/ringtones/Flutterby.ogg
+/product/media/audio/ringtones
+/product/media/audio/notifications/Orders_up.ogg
+/product/media/audio/notifications/Shopkeeper.ogg
+/product/media/audio/notifications/Duet.ogg
+/product/media/audio/notifications/Beginning.ogg
+/product/media/audio/notifications/Ping.ogg
+/product/media/audio/notifications/Mallet.ogg
+/product/media/audio/notifications/Twinkle.ogg
+/product/media/audio/notifications/End_note.ogg
+/product/media/audio/notifications/Tweeter.ogg
+/product/media/audio/notifications/Pipes.ogg
+3
+/product/media/audio/notifications/Coconuts.ogg6
+/product/media/audio/notifications/Gentle_gong.ogg2
+/product/media/audio/notifications/Popcorn.ogg
+<
+/product/media/audio/notifications/Sticks_and_stones.ogg	1
+/product/media/audio/notifications/Tuneup.ogg
+/product/media/audio/notifications/Eureka.ogg
+/product/media/audio/notifications
+/product/media/audio
+/product/media/bootanimation.zip
+/product/media/bootanimation-dark.zip
+/product/media
+	/product
+
+~
+q
+d
+W
+J
+=
+0
+#
+
+zm`SF9
+G
+/1
+
+k
+W
+C
+}iUA-
+
+
+y
+e
+Q
+=
+)
+
+{iWE
+-200042169
+-125298784433
+12503413
+-1252987844%%
+-129249538
+-1252987844
+1111452757
+2014402293
+-1766944
+
+i
+N
+3
+
+v[@%
+
+u
+a
+M
+9
+%
+
+	q	]	I	5	!	
+
+t^H2
+-1252987844audio3
+alarms2
+alarms1
+alarms0
+alarms/
+alarms.
+alarms-
+alarms,
+alarms+
+alarms*
+alarms)
+alarms(
+alarms'
+alarms&
+-1252987844audio%
+ringtones$
+ringtones#
+ringtones"
+ringtones!
+ringtones 
+ringtones
+-1252987844audio
+notifications
+notifications
+
+notifications
+notifications
+notifications	
+2014402293media
+-1766944product
+
+v
+T
+B
+<
++
+g
+8+
+>Wr
+*L
+DockP
+LowBatteryO
+InCallNotificationN
+KeypressStandardM
+KeypressInvalidL
+
+UndockK
+NFCSuccessJ
+TrustedI
+NFCTransferCompleteH
+
+audio_endG
+Effect_TickF
+audio_initiateE
+reverse_charging_endD
+NFCFailureC
+WirelessChargingStartedB
+NFCTransferInitiatedA
+KeypressDelete@
+KeypressReturn?
+NFCInitiated>
+83_r80_gcam_n_video_stop=
+camera_focus<
+Lock;
+AttentionalHaptics:
+ChargingStarted9
+reverse_charging_start8
+71_r70_gcam_k_shutter7
+KeypressSpacebar6
+
+Unlock5
+87_r80_gcam_o_video_start4
+ui3
+Icicles2
+
+Spokes1
+Gentle Breeze0
+Full of Wonder/
+Jump-Start.
+Fresh Start-
+Bright Morning,
+Early Twilight+
+A Real Hoot*
+Cuckoo Clock)
+Sun-Shower(
+Loose Change'
+Rolling Fog&
+
+alarms%
+Zen Too$
+The Big Adventure#
+Monkey Around"
+Hotline!
+Lost & Found 
+Lollipop
+School's Out
+Crackle
+Leaps & Bounds
+Copycat
+Your New Adventure
+Mash-up
+Flutterby
+Order's Up
+Shopkeeper
+Duet
+Beginning
+Ping
+Mallet
+Twinkle
+End Note
+Tweeter
+Pipes
+
+Coconuts
+Gentle Gong
+Popcorn
+
+Sticks & Stones	
+Tune-Up
+Eureka
+audio
+bootanimation
+bootanimation-dark
+media
+C
+V
+
+j
+
+r:
+	~
+9
+30462e3eP
+4046562c2a5050324c5aO(
+3a442e2a40404446503a343a2e2a503a4644N$
+3e325a484c324e4e4e502a44302a4c30M"
+3e325a484c324e4e3a44542a403a30L
+524430462e3eK
+44342e4e522e2e324e4eJ
+504c524e503230I*
+44342e504c2a444e34324c2e46424840325032H
+2a52303a46050a324430G
+323434322e50050a503a2e3eF"
+2a52303a46050a3a443a503a2a5032E0
+4c3254324c4e32050a2e382a4c363a4436050a324430D
+44342e342a3a40524c32C2
+563a4c3240324e4e2e382a4c363a44364e502a4c503230B,
+44342e504c2a444e34324c3a443a503a2a503230A 
+3e325a484c324e4e303240325032@ 
+3e325a484c324e4e4c3250524c44?
+44342e3a443a503a2a503230>?
+2319050a4c2313050a362e2a42050a44050a543a303246050a4e504648=
+2e2a42324c2a050a34462e524e<
+40462e3e;(
+2a50503244503a46442a40382a48503a2e4e:"
+2e382a4c363a44364e502a4c50323094
+4c3254324c4e32050a2e382a4c363a4436050a4e502a4c5086
+2115050a4c2113050a362e2a42050a3e050a4e38525050324c7$
+3e325a484c324e4e4e482a2e322c2a4c6
+524440462e3e5A
+2321050a4c2313050a362e2a42050a46050a543a303246050a4e502a4c504
+3a2e3a2e40324e2
+4e48463e324e1
+363244504032042c4c32325c320 
+345240400446340456464430324c/
+3c5242484e502a4c50.
+344c324e38044e502a4c50- 
+2c4c3a3638500442464c443a4436, 
+322a4c405a0450563a403a363850+
+4c322a400438464650*
+2e522e3e4646042e40462e3e)
+4e52444e384656324c(
+4046464e32042e382a443632'
+4c4640403a443604344636&
+5c324404504646$
+2c3a36042a3054324450524c32#
+4246443e325a042a4c46524430"
+384650403a4432!
+40464e5004043446524430 
+404640403a484648
+4e2e384646404e04465250
+2e4c2a2e3e4032
+40322a484e04042c465244304e
+2e46485a2e2a50
+5a46524c04443256042a3054324450524c32
+422a4e385248
+3440525050324c2c5a
+464c30324c4e045248
+4e3846483e323248324c
+30523250
+2c32363a44443a4436
+483a4436
+422a40403250
+50563a443e4032
+3244300444465032
+5056323250324c
+483a48324e
+
+2e462e464452504e
+3632445040320436464436
+4846482e464c44
+ 
+4e503a2e3e4e04044e504644324e	
+505244325248
+32524c323e2a
+k
+W
+
+/product/media/audio/alarms/Fresh_start.ogg
+
+`audio/oggFresh StartFresh_start.ogg12503413alarms344c324e38044e502a4c508O
+[|U<unknown>alarms
+android.resource://com.google.android.soundpicker/string/fresh_startinternal012a402a4c424e
+/product/media/audio/alarms/Bright_morning.ogg
+`audio/oggBright MorningBright_morning.ogg12503413alarms2c4c3a3638500442464c443a44368O
+<unknown>alarms
+android.resource://com.google.android.soundpicker/string/bright_morninginternal012a402a4c424e
+/product/media/audio/alarms/Early_twilight.ogg
+`audio/oggEarly TwilightEarly_twilight.ogg12503413alarms322a4c405a0450563a403a3638508O
+[@B<unknown>alarms
+android.resource://com.google.android.soundpicker/string/early_twilightinternal012a402a4c424e
+/product/media/audio/alarms/A_real_hoot.ogg
+`audio/oggA Real HootA_real_hoot.ogg12503413alarms4c322a4004384646508O
+android.resource://com.google.android.soundpicker/string/a_real_hootinternal012a402a4c424e
+/product/media/audio/alarms/Cuckoo_clock.ogg
+`audio/oggCuckoo ClockCuckoo_clock.ogg12503413alarms2e522e3e4646042e40462e3e8O
+android.resource://com.google.android.soundpicker/string/cuckoo_clockinternal012a402a4c424e
+/product/media/audio/alarms/Sunshower.ogg
+`audio/oggSun-ShowerSunshower.ogg12503413alarms4e52444e384656324c8O
+[lw<unknown>alarms
+android.resource://com.google.android.soundpicker/string/sun_showerinternal012a402a4c424e
+/product/media/audio/alarms/Loose_change.ogg
+`audio/oggLoose ChangeLoose_change.ogg12503413alarms4046464e32042e382a4436328O
+android.resource://com.google.android.soundpicker/string/loose_changeinternal012a402a4c424e
+/product/media/audio/alarms/Rolling_fog.ogg
+`audio/oggRolling FogRolling_fog.ogg12503413alarms4c4640403a4436043446368O
+[="<unknown>alarms
+android.resource://com.google.android.soundpicker/string/rolling_foginternal012a402a4c424e
+/product/media/audio/alarms
+alarmsalarms-1252987844audiointernal
+/product/media/audio/ringtones/Zen_too.ogg
+`audio/oggZen TooZen_too.ogg-129249538ringtones5c3244045046468O
+I-<unknown>ringtones
+android.resource://com.google.android.soundpicker/string/zen_toointernal014c3a4436504644324e
+/product/media/audio/ringtones/The_big_adventure.ogg
+`audio/oggThe Big AdventureThe_big_adventure.ogg-129249538ringtones2c3a36042a3054324450524c328O
+<unknown>ringtones
+android.resource://com.google.android.soundpicker/string/the_big_adventureinternal014c3a4436504644324e
+vI8
+
+/product/media/audio/ui/AttentionalHaptics.ogg
+audio/oggAttentionalHapticsAttentionalHaptics.ogg-200042169ui2a50503244503a46442a40382a48503a2e4e8O
+<unknown>ui
+internal01523a
+/product/media/audio/ui/ChargingStarted.ogg
+audio/oggChargingStartedChargingStarted.ogg-200042169ui2e382a4c363a44364e502a4c5032308O
+/product/media/audio/ui/reverse_charging_start.ogg~
+audio/oggreverse_charging_startreverse_charging_start.ogg-200042169ui4c3254324c4e32050a2e382a4c363a4436050a4e502a4c508O
+/product/media/audio/ui/camera_click.ogg<
+audio/ogg71_r70_gcam_k_shuttercamera_click.ogg-200042169ui2115050a4c2113050a362e2a42050a3e050a4e38525050324c8O
+/product/media/audio/ui/KeypressSpacebar.ogg V
+audio/oggKeypressSpacebarKeypressSpacebar.ogg-200042169ui3e325a484c324e4e4e482a2e322c2a4c8O
+}<unknown>ui
+/product/media/audio/ui/Unlock.ogg
+audio/oggUnlockUnlock.ogg-200042169ui524440462e3e8O
+d<unknown>ui
+/product/media/audio/ui/VideoRecord.ogg0#
+audio/ogg87_r80_gcam_o_video_startVideoRecord.ogg-200042169ui2321050a4c2313050a362e2a42050a46050a543a303246050a4e502a4c508O
+l<unknown>ui
+/product/media/audio/ui
+uiui-1252987844audiointernal
+/product/media/audio/alarms/Icicles.ogg
+`audio/oggIciclesIcicles.ogg12503413alarms3a2e3a2e40324e8O
+android.resource://com.google.android.soundpicker/string/iciclesinternal012a402a4c424e
+/product/media/audio/alarms/Spokes.ogg
+`audio/oggSpokesSpokes.ogg12503413alarms4e48463e324e8O
+android.resource://com.google.android.soundpicker/string/spokesinternal012a402a4c424e
+/product/media/audio/alarms/Gentle_breeze.ogg
+`audio/oggGentle BreezeGentle_breeze.ogg12503413alarms363244504032042c4c32325c328O
+android.resource://com.google.android.soundpicker/string/gentle_breezeinternal012a402a4c424e
+/product/media/audio/alarms/Full_of_wonder.ogg
+`audio/oggFull of WonderFull_of_wonder.ogg12503413alarms345240400446340456464430324c8O
+android.resource://com.google.android.soundpicker/string/full_of_wonderinternal012a402a4c424e
+/product/media/audio/alarms/Jump_start.ogg
+`audio/oggJump-StartJump_start.ogg12503413alarms3c5242484e502a4c508O
+android.resource://com.google.android.soundpicker/string/jump_startinternal012a402a4c424e
+@!"-
+0*0
+
+$]
+
+`audio/oggAttentionalHapticsAttentionalHaptics.ogg-200042169ui2a50503244503a46442a40382a48503a2e4e8O
+`audio/oggChargingStartedChargingStarted.ogg-200042169ui2e382a4c363a44364e502a4c5032308O
+`audio/oggreverse_charging_startreverse_charging_start.ogg-200042169ui4c3254324c4e32050a2e382a4c363a4436050a4e502a4c508O
+`audio/ogg71_r70_gcam_k_shuttercamera_click.ogg-200042169ui2115050a4c2113050a362e2a42050a3e050a4e38525050324c8O
+`audio/oggKeypressSpacebarKeypressSpacebar.ogg-200042169ui3e325a484c324e4e4e482a2e322c2a4c8O
+`audio/oggUnlockUnlock.ogg-200042169ui524440462e3e8O
+`audio/ogg87_r80_gcam_o_video_startVideoRecord.ogg-200042169ui2321050a4c2313050a362e2a42050a46050a543a303246050a4e502a4c508O
+/product/media/audio/ui/audio_end.ogg(
+`audio/oggaudio_endaudio_end.ogg-200042169ui2a52303a46050a3244308O
+$<unknown>ui
+/product/media/audio/ui/Effect_Tick.ogg
+`audio/oggEffect_TickEffect_Tick.ogg-200042169ui323434322e50050a503a2e3e8O
+L<unknown>ui
+/product/media/audio/ui/audio_initiate.ogg+
+`audio/oggaudio_initiateaudio_initiate.ogg-200042169ui2a52303a46050a3a443a503a2a50328O
+X<unknown>ui
+/product/media/audio/ui/reverse_charging_end.ogg_
+`audio/oggreverse_charging_endreverse_charging_end.ogg-200042169ui4c3254324c4e32050a2e382a4c363a4436050a3244308O
+/product/media/audio/ui/NFCFailure.ogg|~
+`audio/oggNFCFailureNFCFailure.ogg-200042169ui44342e342a3a40524c328O
+u<unknown>ui
+/product/media/audio/ui/WirelessChargingStarted.ogg
+`audio/oggWirelessChargingStartedWirelessChargingStarted.ogg-200042169ui563a4c3240324e4e2e382a4c363a44364e502a4c5032308O
+/product/media/audio/ui/NFCTransferInitiated.oggn,
+`audio/oggNFCTransferInitiatedNFCTransferInitiated.ogg-200042169ui44342e504c2a444e34324c3a443a503a2a5032308O
+/product/media/audio/ui/KeypressDelete.ogg!
+`audio/oggKeypressDeleteKeypressDelete.ogg-200042169ui3e325a484c324e4e3032403250328O
+/product/media/audio/ui/KeypressReturn.ogg+
+`audio/oggKeypressReturnKeypressReturn.ogg-200042169ui3e325a484c324e4e4c3250524c448O
+/product/media/audio/ui/NFCInitiated.oggbj
+`audio/oggNFCInitiatedNFCInitiated.ogg-200042169ui44342e3a443a503a2a5032308O
+/product/media/audio/ui/VideoStop.ogg0
+`audio/ogg83_r80_gcam_n_video_stopVideoStop.ogg-200042169ui2319050a4c2313050a362e2a42050a44050a543a303246050a4e5046488O
+w<unknown>ui
+/product/media/audio/ui/camera_focus.ogg+
+`audio/oggcamera_focuscamera_focus.ogg-200042169ui2e2a42324c2a050a34462e524e8O
+U<unknown>ui
+/product/media/audio/ui/Lock.ogg
+`audio/oggLockLock.ogg-200042169ui40462e3e8O
+n<unknown>ui
+3[D
+
+/product/media/audio/ui/Dock.oggHn
+`audio/oggDockDock.ogg-200042169ui30462e3e8O
+/product/media/audio/ui/LowBattery.ogg
+`audio/oggLowBatteryLowBattery.ogg-200042169ui4046562c2a5050324c5a8O
+)<unknown>ui
+/product/media/audio/ui/InCallNotification.ogg
+`audio/oggInCallNotificationInCallNotification.ogg-200042169ui3a442e2a40404446503a343a2e2a503a46448O
+/product/media/audio/ui/KeypressStandard.ogg
+`audio/oggKeypressStandardKeypressStandard.ogg-200042169ui3e325a484c324e4e4e502a44302a4c308O
+/product/media/audio/ui/KeypressInvalid.ogg
+`audio/oggKeypressInvalidKeypressInvalid.ogg-200042169ui3e325a484c324e4e3a44542a403a308O
+/product/media/audio/ui/Undock.oggB
+`audio/oggUndockUndock.ogg-200042169ui524430462e3e8O
+/product/media/audio/ui/NFCSuccess.oggjA
+`audio/oggNFCSuccessNFCSuccess.ogg-200042169ui44342e4e522e2e324e4e8O
+/product/media/audio/ui/Trusted.ogg
+`audio/oggTrustedTrusted.ogg-200042169ui504c524e5032308O
+P<unknown>ui
+/product/media/audio/ui/NFCTransferComplete.ogg
+`audio/oggNFCTransferCompleteNFCTransferComplete.ogg-200042169ui44342e504c2a444e34324c2e464248403250328O
+q<unknown>ui
+	!X4P]
+v4qR
+5(5v
+
+T=
+R
+/product/media/audio/notifications/Orders_up.ogg7
+`audio/oggOrder's UpOrders_up.ogg1111452757notifications464c30324c4e0452488O
+s<unknown>notifications
+android.resource://com.google.android.soundpicker/string/orders_upinternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/Shopkeeper.ogg[
+`audio/oggShopkeeperShopkeeper.ogg1111452757notifications4e3846483e323248324c8O
+<unknown>notifications
+android.resource://com.google.android.soundpicker/string/shopkeeperinternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/Duet.oggL
+`audio/oggDuetDuet.ogg1111452757notifications305232508O
+g<unknown>notifications
+android.resource://com.google.android.soundpicker/string/duetinternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/Beginning.oggqH
+`audio/oggBeginningBeginning.ogg1111452757notifications2c32363a44443a44368O
+[	`<unknown>notifications
+android.resource://com.google.android.soundpicker/string/beginninginternal014446503a343a2e2a503a46444e
+`audio/oggPingPing.ogg1111452757notifications483a44368O
+<unknown>notifications
+android.resource://com.google.android.soundpicker/string/pinginternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/Mallet.oggP
+`audio/oggMalletMallet.ogg1111452757notifications422a404032508O
+android.resource://com.google.android.soundpicker/string/malletinternal014446503a343a2e2a503a46444e
+`audio/oggTwinkleTwinkle.ogg1111452757notifications50563a443e40328O
+android.resource://com.google.android.soundpicker/string/twinkleinternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/End_note.oggN
+`audio/oggEnd NoteEnd_note.ogg1111452757notifications32443004444650328O
+android.resource://com.google.android.soundpicker/string/end_noteinternal014446503a343a2e2a503a46444e
+/product/media/audio/notifications/Tweeter.ogg=
+`audio/oggTweeterTweeter.ogg1111452757notifications5056323250324c8O
+android.resource://com.google.android.soundpicker/string/tweeterinternal014446503a343a2e2a503a46444e
+`audio/oggFlutterbyFlutterby.ogg-129249538ringtones3440525050324c2c5a8O
+android.resource://com.google.android.soundpicker/string/flutterbyinternal014c3a4436504644324e
+ringtonesringtones-1252987844audiointernal
+/product/media/audio/ringtones/Monkey_around.ogg
+`audio/oggMonkey AroundMonkey_around.ogg-129249538ringtones4246443e325a042a4c465244308O
+android.resource://com.google.android.soundpicker/string/monkey_aroundinternal014c3a4436504644324e
+/product/media/audio/ringtones/Hotline.ogg
+`audio/oggHotlineHotline.ogg-129249538ringtones384650403a44328O
+<unknown>ringtones
+android.resource://com.google.android.soundpicker/string/hotlineinternal014c3a4436504644324e
+/product/media/audio/ringtones/Lost_and_found.ogg
+`audio/oggLost & FoundLost_and_found.ogg-129249538ringtones40464e50040434465244308O
+android.resource://com.google.android.soundpicker/string/lost_and_foundinternal014c3a4436504644324e
+`audio/oggLollipopLollipop.ogg-129249538ringtones404640403a4846488O
+android.resource://com.google.android.soundpicker/string/lollipopinternal014c3a4436504644324e
+`audio/oggSchool's OutSchools_out.ogg-129249538ringtones4e2e384646404e044652508O
+android.resource://com.google.android.soundpicker/string/schools_outinternal014c3a4436504644324e
+`audio/oggCrackleCrackle.ogg-129249538ringtones2e4c2a2e3e40328O
+android.resource://com.google.android.soundpicker/string/crackleinternal014c3a4436504644324e
+`audio/oggLeaps & BoundsLeaps_and_bounds.ogg-129249538ringtones40322a484e04042c465244304e8O
+android.resource://com.google.android.soundpicker/string/leaps_and_boundsinternal014c3a4436504644324e
+`audio/oggCopycatCopycat.ogg-129249538ringtones2e46485a2e2a508O
+android.resource://com.google.android.soundpicker/string/copycatinternal014c3a4436504644324e
+`audio/oggYour New AdventureYour_new_adventure.ogg-129249538ringtones5a46524c04443256042a3054324450524c328O
+^]<unknown>ringtones
+android.resource://com.google.android.soundpicker/string/your_new_adventureinternal014c3a4436504644324e
+`audio/oggMash-upMash_up.ogg-129249538ringtones422a4e3852488O
+x<unknown>ringtones
+android.resource://com.google.android.soundpicker/string/mash_upinternal014c3a4436504644324e
+audio/oggFresh StartFresh_start.ogg12503413alarms344c324e38044e502a4c508O
+audio/oggBright MorningBright_morning.ogg12503413alarms2c4c3a3638500442464c443a44368O
+audio/oggEarly TwilightEarly_twilight.ogg12503413alarms322a4c405a0450563a403a3638508O
+audio/oggA Real HootA_real_hoot.ogg12503413alarms4c322a4004384646508O
+audio/oggCuckoo ClockCuckoo_clock.ogg12503413alarms2e522e3e4646042e40462e3e8O
+audio/oggSun-ShowerSunshower.ogg12503413alarms4e52444e384656324c8O
+audio/oggLoose ChangeLoose_change.ogg12503413alarms4046464e32042e382a4436328O
+audio/oggRolling FogRolling_fog.ogg12503413alarms4c4640403a4436043446368O
+/8\L
+
+audio/oggFlutterbyFlutterby.ogg-129249538ringtones3440525050324c2c5a8O
+audio/oggOrder's UpOrders_up.ogg1111452757notifications464c30324c4e0452488O
+audio/oggShopkeeperShopkeeper.ogg1111452757notifications4e3846483e323248324c8O
+audio/oggDuetDuet.ogg1111452757notifications305232508O
+audio/oggBeginningBeginning.ogg1111452757notifications2c32363a44443a44368O
+audio/oggPingPing.ogg1111452757notifications483a44368O
+audio/oggMalletMallet.ogg1111452757notifications422a404032508O
+audio/oggTwinkleTwinkle.ogg1111452757notifications50563a443e40328O
+audio/oggEnd NoteEnd_note.ogg1111452757notifications32443004444650328O
+audio/oggTweeterTweeter.ogg1111452757notifications5056323250324c8O
+(U#
+
+audio/oggMonkey AroundMonkey_around.ogg-129249538ringtones4246443e325a042a4c465244308O
+audio/oggHotlineHotline.ogg-129249538ringtones384650403a44328O
+audio/oggLost & FoundLost_and_found.ogg-129249538ringtones40464e50040434465244308O
+audio/oggLollipopLollipop.ogg-129249538ringtones404640403a4846488O
+audio/oggSchool's OutSchools_out.ogg-129249538ringtones4e2e384646404e044652508O
+audio/oggCrackleCrackle.ogg-129249538ringtones2e4c2a2e3e40328O
+audio/oggLeaps & BoundsLeaps_and_bounds.ogg-129249538ringtones40322a484e04042c465244304e8O
+audio/oggCopycatCopycat.ogg-129249538ringtones2e46485a2e2a508O
+audio/oggYour New AdventureYour_new_adventure.ogg-129249538ringtones5a46524c04443256042a3054324450524c328O
+audio/oggMash-upMash_up.ogg-129249538ringtones422a4e3852488O
+audio/oggZen TooZen_too.ogg-129249538ringtones5c3244045046468O
+audio/oggThe Big AdventureThe_big_adventure.ogg-129249538ringtones2c3a36042a3054324450524c328O

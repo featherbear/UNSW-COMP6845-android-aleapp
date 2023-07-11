@@ -1,0 +1,23 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+RelSQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)
+mtableHighlightStateHighlightState
+CREATE TABLE `HighlightState` (`educationName` TEXT NOT NULL, `highlightId` TEXT NOT NULL, `numHighlightImpressions` INTEGER NOT NULL, `numHighlightInteractions` INTEGER NOT NULL, `highlightCompleted` INTEGER NOT NULL, PRIMARY KEY(`educationName`, `highlightId`), FOREIGN KEY(`educationName`) REFERENCES `EducationState`(`name`) ON UPDATE NO ACTION ON DELETE CASCADE );
+indexsqlite_autoindex_HighlightState_1HighlightState
+ctableEducationStateEducationState
+CREATE TABLE `EducationState` (`name` TEXT NOT NULL, `enabled` INTEGER NOT NULL, `numEducationImpressions` INTEGER NOT NULL, `numEducationInteractions` INTEGER NOT NULL, `activatedTimestampMs` INTEGER NOT NULL, `lastImpressionTimestampMs` INTEGER NOT NULL, `lastInteractionTimestampMs` INTEGER NOT NULL, `educationCompleted` INTEGER NOT NULL, PRIMARY KEY(`name`));
+indexsqlite_autoindex_EducationState_1EducationState
+Meeffbce3bfbd69ea1ae982695ce17aa1
+OBAKE_TOOLTIP
+'	OBAKE_TOOLTIP
+OBAKE_TOOLTIPcom.google.android.gm:id/selected_account_view
+j;#
+
+'i	OBAKE_TOOLTIPcom.google.android.gm:id/selected_account_view
+2?
+
+	'		

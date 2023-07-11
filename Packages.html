@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ALEAPP - Packages report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Highlight.js -->
+        <link rel="stylesheet" href="_elements/highlight.min.css">
+        <script src="_elements/highlight.min.js"></script>
+        <!-- Cal-Heatmap -->
+        <script src="_elements/d3.v7.min.js"></script>
+        <script src="_elements/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="_elements/cal-heatmap.css">
+        <script src="_elements/popper.min.js"></script>
+        <script src="_elements/Tooltip.min.js"></script>
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chat.css">
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+        <link href="_elements/timeline/css/timeline.min.css" rel="stylesheet" />
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">ALEAPP 3.1.8</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+<h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Saved Reports
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="index.html">
+            <span data-feather="home"></span> Report Home
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_ce
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Authtokens_0.html">
+            <span data-feather="key"></span> Authtokens_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_ce_0.html">
+            <span data-feather="user"></span> accounts_ce_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_de
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_de_0.html">
+            <span data-feather="user"></span> accounts_de_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Adb Hosts
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="ADB Hosts.html">
+            <span data-feather="terminal"></span> ADB Hosts
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Android System Intelligence
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SimpleStorage - App Launch.html">
+            <span data-feather="loader"></span> SimpleStorage - App Launch
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        App Roles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Android 11 Roles_0.html">
+            <span data-feather="tool"></span> Android 11 Roles_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Bluetooth Connections
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Adapter Information.html">
+            <span data-feather="bluetooth"></span> Bluetooth Adapter Information
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Connections.html">
+            <span data-feather="bluetooth"></span> Bluetooth Connections
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Browser Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome Browser Cache.html">
+            <span data-feather="chrome"></span> Chrome Browser Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Calendar
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calendar - Calendars.html">
+            <span data-feather="calendar"></span> Calendar - Calendars
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Chromium
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies-01.html">
+            <span data-feather="chrome"></span> Chrome - Cookies-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies.html">
+            <span data-feather="chrome"></span> Chrome - Cookies
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads-01.html">
+            <span data-feather="download"></span> Chrome - Downloads-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads.html">
+            <span data-feather="download"></span> Chrome - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor-01.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms.html">
+            <span data-feather="search"></span> Chrome - Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History-01.html">
+            <span data-feather="chrome"></span> Chrome - Web History-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History.html">
+            <span data-feather="chrome"></span> Chrome - Web History
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits-01.html">
+            <span data-feather="globe"></span> Chrome - Web Visits-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits.html">
+            <span data-feather="globe"></span> Chrome - Web Visits
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Health Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Application Usage.html">
+            <span data-feather="bar-chart-2"></span> Turbo - Application Usage
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Phone Battery.html">
+            <span data-feather="battery-charging"></span> Turbo - Phone Battery
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Info
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Partner Settings.html">
+            <span data-feather="settings"></span> Partner Settings
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SIM_info_0.html">
+            <span data-feather="info"></span> SIM_info_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings_Secure_0.html">
+            <span data-feather="settings"></span> Settings_Secure_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Digital Wellbeing
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Account Data.html">
+            <span data-feather="user"></span> Account Data
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Events.html">
+            <span data-feather="layers"></span> Events
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Downloads
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Native Downloads.html">
+            <span data-feather="download"></span> Native Downloads
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Emulated Storage Metadata
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Downloads.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Files.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Files
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Images.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Images
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Encrypting Media Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker Database.html">
+            <span data-feather="lock"></span> Calculator Locker Database
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker.html">
+            <span data-feather="lock"></span> Calculator Locker
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Files by Google
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Files by Google - Files Master.html">
+            <span data-feather="file"></span> Files by Google - Files Master
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Firebase Cloud Messaging
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.android.vending.html">
+            <span data-feather="database"></span> FCM-Dump-com.android.vending
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.gm.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.gm
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.googlequicksearchbox.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.googlequicksearchbox
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.zhiliaoapp.musically.html">
+            <span data-feather="database"></span> FCM-Dump-com.zhiliaoapp.musically
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        GEO Location
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Search History Maps.html">
+            <span data-feather="map-pin"></span> Google Search History Maps
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gboard Keyboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gboard - Sessions.html">
+            <span data-feather="edit-3"></span> Gboard - Sessions
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gmail
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Active.html">
+            <span data-feather="at-sign"></span> Gmail - Active
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - App Emails.html">
+            <span data-feather="at-sign"></span> Gmail - App Emails
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Label Details.html">
+            <span data-feather="mail"></span> Gmail - Label Details
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Messages
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Messages.html">
+            <span data-feather="message-circle"></span> Google Messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Photos
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos-1) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos-1) - Local Media
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Cache.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Cache
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Local Media
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Play
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Searches.html">
+            <span data-feather="search"></span> Google Play Searches
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Image Manager Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Image Manager Cache.html">
+            <span data-feather="image"></span> Image Manager Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Installed Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Icons.html">
+            <span data-feather="package"></span> App Icons
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Updates (Frosting.db).html">
+            <span data-feather="package"></span> App Updates (Frosting.db)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Links for Apps.html">
+            <span data-feather="package"></span> Google Play Links for Apps
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS).html">
+            <span data-feather="package"></span> Installed Apps (GMS)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS)_0.html">
+            <span data-feather="package"></span> Installed Apps (GMS)_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Library).html">
+            <span data-feather="package"></span> Installed Apps (Library)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Vending).html">
+            <span data-feather="package"></span> Installed Apps (Vending)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link  active" href="Packages.html">
+            <span data-feather="package"></span> Packages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Permissions
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml.html">
+            <span data-feather="check"></span> Appops.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permission Trees.html">
+            <span data-feather="check"></span> Permission Trees
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permissions.html">
+            <span data-feather="check"></span> Permissions
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Runtime Permissions_0.html">
+            <span data-feather="check"></span> Runtime Permissions_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Power Events
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Last Boot Time.html">
+            <span data-feather="power"></span> Last Boot Time
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Shutdown Checkpoints.html">
+            <span data-feather="power"></span> Shutdown Checkpoints
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Privacy Dashboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Privacy Dashboard.html">
+            <span data-feather="eye"></span> Privacy Dashboard
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Recent Activity
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Recent Activity_0.html">
+            <span data-feather="activity"></span> Recent Activity_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SMS & MMS
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SMS messages.html">
+            <span data-feather="message-square"></span> SMS messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SQLite Journaling
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Strings - SQLite Journal & WAL.html">
+            <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Settings Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings Services - Battery Usage.html">
+            <span data-feather="battery-charging"></span> Settings Services - Battery Usage
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Usage Stats
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="OS Version.html">
+            <span data-feather="bar-chart-2"></span> OS Version
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="UsageStats_0.html">
+            <span data-feather="bar-chart-2"></span> UsageStats_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        WiFi Profiles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wi-Fi Profiles.html">
+            <span data-feather="wifi"></span> Wi-Fi Profiles
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 0.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 1.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 1
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Wipe & Setup
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml Setup Wizard.html">
+            <span data-feather="loader"></span> Appops.xml Setup Wizard
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Factory Reset.html">
+            <span data-feather="loader"></span> Factory Reset
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Setup_Wizard_Info.xml.html">
+            <span data-feather="loader"></span> Setup_Wizard_Info.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Suggestions.xml.html">
+            <span data-feather="loader"></span> Suggestions.xml
+        </a>
+    </li>
+    
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="display-5">Packages report</h1>
+                    <h6 class="animated fadeIn mb-3">All packages (user installed, oem installed and system) appear here. Many of these are not user apps</h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 284</h6><p class="lead">Packages located at: C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\system\packages.xml</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">ft</th><th class="th-sm">Name</th><th class="th-sm">Install Time</th><th class="th-sm">Update Time</th><th class="th-sm">Install Originator</th><th class="th-sm">Installer</th><th class="th-sm">Code Path</th><th class="th-sm">Public Flags</th><th class="th-sm">Private Flags</th></tr></thead><tbody><tr><td>2009-01-01 00:00:00</td><td>com.shannon.qualifiednetworksservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/ShannonQualifiedNetworksService</td><td>0x30483e4d</td><td>0x8c601168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.uvexposurereporter</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/UvExposureReporter</td><td>0x3008be45</td><td>0x8c601008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.noCutout</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutNoCutout</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.networkstack.tethering</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.tethering/priv-app/TetheringGoogle@331012200</td><td>0x2808be4d</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.trafficlightfaceoverlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/TrafficLightFaceOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.omadm.trigger</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/OemDmTrigger</td><td>0x20083e45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.carriersetup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/CarrierSetup</td><td>0x20083e45</td><td>0x8c701008</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.android.cts.priv.ctsshim</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.apex.cts.shim/priv-app/CtsShimPriv@1</td><td>0xa008be41</td><td>0xa4001008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.youtube</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/YouTube</td><td>0x305bbe45</td><td>0xac081110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.vzw.apnlib</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/VZWAPNLib</td><td>0x2008be45</td><td>0x8c081000</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.android.uwb.resources</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.uwb/priv-app/ServiceUwbResources@331015200</td><td>0x2808be41</td><td>0x8c001068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.corner</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutEmulationCorner</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings.overlay.pixel2021</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SettingsGoogleOverlayPixel2021.apk</td><td>0x2008be41</td><td>0x9c481000</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.ext.services</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.extservices/priv-app/GoogleExtServices@331012190</td><td>0x2048be45</td><td>0x8c401108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.double</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutEmulationDouble</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.pixelconfig2018</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConfigOverlay2018.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.pixelconfig2019</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConfigOverlay2019.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.pixelconfig2021</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConfigOverlay2021.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.telephony</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/TelephonyProvider</td><td>0x3c0bbe05</td><td>0x8c503068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.carrierlocation</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CarrierLocation</td><td>0x2048be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.dynsystem</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/DynamicSystemInstallationService</td><td>0x30083e45</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.sdm.plugins.connmo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/ConnMO</td><td>0x2008be45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.googlequicksearchbox</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/Velvet</td><td>0x285bbe45</td><td>0x8c080418</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.cellbroadcastservice</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@331013180</td><td>0x2808be4d</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.verizon.mips.services</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/MyVerizonServices</td><td>0x20583e45</td><td>0x8c200908</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.flipendo.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/Flipendo__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.calendar</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/CalendarProvider</td><td>0x30083e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.googlequicksearchbox.nga_resources</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/NgaResources</td><td>0x1808be41</td><td>0xa4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.media</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/MediaProviderLegacy</td><td>0x38483e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.pixel.livewallpaper</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/PixelLiveWallpaperPrebuilt</td><td>0x2049be45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.onetimeinitializer</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/GoogleOneTimeInitializer</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.ext.shared</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/GoogleExtShared</td><td>0x30083e45</td><td>0x8c001060</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.systemui.navbar.gestural_wide_back</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NavigationBarModeGesturalWideBack</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.qorvo.uwb.vendorservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/UwbVendorService</td><td>0x3008be4d</td><td>0x8c601008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.hbmsvmanager</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/HbmSVManager</td><td>0x3008be4d</td><td>0x8c701048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.euiccoverlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/EuiccGoogleOverlay</td><td>0x3008be45</td><td>0x8c301108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.diagnosticstool</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DiagnosticsToolPrebuilt</td><td>0x30483e45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.euiccpixel.permissions</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/EuiccSupportPixelPermissions</td><td>0x1808be45</td><td>0xa4200008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.euiccpixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/EuiccSupportPixel</td><td>0x30483e45</td><td>0x8c201168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.flipendo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/app/Flipendo</td><td>0x304bbe45</td><td>0x8c701040</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings.overlay.g8v0u</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SettingsOverlayG8V0U.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.storagemanager.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/StorageManagerGoogle__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings.overlay.raven</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SettingsGoogleRavenOverlay.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.simappdialog.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SimAppDialog__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.safetyregulatoryinfo.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SafetyRegulatoryInfo__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.omadm.service.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DMService__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.externalstorage</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/ExternalStorageProvider</td><td>0x3008be45</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.htmlviewer</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/HTMLViewer</td><td>0x3048be45</td><td>0x8c001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.companiondevicemanager</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/CompanionDeviceManager</td><td>0x30483e45</td><td>0x8c501000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.mms.service</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/MmsService</td><td>0x3808be45</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.downloads</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/DownloadProvider</td><td>0x38483e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.systemui.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SystemUIGoogle__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.messaging</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/PrebuiltBugle</td><td>0x384bbe45</td><td>0x8c081118</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.soundpicker</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/SoundPickerPrebuilt</td><td>0x30483e45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.systemui.overlay.pixelbatteryhealthconfig</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelBatteryHealthOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>android.autoinstalls.config.google.nexus</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PlayAutoInstallConfig</td><td>0x20083e45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.scone.overlays</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SconeCbrsOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.configupdater</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/ConfigUpdater</td><td>0x20083e45</td><td>0x8c081008</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.providers.media.module</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@331011200</td><td>0x28483e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.udfpsoverlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/UdfpsOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.wifi.resources.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/WifiOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.googlewebview</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/GoogleWebViewOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.safetyhub</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SafetyHubPrebuilt</td><td>0x20483e45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.factoryota</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/FactoryOtaPrebuilt</td><td>0x3008be45</td><td>0x8c301108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.systemui.plugin.globalactions.wallet</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/QuickAccessWallet</td><td>0x3048be45</td><td>0x8c701008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.ar.core</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/arcore</td><td>0xb008be45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.downloads.ui</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/DownloadProviderUi</td><td>0x3848be45</td><td>0x8c401008</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.hotspot2.osulogin</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.wifi/app/OsuLoginGoogle@331016200</td><td>0x2048be45</td><td>0x8c001000</td></tr><tr><td>2023-05-04 16:52:58</td><td>com.android.vending</td><td></td><td>2023-05-04 16:52:59.315000</td><td></td><td>com.android.vending</td><td>/data/app/~~gdHysdKdPH29MfD7sXn04w==/com.android.vending-6jR77uSZnR6OfCXRnt2fOw==</td><td>0x284abec5</td><td>0xac081118</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.pacprocessor</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/PacProcessor</td><td>0x3008be45</td><td>0x8c501060</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.simappdialog</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/SimAppDialog</td><td>0x3008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.cellbroadcastreceiver.overlay.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/CellBroadcastReceiverOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2023-05-01 13:36:19</td><td>com.joeykrim.rootcheck</td><td></td><td>2023-05-01 13:36:19.624000</td><td></td><td>com.android.vending</td><td>/data/app/~~fD5RYA40XicReQDC57Q99w==/com.joeykrim.rootcheck-3M4acV1iWrv2KK_yWpW3LA==</td><td>0x3048be44</td><td>0x8c001100</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.adservices.api</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.adservices/priv-app/AdServicesApkGoogle@330442000</td><td>0x2008be45</td><td>0x8c401048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.pixelconfig2019midyear</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConfigOverlay2019Midyear.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.hole</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutEmulationHole</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.tall</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutEmulationTall</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.networkstack.overlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NetworkStackOverlay.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.certinstaller</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/CertInstaller</td><td>0x30083e45</td><td>0x8c501000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.marvin.talkback</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/talkback</td><td>0x204bbe45</td><td>0x8c081100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.accessibility.voiceaccess</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/VoiceAccessPrebuilt</td><td>0x2008be45</td><td>0x8c080500</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.connectivity.resources.overlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConnectivityOverlay2021.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.systemui.navbar.threebutton</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NavigationBarMode3Button</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.work.oobconfig</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/OTAConfigNoZeroTouchPrebuilt</td><td>0x30483e05</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>android</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/framework/framework-res.apk</td><td>0x3048be09</td><td>0x8c101068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.hotwordenrollment.xgoogle</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/HotwordEnrollmentXGoogleFUSION</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixel.setupwizard</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/PixelSetupWizard</td><td>0x30483e05</td><td>0x8c601108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.grilservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/grilservice</td><td>0x2008be4d</td><td>0x8c601048</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.sdksandbox</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.adservices/app/SdkSandboxGoogle@330442000</td><td>0x2008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.egg</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/EasterEgg</td><td>0x3008be45</td><td>0x8c501000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.mtp</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/MtpService</td><td>0x38083e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.nfc</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/NfcNci</td><td>0x1048be4d</td><td>0x8c501000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.ons</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/ONS</td><td>0x3008be4d</td><td>0x8c501108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.stk</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/Stk</td><td>0x3008be45</td><td>0x8c501060</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.backupconfirm</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/BackupRestoreConfirmation</td><td>0x30083e05</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/SettingsGoogle__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4440000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.systemui.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/SystemUIGoogle__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.samsung.slsi.telephony.oem.oemrilhookservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/app/OemRilHookService</td><td>0x3808be0d</td><td>0x8c701060</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.deskclock</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PrebuiltDeskClockGoogle</td><td>0x304bbe45</td><td>0x8c081100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.as</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DevicePersonalizationPrebuiltPixel2021</td><td>0x3049be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.gm</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PrebuiltGmail</td><td>0x385bbe45</td><td>0xac080510</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.carrier</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CarrierSettings</td><td>0x30083e45</td><td>0x8c081168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.security.securityhub</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SecurityHubPrebuilt</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.turboadapter</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/TurboAdapter</td><td>0x30083e45</td><td>0x8c701008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.managedprovisioning.overlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/ManagedProvisioningPixelOverlay.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.systemui.navbar.gestural_extra_wide_back</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NavigationBarModeGesturalExtraWideBack</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.permissioncontroller</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.permission/priv-app/GooglePermissionController@331115020</td><td>0x20483e05</td><td>0x8c001168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.setupwizard</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SetupWizardPrebuilt</td><td>0x28483e05</td><td>0x8c081118</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.bluetooth</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.btservices/app/BluetoothGoogle@TQ2A.230405.003.G1</td><td>0x2048be45</td><td>0x8c401168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.pixel.digitalkey.timesync</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/CccDkTimeSyncService</td><td>0x3008be4d</td><td>0x8c601048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.settings</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/SettingsProvider</td><td>0x300abe05</td><td>0x8c501068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.networkstack.tethering.overlay2021</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelTetheringOverlay2021.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.sharedstoragebackup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/SharedStorageBackup</td><td>0x3009be05</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.verizon.services</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/AppDirectedSMSService</td><td>0x2048be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.nfc.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NfcNci__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.euicc</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/EuiccGoogle</td><td>0x20483e45</td><td>0x8c081068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.iwlan</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/Iwlan</td><td>0x3008be45</td><td>0x8c701068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.printspooler</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/PrintSpooler</td><td>0x3048be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.hotwordenrollment.okgoogle</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/HotwordEnrollmentOKGoogleFUSION</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.sdm.plugins.diagmon</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DiagMon</td><td>0x2008be45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.dreams.basic</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/BasicDreams</td><td>0x3008be45</td><td>0x8c001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixel.setupwizard.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelSetupWizard__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.settings.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SettingsProvider__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.as.oss</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DeviceIntelligenceNetworkPrebuilt</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.se</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/SecureElement</td><td>0x3008be4d</td><td>0x8c501040</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.inputdevices</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/InputDevices</td><td>0x3008be05</td><td>0x8c101068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.traceur.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/Traceur__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.wellbeing</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/WellbeingPrebuilt</td><td>0x204bbe45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.dialer</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/GoogleDialer</td><td>0x204bbe45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.bips</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/BuiltInPrintService</td><td>0x3048be45</td><td>0x8c101008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.audio.hearing.visualization.accessibility.scribe</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/ScribePrebuilt</td><td>0x2048be45</td><td>0x8c081018</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.nbu.files</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/FilesPrebuilt</td><td>0x304bbe45</td><td>0xac081118</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.captiveportallogin</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/CaptivePortalLoginGoogle</td><td>0x3848be45</td><td>0x8c001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.flipendo.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/Flipendo__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.accessibility.soundamplifier</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/SoundAmplifierPrebuilt</td><td>0x20483e45</td><td>0x84080400</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.shannon.rcsservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/ShannonRcs</td><td>0x3048be4d</td><td>0x8c601168</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.ambient.streaming</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/AmbientStreaming</td><td>0x3048be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.musicfx</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/MusicFX</td><td>0x30083e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.ons.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/ONS__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.docs</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/Drive</td><td>0x284bbe45</td><td>0x8c081010</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.maps</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/Maps</td><td>0x385bbe45</td><td>0xac881110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.tips</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/TipsPrebuilt</td><td>0x304bbe45</td><td>0x8c081018</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.documentsui.theme.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelDocumentsUIGoogleOverlay</td><td>0x2008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.modulemetadata</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/ModuleMetadataGoogle</td><td>0x3008be41</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.markup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/MarkupGoogle</td><td>0x3048be45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.cellbroadcastreceiver</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/CellBroadcastLegacyApp</td><td>0x3008be45</td><td>0x8c501068</td></tr><tr><td>2023-05-01 13:20:10</td><td>com.google.android.webview</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/data/app/~~BaoerQq79lJ-I4WGaL17dg==/com.google.android.webview-AkDaTp6sRSY17TFsZ-kvPg==</td><td>0xa008bec5</td><td>0x8c089000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.carrier.log</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CarrierMetrics</td><td>0x30083e45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.networkstack</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/NetworkStackGoogle</td><td>0x2808be4d</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.contacts</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/GoogleContacts</td><td>0x304bbe45</td><td>0x8c081100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.server.telecom</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/Telecom</td><td>0x30483e45</td><td>0x8c501068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.keychain</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/KeyChain</td><td>0x30083e45</td><td>0x8c501000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.server.telecom.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/Telecom__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.googleconfig</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/GoogleConfigOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.calculator</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/CalculatorGooglePrebuilt</td><td>0x3449be45</td><td>0x8c081000</td></tr><tr><td>2023-05-01 13:20:09</td><td>com.android.chrome</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/data/app/~~-SkoWT8RK_trQIZ4VBFgrw==/com.android.chrome-l5X8FD6c-NrOVxKwlmrWJQ==</td><td>0xa04bbec5</td><td>0x84089110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.bips.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/BuiltInPrintService__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.packageinstaller</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/GooglePackageInstaller</td><td>0x30483e45</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.customization.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PixelThemesStub</td><td>0x2008be41</td><td>0x8c081000</td></tr><tr><td>2023-05-05 08:55:00</td><td>com.google.android.gms</td><td></td><td>2023-05-05 08:55:01.224000</td><td></td><td>com.android.vending</td><td>/data/app/~~HdFvu6iWT8MVEPFpU4UhBQ==/com.google.android.gms-jDfzlje3iaHMpXRrfpLMmQ==</td><td>0xa04abec5</td><td>0xa8089118</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.gsf</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/GoogleServicesFramework</td><td>0x8483e45</td><td>0x8c601108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.ims</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CarrierServices</td><td>0x28083e45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.tag</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/TagGoogle</td><td>0x3008be45</td><td>0x8c001008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.tts</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/GoogleTTS</td><td>0x204bbe45</td><td>0x8c081100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.permissioncontroller</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/GooglePermissionControllerOverlay.apk</td><td>0x1808be41</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.calllogbackup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/CallLogBackup</td><td>0x3009be45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.partnersetup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/PartnerSetupPrebuilt</td><td>0x30083e45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.safetyregulatoryinfo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/SafetyRegulatoryInfo</td><td>0x30483e45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.cameraextensions</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/CameraExtensionsProxy</td><td>0x3008be45</td><td>0x8c501060</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixel.setupwizard.overlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelSetupWizardOverlay.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.wallpaper.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PixelWallpapers2021</td><td>0x2008be41</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.localtransport</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/LocalTransport</td><td>0x30083e45</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.videos</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/Videos</td><td>0x305bbe45</td><td>0x8c081010</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.euiccpixel.overlay.gs101</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/EuiccSupportPixelOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.wallpaper.effects</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/WallpaperEffect</td><td>0x2008be45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.nexuslauncher</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/NexusLauncherRelease</td><td>0x344bbe45</td><td>0x8c603108</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.nearby.halfsheet</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.tethering/app/HalfSheetUXGoogle@331012200</td><td>0x2008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.carrierdefaultapp</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/CarrierDefaultApp</td><td>0x3808be45</td><td>0x8c501050</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.virtualmachine.res</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.virt/app/android.system.virtualmachine.res.google@TQ2A.230405.003.G1</td><td>0x2008be41</td><td>0x8c201000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.RilConfigService</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/RilConfigService</td><td>0x2008be45</td><td>0x8c701008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.theme.font.notoserifsource</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/FontNotoSerifSource</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.proxyhandler</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/ProxyHandler</td><td>0x3008be45</td><td>0x8c501068</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.safetycenter.resources</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.permission/priv-app/GoogleSafetyCenterResources@331115020</td><td>0x2008be45</td><td>0x8c001068</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.compos.payload</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.compos/app/CompOSPayloadApp@TQ2A.230405.003.G1</td><td>0x2008be41</td><td>0x8c201000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.waterfall</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutEmulationWaterfall</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.intentresolver</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/IntentResolver</td><td>0x3048be45</td><td>0x8c501048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.SSRestartDetector</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SSRestartDetector</td><td>0x3008be4d</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.storagemanager.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/StorageManagerGoogle__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.customermobile.preload.vzw</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/Showcase</td><td>0x38083e45</td><td>0xac181008</td></tr><tr><td>2023-05-09 04:02:24</td><td>com.zhiliaoapp.musically</td><td></td><td>2023-05-09 04:02:26.292000</td><td></td><td>com.android.vending</td><td>/data/app/~~l2sYBjkdJK4syzVprvV0WQ==/com.zhiliaoapp.musically-YFJTJsn9kbfuZe6OcfdEfA==</td><td>0x3c59be44</td><td>0x2c000510</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.connectivity.resources</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@331012200</td><td>0x2008be41</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.contacts.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/ContactsProvider__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.feedback</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/GoogleFeedback</td><td>0x3008be45</td><td>0x8c601008</td></tr><tr><td>2023-05-01 13:31:02</td><td>com.topjohnwu.magisk</td><td></td><td>2023-05-01 13:31:08.823000</td><td></td><td>com.topjohnwu.magisk</td><td>/data/app/~~RMvX1SgQDZPM_77OZOSROg==/com.topjohnwu.magisk-mQf-pGfY9OL4jAlQnVOBoA==</td><td>0xb0483e44</td><td>0xac001100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.printservice.recommendation</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/GooglePrintRecommendationService</td><td>0x30083e05</td><td>0x8c001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.photos</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/Photos</td><td>0x3859be45</td><td>0xac081010</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.calendar</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/CalendarGooglePrebuilt</td><td>0x304bbe45</td><td>0x8c081010</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.managedprovisioning</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/ManagedProvisioning</td><td>0x3848be05</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixelnfc</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/PixelNfc</td><td>0x30483e45</td><td>0x8c601008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.soundpicker</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/SoundPicker</td><td>0x30483e45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.documentsui</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/DocumentsUIGoogle</td><td>0x3049be45</td><td>0x8c001008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.mainline.telemetry</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PrebuiltGoogleTelemetryTvp</td><td>0x3008be41</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.systemui.gxoverlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SystemUIGXOverlay.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.internal.betterbug</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/BetterBugStub</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.cellbroadcastservice.overlay.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/CellBroadcastServiceOverlay</td><td>0x2008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.sdm.plugins.dcmo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DCMO</td><td>0x2008be45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.camera.services</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PixelCameraServicesRaven</td><td>0x3018be45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.partnerbookmarks</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/PartnerBookmarksProvider</td><td>0x3008be45</td><td>0x8c001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixel.setupwizard.overlay2019</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelSetupWizardOverlay2019.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.pixel.setupwizard.overlay2021</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelSetupWizardOverlay2021.apk</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.shannon.imsservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/ShannonIms</td><td>0x20483e4d</td><td>0x8c601048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.wallpaper.livepicker</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/LiveWallpapersPicker</td><td>0x3048be45</td><td>0x8c401008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.telephony.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/TelephonyProvider__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.phone.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/TeleService__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.mainline.adservices</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/PrebuiltGoogleAdservicesTvp</td><td>0x3008be41</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.imsserviceentitlement</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/ImsServiceEntitlement</td><td>0x3008be45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.traceur.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/Traceur__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.cbrsnetworkmonitor</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CbrsNetworkMonitor</td><td>0x3008be4d</td><td>0x8c081048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.display.cutout.emulation.avoidAppsInCutout</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/DisplayCutoutAvoidAppsInCutout</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.gms.supervision</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/KidsSupervisionStub</td><td>0x30083e41</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.bookmarkprovider</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/BookmarkProvider</td><td>0x3008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.overlay.pixelconfigcommon</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/PixelConfigOverlayCommon.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/SettingsGoogle</td><td>0x3849be45</td><td>0x8c701068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.wfcactivation</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/WfcActivation</td><td>0x3808be45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.healthdata</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/HealthConnectPrebuilt</td><td>0x344bbe45</td><td>0x8d081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.samsung.slsi.telephony.oemril</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/OemRilService</td><td>0x30083e0d</td><td>0x8c601068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.settings.intelligence</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SettingsIntelligenceGooglePrebuilt</td><td>0x3048be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.projection.gearhead</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/AndroidAutoStubPrebuilt</td><td>0x280bbe45</td><td>0x8c080908</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.scone</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/SCONE</td><td>0x20083e45</td><td>0x8c081068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.turbo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/TurboPrebuilt</td><td>0x304bbe45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.tycho</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/Tycho</td><td>0x20083e45</td><td>0x8c081110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.tetheringentitlement</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/TetheringEntitlement</td><td>0x38083e45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.omadm.service</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DMService</td><td>0x30083e45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.dreamliner</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DreamlinerPrebuilt</td><td>0x3048be45</td><td>0x8c081008</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.android.cts.ctsshim</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.apex.cts.shim/app/CtsShim@1</td><td>0x2008be41</td><td>0xa4001000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.wearables.maestro.companion</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/MaestroPrebuilt</td><td>0x3008be45</td><td>0x8c081008</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.wifi.resources</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@331016200</td><td>0x2808be41</td><td>0x8c001068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.remoteprovisioner</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/RemoteProvisioner</td><td>0x3008be45</td><td>0x8c601108</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.wifi.dialog</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.wifi/app/WifiDialogGoogle@331016200</td><td>0x2048be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.nfc.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/NfcNci__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.connectivitythermalpowermanager</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/ConnectivityThermalPowerManager</td><td>0x2008be4d</td><td>0x8c701108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.vpndialogs</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/VpnDialogs</td><td>0x30083e45</td><td>0x8c501008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.wallpaper</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/WallpaperPickerGoogleRelease</td><td>0x204bbe45</td><td>0x8c601018</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.odad</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/OdadPrebuilt</td><td>0x3048be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.angle</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/ANGLE</td><td>0xa008be45</td><td>0x8c081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.phone</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/TeleService</td><td>0x38483e4d</td><td>0x8c501068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.shell</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/Shell</td><td>0x3008be45</td><td>0x8c501068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.recorder</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/RecorderPrebuilt</td><td>0x30483e45</td><td>0x84081008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.wallpaperbackup</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/WallpaperBackup</td><td>0x3408be05</td><td>0x8c503000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.blockednumber</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/BlockedNumberProvider</td><td>0x3008be45</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.settings.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/SettingsGoogle__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4480000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.work.clouddpc</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/DevicePolicyPrebuilt</td><td>0x3008be45</td><td>0x8c081110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.userdictionary</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/UserDictionaryProvider</td><td>0x3008be05</td><td>0x8c401008</td></tr><tr><td>2023-05-02 03:33:49</td><td>com.hld.anzenbokusucal</td><td></td><td>2023-05-02 03:33:49.971000</td><td></td><td>com.android.vending</td><td>/data/app/~~F3706-nx-3LTT6QLZQyMfg==/com.hld.anzenbokusucal-KpsNvN7VZ9Shox5Aw41oNw==</td><td>0x20583e44</td><td>0xac001100</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.carrier.carrierwifi</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/CarrierWifi</td><td>0x20083e45</td><td>0x8c481068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.emergency</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/app/EmergencyInfoGoogleNoUi</td><td>0x3008be45</td><td>0x8c701120</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.media.overlay.pixel</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/MediaProviderOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.captiveportallogin.overlay</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/CaptivePortalLoginOverlay</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.gms.location.history</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/LocationHistoryPrebuilt</td><td>0x30483e45</td><td>0x8c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.systemui.navbar.gestural</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NavigationBarModeGestural</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.location.fused</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/FusedLocation</td><td>0x3008be45</td><td>0x8c501068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.systemui</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/SystemUIGoogle</td><td>0x2048be0d</td><td>0x8cf01168</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.ondevicepersonalization.services</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.ondevicepersonalization/app/OnDevicePersonalizationGoogle@330442000</td><td>0x2008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.hardwareinfo</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/HardwareInfo</td><td>0x20083e45</td><td>0x8c081048</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.youtube.music</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/YouTubeMusicPrebuilt</td><td>0x2059be45</td><td>0x8c081110</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.bluetoothmidiservice</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/BluetoothMidiService</td><td>0x3008be45</td><td>0x8c401000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.dreamlinerupdater</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/DreamlinerUpdater</td><td>0x30083e45</td><td>0x8c181008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.traceur</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/Traceur</td><td>0x3009be45</td><td>0x8c501000</td></tr><tr><td>1970-01-01 00:00:00</td><td>com.google.android.cellbroadcastreceiver</td><td></td><td>1970-01-01 00:00:00</td><td></td><td></td><td>/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@331013180</td><td>0x2049be45</td><td>0x8c401068</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.helprtc</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/HelpRtcPrebuilt</td><td>0x30483e45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.phone.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/TeleService__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4080000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.omadm.service.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/DMService__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4040000</td></tr><tr><td>2009-01-01 00:00:00</td><td>android.auto_generated_rro_product__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/framework-res__auto_generated_rro_product.apk</td><td>0x808be45</td><td>0xb4480000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.apps.gcs</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/GCS</td><td>0x284bbe45</td><td>0x8c081108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.bluetooth</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/app/GoogleBluetoothLegacyMigration</td><td>0x30083e45</td><td>0x8c401108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.providers.contacts</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system/priv-app/ContactsProvider</td><td>0x30083e45</td><td>0x8c401108</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.GoogleCamera</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/priv-app/GoogleCamera</td><td>0x205bbc45</td><td>0x8c081018</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.android.internal.systemui.navbar.gestural_narrow_back</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/overlay/NavigationBarModeGesturalNarrowBack</td><td>0x3008be41</td><td>0x9c081000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.verizon.llkagent</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/LLKAgent</td><td>0x30083e45</td><td>0x8c701008</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.inputmethod.latin</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/product/app/LatinIMEGooglePrebuilt</td><td>0x204abe45</td><td>0x8c081110</td></tr><tr><td>2023-05-01 13:20:08</td><td>com.google.android.trichromelibrary_506007133</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/data/app/~~swC-M07cSLpgTGkkNIglyw==/com.google.android.trichromelibrary_506007133-MiBeJBGkWer_VnB6Qsvj0w==</td><td>0xa008bec5</td><td>0x8c085000</td></tr><tr><td>2009-01-01 00:00:00</td><td>com.google.android.storagemanager</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/system_ext/priv-app/StorageManagerGoogle</td><td>0x30483e45</td><td>0x8c601008</td></tr><tr><td>2009-01-01 00:00:00</td><td>android.auto_generated_rro_vendor__</td><td></td><td>2009-01-01 00:00:00</td><td></td><td></td><td>/vendor/overlay/framework-res__auto_generated_rro_vendor.apk</td><td>0x808be45</td><td>0xb4440000</td></tr><tr><td>2023-05-09 03:57:49</td><td>com.google.android.apps.restore</td><td></td><td>2023-05-09 03:57:49.448000</td><td></td><td>com.android.vending</td><td>/data/app/~~U0Cw5Vwarju8InpQ9ErpKg==/com.google.android.apps.restore-ZIhT04PJhMwOOw0PwsrPKg==</td><td>0x20483ec5</td><td>0xac081008</td></tr></tbody><tfoot><tr><th>ft</th><th>Name</th><th>Install Time</th><th>Update Time</th><th>Install Originator</th><th>Installer</th><th>Code Path</th><th>Public Flags</th><th>Private Flags</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <!-- Chart.js -->
+    <script type="text/javascript" src="_elements/chart.umd.min.js"></script>
+    <script type="text/javascript" src="_elements/moment.min.js"></script>
+    <script type="text/javascript" src="_elements/timeline/js/timeline.min.js"></script>
+    <!-- Garmin Functions -->
+    <script type="text/javascript" src="_elements/garmin-functions.js"></script>
+    <script type="text/javascript" src="_elements/chat.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

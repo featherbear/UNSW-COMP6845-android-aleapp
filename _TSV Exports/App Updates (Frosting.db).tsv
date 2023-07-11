@@ -1,0 +1,627 @@
+﻿Last Updated Timestamp	App Package Name	APK Path
+2009-01-01 00:00:00	com.google.omadm.trigger	/product/priv-app/OemDmTrigger/OemDmTrigger.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.diagmon	/product/priv-app/DiagMon/DiagMon.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.dcmo	/product/priv-app/DCMO/DCMO.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.connmo	/product/priv-app/ConnMO/ConnMO.apk
+2009-01-01 00:00:00	com.verizon.services	/product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk
+2009-01-01 00:00:00	com.verizon.llkagent	/system_ext/priv-app/LLKAgent/LLKAgent.apk
+2009-01-01 00:00:00	com.android.omadm.service	/product/priv-app/DMService/DMService.apk
+2009-01-01 00:00:00	com.customermobile.preload.vzw	/product/priv-app/Showcase/Showcase.apk
+2009-01-01 00:00:00	com.vzw.apnlib	/product/app/VZWAPNLib/VZWAPNLib.apk
+2009-01-01 00:00:00	com.verizon.mips.services	/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk
+2009-01-01 00:00:00	com.google.android.youtube	/product/app/YouTube/YouTube.apk
+2009-01-01 00:00:00	com.google.android.apps.maps	/product/app/Maps/Maps.apk
+2009-01-01 00:00:00	com.google.android.videos	/product/app/Videos/Videos.apk
+2009-01-01 00:00:00	com.shannon.qualifiednetworksservice	/system_ext/priv-app/ShannonQualifiedNetworksService/ShannonQualifiedNetworksService.apk
+2009-01-01 00:00:00	com.google.android.uvexposurereporter	/system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.noCutout	/product/overlay/DisplayCutoutNoCutout/NoCutoutOverlay.apk
+	com.google.android.networkstack.tethering	/apex/com.android.tethering/priv-app/TetheringGoogle@331012200/TetheringGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.trafficlightfaceoverlay	/product/overlay/TrafficLightFaceOverlay.apk
+2009-01-01 00:00:00	com.google.android.carriersetup	/system_ext/priv-app/CarrierSetup/CarrierSetup.apk
+	com.android.cts.priv.ctsshim	/apex/com.android.apex.cts.shim/priv-app/CtsShimPriv@1/CtsShimPriv.apk
+	com.android.uwb.resources	/apex/com.android.uwb/priv-app/ServiceUwbResources@331015200/ServiceUwbResources.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.corner	/product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk
+2009-01-01 00:00:00	com.android.settings.overlay.pixel2021	/product/overlay/SettingsGoogleOverlayPixel2021.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.double	/product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2018	/product/overlay/PixelConfigOverlay2018.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2019	/product/overlay/PixelConfigOverlay2019.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2021	/product/overlay/PixelConfigOverlay2021.apk
+2009-01-01 00:00:00	com.android.providers.telephony	/system/priv-app/TelephonyProvider/TelephonyProvider.apk
+2009-01-01 00:00:00	com.google.android.carrierlocation	/product/priv-app/CarrierLocation/CarrierLocation.apk
+2009-01-01 00:00:00	com.android.dynsystem	/system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk
+2009-01-01 00:00:00	com.google.android.googlequicksearchbox	/product/priv-app/Velvet/Velvet.apk
+	com.google.android.cellbroadcastservice	/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@331013180/GoogleCellBroadcastServiceModule.apk
+2009-01-01 00:00:00	com.google.android.flipendo.auto_generated_rro_vendor__	/vendor/overlay/Flipendo__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.providers.calendar	/system/priv-app/CalendarProvider/CalendarProvider.apk
+2009-01-01 00:00:00	com.google.android.googlequicksearchbox.nga_resources	/product/app/NgaResources/NgaResources.apk
+2009-01-01 00:00:00	com.android.providers.media	/system/priv-app/MediaProviderLegacy/MediaProviderLegacy.apk
+2009-01-01 00:00:00	com.google.pixel.livewallpaper	/product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.onetimeinitializer	/product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk
+2009-01-01 00:00:00	com.google.android.ext.shared	/system/app/GoogleExtShared/GoogleExtShared.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_wide_back	/product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk
+2009-01-01 00:00:00	com.qorvo.uwb.vendorservice	/system_ext/priv-app/UwbVendorService/UwbVendorService.apk
+2009-01-01 00:00:00	com.android.hbmsvmanager	/system_ext/priv-app/HbmSVManager/HbmSVManager.apk
+2009-01-01 00:00:00	com.google.android.euiccoverlay	/system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.diagnosticstool	/product/priv-app/DiagnosticsToolPrebuilt/DiagnosticsToolPrebuilt.apk
+2009-01-01 00:00:00	com.google.euiccpixel.permissions	/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
+2009-01-01 00:00:00	com.google.euiccpixel	/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk
+2009-01-01 00:00:00	com.google.android.flipendo	/system_ext/app/Flipendo/Flipendo.apk
+2009-01-01 00:00:00	com.android.settings.overlay.g8v0u	/product/overlay/SettingsOverlayG8V0U.apk
+2009-01-01 00:00:00	com.google.android.storagemanager.auto_generated_rro_product__	/product/overlay/StorageManagerGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.settings.overlay.raven	/product/overlay/SettingsGoogleRavenOverlay.apk
+2009-01-01 00:00:00	com.android.simappdialog.auto_generated_rro_product__	/product/overlay/SimAppDialog__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.safetyregulatoryinfo.auto_generated_rro_product__	/product/overlay/SafetyRegulatoryInfo__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.omadm.service.auto_generated_rro_product__	/product/overlay/DMService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.externalstorage	/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk
+2009-01-01 00:00:00	com.android.htmlviewer	/system/app/HTMLViewer/HTMLViewer.apk
+2009-01-01 00:00:00	com.android.companiondevicemanager	/system/app/CompanionDeviceManager/CompanionDeviceManager.apk
+2009-01-01 00:00:00	com.android.mms.service	/system/priv-app/MmsService/MmsService.apk
+2009-01-01 00:00:00	com.android.providers.downloads	/system/priv-app/DownloadProvider/DownloadProvider.apk
+2009-01-01 00:00:00	com.android.systemui.auto_generated_rro_product__	/product/overlay/SystemUIGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.messaging	/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk
+2009-01-01 00:00:00	com.google.android.soundpicker	/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.systemui.overlay.pixelbatteryhealthconfig	/product/overlay/PixelBatteryHealthOverlay.apk
+2009-01-01 00:00:00	android.autoinstalls.config.google.nexus	/product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk
+2009-01-01 00:00:00	com.google.android.apps.scone.overlays	/product/overlay/SconeCbrsOverlay/SconeCbrsOverlay.apk
+2009-01-01 00:00:00	com.google.android.configupdater	/product/priv-app/ConfigUpdater/ConfigUpdater.apk
+	com.google.android.providers.media.module	/apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@331011200/MediaProviderGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.udfpsoverlay	/product/overlay/UdfpsOverlay.apk
+2009-01-01 00:00:00	com.google.android.wifi.resources.pixel	/product/overlay/WifiOverlay/PixelWifiOverlay2021.apk
+2009-01-01 00:00:00	com.google.android.overlay.googlewebview	/product/overlay/GoogleWebViewOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.safetyhub	/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.factoryota	/system_ext/priv-app/FactoryOtaPrebuilt/FactoryOtaPrebuilt.apk
+2009-01-01 00:00:00	com.android.systemui.plugin.globalactions.wallet	/system_ext/priv-app/QuickAccessWallet/QuickAccessWallet.apk
+2009-01-01 00:00:00	com.google.ar.core	/product/app/arcore/arcore.apk
+2009-01-01 00:00:00	com.android.providers.downloads.ui	/system/priv-app/DownloadProviderUi/DownloadProviderUi.apk
+	com.google.android.hotspot2.osulogin	/apex/com.android.wifi/app/OsuLoginGoogle@331016200/OsuLoginGoogle.apk
+2009-01-01 00:00:00	com.android.pacprocessor	/system/app/PacProcessor/PacProcessor.apk
+2009-01-01 00:00:00	com.android.simappdialog	/system/app/SimAppDialog/SimAppDialog.apk
+2009-01-01 00:00:00	com.android.cellbroadcastreceiver.overlay.pixel	/product/overlay/CellBroadcastReceiverOverlay/CellBroadcastReceiverOverlay.apk
+	com.google.android.adservices.api	/apex/com.android.adservices/priv-app/AdServicesApkGoogle@330442000/AdServicesApkGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2019midyear	/product/overlay/PixelConfigOverlay2019Midyear.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.hole	/product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.tall	/product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk
+2009-01-01 00:00:00	com.android.networkstack.overlay	/product/overlay/NetworkStackOverlay.apk
+2009-01-01 00:00:00	com.android.certinstaller	/system/app/CertInstaller/CertInstaller.apk
+2009-01-01 00:00:00	com.google.android.marvin.talkback	/product/app/talkback/talkback.apk
+2009-01-01 00:00:00	com.google.android.apps.accessibility.voiceaccess	/product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.connectivity.resources.overlay	/product/overlay/PixelConnectivityOverlay2021.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.threebutton	/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.work.oobconfig	/product/priv-app/OTAConfigNoZeroTouchPrebuilt/OTAConfigNoZeroTouchPrebuilt.apk
+2009-01-01 00:00:00	android	/system/framework/framework-res.apk
+2009-01-01 00:00:00	com.android.hotwordenrollment.xgoogle	/product/priv-app/HotwordEnrollmentXGoogleFUSION/HotwordEnrollmentXGoogleFUSION.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard	/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk
+2009-01-01 00:00:00	com.google.android.grilservice	/system_ext/priv-app/grilservice/grilservice.apk
+	com.google.android.sdksandbox	/apex/com.android.adservices/app/SdkSandboxGoogle@330442000/SdkSandboxGoogle.apk
+2009-01-01 00:00:00	com.android.egg	/system/app/EasterEgg/EasterEgg.apk
+2009-01-01 00:00:00	com.android.mtp	/system/priv-app/MtpService/MtpService.apk
+2009-01-01 00:00:00	com.android.nfc	/system/app/NfcNci/NfcNci.apk
+2009-01-01 00:00:00	com.android.ons	/system/priv-app/ONS/ONS.apk
+2009-01-01 00:00:00	com.android.stk	/system/app/Stk/Stk.apk
+2009-01-01 00:00:00	com.android.backupconfirm	/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk
+2009-01-01 00:00:00	com.android.settings.auto_generated_rro_vendor__	/vendor/overlay/SettingsGoogle__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.systemui.auto_generated_rro_vendor__	/vendor/overlay/SystemUIGoogle__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.samsung.slsi.telephony.oem.oemrilhookservice	/system_ext/app/OemRilHookService/OemRilHookService.apk
+2009-01-01 00:00:00	com.google.android.deskclock	/product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk
+2009-01-01 00:00:00	com.google.android.as	/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk
+2009-01-01 00:00:00	com.google.android.gm	/product/app/PrebuiltGmail/PrebuiltGmail.apk
+2009-01-01 00:00:00	com.google.android.carrier	/product/priv-app/CarrierSettings/CarrierSettings.apk
+2009-01-01 00:00:00	com.google.android.apps.security.securityhub	/product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.turboadapter	/system_ext/priv-app/TurboAdapter/TurboAdapter.apk
+2009-01-01 00:00:00	com.android.managedprovisioning.overlay	/product/overlay/ManagedProvisioningPixelOverlay.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_extra_wide_back	/product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk
+2009-01-01 00:00:00	com.google.android.setupwizard	/product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk
+2009-01-01 00:00:00	com.google.pixel.digitalkey.timesync	/system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk
+2009-01-01 00:00:00	com.android.providers.settings	/system/priv-app/SettingsProvider/SettingsProvider.apk
+2009-01-01 00:00:00	com.google.android.networkstack.tethering.overlay2021	/product/overlay/PixelTetheringOverlay2021.apk
+2009-01-01 00:00:00	com.android.sharedstoragebackup	/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk
+2009-01-01 00:00:00	com.android.nfc.auto_generated_rro_product__	/product/overlay/NfcNci__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.euicc	/product/priv-app/EuiccGoogle/EuiccGoogle.apk
+2009-01-01 00:00:00	com.google.android.iwlan	/system_ext/priv-app/Iwlan/Iwlan.apk
+2009-01-01 00:00:00	com.android.printspooler	/system/app/PrintSpooler/PrintSpooler.apk
+2009-01-01 00:00:00	com.android.hotwordenrollment.okgoogle	/product/priv-app/HotwordEnrollmentOKGoogleFUSION/HotwordEnrollmentOKGoogleFUSION.apk
+2009-01-01 00:00:00	com.android.dreams.basic	/system/app/BasicDreams/BasicDreams.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.auto_generated_rro_product__	/product/overlay/PixelSetupWizard__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.providers.settings.auto_generated_rro_product__	/product/overlay/SettingsProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.as.oss	/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk
+2009-01-01 00:00:00	com.android.se	/system/app/SecureElement/SecureElement.apk
+2009-01-01 00:00:00	com.android.inputdevices	/system/priv-app/InputDevices/InputDevices.apk
+2009-01-01 00:00:00	com.android.traceur.auto_generated_rro_product__	/product/overlay/Traceur__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.wellbeing	/product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.dialer	/product/priv-app/GoogleDialer/GoogleDialer.apk
+2009-01-01 00:00:00	com.android.bips	/system/priv-app/BuiltInPrintService/BuiltInPrintService.apk
+2009-01-01 00:00:00	com.google.audio.hearing.visualization.accessibility.scribe	/product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.apps.nbu.files	/product/priv-app/FilesPrebuilt/FilesPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.flipendo.auto_generated_rro_product__	/product/overlay/Flipendo__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.accessibility.soundamplifier	/product/app/SoundAmplifierPrebuilt/SoundAmplifierPrebuilt.apk
+2009-01-01 00:00:00	com.shannon.rcsservice	/system_ext/priv-app/ShannonRcs/ShannonRcs.apk
+2009-01-01 00:00:00	com.google.ambient.streaming	/product/priv-app/AmbientStreaming/AmbientStreaming.apk
+2009-01-01 00:00:00	com.android.musicfx	/system/priv-app/MusicFX/MusicFX.apk
+2009-01-01 00:00:00	com.android.ons.auto_generated_rro_vendor__	/vendor/overlay/ONS__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.apps.docs	/product/app/Drive/Drive.apk
+2009-01-01 00:00:00	com.google.android.apps.tips	/product/priv-app/TipsPrebuilt/TipsPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.documentsui.theme.pixel	/product/overlay/PixelDocumentsUIGoogleOverlay/PixelDocumentsUIGoogleOverlay.apk
+2009-01-01 00:00:00	com.google.android.markup	/product/app/MarkupGoogle/MarkupGoogle.apk
+2009-01-01 00:00:00	com.android.cellbroadcastreceiver	/system/priv-app/CellBroadcastLegacyApp/CellBroadcastLegacyApp.apk
+2009-01-01 00:00:00	com.google.android.webview	/data/app/~~BaoerQq79lJ-I4WGaL17dg==/com.google.android.webview-AkDaTp6sRSY17TFsZ-kvPg==/WebViewGoogle.apk
+2009-01-01 00:00:00	com.google.android.apps.carrier.log	/product/priv-app/CarrierMetrics/CarrierMetrics.apk
+2009-01-01 00:00:00	com.google.android.contacts	/product/app/GoogleContacts/GoogleContacts.apk
+2009-01-01 00:00:00	com.android.server.telecom	/system/priv-app/Telecom/Telecom.apk
+2009-01-01 00:00:00	com.android.keychain	/system/app/KeyChain/KeyChain.apk
+2009-01-01 00:00:00	com.android.server.telecom.auto_generated_rro_product__	/product/overlay/Telecom__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.overlay.googleconfig	/product/overlay/GoogleConfigOverlay.apk
+2009-01-01 00:00:00	com.google.android.calculator	/product/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk
+2009-01-01 00:00:00	com.android.chrome	/data/app/~~-SkoWT8RK_trQIZ4VBFgrw==/com.android.chrome-l5X8FD6c-NrOVxKwlmrWJQ==/Chrome.apk
+2009-01-01 00:00:00	com.android.bips.auto_generated_rro_product__	/product/overlay/BuiltInPrintService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.packageinstaller	/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk
+2009-01-01 00:00:00	com.google.android.apps.customization.pixel	/product/app/PixelThemesStub/PixelThemesStub.apk
+2009-01-01 00:00:00	com.google.android.gsf	/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+2009-01-01 00:00:00	com.google.android.ims	/product/priv-app/CarrierServices/CarrierServices.apk
+2009-01-01 00:00:00	com.google.android.tag	/system/priv-app/TagGoogle/TagGoogle.apk
+2009-01-01 00:00:00	com.google.android.tts	/product/app/GoogleTTS/GoogleTTS.apk
+2009-01-01 00:00:00	com.google.android.overlay.permissioncontroller	/product/overlay/GooglePermissionControllerOverlay.apk
+2009-01-01 00:00:00	com.android.calllogbackup	/system/priv-app/CallLogBackup/CallLogBackup.apk
+2009-01-01 00:00:00	com.google.android.partnersetup	/product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk
+2009-01-01 00:00:00	com.android.safetyregulatoryinfo	/product/app/SafetyRegulatoryInfo/SafetyRegulatoryInfo.apk
+2009-01-01 00:00:00	com.android.cameraextensions	/system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay	/product/overlay/PixelSetupWizardOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.wallpaper.pixel	/product/app/PixelWallpapers2021/PixelWallpapers2021.apk
+2009-01-01 00:00:00	com.android.localtransport	/system/priv-app/LocalTransport/LocalTransport.apk
+2009-01-01 00:00:00	com.google.euiccpixel.overlay.gs101	/product/overlay/EuiccSupportPixelOverlay/EuiccSupportPixelOverlay.apk
+2009-01-01 00:00:00	com.google.android.wallpaper.effects	/product/priv-app/WallpaperEffect/WallpaperEffect.apk
+2009-01-01 00:00:00	com.google.android.apps.nexuslauncher	/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
+	com.google.android.nearby.halfsheet	/apex/com.android.tethering/app/HalfSheetUXGoogle@331012200/HalfSheetUXGoogle.apk
+2009-01-01 00:00:00	com.android.carrierdefaultapp	/system/app/CarrierDefaultApp/CarrierDefaultApp.apk
+	com.google.android.virtualmachine.res	/apex/com.android.virt/app/android.system.virtualmachine.res.google@TQ2A.230405.003.G1/android.system.virtualmachine.res.google.apk
+2009-01-01 00:00:00	com.google.RilConfigService	/system_ext/priv-app/RilConfigService/RilConfigService.apk
+2009-01-01 00:00:00	com.android.theme.font.notoserifsource	/product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk
+2009-01-01 00:00:00	com.android.proxyhandler	/system/priv-app/ProxyHandler/ProxyHandler.apk
+	com.google.android.safetycenter.resources	/apex/com.android.permission/priv-app/GoogleSafetyCenterResources@331115020/GoogleSafetyCenterResources.apk
+	com.google.android.compos.payload	/apex/com.android.compos/app/CompOSPayloadApp@TQ2A.230405.003.G1/CompOSPayloadApp.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.waterfall	/product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk
+2009-01-01 00:00:00	com.android.intentresolver	/system/priv-app/IntentResolver/IntentResolver.apk
+2009-01-01 00:00:00	com.google.SSRestartDetector	/product/priv-app/SSRestartDetector/SSRestartDetector.apk
+2009-01-01 00:00:00	com.google.android.storagemanager.auto_generated_rro_vendor__	/vendor/overlay/StorageManagerGoogle__auto_generated_rro_vendor.apk
+	com.google.android.connectivity.resources	/apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@331012200/ServiceConnectivityResourcesGoogle.apk
+2009-01-01 00:00:00	com.android.providers.contacts.auto_generated_rro_product__	/product/overlay/ContactsProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.feedback	/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
+2009-01-01 00:00:00	com.google.android.printservice.recommendation	/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk
+2009-01-01 00:00:00	com.google.android.apps.photos	/product/app/Photos/Photos.apk
+2009-01-01 00:00:00	com.google.android.calendar	/product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk
+2009-01-01 00:00:00	com.android.managedprovisioning	/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk
+2009-01-01 00:00:00	com.google.android.pixelnfc	/system_ext/priv-app/PixelNfc/PixelNfc.apk
+2009-01-01 00:00:00	com.android.soundpicker	/system/priv-app/SoundPicker/SoundPicker.apk
+2009-01-01 00:00:00	com.google.android.systemui.gxoverlay	/product/overlay/SystemUIGXOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.internal.betterbug	/product/priv-app/BetterBugStub/BetterBugStub.apk
+2009-01-01 00:00:00	com.android.cellbroadcastservice.overlay.pixel	/product/overlay/CellBroadcastServiceOverlay/CellBroadcastServiceOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.camera.services	/product/app/PixelCameraServicesRaven/PixelCameraServicesRaven.apk
+2009-01-01 00:00:00	com.android.providers.partnerbookmarks	/system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay2019	/product/overlay/PixelSetupWizardOverlay2019.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay2021	/product/overlay/PixelSetupWizardOverlay2021.apk
+2009-01-01 00:00:00	com.shannon.imsservice	/system_ext/priv-app/ShannonIms/ShannonIms.apk
+2009-01-01 00:00:00	com.android.wallpaper.livepicker	/system/priv-app/LiveWallpapersPicker/LiveWallpapersPicker.apk
+2009-01-01 00:00:00	com.android.providers.telephony.auto_generated_rro_product__	/product/overlay/TelephonyProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.phone.auto_generated_rro_vendor__	/vendor/overlay/TeleService__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.imsserviceentitlement	/product/priv-app/ImsServiceEntitlement/ImsServiceEntitlement.apk
+2009-01-01 00:00:00	com.android.traceur.auto_generated_rro_vendor__	/vendor/overlay/Traceur__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.apps.cbrsnetworkmonitor	/product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.avoidAppsInCutout	/product/overlay/DisplayCutoutAvoidAppsInCutout/AvoidAppsInCutoutOverlay.apk
+2009-01-01 00:00:00	com.google.android.gms.supervision	/product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk
+2009-01-01 00:00:00	com.android.bookmarkprovider	/system/app/BookmarkProvider/BookmarkProvider.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfigcommon	/product/overlay/PixelConfigOverlayCommon.apk
+2009-01-01 00:00:00	com.android.settings	/system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
+2009-01-01 00:00:00	com.google.android.wfcactivation	/product/priv-app/WfcActivation/WfcActivation.apk
+2009-01-01 00:00:00	com.google.android.apps.healthdata	/product/priv-app/HealthConnectPrebuilt/HealthConnectPrebuilt.apk
+2009-01-01 00:00:00	com.samsung.slsi.telephony.oemril	/system_ext/priv-app/OemRilService/OemRilService.apk
+2009-01-01 00:00:00	com.google.android.settings.intelligence	/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.projection.gearhead	/product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.apps.scone	/product/priv-app/SCONE/SCONE.apk
+2009-01-01 00:00:00	com.google.android.apps.turbo	/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.tetheringentitlement	/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
+2009-01-01 00:00:00	com.google.android.apps.dreamliner	/product/priv-app/DreamlinerPrebuilt/DreamlinerPrebuilt.apk
+	com.android.cts.ctsshim	/apex/com.android.apex.cts.shim/app/CtsShim@1/CtsShim.apk
+2009-01-01 00:00:00	com.google.android.apps.wearables.maestro.companion	/product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk
+	com.google.android.wifi.resources	/apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@331016200/ServiceWifiResourcesGoogle.apk
+2009-01-01 00:00:00	com.android.remoteprovisioner	/system_ext/priv-app/RemoteProvisioner/RemoteProvisioner.apk
+	com.google.android.wifi.dialog	/apex/com.android.wifi/app/WifiDialogGoogle@331016200/WifiDialogGoogle.apk
+2009-01-01 00:00:00	com.android.nfc.auto_generated_rro_vendor__	/vendor/overlay/NfcNci__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.connectivitythermalpowermanager	/system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
+2009-01-01 00:00:00	com.android.vpndialogs	/system/priv-app/VpnDialogs/VpnDialogs.apk
+2009-01-01 00:00:00	com.google.android.apps.wallpaper	/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
+2009-01-01 00:00:00	com.google.android.odad	/product/priv-app/OdadPrebuilt/OdadPrebuilt.apk
+2009-01-01 00:00:00	com.android.angle	/product/priv-app/ANGLE/ANGLE.apk
+2009-01-01 00:00:00	com.android.phone	/system/priv-app/TeleService/TeleService.apk
+2009-01-01 00:00:00	com.android.shell	/system/priv-app/Shell/Shell.apk
+2009-01-01 00:00:00	com.google.android.apps.recorder	/product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk
+2009-01-01 00:00:00	com.android.wallpaperbackup	/system/app/WallpaperBackup/WallpaperBackup.apk
+2009-01-01 00:00:00	com.android.providers.blockednumber	/system/priv-app/BlockedNumberProvider/BlockedNumberProvider.apk
+2009-01-01 00:00:00	com.android.settings.auto_generated_rro_product__	/product/overlay/SettingsGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.work.clouddpc	/product/app/DevicePolicyPrebuilt/DevicePolicyPrebuilt.apk
+2009-01-01 00:00:00	com.android.providers.userdictionary	/system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk
+2009-01-01 00:00:00	com.google.android.apps.carrier.carrierwifi	/product/priv-app/CarrierWifi/CarrierWifi.apk
+2009-01-01 00:00:00	com.android.emergency	/system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+2009-01-01 00:00:00	com.android.providers.media.overlay.pixel	/product/overlay/MediaProviderOverlay/MediaProviderOverlay.apk
+2009-01-01 00:00:00	com.android.captiveportallogin.overlay	/product/overlay/CaptivePortalLoginOverlay/CaptivePortalLoginOverlay.apk
+2009-01-01 00:00:00	com.google.android.gms.location.history	/product/app/LocationHistoryPrebuilt/LocationHistoryPrebuilt.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural	/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+2009-01-01 00:00:00	com.android.location.fused	/system/priv-app/FusedLocation/FusedLocation.apk
+2009-01-01 00:00:00	com.android.systemui	/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+	com.google.android.ondevicepersonalization.services	/apex/com.android.ondevicepersonalization/app/OnDevicePersonalizationGoogle@330442000/OnDevicePersonalizationGoogle.apk
+2009-01-01 00:00:00	com.google.android.hardwareinfo	/product/priv-app/HardwareInfo/HardwareInfo.apk
+2009-01-01 00:00:00	com.google.android.apps.youtube.music	/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk
+2009-01-01 00:00:00	com.android.bluetoothmidiservice	/system/app/BluetoothMidiService/BluetoothMidiService.apk
+2009-01-01 00:00:00	com.google.android.dreamlinerupdater	/product/priv-app/DreamlinerUpdater/DreamlinerUpdater.apk
+2009-01-01 00:00:00	com.android.traceur	/system/app/Traceur/Traceur.apk
+	com.google.android.cellbroadcastreceiver	/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@331013180/GoogleCellBroadcastApp.apk
+2009-01-01 00:00:00	com.google.android.apps.helprtc	/product/priv-app/HelpRtcPrebuilt/HelpRtcPrebuilt.apk
+2009-01-01 00:00:00	com.android.phone.auto_generated_rro_product__	/product/overlay/TeleService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.omadm.service.auto_generated_rro_vendor__	/vendor/overlay/DMService__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	android.auto_generated_rro_product__	/product/overlay/framework-res__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.gcs	/product/priv-app/GCS/GCS.apk
+2009-01-01 00:00:00	com.android.bluetooth	/system/app/GoogleBluetoothLegacyMigration/GoogleBluetoothLegacyMigration.apk
+2009-01-01 00:00:00	com.android.providers.contacts	/system/priv-app/ContactsProvider/ContactsProvider.apk
+2009-01-01 00:00:00	com.google.android.GoogleCamera	/product/priv-app/GoogleCamera/GoogleCamera.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_narrow_back	/product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk
+2009-01-01 00:00:00	com.google.android.inputmethod.latin	/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.storagemanager	/system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk
+2009-01-01 00:00:00	android.auto_generated_rro_vendor__	/vendor/overlay/framework-res__auto_generated_rro_vendor.apk
+	com.android.apex.cts.shim	/system/apex/com.android.apex.cts.shim.apex
+	com.google.android.compos	/system_ext/apex/com.google.android.compos.apex
+	com.google.android.btservices	/system/apex/com.google.android.btservices.apex
+	com.google.android.runtime	/system/apex/com.android.runtime.apex
+	com.android.i18n	/system/apex/com.android.i18n.apex
+	com.google.android.vndk.v33	/system/apex/com.android.vndk.current.apex
+	com.google.android.virt	/system_ext/apex/com.google.android.virt.apex
+	com.google.pixel.camera.hal	/vendor/apex/com.google.pixel.camera.hal.apex
+2023-05-01 13:31:08	com.topjohnwu.magisk	/data/app/~~RMvX1SgQDZPM_77OZOSROg==/com.topjohnwu.magisk-mQf-pGfY9OL4jAlQnVOBoA==/base.apk
+2023-05-01 13:36:19	com.joeykrim.rootcheck	/data/app/~~fD5RYA40XicReQDC57Q99w==/com.joeykrim.rootcheck-3M4acV1iWrv2KK_yWpW3LA==/base.apk
+2023-05-02 03:33:49	com.hld.anzenbokusucal	/data/app/~~F3706-nx-3LTT6QLZQyMfg==/com.hld.anzenbokusucal-KpsNvN7VZ9Shox5Aw41oNw==/base.apk
+2023-05-05 08:55:01	com.google.android.gms	/data/app/~~HdFvu6iWT8MVEPFpU4UhBQ==/com.google.android.gms-jDfzlje3iaHMpXRrfpLMmQ==/base.apk
+2009-01-01 00:00:00	com.google.android.modulemetadata	/product/app/ModuleMetadataGoogle/ModuleMetadataGoogle.apk
+2009-01-01 00:00:00	com.google.mainline.telemetry	/product/app/PrebuiltGoogleTelemetryTvp/PrebuiltGoogleTelemetryTvp.apk
+2009-01-01 00:00:00	com.google.android.captiveportallogin	/system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk
+	com.google.android.permissioncontroller	/apex/com.android.permission/priv-app/GooglePermissionController@331115020/GooglePermissionController.apk
+	com.google.android.bluetooth	/apex/com.android.btservices/app/BluetoothGoogle@TQ2A.230405.003.G1/BluetoothGoogle.apk
+	com.google.android.ext.services	/apex/com.android.extservices/priv-app/GoogleExtServices@331012190/GoogleExtServices.apk
+2009-01-01 00:00:00	com.google.android.documentsui	/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk
+2009-01-01 00:00:00	com.google.mainline.adservices	/product/app/PrebuiltGoogleAdservicesTvp/PrebuiltGoogleAdservicesTvp.apk
+2009-01-01 00:00:00	com.google.android.networkstack	/system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk
+2023-05-09 03:57:49	com.google.android.apps.restore	/data/app/~~U0Cw5Vwarju8InpQ9ErpKg==/com.google.android.apps.restore-ZIhT04PJhMwOOw0PwsrPKg==/base.apk
+2023-05-09 04:02:26	com.zhiliaoapp.musically	/data/app/~~l2sYBjkdJK4syzVprvV0WQ==/com.zhiliaoapp.musically-YFJTJsn9kbfuZe6OcfdEfA==/base.apk
+2023-05-04 16:52:59	com.android.vending	/data/app/~~gdHysdKdPH29MfD7sXn04w==/com.android.vending-6jR77uSZnR6OfCXRnt2fOw==/base.apk
+	com.google.android.adbd	/data/apex/decompressed/com.android.adbd@331011202.decompressed.apex
+	com.google.android.adservices	/data/apex/decompressed/com.android.adservices@330442000.decompressed.apex
+	com.google.android.appsearch	/data/apex/decompressed/com.android.appsearch@331011190.decompressed.apex
+	com.google.android.cellbroadcast	/data/apex/decompressed/com.android.cellbroadcast@331013180.decompressed.apex
+	com.google.android.art	/data/apex/decompressed/com.android.art@331012200.decompressed.apex
+	com.google.android.conscrypt	/data/apex/decompressed/com.android.conscrypt@331011200.decompressed.apex
+	com.google.android.extservices	/data/apex/decompressed/com.android.extservices@331012190.decompressed.apex
+	com.google.android.ipsec	/data/apex/decompressed/com.android.ipsec@331014190.decompressed.apex
+	com.google.android.media	/data/apex/decompressed/com.android.media@331012190.decompressed.apex
+	com.google.android.media.swcodec	/data/apex/decompressed/com.android.media.swcodec@331012190.decompressed.apex
+	com.google.android.mediaprovider	/data/apex/decompressed/com.android.mediaprovider@331011200.decompressed.apex
+	com.google.android.neuralnetworks	/data/apex/decompressed/com.android.neuralnetworks@330443200.decompressed.apex
+	com.google.android.os.statsd	/data/apex/decompressed/com.android.os.statsd@331010010.decompressed.apex
+	com.google.android.permission	/data/apex/decompressed/com.android.permission@331115020.decompressed.apex
+	com.google.android.ondevicepersonalization	/data/apex/decompressed/com.android.ondevicepersonalization@330442000.decompressed.apex
+	com.google.android.resolv	/data/apex/decompressed/com.android.resolv@331011200.decompressed.apex
+	com.google.android.scheduling	/data/apex/decompressed/com.android.scheduling@330443040.decompressed.apex
+	com.google.android.sdkext	/data/apex/decompressed/com.android.sdkext@330810200.decompressed.apex
+	com.google.android.tethering	/data/apex/decompressed/com.android.tethering@331012200.decompressed.apex
+	com.google.android.tzdata4	/system/apex/com.google.android.tzdata4.apex
+	com.google.android.uwb	/data/apex/decompressed/com.android.uwb@331015200.decompressed.apex
+	com.google.mainline.primary.libs	/system/apex/com.google.mainline.primary.libs.apex
+	com.google.android.wifi	/data/apex/decompressed/com.android.wifi@331016200.decompressed.apex
+﻿2009-01-01 00:00:00	com.google.omadm.trigger	/product/priv-app/OemDmTrigger/OemDmTrigger.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.diagmon	/product/priv-app/DiagMon/DiagMon.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.dcmo	/product/priv-app/DCMO/DCMO.apk
+2009-01-01 00:00:00	com.android.sdm.plugins.connmo	/product/priv-app/ConnMO/ConnMO.apk
+2009-01-01 00:00:00	com.verizon.services	/product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk
+2009-01-01 00:00:00	com.verizon.llkagent	/system_ext/priv-app/LLKAgent/LLKAgent.apk
+2009-01-01 00:00:00	com.android.omadm.service	/product/priv-app/DMService/DMService.apk
+2009-01-01 00:00:00	com.customermobile.preload.vzw	/product/priv-app/Showcase/Showcase.apk
+2009-01-01 00:00:00	com.vzw.apnlib	/product/app/VZWAPNLib/VZWAPNLib.apk
+2009-01-01 00:00:00	com.verizon.mips.services	/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk
+2009-01-01 00:00:00	com.google.android.youtube	/product/app/YouTube/YouTube.apk
+2009-01-01 00:00:00	com.google.android.apps.maps	/product/app/Maps/Maps.apk
+2009-01-01 00:00:00	com.google.android.videos	/product/app/Videos/Videos.apk
+2009-01-01 00:00:00	com.shannon.qualifiednetworksservice	/system_ext/priv-app/ShannonQualifiedNetworksService/ShannonQualifiedNetworksService.apk
+2009-01-01 00:00:00	com.google.android.uvexposurereporter	/system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.noCutout	/product/overlay/DisplayCutoutNoCutout/NoCutoutOverlay.apk
+	com.google.android.networkstack.tethering	/apex/com.android.tethering/priv-app/TetheringGoogle@331012200/TetheringGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.trafficlightfaceoverlay	/product/overlay/TrafficLightFaceOverlay.apk
+2009-01-01 00:00:00	com.google.android.carriersetup	/system_ext/priv-app/CarrierSetup/CarrierSetup.apk
+	com.android.cts.priv.ctsshim	/apex/com.android.apex.cts.shim/priv-app/CtsShimPriv@1/CtsShimPriv.apk
+	com.android.uwb.resources	/apex/com.android.uwb/priv-app/ServiceUwbResources@331015200/ServiceUwbResources.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.corner	/product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk
+2009-01-01 00:00:00	com.android.settings.overlay.pixel2021	/product/overlay/SettingsGoogleOverlayPixel2021.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.double	/product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2018	/product/overlay/PixelConfigOverlay2018.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2019	/product/overlay/PixelConfigOverlay2019.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2021	/product/overlay/PixelConfigOverlay2021.apk
+2009-01-01 00:00:00	com.android.providers.telephony	/system/priv-app/TelephonyProvider/TelephonyProvider.apk
+2009-01-01 00:00:00	com.google.android.carrierlocation	/product/priv-app/CarrierLocation/CarrierLocation.apk
+2009-01-01 00:00:00	com.android.dynsystem	/system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk
+2009-01-01 00:00:00	com.google.android.googlequicksearchbox	/product/priv-app/Velvet/Velvet.apk
+	com.google.android.cellbroadcastservice	/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@331013180/GoogleCellBroadcastServiceModule.apk
+2009-01-01 00:00:00	com.google.android.flipendo.auto_generated_rro_vendor__	/vendor/overlay/Flipendo__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.providers.calendar	/system/priv-app/CalendarProvider/CalendarProvider.apk
+2009-01-01 00:00:00	com.google.android.googlequicksearchbox.nga_resources	/product/app/NgaResources/NgaResources.apk
+2009-01-01 00:00:00	com.android.providers.media	/system/priv-app/MediaProviderLegacy/MediaProviderLegacy.apk
+2009-01-01 00:00:00	com.google.pixel.livewallpaper	/product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.onetimeinitializer	/product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk
+2009-01-01 00:00:00	com.google.android.ext.shared	/system/app/GoogleExtShared/GoogleExtShared.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_wide_back	/product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk
+2009-01-01 00:00:00	com.qorvo.uwb.vendorservice	/system_ext/priv-app/UwbVendorService/UwbVendorService.apk
+2009-01-01 00:00:00	com.android.hbmsvmanager	/system_ext/priv-app/HbmSVManager/HbmSVManager.apk
+2009-01-01 00:00:00	com.google.android.euiccoverlay	/system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.diagnosticstool	/product/priv-app/DiagnosticsToolPrebuilt/DiagnosticsToolPrebuilt.apk
+2009-01-01 00:00:00	com.google.euiccpixel.permissions	/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
+2009-01-01 00:00:00	com.google.euiccpixel	/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk
+2009-01-01 00:00:00	com.google.android.flipendo	/system_ext/app/Flipendo/Flipendo.apk
+2009-01-01 00:00:00	com.android.settings.overlay.g8v0u	/product/overlay/SettingsOverlayG8V0U.apk
+2009-01-01 00:00:00	com.google.android.storagemanager.auto_generated_rro_product__	/product/overlay/StorageManagerGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.settings.overlay.raven	/product/overlay/SettingsGoogleRavenOverlay.apk
+2009-01-01 00:00:00	com.android.simappdialog.auto_generated_rro_product__	/product/overlay/SimAppDialog__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.safetyregulatoryinfo.auto_generated_rro_product__	/product/overlay/SafetyRegulatoryInfo__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.omadm.service.auto_generated_rro_product__	/product/overlay/DMService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.externalstorage	/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk
+2009-01-01 00:00:00	com.android.htmlviewer	/system/app/HTMLViewer/HTMLViewer.apk
+2009-01-01 00:00:00	com.android.companiondevicemanager	/system/app/CompanionDeviceManager/CompanionDeviceManager.apk
+2009-01-01 00:00:00	com.android.mms.service	/system/priv-app/MmsService/MmsService.apk
+2009-01-01 00:00:00	com.android.providers.downloads	/system/priv-app/DownloadProvider/DownloadProvider.apk
+2009-01-01 00:00:00	com.android.systemui.auto_generated_rro_product__	/product/overlay/SystemUIGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.messaging	/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk
+2009-01-01 00:00:00	com.google.android.soundpicker	/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.systemui.overlay.pixelbatteryhealthconfig	/product/overlay/PixelBatteryHealthOverlay.apk
+2009-01-01 00:00:00	android.autoinstalls.config.google.nexus	/product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk
+2009-01-01 00:00:00	com.google.android.apps.scone.overlays	/product/overlay/SconeCbrsOverlay/SconeCbrsOverlay.apk
+2009-01-01 00:00:00	com.google.android.configupdater	/product/priv-app/ConfigUpdater/ConfigUpdater.apk
+	com.google.android.providers.media.module	/apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@331011200/MediaProviderGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.udfpsoverlay	/product/overlay/UdfpsOverlay.apk
+2009-01-01 00:00:00	com.google.android.wifi.resources.pixel	/product/overlay/WifiOverlay/PixelWifiOverlay2021.apk
+2009-01-01 00:00:00	com.google.android.overlay.googlewebview	/product/overlay/GoogleWebViewOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.safetyhub	/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.factoryota	/system_ext/priv-app/FactoryOtaPrebuilt/FactoryOtaPrebuilt.apk
+2009-01-01 00:00:00	com.android.systemui.plugin.globalactions.wallet	/system_ext/priv-app/QuickAccessWallet/QuickAccessWallet.apk
+2009-01-01 00:00:00	com.google.ar.core	/product/app/arcore/arcore.apk
+2009-01-01 00:00:00	com.android.providers.downloads.ui	/system/priv-app/DownloadProviderUi/DownloadProviderUi.apk
+	com.google.android.hotspot2.osulogin	/apex/com.android.wifi/app/OsuLoginGoogle@331016200/OsuLoginGoogle.apk
+2009-01-01 00:00:00	com.android.pacprocessor	/system/app/PacProcessor/PacProcessor.apk
+2009-01-01 00:00:00	com.android.simappdialog	/system/app/SimAppDialog/SimAppDialog.apk
+2009-01-01 00:00:00	com.android.cellbroadcastreceiver.overlay.pixel	/product/overlay/CellBroadcastReceiverOverlay/CellBroadcastReceiverOverlay.apk
+	com.google.android.adservices.api	/apex/com.android.adservices/priv-app/AdServicesApkGoogle@330442000/AdServicesApkGoogle.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfig2019midyear	/product/overlay/PixelConfigOverlay2019Midyear.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.hole	/product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.tall	/product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk
+2009-01-01 00:00:00	com.android.networkstack.overlay	/product/overlay/NetworkStackOverlay.apk
+2009-01-01 00:00:00	com.android.certinstaller	/system/app/CertInstaller/CertInstaller.apk
+2009-01-01 00:00:00	com.google.android.marvin.talkback	/product/app/talkback/talkback.apk
+2009-01-01 00:00:00	com.google.android.apps.accessibility.voiceaccess	/product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.connectivity.resources.overlay	/product/overlay/PixelConnectivityOverlay2021.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.threebutton	/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.work.oobconfig	/product/priv-app/OTAConfigNoZeroTouchPrebuilt/OTAConfigNoZeroTouchPrebuilt.apk
+2009-01-01 00:00:00	android	/system/framework/framework-res.apk
+2009-01-01 00:00:00	com.android.hotwordenrollment.xgoogle	/product/priv-app/HotwordEnrollmentXGoogleFUSION/HotwordEnrollmentXGoogleFUSION.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard	/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk
+2009-01-01 00:00:00	com.google.android.grilservice	/system_ext/priv-app/grilservice/grilservice.apk
+	com.google.android.sdksandbox	/apex/com.android.adservices/app/SdkSandboxGoogle@330442000/SdkSandboxGoogle.apk
+2009-01-01 00:00:00	com.android.egg	/system/app/EasterEgg/EasterEgg.apk
+2009-01-01 00:00:00	com.android.mtp	/system/priv-app/MtpService/MtpService.apk
+2009-01-01 00:00:00	com.android.nfc	/system/app/NfcNci/NfcNci.apk
+2009-01-01 00:00:00	com.android.ons	/system/priv-app/ONS/ONS.apk
+2009-01-01 00:00:00	com.android.stk	/system/app/Stk/Stk.apk
+2009-01-01 00:00:00	com.android.backupconfirm	/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk
+2009-01-01 00:00:00	com.android.settings.auto_generated_rro_vendor__	/vendor/overlay/SettingsGoogle__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.systemui.auto_generated_rro_vendor__	/vendor/overlay/SystemUIGoogle__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.samsung.slsi.telephony.oem.oemrilhookservice	/system_ext/app/OemRilHookService/OemRilHookService.apk
+2009-01-01 00:00:00	com.google.android.deskclock	/product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk
+2009-01-01 00:00:00	com.google.android.as	/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk
+2009-01-01 00:00:00	com.google.android.gm	/product/app/PrebuiltGmail/PrebuiltGmail.apk
+2009-01-01 00:00:00	com.google.android.carrier	/product/priv-app/CarrierSettings/CarrierSettings.apk
+2009-01-01 00:00:00	com.google.android.apps.security.securityhub	/product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.turboadapter	/system_ext/priv-app/TurboAdapter/TurboAdapter.apk
+2009-01-01 00:00:00	com.android.managedprovisioning.overlay	/product/overlay/ManagedProvisioningPixelOverlay.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_extra_wide_back	/product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk
+2009-01-01 00:00:00	com.google.android.setupwizard	/product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk
+2009-01-01 00:00:00	com.google.pixel.digitalkey.timesync	/system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk
+2009-01-01 00:00:00	com.android.providers.settings	/system/priv-app/SettingsProvider/SettingsProvider.apk
+2009-01-01 00:00:00	com.google.android.networkstack.tethering.overlay2021	/product/overlay/PixelTetheringOverlay2021.apk
+2009-01-01 00:00:00	com.android.sharedstoragebackup	/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk
+2009-01-01 00:00:00	com.android.nfc.auto_generated_rro_product__	/product/overlay/NfcNci__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.euicc	/product/priv-app/EuiccGoogle/EuiccGoogle.apk
+2009-01-01 00:00:00	com.google.android.iwlan	/system_ext/priv-app/Iwlan/Iwlan.apk
+2009-01-01 00:00:00	com.android.printspooler	/system/app/PrintSpooler/PrintSpooler.apk
+2009-01-01 00:00:00	com.android.hotwordenrollment.okgoogle	/product/priv-app/HotwordEnrollmentOKGoogleFUSION/HotwordEnrollmentOKGoogleFUSION.apk
+2009-01-01 00:00:00	com.android.dreams.basic	/system/app/BasicDreams/BasicDreams.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.auto_generated_rro_product__	/product/overlay/PixelSetupWizard__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.providers.settings.auto_generated_rro_product__	/product/overlay/SettingsProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.as.oss	/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk
+2009-01-01 00:00:00	com.android.se	/system/app/SecureElement/SecureElement.apk
+2009-01-01 00:00:00	com.android.inputdevices	/system/priv-app/InputDevices/InputDevices.apk
+2009-01-01 00:00:00	com.android.traceur.auto_generated_rro_product__	/product/overlay/Traceur__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.wellbeing	/product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.dialer	/product/priv-app/GoogleDialer/GoogleDialer.apk
+2009-01-01 00:00:00	com.android.bips	/system/priv-app/BuiltInPrintService/BuiltInPrintService.apk
+2009-01-01 00:00:00	com.google.audio.hearing.visualization.accessibility.scribe	/product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.apps.nbu.files	/product/priv-app/FilesPrebuilt/FilesPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.flipendo.auto_generated_rro_product__	/product/overlay/Flipendo__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.accessibility.soundamplifier	/product/app/SoundAmplifierPrebuilt/SoundAmplifierPrebuilt.apk
+2009-01-01 00:00:00	com.shannon.rcsservice	/system_ext/priv-app/ShannonRcs/ShannonRcs.apk
+2009-01-01 00:00:00	com.google.ambient.streaming	/product/priv-app/AmbientStreaming/AmbientStreaming.apk
+2009-01-01 00:00:00	com.android.musicfx	/system/priv-app/MusicFX/MusicFX.apk
+2009-01-01 00:00:00	com.android.ons.auto_generated_rro_vendor__	/vendor/overlay/ONS__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.apps.docs	/product/app/Drive/Drive.apk
+2009-01-01 00:00:00	com.google.android.apps.tips	/product/priv-app/TipsPrebuilt/TipsPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.documentsui.theme.pixel	/product/overlay/PixelDocumentsUIGoogleOverlay/PixelDocumentsUIGoogleOverlay.apk
+2009-01-01 00:00:00	com.google.android.markup	/product/app/MarkupGoogle/MarkupGoogle.apk
+2009-01-01 00:00:00	com.android.cellbroadcastreceiver	/system/priv-app/CellBroadcastLegacyApp/CellBroadcastLegacyApp.apk
+2009-01-01 00:00:00	com.google.android.webview	/data/app/~~BaoerQq79lJ-I4WGaL17dg==/com.google.android.webview-AkDaTp6sRSY17TFsZ-kvPg==/WebViewGoogle.apk
+2009-01-01 00:00:00	com.google.android.apps.carrier.log	/product/priv-app/CarrierMetrics/CarrierMetrics.apk
+2009-01-01 00:00:00	com.google.android.contacts	/product/app/GoogleContacts/GoogleContacts.apk
+2009-01-01 00:00:00	com.android.server.telecom	/system/priv-app/Telecom/Telecom.apk
+2009-01-01 00:00:00	com.android.keychain	/system/app/KeyChain/KeyChain.apk
+2009-01-01 00:00:00	com.android.server.telecom.auto_generated_rro_product__	/product/overlay/Telecom__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.overlay.googleconfig	/product/overlay/GoogleConfigOverlay.apk
+2009-01-01 00:00:00	com.google.android.calculator	/product/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk
+2009-01-01 00:00:00	com.android.chrome	/data/app/~~-SkoWT8RK_trQIZ4VBFgrw==/com.android.chrome-l5X8FD6c-NrOVxKwlmrWJQ==/Chrome.apk
+2009-01-01 00:00:00	com.android.bips.auto_generated_rro_product__	/product/overlay/BuiltInPrintService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.packageinstaller	/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk
+2009-01-01 00:00:00	com.google.android.apps.customization.pixel	/product/app/PixelThemesStub/PixelThemesStub.apk
+2009-01-01 00:00:00	com.google.android.gsf	/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+2009-01-01 00:00:00	com.google.android.ims	/product/priv-app/CarrierServices/CarrierServices.apk
+2009-01-01 00:00:00	com.google.android.tag	/system/priv-app/TagGoogle/TagGoogle.apk
+2009-01-01 00:00:00	com.google.android.tts	/product/app/GoogleTTS/GoogleTTS.apk
+2009-01-01 00:00:00	com.google.android.overlay.permissioncontroller	/product/overlay/GooglePermissionControllerOverlay.apk
+2009-01-01 00:00:00	com.android.calllogbackup	/system/priv-app/CallLogBackup/CallLogBackup.apk
+2009-01-01 00:00:00	com.google.android.partnersetup	/product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk
+2009-01-01 00:00:00	com.android.safetyregulatoryinfo	/product/app/SafetyRegulatoryInfo/SafetyRegulatoryInfo.apk
+2009-01-01 00:00:00	com.android.cameraextensions	/system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay	/product/overlay/PixelSetupWizardOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.wallpaper.pixel	/product/app/PixelWallpapers2021/PixelWallpapers2021.apk
+2009-01-01 00:00:00	com.android.localtransport	/system/priv-app/LocalTransport/LocalTransport.apk
+2009-01-01 00:00:00	com.google.euiccpixel.overlay.gs101	/product/overlay/EuiccSupportPixelOverlay/EuiccSupportPixelOverlay.apk
+2009-01-01 00:00:00	com.google.android.wallpaper.effects	/product/priv-app/WallpaperEffect/WallpaperEffect.apk
+2009-01-01 00:00:00	com.google.android.apps.nexuslauncher	/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
+	com.google.android.nearby.halfsheet	/apex/com.android.tethering/app/HalfSheetUXGoogle@331012200/HalfSheetUXGoogle.apk
+2009-01-01 00:00:00	com.android.carrierdefaultapp	/system/app/CarrierDefaultApp/CarrierDefaultApp.apk
+	com.google.android.virtualmachine.res	/apex/com.android.virt/app/android.system.virtualmachine.res.google@TQ2A.230405.003.G1/android.system.virtualmachine.res.google.apk
+2009-01-01 00:00:00	com.google.RilConfigService	/system_ext/priv-app/RilConfigService/RilConfigService.apk
+2009-01-01 00:00:00	com.android.theme.font.notoserifsource	/product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk
+2009-01-01 00:00:00	com.android.proxyhandler	/system/priv-app/ProxyHandler/ProxyHandler.apk
+	com.google.android.safetycenter.resources	/apex/com.android.permission/priv-app/GoogleSafetyCenterResources@331115020/GoogleSafetyCenterResources.apk
+	com.google.android.compos.payload	/apex/com.android.compos/app/CompOSPayloadApp@TQ2A.230405.003.G1/CompOSPayloadApp.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.waterfall	/product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk
+2009-01-01 00:00:00	com.android.intentresolver	/system/priv-app/IntentResolver/IntentResolver.apk
+2009-01-01 00:00:00	com.google.SSRestartDetector	/product/priv-app/SSRestartDetector/SSRestartDetector.apk
+2009-01-01 00:00:00	com.google.android.storagemanager.auto_generated_rro_vendor__	/vendor/overlay/StorageManagerGoogle__auto_generated_rro_vendor.apk
+	com.google.android.connectivity.resources	/apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@331012200/ServiceConnectivityResourcesGoogle.apk
+2009-01-01 00:00:00	com.android.providers.contacts.auto_generated_rro_product__	/product/overlay/ContactsProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.feedback	/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
+2009-01-01 00:00:00	com.google.android.printservice.recommendation	/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk
+2009-01-01 00:00:00	com.google.android.apps.photos	/product/app/Photos/Photos.apk
+2009-01-01 00:00:00	com.google.android.calendar	/product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk
+2009-01-01 00:00:00	com.android.managedprovisioning	/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk
+2009-01-01 00:00:00	com.google.android.pixelnfc	/system_ext/priv-app/PixelNfc/PixelNfc.apk
+2009-01-01 00:00:00	com.android.soundpicker	/system/priv-app/SoundPicker/SoundPicker.apk
+2009-01-01 00:00:00	com.google.android.systemui.gxoverlay	/product/overlay/SystemUIGXOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.internal.betterbug	/product/priv-app/BetterBugStub/BetterBugStub.apk
+2009-01-01 00:00:00	com.android.cellbroadcastservice.overlay.pixel	/product/overlay/CellBroadcastServiceOverlay/CellBroadcastServiceOverlay.apk
+2009-01-01 00:00:00	com.google.android.apps.camera.services	/product/app/PixelCameraServicesRaven/PixelCameraServicesRaven.apk
+2009-01-01 00:00:00	com.android.providers.partnerbookmarks	/system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay2019	/product/overlay/PixelSetupWizardOverlay2019.apk
+2009-01-01 00:00:00	com.google.android.pixel.setupwizard.overlay2021	/product/overlay/PixelSetupWizardOverlay2021.apk
+2009-01-01 00:00:00	com.shannon.imsservice	/system_ext/priv-app/ShannonIms/ShannonIms.apk
+2009-01-01 00:00:00	com.android.wallpaper.livepicker	/system/priv-app/LiveWallpapersPicker/LiveWallpapersPicker.apk
+2009-01-01 00:00:00	com.android.providers.telephony.auto_generated_rro_product__	/product/overlay/TelephonyProvider__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.phone.auto_generated_rro_vendor__	/vendor/overlay/TeleService__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.android.imsserviceentitlement	/product/priv-app/ImsServiceEntitlement/ImsServiceEntitlement.apk
+2009-01-01 00:00:00	com.android.traceur.auto_generated_rro_vendor__	/vendor/overlay/Traceur__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.apps.cbrsnetworkmonitor	/product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk
+2009-01-01 00:00:00	com.android.internal.display.cutout.emulation.avoidAppsInCutout	/product/overlay/DisplayCutoutAvoidAppsInCutout/AvoidAppsInCutoutOverlay.apk
+2009-01-01 00:00:00	com.google.android.gms.supervision	/product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk
+2009-01-01 00:00:00	com.android.bookmarkprovider	/system/app/BookmarkProvider/BookmarkProvider.apk
+2009-01-01 00:00:00	com.google.android.overlay.pixelconfigcommon	/product/overlay/PixelConfigOverlayCommon.apk
+2009-01-01 00:00:00	com.android.settings	/system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
+2009-01-01 00:00:00	com.google.android.wfcactivation	/product/priv-app/WfcActivation/WfcActivation.apk
+2009-01-01 00:00:00	com.google.android.apps.healthdata	/product/priv-app/HealthConnectPrebuilt/HealthConnectPrebuilt.apk
+2009-01-01 00:00:00	com.samsung.slsi.telephony.oemril	/system_ext/priv-app/OemRilService/OemRilService.apk
+2009-01-01 00:00:00	com.google.android.settings.intelligence	/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.projection.gearhead	/product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.apps.scone	/product/priv-app/SCONE/SCONE.apk
+2009-01-01 00:00:00	com.google.android.apps.turbo	/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk
+2009-01-01 00:00:00	com.google.android.tetheringentitlement	/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
+2009-01-01 00:00:00	com.google.android.apps.dreamliner	/product/priv-app/DreamlinerPrebuilt/DreamlinerPrebuilt.apk
+	com.android.cts.ctsshim	/apex/com.android.apex.cts.shim/app/CtsShim@1/CtsShim.apk
+2009-01-01 00:00:00	com.google.android.apps.wearables.maestro.companion	/product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk
+	com.google.android.wifi.resources	/apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@331016200/ServiceWifiResourcesGoogle.apk
+2009-01-01 00:00:00	com.android.remoteprovisioner	/system_ext/priv-app/RemoteProvisioner/RemoteProvisioner.apk
+	com.google.android.wifi.dialog	/apex/com.android.wifi/app/WifiDialogGoogle@331016200/WifiDialogGoogle.apk
+2009-01-01 00:00:00	com.android.nfc.auto_generated_rro_vendor__	/vendor/overlay/NfcNci__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	com.google.android.connectivitythermalpowermanager	/system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
+2009-01-01 00:00:00	com.android.vpndialogs	/system/priv-app/VpnDialogs/VpnDialogs.apk
+2009-01-01 00:00:00	com.google.android.apps.wallpaper	/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
+2009-01-01 00:00:00	com.google.android.odad	/product/priv-app/OdadPrebuilt/OdadPrebuilt.apk
+2009-01-01 00:00:00	com.android.angle	/product/priv-app/ANGLE/ANGLE.apk
+2009-01-01 00:00:00	com.android.phone	/system/priv-app/TeleService/TeleService.apk
+2009-01-01 00:00:00	com.android.shell	/system/priv-app/Shell/Shell.apk
+2009-01-01 00:00:00	com.google.android.apps.recorder	/product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk
+2009-01-01 00:00:00	com.android.wallpaperbackup	/system/app/WallpaperBackup/WallpaperBackup.apk
+2009-01-01 00:00:00	com.android.providers.blockednumber	/system/priv-app/BlockedNumberProvider/BlockedNumberProvider.apk
+2009-01-01 00:00:00	com.android.settings.auto_generated_rro_product__	/product/overlay/SettingsGoogle__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.work.clouddpc	/product/app/DevicePolicyPrebuilt/DevicePolicyPrebuilt.apk
+2009-01-01 00:00:00	com.android.providers.userdictionary	/system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk
+2009-01-01 00:00:00	com.google.android.apps.carrier.carrierwifi	/product/priv-app/CarrierWifi/CarrierWifi.apk
+2009-01-01 00:00:00	com.android.emergency	/system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+2009-01-01 00:00:00	com.android.providers.media.overlay.pixel	/product/overlay/MediaProviderOverlay/MediaProviderOverlay.apk
+2009-01-01 00:00:00	com.android.captiveportallogin.overlay	/product/overlay/CaptivePortalLoginOverlay/CaptivePortalLoginOverlay.apk
+2009-01-01 00:00:00	com.google.android.gms.location.history	/product/app/LocationHistoryPrebuilt/LocationHistoryPrebuilt.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural	/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+2009-01-01 00:00:00	com.android.location.fused	/system/priv-app/FusedLocation/FusedLocation.apk
+2009-01-01 00:00:00	com.android.systemui	/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+	com.google.android.ondevicepersonalization.services	/apex/com.android.ondevicepersonalization/app/OnDevicePersonalizationGoogle@330442000/OnDevicePersonalizationGoogle.apk
+2009-01-01 00:00:00	com.google.android.hardwareinfo	/product/priv-app/HardwareInfo/HardwareInfo.apk
+2009-01-01 00:00:00	com.google.android.apps.youtube.music	/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk
+2009-01-01 00:00:00	com.android.bluetoothmidiservice	/system/app/BluetoothMidiService/BluetoothMidiService.apk
+2009-01-01 00:00:00	com.google.android.dreamlinerupdater	/product/priv-app/DreamlinerUpdater/DreamlinerUpdater.apk
+2009-01-01 00:00:00	com.android.traceur	/system/app/Traceur/Traceur.apk
+	com.google.android.cellbroadcastreceiver	/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@331013180/GoogleCellBroadcastApp.apk
+2009-01-01 00:00:00	com.google.android.apps.helprtc	/product/priv-app/HelpRtcPrebuilt/HelpRtcPrebuilt.apk
+2009-01-01 00:00:00	com.android.phone.auto_generated_rro_product__	/product/overlay/TeleService__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.android.omadm.service.auto_generated_rro_vendor__	/vendor/overlay/DMService__auto_generated_rro_vendor.apk
+2009-01-01 00:00:00	android.auto_generated_rro_product__	/product/overlay/framework-res__auto_generated_rro_product.apk
+2009-01-01 00:00:00	com.google.android.apps.gcs	/product/priv-app/GCS/GCS.apk
+2009-01-01 00:00:00	com.android.bluetooth	/system/app/GoogleBluetoothLegacyMigration/GoogleBluetoothLegacyMigration.apk
+2009-01-01 00:00:00	com.android.providers.contacts	/system/priv-app/ContactsProvider/ContactsProvider.apk
+2009-01-01 00:00:00	com.google.android.GoogleCamera	/product/priv-app/GoogleCamera/GoogleCamera.apk
+2009-01-01 00:00:00	com.android.internal.systemui.navbar.gestural_narrow_back	/product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk
+2009-01-01 00:00:00	com.google.android.inputmethod.latin	/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk
+2009-01-01 00:00:00	com.google.android.storagemanager	/system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk
+2009-01-01 00:00:00	android.auto_generated_rro_vendor__	/vendor/overlay/framework-res__auto_generated_rro_vendor.apk
+	com.android.apex.cts.shim	/system/apex/com.android.apex.cts.shim.apex
+	com.google.android.compos	/system_ext/apex/com.google.android.compos.apex
+	com.google.android.btservices	/system/apex/com.google.android.btservices.apex
+	com.google.android.runtime	/system/apex/com.android.runtime.apex
+	com.android.i18n	/system/apex/com.android.i18n.apex
+	com.google.android.vndk.v33	/system/apex/com.android.vndk.current.apex
+	com.google.android.virt	/system_ext/apex/com.google.android.virt.apex
+	com.google.pixel.camera.hal	/vendor/apex/com.google.pixel.camera.hal.apex
+2023-05-01 13:31:08	com.topjohnwu.magisk	/data/app/~~RMvX1SgQDZPM_77OZOSROg==/com.topjohnwu.magisk-mQf-pGfY9OL4jAlQnVOBoA==/base.apk
+2023-05-01 13:36:19	com.joeykrim.rootcheck	/data/app/~~fD5RYA40XicReQDC57Q99w==/com.joeykrim.rootcheck-3M4acV1iWrv2KK_yWpW3LA==/base.apk
+2023-05-02 03:33:49	com.hld.anzenbokusucal	/data/app/~~F3706-nx-3LTT6QLZQyMfg==/com.hld.anzenbokusucal-KpsNvN7VZ9Shox5Aw41oNw==/base.apk
+2023-05-05 08:55:01	com.google.android.gms	/data/app/~~HdFvu6iWT8MVEPFpU4UhBQ==/com.google.android.gms-jDfzlje3iaHMpXRrfpLMmQ==/base.apk
+2009-01-01 00:00:00	com.google.android.modulemetadata	/product/app/ModuleMetadataGoogle/ModuleMetadataGoogle.apk
+2009-01-01 00:00:00	com.google.mainline.telemetry	/product/app/PrebuiltGoogleTelemetryTvp/PrebuiltGoogleTelemetryTvp.apk
+2009-01-01 00:00:00	com.google.android.captiveportallogin	/system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk
+	com.google.android.permissioncontroller	/apex/com.android.permission/priv-app/GooglePermissionController@331115020/GooglePermissionController.apk
+	com.google.android.bluetooth	/apex/com.android.btservices/app/BluetoothGoogle@TQ2A.230405.003.G1/BluetoothGoogle.apk
+	com.google.android.ext.services	/apex/com.android.extservices/priv-app/GoogleExtServices@331012190/GoogleExtServices.apk
+2009-01-01 00:00:00	com.google.android.documentsui	/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk
+2009-01-01 00:00:00	com.google.mainline.adservices	/product/app/PrebuiltGoogleAdservicesTvp/PrebuiltGoogleAdservicesTvp.apk
+2009-01-01 00:00:00	com.google.android.networkstack	/system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk
+2023-05-09 03:57:49	com.google.android.apps.restore	/data/app/~~U0Cw5Vwarju8InpQ9ErpKg==/com.google.android.apps.restore-ZIhT04PJhMwOOw0PwsrPKg==/base.apk
+2023-05-09 04:02:26	com.zhiliaoapp.musically	/data/app/~~l2sYBjkdJK4syzVprvV0WQ==/com.zhiliaoapp.musically-YFJTJsn9kbfuZe6OcfdEfA==/base.apk
+2023-05-04 16:52:59	com.android.vending	/data/app/~~gdHysdKdPH29MfD7sXn04w==/com.android.vending-6jR77uSZnR6OfCXRnt2fOw==/base.apk
+	com.google.android.adbd	/data/apex/decompressed/com.android.adbd@331011202.decompressed.apex
+	com.google.android.adservices	/data/apex/decompressed/com.android.adservices@330442000.decompressed.apex
+	com.google.android.appsearch	/data/apex/decompressed/com.android.appsearch@331011190.decompressed.apex
+	com.google.android.cellbroadcast	/data/apex/decompressed/com.android.cellbroadcast@331013180.decompressed.apex
+	com.google.android.art	/data/apex/decompressed/com.android.art@331012200.decompressed.apex
+	com.google.android.conscrypt	/data/apex/decompressed/com.android.conscrypt@331011200.decompressed.apex
+	com.google.android.extservices	/data/apex/decompressed/com.android.extservices@331012190.decompressed.apex
+	com.google.android.ipsec	/data/apex/decompressed/com.android.ipsec@331014190.decompressed.apex
+	com.google.android.media	/data/apex/decompressed/com.android.media@331012190.decompressed.apex
+	com.google.android.media.swcodec	/data/apex/decompressed/com.android.media.swcodec@331012190.decompressed.apex
+	com.google.android.mediaprovider	/data/apex/decompressed/com.android.mediaprovider@331011200.decompressed.apex
+	com.google.android.neuralnetworks	/data/apex/decompressed/com.android.neuralnetworks@330443200.decompressed.apex
+	com.google.android.os.statsd	/data/apex/decompressed/com.android.os.statsd@331010010.decompressed.apex
+	com.google.android.permission	/data/apex/decompressed/com.android.permission@331115020.decompressed.apex
+	com.google.android.ondevicepersonalization	/data/apex/decompressed/com.android.ondevicepersonalization@330442000.decompressed.apex
+	com.google.android.resolv	/data/apex/decompressed/com.android.resolv@331011200.decompressed.apex
+	com.google.android.scheduling	/data/apex/decompressed/com.android.scheduling@330443040.decompressed.apex
+	com.google.android.sdkext	/data/apex/decompressed/com.android.sdkext@330810200.decompressed.apex
+	com.google.android.tethering	/data/apex/decompressed/com.android.tethering@331012200.decompressed.apex
+	com.google.android.tzdata4	/system/apex/com.google.android.tzdata4.apex
+	com.google.android.uwb	/data/apex/decompressed/com.android.uwb@331015200.decompressed.apex
+	com.google.mainline.primary.libs	/system/apex/com.google.mainline.primary.libs.apex
+	com.google.android.wifi	/data/apex/decompressed/com.android.wifi@331016200.decompressed.apex

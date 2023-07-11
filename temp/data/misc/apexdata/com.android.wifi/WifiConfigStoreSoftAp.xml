@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="3" />
+<SoftAp>
+<string name="WifiSsid">&quot;Pixel_1710&quot;</string>
+<boolean name="HiddenSSID" value="false" />
+<int name="SecurityType" value="2" />
+<string name="Passphrase">bixjemh9bz2qs47</string>
+<int name="MaxNumberOfClients" value="0" />
+<boolean name="ClientControlByUser" value="false" />
+<boolean name="AutoShutdownEnabled" value="true" />
+<long name="ShutdownTimeoutMillis" value="-1" />
+<BlockedClientList />
+<AllowedClientList />
+<boolean name="BridgedModeOpportunisticShutdownEnabled" value="true" />
+<int name="MacRandomizationSetting" value="2" />
+<BandChannelMap>
+<BandChannel>
+<int name="Band" value="1" />
+<int name="Channel" value="0" />
+</BandChannel>
+<BandChannel>
+<int name="Band" value="3" />
+<int name="Channel" value="0" />
+</BandChannel>
+</BandChannelMap>
+<boolean name="80211axEnabled" value="true" />
+<boolean name="UserConfiguration" value="false" />
+<long name="BridgedModeOpportunisticShutdownTimeoutMillis" value="-1" />
+<VendorElements />
+<boolean name="80211beEnabled" value="true" />
+<string name="PersistentRandomizedMacAddress">8a:51:db:06:f2:7a</string>
+</SoftAp>
+</WifiConfigStoreData>

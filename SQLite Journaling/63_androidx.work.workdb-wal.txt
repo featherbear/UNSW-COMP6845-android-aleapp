@@ -1,0 +1,50 @@
+_SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+!rs}
+
+en_US
+SQLite format 3
+)J+
+z:Gt&
+wAD/
+Xg6a
+M5181942b9ebc31ce68dacb56c16fd79f
+j
+z
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)z
+?tablePreferencePreference
+CREATE TABLE `Preference` (`key` TEXT NOT NULL, `long_value` INTEGER, PRIMARY KEY(`key`))3
+indexsqlite_autoindex_Preference_1Preference
++tableWorkProgressWorkProgress
+CREATE TABLE `WorkProgress` (`work_spec_id` TEXT NOT NULL, `progress` BLOB NOT NULL, PRIMARY KEY(`work_spec_id`), FOREIGN KEY(`work_spec_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )7
+indexsqlite_autoindex_WorkProgress_1WorkProgress
+indexindex_WorkName_work_spec_idWorkName
+CREATE INDEX `index_WorkName_work_spec_id` ON `WorkName` (`work_spec_id`)l
++tableWorkNameWorkName
+CREATE TABLE `WorkName` (`name` TEXT NOT NULL, `work_spec_id` TEXT NOT NULL, PRIMARY KEY(`name`, `work_spec_id`), FOREIGN KEY(`work_spec_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )/
+indexsqlite_autoindex_WorkName_1WorkName
+!tableSystemIdInfoSystemIdInfo
+CREATE TABLE `SystemIdInfo` (`work_spec_id` TEXT NOT NULL, `generation` INTEGER NOT NULL DEFAULT 0, `system_id` INTEGER NOT NULL, PRIMARY KEY(`work_spec_id`, `generation`), FOREIGN KEY(`work_spec_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )7
+indexsqlite_autoindex_SystemIdInfo_1SystemIdInfo
+indexindex_WorkTag_work_spec_idWorkTag
+CREATE INDEX `index_WorkTag_work_spec_id` ON `WorkTag` (`work_spec_id`)g
+
+%tableWorkTagWorkTagCREATE TABLE `WorkTag` (`tag` TEXT NOT NULL, `work_spec_id` TEXT NOT NULL, PRIMARY KEY(`tag`, `work_spec_id`), FOREIGN KEY(`work_spec_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )-
+indexsqlite_autoindex_WorkTag_1WorkTag
+
+3indexindex_WorkSpec_last_enqueue_timeWorkSpecCREATE INDEX `index_WorkSpec_last_enqueue_time` ON `WorkSpec` (`last_enqueue_time`)
+Cindexindex_WorkSpec_schedule_requested_atWorkSpec
+CREATE INDEX `index_WorkSpec_schedule_requested_at` ON `WorkSpec` (`schedule_requested_at`)
+QtableWorkSpecWorkSpec
+CREATE TABLE `WorkSpec` (`id` TEXT NOT NULL, `state` INTEGER NOT NULL, `worker_class_name` TEXT NOT NULL, `input_merger_class_name` TEXT, `input` BLOB NOT NULL, `output` BLOB NOT NULL, `initial_delay` INTEGER NOT NULL, `interval_duration` INTEGER NOT NULL, `flex_duration` INTEGER NOT NULL, `run_attempt_count` INTEGER NOT NULL, `backoff_policy` INTEGER NOT NULL, `backoff_delay_duration` INTEGER NOT NULL, `last_enqueue_time` INTEGER NOT NULL, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_foreground` INTEGER NOT NULL, `out_of_quota_policy` INTEGER NOT NULL, `period_count` INTEGER NOT NULL DEFAULT 0, `generation` INTEGER NOT NULL DEFAULT 0, `required_network_type` INTEGER NOT NULL, `requires_charging` INTEGER NOT NULL, `requires_device_idle` INTEGER NOT NULL, `requires_battery_not_low` INTEGER NOT NULL, `requires_storage_not_low` INTEGER NOT NULL, `trigger_content_update_delay` INTEGER NOT NULL, `trigger_max_content_delay` INTEGER NOT NULL, `content_uri_triggers` BLOB NOT NULL, PRIMARY KEY(`id`))/
+indexsqlite_autoindex_WorkSpec_1WorkSpec	
+
+3indexindex_Dependency_prerequisite_idDependency
+CREATE INDEX `index_Dependency_prerequisite_id` ON `Dependency` (`prerequisite_id`)
+'indexindex_Dependency_work_spec_idDependency
+CREATE INDEX `index_Dependency_work_spec_id` ON `Dependency` (`work_spec_id`)
+tableDependencyDependency
+CREATE TABLE `Dependency` (`work_spec_id` TEXT NOT NULL, `prerequisite_id` TEXT NOT NULL, PRIMARY KEY(`work_spec_id`, `prerequisite_id`), FOREIGN KEY(`work_spec_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE , FOREIGN KEY(`prerequisite_id`) REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )3
+indexsqlite_autoindex_Dependency_1Dependency

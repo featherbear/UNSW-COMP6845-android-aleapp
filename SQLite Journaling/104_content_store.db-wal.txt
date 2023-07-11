@@ -1,0 +1,486 @@
+W`3@
+tom.jonsey91@gmail.com_ZERO_STATE_ZERO_STATE_CLIENT_RESPONSE_T1BBX1NNQVJUU1BBQ0U=
+
+tom.jonsey91@gmail.com_SMARTSPACE_SMARTSPACE_WEATHER_CARD_UPDATE_
+tom.jonsey91@gmail.com_DEVICE_OPA_TIMESTAMP_dG9tLmpvbnNleTkxQGdtYWlsLmNvbV9jbGFzcyBjb20uZ29vZ2xlLmFzc2lzdGFudC5xLmEuaWJf
+YzczMDlhMDM2ZGRiYTc5NDc0NjkzODFlMjJjYzAwOTI=
+
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV83
+
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV8y
+
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV8yNA==
+
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV8z
+
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV8xMQ==
+
+tom.jonsey91@gmail.com_ZERO_STATE_ZERO_STATE_CLIENT_RESPONSE_TUFJTl9BUFA=
+
+tom.jonsey91@gmail.com_ZERO_STATE_ZERO_STATE_EMBEDDED_ASSISTANT_RESPONSE_
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV84
+
+MX
+
+W'jWJ
+tom.jonsey91@gmail.com_SMARTSPACE_SMARTSPACE_WEATHER_CARD_UPDATE_"
+"
+	
+
+
+;com.google.android.apps.nexuslauncher.extra.SMARTSPACE_ICON
+`https://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_light_color_96dp.png"
+Partly cloudy8
+intent:#Intent;launchFlags=0x18000000;component=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.smartspace.ExportedSmartspaceTrampolineActivity;S.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_INTENT=intent%3A%23Intent%3Baction%3Dandroid.intent.action.MAIN%3Bcategory%3Dandroid.intent.category.LAUNCHER%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.google.android.googlequicksearchbox%2Fcom.google.android.apps.search.weather.WeatherActivity%3BS.source%3Dand.gsa.weather.widget%3Bend;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_CARD_TYPE=1;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_TAP_ACTION_TYPE=2;endH
+_https://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_sunny_light_color_96dp.png"Mostly sunny8
+Xhttps://www.gstatic.com/images/icons/material/apps/weather/2x/sunny_light_color_96dp.png"
+Sunny8
+intent:#Intent;launchFlags=0x18000000;component=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.smartspace.ExportedSmartspaceTrampolineActivity;S.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_INTENT=intent%
+tom.jonsey91@gmail.com_SMARTSPACE_SMARTSPACE_CARD_UPDATE_MjAyOTU3Njk2MQ==
+
+*y9z
+Welcome to your new Pixel
+
+Tap for tips
+2=
+;com.google.android.apps.nexuslauncher.extra.SMARTSPACE_ICON8
+intent:#Intent;launchFlags=0x18000000;component=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.smartspace.ExportedSmartspaceTrampolineActivity;S.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_INTENT=intent%3A%23Intent%3Baction%3Dcom.google.android.apps.tips.action.SMART_SPACE%3Bcategory%3Dandroid.intent.category.DEFAULT%3BlaunchFlags%3D0x10000001%3Bend;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_CARD_TYPE=7;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_TAP_ACTION_TYPE=2;endH
+=LDu
+tom.jonsey91@gmail.com_PCP_PROACTIVE_DATA_LIST_cHJvYWN0aXZlX2RhdGFfZW4tVVNfdHJ1ZV8yNA==
+
+
+Tell me a joke
+U
+Shttps://www.gstatic.com/images/icons/material/system/2x/tag_faces_googblue_48dp.png8
+logs.feature.TreeRef
+
+
+Play music
+V
+Thttps://www.gstatic.com/images/icons/material/system/2x/music_note_googblue_48dp.png8
+What's the weather?
+Q
+Ohttps://www.gstatic.com/images/icons/material/system/2x/cloud_googblue_48dp.png8
+Wake me up in 8 hours
+Q
+Ohttps://www.gstatic.com/images/icons/material/system/2x/alarm_googblue_48dp.png8
+Turn up volume
+\
+Zhttps://www.gstatic.com/images/icons/material/system/2x/google_assistant_googblue_48dp.png8
+Make a phone call
+Q
+Ohttps://www.gstatic.com/images/icons/material/system/2x/phone_googblue_48dp.png8
+l
+jJf
+
+TODAY
+Pweather_current_f6a966c04ee211a4ca12e623e3965ada6a7589ebf2dd83824bbd694832b0cefe
+May 8R
+
+
+Mostly cloudy
+02dhttps://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_cloudy_day_light_color_96dp.png8
+
+Mostly sunny
+202_https://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_sunny_light_color_96dp.png8
+Rain
+902_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+
+
+Partly cloudy
+02`https://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_light_color_96dp.png8
+Showers
+802_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+102_https://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_sunny_light_color_96dp.png8
+202`https://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_light_color_96dp.png8
+102`https://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_light_color_96dp.png8
+Ohttps://www.weather.com/wx/today/?lat=-31.95&lon=115.86&locale=en_US&par=google"
+More on weather.com*	
+Perth 
+112dhttps://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_cloudy_day_light_color_96dp.png8
+122fhttps://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_cloudy_night_light_color_96dp.png8
+Cloudy
+32Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+12Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+02fhttps://www.gstatic.com/images/icons/material/apps/weather/2x/mostly_cloudy_night_light_color_96dp.png8
+02fhttps://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_night_light_color_96dp.png8
+12fhttps://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_night_light_color_96dp.png8
+r
+zs_weather2Pweather_current_f6a966c04ee211a4ca12e623e3965ada6a7589ebf2dd83824bbd694832b0cefex
+hash_tag_13934941408914847855
+\
+,
+
+14300591108724338267"
+17620443172140736097
+176204431721407360972t
+c
+Pweather_current_f6a966c04ee211a4ca12e623e3965ada6a7589ebf2dd83824bbd694832b0cefe
+en-US8	H
+intent:#Intent;launchFlags=0x18000000;component=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.smartspace.ExportedSmartspaceTrampolineActivity;S.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_INTENT=intent
+%3A%23Intent%3Baction%3Dandroid.intent.action.MAIN%3Bcategory%3Dandroid.intent.category.LAUNCHER%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.google.android.googlequicksearchbox%2Fcom.google.android.apps.search.weather.WeatherActivity%3BS.source%3Dand.gsa.weather.widget%3Bend;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_CARD_TYPE=1;i.com.google.android.apps.gsa.smartspace.extra.SMARTSPACE_TAP_ACTION_TYPE=2;endH
+=L3i
+-z!o%
+
+=L/A;zN
+@A
+e
+J"H
+<
+0Z.
+4C
+n
+"" 
+
+F:D
+B
+:"8
+0
+$R"
+$""
+
+
+$R"
+
+0
+$R"
+P"N
+@
+,R*
+roboto-regular
+
+
+@A
+
+
+
+|Zz
+ A
+K
+?"=
+0
+$R"
+google-sans-medium
+
+
+
+8
+(R&
+D"B
+8
+(R&
+
+
+google-sans
+
+
+`A
+
+
+<":
+0
+$R"
+&"$
+
+card_header_expansion_icon
+
+
+("&
+
+zs-expand-arrow
+"R2P
+N
+Lhttps://www.gstatic.com/
+voice/zerostate/valyrian/expand_ggrey600_24dp_3x.png
+"E2C
+A
+?http://ssl.gstatic.com/assistant-visuals/static/transparent.png
+523
+1
+/OpaExperiments.long_press_to_open_overflow_menu
+220
+.
+,ZeroStateVeLogging.use_ve_logging_properties
+"T*R
+<":
+8
+,J*
+sub_header_text_slot
+"R*P
+:"8
+6
+*J(
+custom_header_slot
+"P*N
+8"6
+4
+(J&
+header_icon_slot
+"Q*O
+9"7
+5
+)J'
+custom_title_slot
+header_status_slot
+"S*Q
+;"9
+7
++J)
+calendar_color_slot
+ !("
+custom_subtitle_slot
+ %(&
+
+#card_container.eml|2912633c3ff843b6
+
+3type.googleapis.com/youtube.elements.TemplateConfig
+U"S
+F
+/R-
+@A
+f
+W"U
+S
+GZE
+%"#
+!
+
+card-container
+
+
+PZN
+@A
+#
+4C
+J
+"2 
+
+spinner.eml|f0d78c45e9876ad5
+.
+"N*L
+6"4
+2
+&J$
+card_body_slot
+spinner.eml|f0d78c45e9876ad5
+
+spinner.eml|f0d78c45e9876ad5
+T
+3type.googleapis.com/youtube.elements.TemplateConfig
+@A
+s
+&{"v":"5.7.3","fr":60,"ip":0,"op":180,"w":32,"h":32,"nm":"Spinner_64_LightTheme","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"Null 1","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[368]},{"t":182}],"ix":10},"p":{"a":0,"k":[16,16,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[33,33,100],"ix":6}},"
+ao":0,"ip":0,"op":323,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 2","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[0,0,0],"ix":2},"a":{"a":0,"k":[401.059,13.059,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[88,88],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"st","c":{"a":0,"k":[0.5411764705882353,0.7058823529411765,0.9725490196078431,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[401.059,13.059],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tm","s":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[75],"e":[95]},{"t":60,"s":[95],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":61,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[75],"e":[95]},{"t":121,"s":[95],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[75],"e":[95]},{"t":182}],"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[80],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":61,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[80],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[80],"e":[100]},{"t":182}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false}],"ip":0,"op":323,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 1","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[0,0,0],"ix":2},"a":{"a":0,"k":[401.059,13.059,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[88,88],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"st","c":{"a":0,"k":[0.5411764705882353,0.7058823529411765,0.9725490196078431,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[401.059,13.059],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tm","s":{"a":1,"k":[{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":30,"s":[10],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0],"y":[0]},"t":61,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":91,"s":[10],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0],"y":[0]},"t":122,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":152,"s":[10],"e":[100]},{"t":182}],"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[80],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.16
+7]},"t":61,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[80],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[80],"e":[100]},{"t":182}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false}],"ip":0,"op":323,"st":0,"bm":0}],"markers":[]}
+&{"v":"5.7.3","fr":60,"ip":0,"op":180,"w":32,"h":32,"nm":"Spinner_64_LightTheme","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"Null 1","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[368]},{"t":182}],"ix":10},"p":{"a":0,"k":[16,16,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[33,33,100],"ix":6}},"ao":0,"ip":0,"op":323,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 2","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[0,0,0],"ix":2},"a":{"a":0,"k":[401.059,13.059,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[88,88],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"st","c":{"a":0,"k":[0.10196078431372549,0.45098039215686275,0.9098039215686274,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[401.059,13.059],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tm","s":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[75],"e":[95]},{"t":60,"s":[95],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":61,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[75],"e":[95]},{"t":121,"s":[95],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[0],"e":[75]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[75],"e":[95]},{"t":182}],"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[80],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":61,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[80],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.79]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[5],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[80],"e":[100]},{"t":182}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false}],"ip":0,"op":323,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 1","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[0,0,0],"ix":2},"a":{"a":0,"k":[401.059,13.059,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[88,88],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"st","c":{"a":0,"k":[0.10196078431372549,0.45098039215686275,0.9098039215686274,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[401.059,13.059],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"
+Ellipse 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tm","s":{"a":1,"k":[{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":30,"s":[10],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0],"y":[0]},"t":61,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":91,"s":[10],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.75],"y":[0.037]},"o":{"x":[0],"y":[0]},"t":122,"s":[0],"e":[10]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0],"y":[0]},"t":152,"s":[10],"e":[100]},{"t":182}],"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":30,"s":[80],"e":[100]},{"t":60,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.167]},"t":61,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":91,"s":[80],"e":[100]},{"t":121,"s":[100],"h":1},{"i":{"x":[0.1],"y":[0.803]},"o":{"x":[0.167],"y":[0.167]},"t":122,"s":[0],"e":[80]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0],"y":[0]},"t":152,"s":[80],"e":[100]},{"t":182}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false}],"ip":0,"op":323,"st":0,"bm":0}],"markers":[]}
+&
+#attention_card.eml|19033340c588e854
+%
+3type.googleapis.com/youtube.elements.TemplateConfig
+)2'
+%
+#card_container.eml|2912633c3ff843b6
+
+card_body_slot
+!
+&2$
+"
+ card_header.eml|ad8bd1179220e032
+K
+$2"
+ 
+
+card_body.eml|8e2a7bb7ddccfdc7
+
+
+(R&
+2
+
+	body_slot
+
+Roboto-Regular
+
+
+%2#
+!
+
+disclaimer.eml|7b5bdf310c17dfa4
+Y
+ A
+
+
+	
+(R&
+m"k
+i
+,R*
+2	
+
+$0-$1
+H"F
+D
+
+,"*
+
+-"+
+
+m:k
+i
+4"2
+
+ A
+b
+I:G
+E
+zero-state-attention-card
+card_body.eml|8e2a7bb7ddccfdc7
+#card_container.eml|2912633c3ff843b6
+ card_header.eml|ad8bd1179220e032
+disclaimer.eml|7b5bdf310c17dfa4"
+ 
+
+1116111705
+
+@type.googleapis.com/search.rendering.xuikit.elements.theme.Theme
+google-sans-medium
+A"'
+
+A*'
+
+A2'
+
+A:'
+
+AB 
+google-sans
+
+
+sans-serif
+sans-serif-italic
+@r$
+
+sans-serif-bold
+google-sans-bold
+google-sans-text-medium
+@"%
+
+google-sans-text
+
+google-sans
+@@*#
+
+@J#
+
+
+11161117050
+2Kdefault_id_6ea58355cbce3273407458a2d0b694fe1b106dbca13886b6443ba6e75e00e57fx
+hash_tag_14300591108724338267
+13553377863997501297
+102Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+302_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+Ohttps://www.weather.com/wx/
+Kdefault_id_d643bc8edd38e4ed07ee842563d1d646f54576837a016168434a6c008fd0c0f7
+Kdefault_id_88751a2f334578c25caeb13ae6c691229be076d4274fcda322ba30ad9f082a75
+Kdefault_id_3ed7316633e3f9f3d7b2e62dec9ffb23a91131b834ce337ed1a6111e64cef9e6
+Kdefault_id_4f41597183ab1ae1e11e5f4ec4e8d6c9831768e3b5ac1abc87a534deaaa446da
+Kdefault_id_8ea25e2ed2c02769f79d361bd4edfa3a1c78d5f808401efeb44ba3edabbdd739
+Kdefault_id_bc5dac07c259c2b3fb89bb4cc56670abe85e00232c895cbe61a8cc67eb022942
+Kdefault_id_729cf45afc662bbfb316a4dfe7fb92939dd6383c7f83b480ffb013683fe69639
+WJS
+Kdefault_id_6ea58355cbce3273407458a2d0b694fe1b106dbca13886b6443ba6e75e00e57f
+
+jJf
+
+May 7R
+Good night 
+2Kdefault_id_d643bc8edd38e4ed07ee842563d1d646f54576837a016168434a6c008fd0c0f7R
+17567845275565110144
+Hello!2Kdefault_id_88751a2f334578c25caeb13ae6c691229be076d4274fcda322ba30ad9f082a75R
+s a new day, Tom2Kdefault_id_3ed7316633e3f9f3d7b2e62dec9ffb23a91131b834ce337ed1a6111e64cef9e6R
+
+
+
+Afternoon!2Kdefault_id_4f41597183ab1ae1e11e5f4ec4e8d6c9831768e3b5ac1abc87a534deaaa446daR
+eather.com/wx/today/?lat=-31.95&lon=115.86&locale=en_US&par=google"
+462_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+632_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+t
+
+Light rain
+952Zhttps://www.gstatic.com/images/icons/material/apps/weather/2x/drizzle_light_color_96dp.png8@
+942_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+222Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+132Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+202Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+92Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+72Yhttps://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_light_color_96dp.png8	@
+02_https://www.gstatic.com/images/icons/material/apps/weather/2x/showers_rain_light_color_96dp.png8
+@
+hash_tag_3810090522319123488
+17620443172140736097"O
+M
+Kdefault_id_0068c8b89e3feea834a02b69a6f2569f384c5e9520f2ec6b43355d26a12bf83d*
+Kdefault_id_709b96d6b746765d1b319797409f5b741118192a53892e77973a72855b4cc5bf
+Kdefault_id_6abac284ec0292af4f60af137906fb3bb3ff2fc2eff9711ce9749224013546c6
+Kdefault_id_3c7f02ae5d80c9f6e6733ee0c122950d038c6afa568ea9e917adfd7f42012e86
+Kdefault_id_0660b017b902b995ad2dbaed4ff1e633612c0812212f83a6a42bfbaf4084471c
+Kdefault_id_6b79625c598bb178e066d323bf5be7c38d09548cf185bc97e6985de73d0045a6
+Kdefault_id_a23d01c539144342cf7a3ef8362799dcd7d9e8bb14add5918927e8b8770f5e572
+
+Kdefault_id_6f1277a87906c7678a30641996ddcebbaac13f63c5b62b35ce226c2e881b9c42
+TomR
+See you in the morning 
+$
+~
+Kdefault_id_1b5462a03c30bf7908422526ab3d73d5a5026ab70157c0f57f1d5f40c7437960
+Hi Tom!Z
+
+Kdefault_id_d924b640d37f5479b4d391555c8de3875218c0719bd50e95d28fd800ea6a5080
+TomRMorning, TomZ
+
+Kdefault_id_d2048a21bf0bcab19d0e4fd055f165abe66487dae5ecdac6a047e6cacf8dd5b9
+Have a great afternoon 
+
+Kdefault_id_f85acfa5af36ddb658e9805bcce026208a18ded4ae071b2c8ee93c526411161c
+Have a great evening, TomZ
+
+Kdefault_id_2b32795d187776007e27ea51575e6f532e707b18014f90dddf24c941ca8a50d4
+$
+}
+Kdefault_id_1d084c4207b330d224af6afb8bf6de7727c469b587ad9dabafcca4c898c93a52
+Hello!Z
+$
+^
+Kdefault_id_709b96d6b746765d1b319797409f5b741118192a53892e77973a72855b4cc5bf
+M
+^
+Kdefault_id_6abac284ec0292af4f60af137906fb3bb3ff2fc2eff9711ce9749224013546c6
+M
+^
+Kdefault_id_3c7f02ae5d80c9f6e6733ee0c122950d038c6afa568ea9e917adfd7f42012e86
+M
+^
+Kdefault_id_0660b017b902b995ad2dbaed4ff1e633612c0812212f83a6a42bfbaf4084471c
+M
+^
+Kdefault_id_6b79625c598bb178e066d323bf5be7c38d09548cf185bc97e6985de73d0045a6
+M
+^
+Kdefault_id_a23d01c539144342cf7a3ef8362799dcd7d9e8bb14add5918927e8b8770f5e57
+M
+^
+Kdefault_id_0068c8b89e3feea834a02b69a6f2569f384c5e9520f2ec6b43355d26a12bf83d
+I
+^
+Kdefault_id_708b3310f16ceaa2412b251b71f22213c4c4c00128b4f3a243e27cc6301f4616
+
+c
+Pweather_current_f6a966c04ee211a4ca12e623e3965ada6a7589ebf2dd83824bbd694832b0cefe
+en-US8

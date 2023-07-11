@@ -1,0 +1,45 @@
+j7u<
+vSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)+
+)tablefeedbackfeedback
+CREATE TABLE `feedback` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `input` TEXT, `targetId` TEXT, `created_timestamp` INTEGER NOT NULL)
+	tableapptermappterm
+CREATE TABLE `appterm` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `pkg_name` TEXT, `categories` TEXT, `key_words` TEXT)
+etableplay_appplay_app
+CREATE TABLE `play_app` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `package_name` TEXT, `avg_rating` REAL, `installs` INTEGER, `developer_name` TEXT, `encoded_image` BLOB, `mdp_queries` TEXT, `mdp_impressions` TEXT)
+utablepixel_tippixel_tip
+CREATE TABLE `pixel_tip` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `tip_label` TEXT, `intent_uri` TEXT, `title` TEXT, `description` TEXT, `body` TEXT, `indexed_terms` TEXT, `impression_score` REAL NOT NULL, `is_active` INTEGER NOT NULL)
+=tablesettingssettings
+CREATE TABLE `settings` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `data_key` TEXT, `title` TEXT, `normalized_title` TEXT, `package_name` TEXT, `intent_uri` TEXT, `slice_uri` TEXT, `breadcrumbs` TEXT, `click_score` REAL NOT NULL, `settings_home_click_ratio` REAL NOT NULL, `indexing_terms` TEXT, `is_active` INTEGER NOT NULL, `is_bc_feature` INTEGER NOT NULL, `is_onboarding_feature` INTEGER NOT NULL)#
+ytablenavigationalsitenavigationalsite
+CREATE TABLE `navigationalsite` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `site_url` TEXT, `site_domain` TEXT):
+
+?tablechrome_tabchrome_tabCREATE TABLE `chrome_tab` (`url` TEXT NOT NULL, `tab_text` TEXT, `created_timestamp` INTEGER NOT NULL, `title` TEXT, `hostname` TEXT, PRIMARY KEY(`url`))3
+indexsqlite_autoindex_chrome_tab_1chrome_tab
+	
+Ytableentity_infoentity_info
+CREATE TABLE `entity_info` (`mid` TEXT NOT NULL, `entity_title` TEXT, `type` TEXT, PRIMARY KEY(`mid`))5	
+indexsqlite_autoindex_entity_info_1entity_info
+'tabledevice_contentdevice_content	CREATE TABLE `device_content` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `created_at` INTEGER NOT NULL, `modified_at` INTEGER NOT NULL, `uri` TEXT, `title` TEXT, `subtitles` TEXT, `type` TEXT, `artist` TEXT, `album` TEXT, `metadata` TEXT, `display_text` TEXT, `app_based_indexed_terms` TEXT, `entity_based_indexed_terms` TEXT)&
+_indexindex_app_info_title_keywords_categoriesapp_info
+CREATE INDEX `index_app_info_title_keywords_categories` ON `app_info` (`title`, `keywords`, `categories`)
+tableapp_infoapp_info
+CREATE TABLE `app_info` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `package_name` TEXT, `user_id` INTEGER NOT NULL, `class_name` TEXT, `categories` TEXT, `keywords` TEXT, `title_tokens` TEXT, `category_tokens` TEXT, `keyword_tokens` TEXT)_
+
+tableappactionappaction
+CREATE TABLE `appaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `pkg_name` TEXT, `title` TEXT, `key_words` TEXT, `deep_link` TEXT, `app_name` TEXT, `popularity_score` REAL NOT NULL)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)-
+%tablescreenshotscreenshot
+CREATE TABLE `screenshot` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `uri` TEXT, `ocr_text` TEXT, `ica_labels` TEXT, `app_name` TEXT)W
+-W@
+
+f}hG
+M3830a50a68e299135cf10aa5286935b1
+	feedback
+settAPPLICATION:0:com.android.settings:com.android.settings.Settings

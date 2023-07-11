@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="25">
+        <open>1</open>
+        <Placemark id="27">
+            <name>2023-05-01 13:51:20</name>
+            <description>Timestamp: 2023-05-01 13:51:20 - Google Photos (gphotos0) - Local Media</description>
+            <Point id="26">
+                <coordinates>115.928,-32.144,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,10 @@
+E\'<
+pv1SQLite format 3
+.O}
+
++tablepropertiesproperties
+CREATE TABLE "properties" ("property" TEXT PRIMARY KEY NOT NULL,  "value" BLOB)3
+indexsqlite_autoindex_properties_1properties
+local_counterd
+'	local_counter
+local_counter

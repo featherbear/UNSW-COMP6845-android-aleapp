@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ALEAPP - Strings - SQLite Journal & WAL report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Highlight.js -->
+        <link rel="stylesheet" href="_elements/highlight.min.css">
+        <script src="_elements/highlight.min.js"></script>
+        <!-- Cal-Heatmap -->
+        <script src="_elements/d3.v7.min.js"></script>
+        <script src="_elements/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="_elements/cal-heatmap.css">
+        <script src="_elements/popper.min.js"></script>
+        <script src="_elements/Tooltip.min.js"></script>
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chat.css">
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+        <link href="_elements/timeline/css/timeline.min.css" rel="stylesheet" />
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">ALEAPP 3.1.8</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+<h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Saved Reports
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="index.html">
+            <span data-feather="home"></span> Report Home
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_ce
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Authtokens_0.html">
+            <span data-feather="key"></span> Authtokens_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_ce_0.html">
+            <span data-feather="user"></span> accounts_ce_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_de
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_de_0.html">
+            <span data-feather="user"></span> accounts_de_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Adb Hosts
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="ADB Hosts.html">
+            <span data-feather="terminal"></span> ADB Hosts
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Android System Intelligence
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SimpleStorage - App Launch.html">
+            <span data-feather="loader"></span> SimpleStorage - App Launch
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        App Roles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Android 11 Roles_0.html">
+            <span data-feather="tool"></span> Android 11 Roles_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Bluetooth Connections
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Adapter Information.html">
+            <span data-feather="bluetooth"></span> Bluetooth Adapter Information
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Connections.html">
+            <span data-feather="bluetooth"></span> Bluetooth Connections
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Browser Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome Browser Cache.html">
+            <span data-feather="chrome"></span> Chrome Browser Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Calendar
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calendar - Calendars.html">
+            <span data-feather="calendar"></span> Calendar - Calendars
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Chromium
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies-01.html">
+            <span data-feather="chrome"></span> Chrome - Cookies-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies.html">
+            <span data-feather="chrome"></span> Chrome - Cookies
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads-01.html">
+            <span data-feather="download"></span> Chrome - Downloads-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads.html">
+            <span data-feather="download"></span> Chrome - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor-01.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms.html">
+            <span data-feather="search"></span> Chrome - Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History-01.html">
+            <span data-feather="chrome"></span> Chrome - Web History-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History.html">
+            <span data-feather="chrome"></span> Chrome - Web History
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits-01.html">
+            <span data-feather="globe"></span> Chrome - Web Visits-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits.html">
+            <span data-feather="globe"></span> Chrome - Web Visits
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Health Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Application Usage.html">
+            <span data-feather="bar-chart-2"></span> Turbo - Application Usage
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Phone Battery.html">
+            <span data-feather="battery-charging"></span> Turbo - Phone Battery
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Info
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Partner Settings.html">
+            <span data-feather="settings"></span> Partner Settings
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SIM_info_0.html">
+            <span data-feather="info"></span> SIM_info_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings_Secure_0.html">
+            <span data-feather="settings"></span> Settings_Secure_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Digital Wellbeing
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Account Data.html">
+            <span data-feather="user"></span> Account Data
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Events.html">
+            <span data-feather="layers"></span> Events
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Downloads
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Native Downloads.html">
+            <span data-feather="download"></span> Native Downloads
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Emulated Storage Metadata
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Downloads.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Files.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Files
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Images.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Images
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Encrypting Media Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker Database.html">
+            <span data-feather="lock"></span> Calculator Locker Database
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker.html">
+            <span data-feather="lock"></span> Calculator Locker
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Files by Google
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Files by Google - Files Master.html">
+            <span data-feather="file"></span> Files by Google - Files Master
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Firebase Cloud Messaging
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.android.vending.html">
+            <span data-feather="database"></span> FCM-Dump-com.android.vending
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.gm.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.gm
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.googlequicksearchbox.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.googlequicksearchbox
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.zhiliaoapp.musically.html">
+            <span data-feather="database"></span> FCM-Dump-com.zhiliaoapp.musically
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        GEO Location
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Search History Maps.html">
+            <span data-feather="map-pin"></span> Google Search History Maps
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gboard Keyboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gboard - Sessions.html">
+            <span data-feather="edit-3"></span> Gboard - Sessions
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gmail
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Active.html">
+            <span data-feather="at-sign"></span> Gmail - Active
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - App Emails.html">
+            <span data-feather="at-sign"></span> Gmail - App Emails
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Label Details.html">
+            <span data-feather="mail"></span> Gmail - Label Details
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Messages
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Messages.html">
+            <span data-feather="message-circle"></span> Google Messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Photos
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos-1) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos-1) - Local Media
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Cache.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Cache
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Local Media
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Play
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Searches.html">
+            <span data-feather="search"></span> Google Play Searches
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Image Manager Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Image Manager Cache.html">
+            <span data-feather="image"></span> Image Manager Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Installed Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Icons.html">
+            <span data-feather="package"></span> App Icons
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Updates (Frosting.db).html">
+            <span data-feather="package"></span> App Updates (Frosting.db)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Links for Apps.html">
+            <span data-feather="package"></span> Google Play Links for Apps
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS).html">
+            <span data-feather="package"></span> Installed Apps (GMS)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS)_0.html">
+            <span data-feather="package"></span> Installed Apps (GMS)_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Library).html">
+            <span data-feather="package"></span> Installed Apps (Library)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Vending).html">
+            <span data-feather="package"></span> Installed Apps (Vending)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Packages.html">
+            <span data-feather="package"></span> Packages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Permissions
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml.html">
+            <span data-feather="check"></span> Appops.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permission Trees.html">
+            <span data-feather="check"></span> Permission Trees
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permissions.html">
+            <span data-feather="check"></span> Permissions
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Runtime Permissions_0.html">
+            <span data-feather="check"></span> Runtime Permissions_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Power Events
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Last Boot Time.html">
+            <span data-feather="power"></span> Last Boot Time
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Shutdown Checkpoints.html">
+            <span data-feather="power"></span> Shutdown Checkpoints
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Privacy Dashboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Privacy Dashboard.html">
+            <span data-feather="eye"></span> Privacy Dashboard
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Recent Activity
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Recent Activity_0.html">
+            <span data-feather="activity"></span> Recent Activity_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SMS & MMS
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SMS messages.html">
+            <span data-feather="message-square"></span> SMS messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SQLite Journaling
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link  active" href="Strings - SQLite Journal & WAL.html">
+            <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Settings Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings Services - Battery Usage.html">
+            <span data-feather="battery-charging"></span> Settings Services - Battery Usage
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Usage Stats
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="OS Version.html">
+            <span data-feather="bar-chart-2"></span> OS Version
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="UsageStats_0.html">
+            <span data-feather="bar-chart-2"></span> UsageStats_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        WiFi Profiles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wi-Fi Profiles.html">
+            <span data-feather="wifi"></span> Wi-Fi Profiles
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 0.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 1.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 1
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Wipe & Setup
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml Setup Wizard.html">
+            <span data-feather="loader"></span> Appops.xml Setup Wizard
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Factory Reset.html">
+            <span data-feather="loader"></span> Factory Reset
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Setup_Wizard_Info.xml.html">
+            <span data-feather="loader"></span> Setup_Wizard_Info.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Suggestions.xml.html">
+            <span data-feather="loader"></span> Suggestions.xml
+        </a>
+    </li>
+    
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="display-5">Strings - SQLite Journal & WAL report</h1>
+                    <h6 class="animated fadeIn mb-3">ASCII strings extracted from SQLite journal and WAL files.</h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 194</h6><p class="lead">Strings - SQLite Journal & WAL located at: </p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Report</th><th class="th-sm">Location</th></tr></thead><tbody><tr><td><a href="SQLite Journaling/1_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.youtube\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/2_portable_geller_.db-wal.txt" style = "color:blue" target="_blank">portable_geller_.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\databases\portable_geller_.db-wal</td></tr><tr><td><a href="SQLite Journaling/3_opa_notifications_db-wal.txt" style = "color:blue" target="_blank">opa_notifications_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\databases\opa_notifications_db-wal</td></tr><tr><td><a href="SQLite Journaling/4_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/5_portable_geller_tom.jonsey91@gmail.com.db-wal.txt" style = "color:blue" target="_blank">portable_geller_tom.jonsey91@gmail.com.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\databases\portable_geller_tom.jonsey91@gmail.com.db-wal</td></tr><tr><td><a href="SQLite Journaling/6_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/7_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/8_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\app_si\opa_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/9_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\app_si\now_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/10_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.googlequicksearchbox\app_si\state_dump_event_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/11_bugle_db-wal.txt" style = "color:blue" target="_blank">bugle_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.messaging\databases\bugle_db-wal</td></tr><tr><td><a href="SQLite Journaling/12_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.messaging\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/13_picker.db-wal.txt" style = "color:blue" target="_blank">picker.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.providers.media.module\databases\picker.db-wal</td></tr><tr><td><a href="SQLite Journaling/14_external.db-wal.txt" style = "color:blue" target="_blank">external.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.providers.media.module\databases\external.db-wal</td></tr><tr><td><a href="SQLite Journaling/15_internal.db-wal.txt" style = "color:blue" target="_blank">internal.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.providers.media.module\databases\internal.db-wal</td></tr><tr><td><a href="SQLite Journaling/16_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.safetyhub\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/17_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.safetyhub\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/18_phenotype.db-wal.txt" style = "color:blue" target="_blank">phenotype.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.android.vending\databases\phenotype.db-wal</td></tr><tr><td><a href="SQLite Journaling/19_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.accessibility.voiceaccess\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/20_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.wellbeing\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/21_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.nbu.files\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/22_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.docs\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/23_gnp_database-wal.txt" style = "color:blue" target="_blank">gnp_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.docs\databases\gnp_database-wal</td></tr><tr><td><a href="SQLite Journaling/24_cello.db-wal.txt" style = "color:blue" target="_blank">cello.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db-wal</td></tr><tr><td><a href="SQLite Journaling/25_cello.db_local_counter-wal.txt" style = "color:blue" target="_blank">cello.db_local_counter-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db_local_counter-wal</td></tr><tr><td><a href="SQLite Journaling/26_cello.db_prefetched_ids-wal.txt" style = "color:blue" target="_blank">cello.db_prefetched_ids-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db_prefetched_ids-wal</td></tr><tr><td><a href="SQLite Journaling/27_data-status-db-wal.txt" style = "color:blue" target="_blank">data-status-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.tips\databases\data-status-db-wal</td></tr><tr><td><a href="SQLite Journaling/28_gnp_database-wal.txt" style = "color:blue" target="_blank">gnp_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.contacts\databases\gnp_database-wal</td></tr><tr><td><a href="SQLite Journaling/29_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.contacts\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/30_gaia-discovery-wal.txt" style = "color:blue" target="_blank">gaia-discovery-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gms\databases\gaia-discovery-wal</td></tr><tr><td><a href="SQLite Journaling/31_StatementServiceVerificationRequest.db-wal.txt" style = "color:blue" target="_blank">StatementServiceVerificationRequest.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gms\databases\StatementServiceVerificationRequest.db-wal</td></tr><tr><td><a href="SQLite Journaling/32_portable_geller_tom.jonsey91@gmail.com.db-wal.txt" style = "color:blue" target="_blank">portable_geller_tom.jonsey91@gmail.com.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gms\databases\portable_geller_tom.jonsey91@gmail.com.db-wal</td></tr><tr><td><a href="SQLite Journaling/33_games-sign-in-db-wal.txt" style = "color:blue" target="_blank">games-sign-in-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gms\databases\games-sign-in-db-wal</td></tr><tr><td><a href="SQLite Journaling/34_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.tts\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/35_purchase_store.db-wal.txt" style = "color:blue" target="_blank">purchase_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.videos\databases\purchase_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/36_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.videos\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/37_gphotos-1.db-wal.txt" style = "color:blue" target="_blank">gphotos-1.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\gphotos-1.db-wal</td></tr><tr><td><a href="SQLite Journaling/38_media_store_extras-wal.txt" style = "color:blue" target="_blank">media_store_extras-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\media_store_extras-wal</td></tr><tr><td><a href="SQLite Journaling/39_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/40_disk_cache-wal.txt" style = "color:blue" target="_blank">disk_cache-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\disk_cache-wal</td></tr><tr><td><a href="SQLite Journaling/41_gphotos0.db-wal.txt" style = "color:blue" target="_blank">gphotos0.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\gphotos0.db-wal</td></tr><tr><td><a href="SQLite Journaling/42_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/43_peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\databases\peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal</td></tr><tr><td><a href="SQLite Journaling/44_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.photos\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/45_turbo.db-wal.txt" style = "color:blue" target="_blank">turbo.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.turbo\databases\turbo.db-wal</td></tr><tr><td><a href="SQLite Journaling/46_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.android.remoteprovisioner\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/47_echo_db-wal.txt" style = "color:blue" target="_blank">echo_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\echo_db-wal</td></tr><tr><td><a href="SQLite Journaling/48_SimpleStorage-wal.txt" style = "color:blue" target="_blank">SimpleStorage-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\SimpleStorage-wal</td></tr><tr><td><a href="SQLite Journaling/49_people_search-wal.txt" style = "color:blue" target="_blank">people_search-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\people_search-wal</td></tr><tr><td><a href="SQLite Journaling/50_action_invokes.db-wal.txt" style = "color:blue" target="_blank">action_invokes.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\action_invokes.db-wal</td></tr><tr><td><a href="SQLite Journaling/51_Notification-wal.txt" style = "color:blue" target="_blank">Notification-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\Notification-wal</td></tr><tr><td><a href="SQLite Journaling/52_nasa_ps_db-wal.txt" style = "color:blue" target="_blank">nasa_ps_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\nasa_ps_db-wal</td></tr><tr><td><a href="SQLite Journaling/53_translation_setting.db-wal.txt" style = "color:blue" target="_blank">translation_setting.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\databases\translation_setting.db-wal</td></tr><tr><td><a href="SQLite Journaling/54_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.as\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/55_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/56_peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal</td></tr><tr><td><a href="SQLite Journaling/57_bigTopDataDB.1874273315-wal.txt" style = "color:blue" target="_blank">bigTopDataDB.1874273315-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\bigTopDataDB.1874273315-wal</td></tr><tr><td><a href="SQLite Journaling/58_dynamite.db-wal.txt" style = "color:blue" target="_blank">dynamite.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\user_accounts\tom.jonsey91@gmail.com\dynamite.db-wal</td></tr><tr><td><a href="SQLite Journaling/59_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/60_og_education.db-wal.txt" style = "color:blue" target="_blank">og_education.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\databases\og_education.db-wal</td></tr><tr><td><a href="SQLite Journaling/61_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.gm\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/62_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.security.securityhub\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/63_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.euicc\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/64_atlas_database-wal.txt" style = "color:blue" target="_blank">atlas_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.dialer\databases\atlas_database-wal</td></tr><tr><td><a href="SQLite Journaling/65_suggest_contact_database-wal.txt" style = "color:blue" target="_blank">suggest_contact_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.dialer\databases\suggest_contact_database-wal</td></tr><tr><td><a href="SQLite Journaling/66_normalized_spam.db-wal.txt" style = "color:blue" target="_blank">normalized_spam.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.dialer\databases\normalized_spam.db-wal</td></tr><tr><td><a href="SQLite Journaling/67_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.dialer\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/68_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/69_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/70_ugc-sync.db-wal.txt" style = "color:blue" target="_blank">ugc-sync.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\databases\ugc-sync.db-wal</td></tr><tr><td><a href="SQLite Journaling/71_peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\databases\peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal</td></tr><tr><td><a href="SQLite Journaling/72_updates-tab-visit.db-wal.txt" style = "color:blue" target="_blank">updates-tab-visit.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\databases\updates-tab-visit.db-wal</td></tr><tr><td><a href="SQLite Journaling/73_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.maps\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/74_data.db-wal.txt" style = "color:blue" target="_blank">data.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.calendar\files\tasks\37677210-327e-3ad6-8c75-3fae87aef908\data.db-wal</td></tr><tr><td><a href="SQLite Journaling/75_cal_v2a-wal.txt" style = "color:blue" target="_blank">cal_v2a-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.calendar\databases\cal_v2a-wal</td></tr><tr><td><a href="SQLite Journaling/76_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.calendar\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/77_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.calendar\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/78_contextual-cards-db-wal.txt" style = "color:blue" target="_blank">contextual-cards-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.settings.intelligence\databases\contextual-cards-db-wal</td></tr><tr><td><a href="SQLite Journaling/79_battery-usage-db-v4-wal.txt" style = "color:blue" target="_blank">battery-usage-db-v4-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.settings.intelligence\databases\battery-usage-db-v4-wal</td></tr><tr><td><a href="SQLite Journaling/80_engine_database_prototype-wal.txt" style = "color:blue" target="_blank">engine_database_prototype-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.settings.intelligence\databases\engine_database_prototype-wal</td></tr><tr><td><a href="SQLite Journaling/81_routines-wal.txt" style = "color:blue" target="_blank">routines-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.settings.intelligence\databases\routines-wal</td></tr><tr><td><a href="SQLite Journaling/82_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.settings.intelligence\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/83_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.gcs\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/84_CameraFatalErrorTracker_db-wal.txt" style = "color:blue" target="_blank">CameraFatalErrorTracker_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.GoogleCamera\databases\CameraFatalErrorTracker_db-wal</td></tr><tr><td><a href="SQLite Journaling/85_shot_db-wal.txt" style = "color:blue" target="_blank">shot_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.GoogleCamera\databases\shot_db-wal</td></tr><tr><td><a href="SQLite Journaling/86_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.hld.anzenbokusucal\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/87_showAd.db-wal.txt" style = "color:blue" target="_blank">showAd.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\showAd.db-wal</td></tr><tr><td><a href="SQLite Journaling/88_bd_sync_sdk_v2.db-wal.txt" style = "color:blue" target="_blank">bd_sync_sdk_v2.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\bd_sync_sdk_v2.db-wal</td></tr><tr><td><a href="SQLite Journaling/89_i18n_live-wal.txt" style = "color:blue" target="_blank">i18n_live-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\i18n_live-wal</td></tr><tr><td><a href="SQLite Journaling/90_1233_feature_engineering.db-wal.txt" style = "color:blue" target="_blank">1233_feature_engineering.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\1233_feature_engineering.db-wal</td></tr><tr><td><a href="SQLite Journaling/91_1728_feature_engineering.db-wal.txt" style = "color:blue" target="_blank">1728_feature_engineering.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\1728_feature_engineering.db-wal</td></tr><tr><td><a href="SQLite Journaling/92_share.db-wal.txt" style = "color:blue" target="_blank">share.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.zhiliaoapp.musically\databases\share.db-wal</td></tr><tr><td><a href="SQLite Journaling/93_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.restore\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/94_event_log_database-wal.txt" style = "color:blue" target="_blank">event_log_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.work.clouddpc\databases\event_log_database-wal</td></tr><tr><td><a href="SQLite Journaling/95_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.joeykrim.rootcheck\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/96_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\data\com.google.android.apps.youtube.music\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/97_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.youtube\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/98_portable_geller_.db-wal.txt" style = "color:blue" target="_blank">portable_geller_.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\databases\portable_geller_.db-wal</td></tr><tr><td><a href="SQLite Journaling/99_opa_notifications_db-wal.txt" style = "color:blue" target="_blank">opa_notifications_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\databases\opa_notifications_db-wal</td></tr><tr><td><a href="SQLite Journaling/100_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/101_portable_geller_tom.jonsey91@gmail.com.db-wal.txt" style = "color:blue" target="_blank">portable_geller_tom.jonsey91@gmail.com.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\databases\portable_geller_tom.jonsey91@gmail.com.db-wal</td></tr><tr><td><a href="SQLite Journaling/102_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/103_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/104_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\app_si\opa_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/105_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\app_si\now_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/106_content_store.db-wal.txt" style = "color:blue" target="_blank">content_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.googlequicksearchbox\app_si\state_dump_event_content_store\content_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/107_bugle_db-wal.txt" style = "color:blue" target="_blank">bugle_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.messaging\databases\bugle_db-wal</td></tr><tr><td><a href="SQLite Journaling/108_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.messaging\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/109_picker.db-wal.txt" style = "color:blue" target="_blank">picker.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.providers.media.module\databases\picker.db-wal</td></tr><tr><td><a href="SQLite Journaling/110_external.db-wal.txt" style = "color:blue" target="_blank">external.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.providers.media.module\databases\external.db-wal</td></tr><tr><td><a href="SQLite Journaling/111_internal.db-wal.txt" style = "color:blue" target="_blank">internal.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.providers.media.module\databases\internal.db-wal</td></tr><tr><td><a href="SQLite Journaling/112_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.safetyhub\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/113_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.safetyhub\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/114_phenotype.db-wal.txt" style = "color:blue" target="_blank">phenotype.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.android.vending\databases\phenotype.db-wal</td></tr><tr><td><a href="SQLite Journaling/115_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.accessibility.voiceaccess\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/116_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.wellbeing\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/117_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.nbu.files\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/118_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.docs\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/119_gnp_database-wal.txt" style = "color:blue" target="_blank">gnp_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.docs\databases\gnp_database-wal</td></tr><tr><td><a href="SQLite Journaling/120_cello.db-wal.txt" style = "color:blue" target="_blank">cello.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db-wal</td></tr><tr><td><a href="SQLite Journaling/121_cello.db_local_counter-wal.txt" style = "color:blue" target="_blank">cello.db_local_counter-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db_local_counter-wal</td></tr><tr><td><a href="SQLite Journaling/122_cello.db_prefetched_ids-wal.txt" style = "color:blue" target="_blank">cello.db_prefetched_ids-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.docs\app_cello\tom.jonsey91@gmail.com\cello.db_prefetched_ids-wal</td></tr><tr><td><a href="SQLite Journaling/123_data-status-db-wal.txt" style = "color:blue" target="_blank">data-status-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.tips\databases\data-status-db-wal</td></tr><tr><td><a href="SQLite Journaling/124_gnp_database-wal.txt" style = "color:blue" target="_blank">gnp_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.contacts\databases\gnp_database-wal</td></tr><tr><td><a href="SQLite Journaling/125_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.contacts\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/126_gaia-discovery-wal.txt" style = "color:blue" target="_blank">gaia-discovery-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gms\databases\gaia-discovery-wal</td></tr><tr><td><a href="SQLite Journaling/127_StatementServiceVerificationRequest.db-wal.txt" style = "color:blue" target="_blank">StatementServiceVerificationRequest.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gms\databases\StatementServiceVerificationRequest.db-wal</td></tr><tr><td><a href="SQLite Journaling/128_portable_geller_tom.jonsey91@gmail.com.db-wal.txt" style = "color:blue" target="_blank">portable_geller_tom.jonsey91@gmail.com.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gms\databases\portable_geller_tom.jonsey91@gmail.com.db-wal</td></tr><tr><td><a href="SQLite Journaling/129_games-sign-in-db-wal.txt" style = "color:blue" target="_blank">games-sign-in-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gms\databases\games-sign-in-db-wal</td></tr><tr><td><a href="SQLite Journaling/130_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.tts\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/131_purchase_store.db-wal.txt" style = "color:blue" target="_blank">purchase_store.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.videos\databases\purchase_store.db-wal</td></tr><tr><td><a href="SQLite Journaling/132_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.videos\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/133_gphotos-1.db-wal.txt" style = "color:blue" target="_blank">gphotos-1.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\gphotos-1.db-wal</td></tr><tr><td><a href="SQLite Journaling/134_media_store_extras-wal.txt" style = "color:blue" target="_blank">media_store_extras-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\media_store_extras-wal</td></tr><tr><td><a href="SQLite Journaling/135_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/136_disk_cache-wal.txt" style = "color:blue" target="_blank">disk_cache-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\disk_cache-wal</td></tr><tr><td><a href="SQLite Journaling/137_gphotos0.db-wal.txt" style = "color:blue" target="_blank">gphotos0.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\gphotos0.db-wal</td></tr><tr><td><a href="SQLite Journaling/138_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/139_peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\databases\peopleCache_tom.jonsey91@gmail.com_com.google_24.db-wal</td></tr><tr><td><a href="SQLite Journaling/140_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.photos\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/141_turbo.db-wal.txt" style = "color:blue" target="_blank">turbo.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.turbo\databases\turbo.db-wal</td></tr><tr><td><a href="SQLite Journaling/142_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.android.remoteprovisioner\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/143_echo_db-wal.txt" style = "color:blue" target="_blank">echo_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\echo_db-wal</td></tr><tr><td><a href="SQLite Journaling/144_SimpleStorage-wal.txt" style = "color:blue" target="_blank">SimpleStorage-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\SimpleStorage-wal</td></tr><tr><td><a href="SQLite Journaling/145_people_search-wal.txt" style = "color:blue" target="_blank">people_search-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\people_search-wal</td></tr><tr><td><a href="SQLite Journaling/146_action_invokes.db-wal.txt" style = "color:blue" target="_blank">action_invokes.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\action_invokes.db-wal</td></tr><tr><td><a href="SQLite Journaling/147_Notification-wal.txt" style = "color:blue" target="_blank">Notification-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\Notification-wal</td></tr><tr><td><a href="SQLite Journaling/148_nasa_ps_db-wal.txt" style = "color:blue" target="_blank">nasa_ps_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\nasa_ps_db-wal</td></tr><tr><td><a href="SQLite Journaling/149_translation_setting.db-wal.txt" style = "color:blue" target="_blank">translation_setting.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\databases\translation_setting.db-wal</td></tr><tr><td><a href="SQLite Journaling/150_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.as\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/151_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/152_peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\peopleCache_tom.jonsey91@gmail.com_com.google_11.db-wal</td></tr><tr><td><a href="SQLite Journaling/153_bigTopDataDB.1874273315-wal.txt" style = "color:blue" target="_blank">bigTopDataDB.1874273315-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\bigTopDataDB.1874273315-wal</td></tr><tr><td><a href="SQLite Journaling/154_dynamite.db-wal.txt" style = "color:blue" target="_blank">dynamite.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\user_accounts\tom.jonsey91@gmail.com\dynamite.db-wal</td></tr><tr><td><a href="SQLite Journaling/155_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/156_og_education.db-wal.txt" style = "color:blue" target="_blank">og_education.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\databases\og_education.db-wal</td></tr><tr><td><a href="SQLite Journaling/157_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.gm\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/158_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.security.securityhub\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/159_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.euicc\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/160_atlas_database-wal.txt" style = "color:blue" target="_blank">atlas_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.dialer\databases\atlas_database-wal</td></tr><tr><td><a href="SQLite Journaling/161_suggest_contact_database-wal.txt" style = "color:blue" target="_blank">suggest_contact_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.dialer\databases\suggest_contact_database-wal</td></tr><tr><td><a href="SQLite Journaling/162_normalized_spam.db-wal.txt" style = "color:blue" target="_blank">normalized_spam.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.dialer\databases\normalized_spam.db-wal</td></tr><tr><td><a href="SQLite Journaling/163_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.dialer\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/164_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/165_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/166_ugc-sync.db-wal.txt" style = "color:blue" target="_blank">ugc-sync.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\databases\ugc-sync.db-wal</td></tr><tr><td><a href="SQLite Journaling/167_peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal.txt" style = "color:blue" target="_blank">peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\databases\peopleCache_tom.jonsey91@gmail.com_com.google_14.db-wal</td></tr><tr><td><a href="SQLite Journaling/168_updates-tab-visit.db-wal.txt" style = "color:blue" target="_blank">updates-tab-visit.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\databases\updates-tab-visit.db-wal</td></tr><tr><td><a href="SQLite Journaling/169_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.maps\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/170_data.db-wal.txt" style = "color:blue" target="_blank">data.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.calendar\files\tasks\37677210-327e-3ad6-8c75-3fae87aef908\data.db-wal</td></tr><tr><td><a href="SQLite Journaling/171_cal_v2a-wal.txt" style = "color:blue" target="_blank">cal_v2a-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.calendar\databases\cal_v2a-wal</td></tr><tr><td><a href="SQLite Journaling/172_pseudonymous_room_notifications.db-wal.txt" style = "color:blue" target="_blank">pseudonymous_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.calendar\databases\pseudonymous_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/173_tom.jonsey91@gmail.com_room_notifications.db-wal.txt" style = "color:blue" target="_blank">tom.jonsey91@gmail.com_room_notifications.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.calendar\databases\tom.jonsey91@gmail.com_room_notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/174_contextual-cards-db-wal.txt" style = "color:blue" target="_blank">contextual-cards-db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.settings.intelligence\databases\contextual-cards-db-wal</td></tr><tr><td><a href="SQLite Journaling/175_battery-usage-db-v4-wal.txt" style = "color:blue" target="_blank">battery-usage-db-v4-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.settings.intelligence\databases\battery-usage-db-v4-wal</td></tr><tr><td><a href="SQLite Journaling/176_engine_database_prototype-wal.txt" style = "color:blue" target="_blank">engine_database_prototype-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.settings.intelligence\databases\engine_database_prototype-wal</td></tr><tr><td><a href="SQLite Journaling/177_routines-wal.txt" style = "color:blue" target="_blank">routines-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.settings.intelligence\databases\routines-wal</td></tr><tr><td><a href="SQLite Journaling/178_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.settings.intelligence\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/179_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.gcs\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/180_CameraFatalErrorTracker_db-wal.txt" style = "color:blue" target="_blank">CameraFatalErrorTracker_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.GoogleCamera\databases\CameraFatalErrorTracker_db-wal</td></tr><tr><td><a href="SQLite Journaling/181_shot_db-wal.txt" style = "color:blue" target="_blank">shot_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.GoogleCamera\databases\shot_db-wal</td></tr><tr><td><a href="SQLite Journaling/182_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.hld.anzenbokusucal\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/183_showAd.db-wal.txt" style = "color:blue" target="_blank">showAd.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\showAd.db-wal</td></tr><tr><td><a href="SQLite Journaling/184_bd_sync_sdk_v2.db-wal.txt" style = "color:blue" target="_blank">bd_sync_sdk_v2.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\bd_sync_sdk_v2.db-wal</td></tr><tr><td><a href="SQLite Journaling/185_i18n_live-wal.txt" style = "color:blue" target="_blank">i18n_live-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\i18n_live-wal</td></tr><tr><td><a href="SQLite Journaling/186_1233_feature_engineering.db-wal.txt" style = "color:blue" target="_blank">1233_feature_engineering.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\1233_feature_engineering.db-wal</td></tr><tr><td><a href="SQLite Journaling/187_1728_feature_engineering.db-wal.txt" style = "color:blue" target="_blank">1728_feature_engineering.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\1728_feature_engineering.db-wal</td></tr><tr><td><a href="SQLite Journaling/188_share.db-wal.txt" style = "color:blue" target="_blank">share.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.zhiliaoapp.musically\databases\share.db-wal</td></tr><tr><td><a href="SQLite Journaling/189_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.restore\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/190_event_log_database-wal.txt" style = "color:blue" target="_blank">event_log_database-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.work.clouddpc\databases\event_log_database-wal</td></tr><tr><td><a href="SQLite Journaling/191_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.joeykrim.rootcheck\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/192_androidx.work.workdb-wal.txt" style = "color:blue" target="_blank">androidx.work.workdb-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user\0\com.google.android.apps.youtube.music\no_backup\androidx.work.workdb-wal</td></tr><tr><td><a href="SQLite Journaling/193_bluetooth_db-wal.txt" style = "color:blue" target="_blank">bluetooth_db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user_de\0\com.google.android.bluetooth\databases\bluetooth_db-wal</td></tr><tr><td><a href="SQLite Journaling/194_sulogs.db-wal.txt" style = "color:blue" target="_blank">sulogs.db-wal</a></td><td>\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\user_de\0\com.topjohnwu.magisk\databases\sulogs.db-wal</td></tr></tbody><tfoot><tr><th>Report</th><th>Location</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <!-- Chart.js -->
+    <script type="text/javascript" src="_elements/chart.umd.min.js"></script>
+    <script type="text/javascript" src="_elements/moment.min.js"></script>
+    <script type="text/javascript" src="_elements/timeline/js/timeline.min.js"></script>
+    <!-- Garmin Functions -->
+    <script type="text/javascript" src="_elements/garmin-functions.js"></script>
+    <script type="text/javascript" src="_elements/chat.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

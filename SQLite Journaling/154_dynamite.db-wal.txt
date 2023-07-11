@@ -1,0 +1,101 @@
+HSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+O?p{
+en_US
+`J|SQLite format 3
+`Kl	-D
+
+5	xplat_schema_version
+A%U5e
+jI>k`
+q7r@
+c
+j
+
+5\'C
+
+7"^
+z15
+
+6EXk
+
+tabletopicstopics
+CREATE TABLE "topics" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "topic_id" TEXT, "group_id" TEXT, "group_type" INTEGER, "sort_timestamp" INTEGER, "last_read_timestamp" INTEGER, "missing_read_replies_count" INTEGER, "mute_state" INTEGER, "user_states_update_timestamp" INTEGER, "is_locked" INTEGER, "internal_topic_type" INTEGER, "needs_backfill" INTEGER, "is_off_the_record" INTEGER, "expiration_time" INTEGER, "last_reply_creation_time" INTEGER, "is_sorted_by_creation_time" INTEGER)
+/indexIDX_topics_expiration_time_asctopics
+CREATE INDEX "IDX_topics_expiration_time_asc" ON "topics" ("expiration_time" ASC)
++indexIDX_topics_sort_timestamp_asctopics
+CREATE INDEX "IDX_topics_sort_timestamp_asc" ON "topics" ("sort_timestamp" ASC)
+Utableblocked_usersblocked_users)CREATE TABLE "blocked_users" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "user_id" TEXT, "last_updated_time_micros" INTEGER, "user_type" INTEGER)K(
+indexIDX_members_group_id_asc_user_id_asc_member_type_ascmembers(CREATE INDEX "IDX_members_group_id_asc_user_id_asc_member_type_asc" ON "members" ("group_id" ASC, "user_id" ASC, "member_type" ASC)!'
+YindexIDX_members_user_id_asc_member_type_ascmembers'CREATE INDEX "IDX_members_user_id_asc_member_type_asc" ON "members" ("user_id" ASC, "member_type" ASC)
+?indexIDXU_file_metadata_group_id_ascfile_metadata&CREATE UNIQUE INDEX "IDXU_file_metadata_group_id_asc" ON "file_metadata" ("group_id" ASC)a%
+tablefile_metadatafile_metadata%CREATE TABLE "file_metadata" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "latest_system_elapsed_real_time_millis" INTEGER, "list_files_response" BLOB)
+CindexIDX_topic_messages_server_state_asctopic_messages$CREATE INDEX "IDX_topic_messages_server_state_asc" ON "topic_messages" ("server_state" ASC)1#
+uindexIDXU_users_user_id_asc_group_context_id_ascusers#CREATE UNIQUE INDEX "IDXU_users_user_id_asc_group_context_id_asc" ON "users" ("user_id" ASC, "group_context_id" ASC)
+qtableuser_datauser_data"CREATE TABLE "user_data" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "data" BLOB, "data2" BLOB)
+
+tableusersusers CREATE TABLE "users" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "user_id" TEXT, "type" INTEGER, "name" TEXT, "first_name" TEXT, "email" TEXT, "avatar_url" TEXT, "bot_description" TEXT, "bot_enabled" INTEGER, "last_updated_time_micros" INTEGER, "needs_server_sync" INTEGER, "is_anonymous" INTEGER, "user_account_state" INTEGER, "organization_type" INTEGER, "dasher_customer_id" TEXT, "is_external_relative_to_account_user" INTEGER, "group_context_id" TEXT, "group_context_type" INTEGER, "user_visibility" INTEGER, "phone_numbers" BLOB, "origin_app_id" BLOB) 
+]indexIDXU_topics_group_id_asc_topic_id_asctopics
+CREATE UNIQUE INDEX "IDXU_topics_group_id_asc_topic_id_asc" ON "topics" ("group_id" ASC, "topic_id" ASC)
+wtablexplat_schema_versionxplat_schema_version6CREATE TABLE "xplat_schema_version" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "version" INTEGER)7
+7indexIDXU_unicode_emoji_locale_ascunicode_emoji5CREATE UNIQUE INDEX "IDXU_unicode_emoji_locale_asc" ON "unicode_emoji" ("locale" ASC)
+Itableintegration_menu_slash_commandintegration_menu_slash_command,CREATE TABLE "integration_menu_slash_command" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "command_id" INTEGER, "group_id" TEXT, "bot_id" TEXT, "name" TEXT, "description" TEXT, "triggers_dialog" INTEGER)N5
+{indexIDXU_integration_menu_bots_paging_group_id_ascintegration_menu_bots_paging3CREATE UNIQUE INDEX "IDXU_integration_menu_bots_paging_group_id_asc" ON "integration_menu_bots_paging" ("group_id" ASC)
+%tableintegration_menu_bots_pagingintegration_menu_bots_paging2CREATE TABLE "integration_menu_bots_paging" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "next_page_token" TEXT, "token_expired" INTEGER, "pagination_completed" INTEGER)
+CindexIDX_integration_menu_bot_bot_id_ascintegration_menu_bot1CREATE INDEX "IDX_integration_menu_bot_bot_id_asc" ON "integration_menu_bot" ("bot_id" ASC)%2
+KindexIDX_integration_menu_bot_group_id_ascintegration_menu_bot0CREATE INDEX "IDX_integration_menu_bot_group_id_asc" ON "integration_menu_bot" ("group_id" ASC)
+Utableintegration_menu_botintegration_menu_bot/CREATE TABLE "integration_menu_bot" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "bot_id" TEXT, "name" TEXT, "menu_section_id" INTEGER, "menu_section_title" TEXT, "description" TEXT, "avatar_url" TEXT, "next_page_token" TEXT, "pagination_completed" INTEGER)G0
+kindexIDX_integration_menu_slash_command_bot_id_ascintegration_menu_slash_command.CREATE INDEX "IDX_integration_menu_slash_command_bot_id_asc" ON "integration_menu_slash_command" ("bot_id" ASC)M/
+sindexIDX_integration_menu_slash_command_group_id_ascintegration_menu_slash_command-CREATE INDEX "IDX_integration_menu_slash_command_group_id_asc" ON "integration_menu_slash_command" ("group_id" ASC)
+otableunicode_emojiunicode_emoji4CREATE TABLE "unicode_emoji" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "locale" TEXT, "data_version" TEXT, "emoji_to_shortcodes" BLOB, "emoticons_map" BLOB)
++indexIDXU_custom_emoji_uuid_asccustom_emoji!CREATE UNIQUE INDEX "IDXU_custom_emoji_uuid_asc" ON "custom_emoji" ("uuid" ASC)
+tablecustom_emojicustom_emoji+CREATE TABLE "custom_emoji" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "uuid" TEXT, "resource_url" TEXT, "short_code" TEXT, "state" INTEGER, "creator_user_id" TEXT, "owner_customer_id" TEXT, "create_time_micros" INTEGER, "read_token" TEXT)p+
+indexIDX_Groups_lookup_id_ascGroups*CREATE INDEX "IDX_Groups_lookup_id_asc" ON "Groups" ("lookup_id" ASC)
+;indexIDXU_blocked_users_user_id_ascblocked_users
+CREATE UNIQUE INDEX "IDXU_blocked_users_user_id_asc" ON "blocked_users" ("user_id" ASC)
+p	'
+
+qtableGroupsGroupsCREATE TABLE "Groups" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "lookup_id" TEXT, "type" INTEGER, "is_bot_dm" INTEGER, "name" TEXT, "create_time" INTEGER, "creator_id" TEXT, "sort_time" INTEGER, "metadata_revision" INTEGER, "world_revision" INTEGER, "stream_revision" INTEGER, "membership_revision" INTEGER, "star_state" INTEGER, "hidden_state" INTEGER, "mute_state" INTEGER, "last_view_time" INTEGER, "unread_subscribed_topic_count" INTEGER, "inviter_user_id" TEXT, "invited_topic_id" TEXT, "invite_type" INTEGER, "show_welcome_mat" INTEGER, "contains_first_topic" INTEGER, "contains_last_topic" INTEGER, "otr_state" INTEGER, "is_flat" INTEGER, "is_interop" INTEGER, "retention_duration" INTEGER, "clear_history_timestamp" INTEGER, "is_bot_features_enabled" INTEGER, "domain_otr_state" INTEGER, "guest_access_state" INTEGER, "organization_type" INTEGER, "dasher_customer_id" TEXT, "is_account_user_guest_in_group" INTEGER, "block_state" INTEGER, "clear_history_enforcement_timestamp" INTEGER, "membership_state" INTEGER, "meet_invitation_id" TEXT, "snippet" BLOB, "roster_email" TEXT, "room_avatar_url" TEXT, "read_receipts" BLOB, "primary_dm_partner_user_id" TEXT, "mark_as_unread_time" INTEGER, "visible_in_world" INTEGER, "has_draft_topic" INTEGER, "room_notification_setting" INTEGER, "avatar_info" BLOB, "invite_category" INTEGER, "space_integration_payloads" BLOB, "is_notification_card_shown_in_stream" INTEGER, "name_users" BLOB, "group_attribute_info" INTEGER, "group_integration_settings" BLOB, "group_support_level" INTEGER, "notifications_card_topic_id" TEXT, "space_details" BLOB, "group_details" BLOB, "group_unsupported_reason" INTEGER, "group_history_policy" INTEGER, "membership_role" INTEGER, "creator_id_type" INTEGER, "inviter_user_id_type" INTEGER, "primary_dm_partner_user_id_type" INTEGER, "upgrade_flow_otr_warning" INTEGER, "is_inline_threading_enabled" INTEGER, "has_unread_thread_in_thread_summary" INTEGER, "group_scoped_capabilities" BLOB, "active_backend_group_experiments_for_logging_list" TEXT, "origin_app_id" BLOB, "abuse_labels" BLOB, "acting_user_id" TEXT, "dm_created_by_admin" INTEGER)
++tablemembersmembers
+CREATE TABLE "members" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "user_id" TEXT, "group_type" INTEGER, "membership_state" INTEGER, "member_type" INTEGER, "membership_role" INTEGER, "member_user_type" INTEGER, "audience_type" INTEGER)
+]indexIDXU_members_group_id_asc_user_id_ascmembersCREATE UNIQUE INDEX "IDXU_members_group_id_asc_user_id_asc" ON "members" ("group_id" ASC, "user_id" ASC) 
+]indexIDXU_drafts_group_id_asc_topic_id_ascdrafts	CREATE UNIQUE INDEX "IDXU_drafts_group_id_asc_topic_id_asc" ON "drafts" ("group_id" ASC, "topic_id" ASC)b
+tabledraftsdrafts
+CREATE TABLE "drafts" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "topic_id" TEXT, "group_type" INTEGER, "text" TEXT, "annotation" BLOB, "is_off_the_record" INTEGER)F
+tableclient_flight_logs_table_v1client_flight_logs_table_v1
+CREATE TABLE "client_flight_logs_table_v1" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "client_flight_log" BLOB)K
+indexIDXU_annotation_metadata_annotation_local_id_ascannotation_metadata
+CREATE UNIQUE INDEX "IDXU_annotation_metadata_annotation_local_id_asc" ON "annotation_metadata" ("annotation_local_id" ASC)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)C
+-tableannotation_metadataannotation_metadata
+CREATE TABLE "annotation_metadata" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "annotation_local_id" TEXT, "annotation" BLOB)W
+%tablerostersrosters
+CREATE TABLE "rosters" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "roster_id" TEXT, "name" TEXT, "avatar_url" TEXT, "membership_count" INTEGER, "last_updated_time_micros" INTEGER, "last_read_time_micros" INTEGER, "email" TEXT, "is_deleted" INTEGER)
+tabletopic_messagestopic_messages
+CREATE TABLE "topic_messages" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "id" TEXT, "group_id" TEXT, "topic_id" TEXT, "creator_id" TEXT, "group_type" INTEGER, "create_time" INTEGER, "update_time" INTEGER, "edit_time" INTEGER, "text_body" TEXT, "annotation" BLOB, "attachment" BLOB, "bot_reponses" BLOB, "reactions" BLOB, "internal_message_type" INTEGER, "app_profile" BLOB, "contiguous_state" INTEGER, "server_confirmed_state" INTEGER, "server_state" INTEGER, "expiration_time" INTEGER, "origin_app_id" BLOB, "editable_by" INTEGER, "deletable_by" INTEGER, "message_type" INTEGER, "accept_format_annotations" INTEGER, "creator_id_type" INTEGER, "tombstone_metadata" BLOB, "delete_time" INTEGER, "is_tombstone" INTEGER, "origin_app_suggestions" BLOB, "error_reason" INTEGER, "private_messages" BLOB, "acting_user_id" TEXT)v
+#indexIDXU_Groups_group_id_ascGroups
+CREATE UNIQUE INDEX "IDXU_Groups_group_id_asc" ON "Groups" ("group_id" ASC)
+indexIDXU_topic_ranges_group_id_asc_start_sort_timestamp_asc_end_sort_timestamp_asctopic_ranges
+CREATE UNIQUE INDEX "IDXU_topic_ranges_group_id_asc_start_sort_timestamp_asc_end_sort_timestamp_asc" ON "topic_ranges" ("group_id" ASC, "start_sort_timestamp" ASC, "end_sort_timestamp" ASC)N
+_tabletopic_rangestopic_ranges
+CREATE TABLE "topic_ranges" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "start_sort_timestamp" INTEGER, "end_sort_timestamp" INTEGER)X
+indexIDXU_topic_messages_group_id_asc_topic_id_asc_id_asctopic_messages
+CREATE UNIQUE INDEX "IDXU_topic_messages_group_id_asc_topic_id_asc_id_asc" ON "topic_messages" ("group_id" ASC, "topic_id" ASC, "id" ASC)"
+OindexIDX_topic_messages_expiration_time_asctopic_messages
+CREATE INDEX "IDX_topic_messages_expiration_time_asc" ON "topic_messages" ("expiration_time" ASC)
+?indexIDX_topic_messages_create_time_asctopic_messages
+CREATE INDEX "IDX_topic_messages_create_time_asc" ON "topic_messages" ("create_time" ASC)<
+yindexIDXU_smart_replies_group_id_asc_topic_id_ascsmart_replies
+CREATE UNIQUE INDEX "IDXU_smart_replies_group_id_asc_topic_id_asc" ON "smart_replies" ("group_id" ASC, "topic_id" ASC)P
+_tablesmart_repliessmart_replies
+CREATE TABLE "smart_replies" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "group_id" TEXT, "group_type" INTEGER, "topic_id" TEXT, "smart_replies" BLOB)~
+indexIDX_search_history_tab_ascsearch_history
+CREATE INDEX "IDX_search_history_tab_asc" ON "search_history" ("tab" ASC)(
+]indexIDXU_search_history_query_asc_tab_ascsearch_history
+CREATE UNIQUE INDEX "IDXU_search_history_query_asc_tab_asc" ON "search_history" ("query" ASC, "tab" ASC)F
+Gtablesearch_historysearch_history
+CREATE TABLE "search_history" ("row_id" INTEGER PRIMARY KEY ON CONFLICT ABORT AUTOINCREMENT, "query" TEXT, "tab" INTEGER, "last_updated_time_micros" INTEGER)}
++indexIDXU_rosters_roster_id_ascrosters
+CREATE UNIQUE INDEX "IDXU_rosters_roster_id_asc" ON "rosters" ("roster_id" ASC)

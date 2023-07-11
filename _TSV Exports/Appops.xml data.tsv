@@ -1,0 +1,671 @@
+﻿Access Timestamp	Reject Timestamp	Package Name	ID	Proxy Package Name	Proxy Package UID	Permission
+2023-05-01 17:18:08		android				COARSE_LOCATION
+2023-05-04 06:52:08		android				FINE_LOCATION
+2023-05-01 06:32:06		android	SensorNotificationService			FINE_LOCATION
+2023-05-08 09:00:00		android	CountryDetector			FINE_LOCATION
+2023-05-04 06:52:07		android				GPS
+2023-05-08 20:56:17		android				VIBRATE
+2023-05-08 18:05:36		android				READ_CONTACTS
+2023-05-08 21:01:00		android				READ_CALL_LOG
+2023-05-08 20:57:54		android				READ_CALENDAR
+2023-05-08 20:56:16		android				READ_SMS
+2023-05-01 22:23:37		android				AUDIO_MEDIA_VOLUME
+2023-05-08 21:05:18		android				WAKE_LOCK
+2023-05-04 06:52:07		android				MONITOR_LOCATION
+2023-05-01 06:31:48		android	SensorNotificationService			MONITOR_LOCATION
+2023-05-08 09:00:00		android	CountryDetector			MONITOR_LOCATION
+2023-05-02 02:54:48		android	GnssService			MONITOR_LOCATION
+2023-05-04 06:52:07		android				MONITOR_HIGH_POWER_LOCATION
+	2023-05-08 21:05:15	android				GET_USAGE_STATS
+2023-05-08 18:05:50		android				READ_PHONE_STATE
+2023-05-08 21:05:05		android				TURN_SCREEN_ON
+	2023-05-08 21:05:16	android				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:36	android	GnssService			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 20:54:25		android	GnssService			OP_FINE_LOCATION_SOURCE
+2023-05-08 21:02:05		android				OP_BLUETOOTH_CONNECT
+2023-05-08 21:04:35		com.google.android.iwlan				WAKE_LOCK
+2023-05-08 21:05:13		com.google.android.iwlan				OP_REQUEST_DELETE_PACKAGES
+	2023-05-08 21:04:35	com.google.android.iwlan				MANAGE_IPSEC_HANDOVERS
+	2023-05-08 21:05:05	com.google.android.iwlan				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 17:18:08		com.google.android.iwlan				OP_BLUETOOTH_CONNECT
+2023-05-01 06:27:34		com.android.inputdevices				OP_BLUETOOTH_CONNECT
+2023-05-08 18:05:34		com.android.server.telecom				READ_CONTACTS
+2023-05-01 06:32:00		com.android.server.telecom				READ_CALL_LOG
+2023-05-08 18:05:50		com.android.server.telecom				WRITE_CALL_LOG
+2023-05-08 18:05:35		com.android.server.telecom				TAKE_AUDIO_FOCUS
+	2023-05-08 18:05:35	com.android.server.telecom				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 18:05:35	com.android.server.telecom				NO_ISOLATED_STORAGE
+	2023-05-08 08:25:57	com.android.server.telecom				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 18:05:50		com.android.server.telecom				OP_BLUETOOTH_CONNECT
+2023-05-08 18:05:50		com.android.settings				READ_CALL_LOG
+	2023-05-08 21:05:12	com.android.settings				GET_USAGE_STATS
+2023-05-08 18:05:50		com.android.settings				READ_PHONE_STATE
+	2023-05-08 21:05:05	com.android.settings				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 21:03:02		com.android.settings				OP_BLUETOOTH_CONNECT
+2023-05-01 06:20:26		com.android.location.fused				OP_BLUETOOTH_CONNECT
+	2023-05-08 09:00:04	com.android.ons				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-06 17:04:47		com.android.phone				READ_CONTACTS
+2023-05-06 17:04:47		com.android.phone				WRITE_SMS
+2023-05-08 21:05:05		com.android.phone				WAKE_LOCK
+	2023-05-08 20:56:14	com.android.phone				GET_USAGE_STATS
+	2023-05-08 21:05:23	com.android.phone				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 02:25:35		com.google.android.bluetooth				READ_CONTACTS
+2023-05-01 17:18:10		com.google.android.bluetooth				WAKE_LOCK
+	2023-05-01 17:18:10	com.google.android.bluetooth				GET_USAGE_STATS
+2023-05-07 02:23:46		com.google.android.bluetooth				BLUETOOTH_SCAN
+	2023-05-08 18:05:34	com.google.android.bluetooth				MANAGE_ONGOING_CALLS
+2023-05-08 18:05:49		com.google.android.bluetooth				OP_BLUETOOTH_CONNECT
+2023-05-01 06:31:53		com.android.nfc				WAKE_LOCK
+2023-05-08 21:05:20		audioserver				WAKE_LOCK
+	2023-05-08 21:05:14	audioserver				GET_USAGE_STATS
+	2023-05-01 06:31:48	cameraserver				GET_USAGE_STATS
+	2023-05-01 06:31:49	com.google.android.networkstack.tethering				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 06:31:47		com.google.android.cellbroadcastservice				WAKE_LOCK
+	2023-05-01 06:31:49	com.google.android.cellbroadcastservice				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:41:35	com.android.sharedstoragebackup				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:41:35	com.android.sharedstoragebackup				NO_ISOLATED_STORAGE
+2023-05-08 08:59:59		com.android.providers.blockednumber				READ_CALL_LOG
+2023-05-08 09:00:00		com.android.providers.blockednumber				WRITE_CALL_LOG
+2023-05-01 06:27:42		com.android.providers.contacts		com.google.android.gm	10197	READ_CONTACTS
+2023-05-01 06:33:24		com.android.providers.contacts		com.google.android.gm	10197	READ_CONTACTS
+2023-05-08 21:00:31		com.android.providers.contacts				READ_CALL_LOG
+2023-05-06 08:21:54		com.android.providers.contacts				READ_CALL_LOG
+2023-05-08 21:00:31		com.android.providers.contacts				WRITE_CALL_LOG
+2023-05-06 08:21:54		com.android.providers.contacts				WRITE_CALL_LOG
+2023-05-01 06:20:26		com.android.cellbroadcastreceiver				READ_CELL_BROADCASTS
+	2023-05-01 07:32:38	com.google.android.packageinstaller				SYSTEM_ALERT_WINDOW
+	2023-05-01 07:34:45	com.google.android.packageinstaller				WRITE_MEDIA_VIDEO
+	2023-05-01 07:34:45	com.google.android.packageinstaller				WRITE_MEDIA_IMAGES
+	2023-05-01 07:34:45	com.google.android.packageinstaller				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 07:34:45	com.google.android.packageinstaller				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 07:34:45	com.google.android.packageinstaller				NO_ISOLATED_STORAGE
+	2023-05-01 07:34:45	com.google.android.packageinstaller				NO_ISOLATED_STORAGE
+2023-05-01 06:32:02		com.android.providers.calendar				WAKE_LOCK
+2023-05-01 06:30:58		com.android.providers.calendar				WAKE_LOCK
+	2023-05-01 06:32:14	com.google.android.hardwareinfo				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 06:20:57		com.google.android.setupwizard				FINE_LOCATION
+2023-05-08 20:57:56		com.google.android.setupwizard				FINE_LOCATION
+2023-05-01 06:32:16		com.google.android.setupwizard				FINE_LOCATION
+2023-05-08 21:01:18		com.google.android.setupwizard				FINE_LOCATION
+2023-05-01 06:20:55		com.google.android.setupwizard				OP_CHANGE_WIFI_STATE
+2023-05-01 06:20:54		com.google.android.setupwizard				START_FOREGROUND
+2023-05-08 20:56:31		com.google.android.setupwizard				START_FOREGROUND
+2023-05-08 20:56:27		com.google.android.setupwizard				START_FOREGROUND
+2023-05-01 06:32:16		com.google.android.setupwizard				START_FOREGROUND
+2023-05-01 06:20:55		com.google.android.setupwizard				BIOMETRIC
+2023-05-08 20:57:56		com.google.android.setupwizard				BIOMETRIC
+	2023-05-01 06:20:57	com.google.android.setupwizard				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:56	com.google.android.setupwizard				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:20:50	com.google.android.setupwizard				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:32:16	com.google.android.setupwizard				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 08:25:54		com.google.android.apps.security.securityhub				WAKE_LOCK
+2023-05-01 06:32:15		com.google.android.projection.gearhead				OP_BLUETOOTH_CONNECT
+	2023-05-01 06:20:33	com.android.sdm.plugins.connmo				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-04 09:53:21		com.android.vending				WAKE_LOCK
+2023-05-08 21:04:56		com.android.vending				WAKE_LOCK
+2023-05-02 04:40:35		com.android.vending				WAKE_LOCK
+2023-05-02 04:40:35		com.android.vending				WAKE_LOCK
+	2023-05-01 20:36:04	com.android.vending				GET_USAGE_STATS
+	2023-05-08 20:57:49	com.android.vending				GET_USAGE_STATS
+	2023-05-08 21:05:14	com.android.vending				GET_USAGE_STATS
+	2023-05-08 20:54:17	com.android.vending				GET_USAGE_STATS
+	2023-05-08 21:01:06	com.android.vending				GET_USAGE_STATS
+2023-05-01 20:35:48		com.android.vending				START_FOREGROUND
+2023-05-08 20:57:42		com.android.vending				START_FOREGROUND
+2023-05-08 21:02:19		com.android.vending				START_FOREGROUND
+2023-05-07 20:24:59		com.android.vending				START_FOREGROUND
+2023-05-01 06:33:48		com.android.vending				BIOMETRIC
+2023-05-08 21:04:01		com.android.vending				BIOMETRIC
+2023-05-01 06:42:09		com.android.vending				BIOMETRIC
+	2023-05-01 06:33:38	com.android.vending				WRITE_MEDIA_AUDIO
+	2023-05-04 09:53:16	com.android.vending				WRITE_MEDIA_AUDIO
+	2023-05-01 06:33:38	com.android.vending				WRITE_MEDIA_VIDEO
+	2023-05-04 09:53:16	com.android.vending				WRITE_MEDIA_VIDEO
+	2023-05-01 06:33:38	com.android.vending				WRITE_MEDIA_IMAGES
+	2023-05-04 09:53:16	com.android.vending				WRITE_MEDIA_IMAGES
+	2023-05-01 06:33:38	com.android.vending				MANAGE_EXTERNAL_STORAGE
+	2023-05-04 09:53:16	com.android.vending				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:33:38	com.android.vending				NO_ISOLATED_STORAGE
+	2023-05-04 09:53:16	com.android.vending				NO_ISOLATED_STORAGE
+	2023-05-01 07:21:34	com.android.vending				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:44	com.android.vending				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 21:04:56	com.android.vending				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 21:04:58	com.android.vending				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 09:00:03	com.android.vending				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 07:28:02	com.google.android.apps.gcs				SYSTEM_ALERT_WINDOW
+2023-05-08 20:56:06		com.google.android.apps.messaging				READ_CONTACTS
+2023-05-01 06:20:41		com.google.android.apps.messaging				READ_CONTACTS
+2023-05-08 14:26:23		com.google.android.apps.messaging				READ_CONTACTS
+2023-05-02 03:48:45		com.google.android.apps.messaging				READ_SMS
+2023-05-01 06:20:38		com.google.android.apps.messaging				READ_SMS
+2023-05-08 20:26:53		com.google.android.apps.messaging				READ_SMS
+2023-05-01 06:21:14		com.google.android.apps.messaging				READ_SMS
+2023-05-08 21:05:20		com.google.android.apps.messaging				WRITE_SMS
+2023-05-08 20:57:36		com.google.android.apps.messaging				WRITE_SMS
+2023-05-01 06:21:13		com.google.android.apps.messaging				WRITE_SMS
+2023-05-02 03:48:45		com.google.android.apps.messaging				RECEIVE_SMS
+2023-05-06 17:04:47		com.google.android.apps.messaging				RECEIVE_SMS
+2023-05-08 20:56:14		com.google.android.apps.messaging				SEND_SMS
+2023-05-02 03:45:52		com.google.android.apps.messaging				TAKE_AUDIO_FOCUS
+2023-05-08 21:05:20		com.google.android.apps.messaging				WAKE_LOCK
+2023-05-01 06:20:41		com.google.android.apps.messaging				WAKE_LOCK
+2023-05-08 20:59:53		com.google.android.apps.messaging				WAKE_LOCK
+2023-05-01 06:21:24		com.google.android.apps.messaging				WAKE_LOCK
+2023-05-01 06:20:59		com.google.android.apps.messaging				WAKE_LOCK
+	2023-05-08 20:26:53	com.google.android.apps.messaging				GET_USAGE_STATS
+	2023-05-01 06:21:14	com.google.android.apps.messaging				GET_USAGE_STATS
+2023-05-01 06:20:37		com.google.android.apps.messaging				START_FOREGROUND
+2023-05-01 06:20:37		com.google.android.apps.messaging				START_FOREGROUND
+2023-05-08 20:56:29		com.google.android.apps.messaging				READ_MEDIA_AUDIO
+2023-05-08 20:59:18		com.google.android.apps.messaging				READ_MEDIA_AUDIO
+2023-05-08 20:56:29		com.google.android.apps.messaging				READ_MEDIA_VIDEO
+2023-05-08 20:59:18		com.google.android.apps.messaging				READ_MEDIA_VIDEO
+2023-05-08 20:56:29		com.google.android.apps.messaging				READ_MEDIA_IMAGES
+2023-05-08 20:59:18		com.google.android.apps.messaging				READ_MEDIA_IMAGES
+	2023-05-08 20:56:29	com.google.android.apps.messaging				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:59:18	com.google.android.apps.messaging				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:56:29	com.google.android.apps.messaging				NO_ISOLATED_STORAGE
+	2023-05-08 20:59:18	com.google.android.apps.messaging				NO_ISOLATED_STORAGE
+	2023-05-08 20:56:16	com.google.android.apps.messaging				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:20:41	com.google.android.apps.messaging				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:49	com.google.android.apps.messaging				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:21:14	com.google.android.apps.messaging				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:21:03	com.google.android.apps.messaging				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 20:30:06		com.google.android.GoogleCamera				FINE_LOCATION
+2023-05-01 17:18:18		com.google.android.GoogleCamera				GPS
+2023-05-01 17:18:23		com.google.android.GoogleCamera				VIBRATE
+2023-05-01 20:30:06		com.google.android.GoogleCamera				CAMERA
+2023-05-01 17:18:28		com.google.android.GoogleCamera				CAMERA
+2023-05-01 06:51:24		com.google.android.GoogleCamera				CAMERA
+2023-05-01 20:30:08		com.google.android.GoogleCamera				CAMERA
+2023-05-01 17:18:26		com.google.android.GoogleCamera				WAKE_LOCK
+2023-05-01 17:18:28		com.google.android.GoogleCamera				WAKE_LOCK
+2023-05-01 17:18:29		com.google.android.GoogleCamera				WAKE_LOCK
+2023-05-01 20:30:06		com.google.android.GoogleCamera				MONITOR_LOCATION
+2023-05-01 20:30:06		com.google.android.GoogleCamera				MONITOR_HIGH_POWER_LOCATION
+2023-05-01 17:18:26		com.google.android.GoogleCamera				START_FOREGROUND
+2023-05-01 17:18:28		com.google.android.GoogleCamera				START_FOREGROUND
+2023-05-01 06:51:24		com.google.android.GoogleCamera				READ_MEDIA_AUDIO
+2023-05-01 20:30:06		com.google.android.GoogleCamera				READ_MEDIA_VIDEO
+	2023-05-01 06:51:13	com.google.android.GoogleCamera				WRITE_MEDIA_VIDEO
+2023-05-01 20:30:06		com.google.android.GoogleCamera				READ_MEDIA_IMAGES
+	2023-05-01 17:18:29	com.google.android.GoogleCamera				WRITE_MEDIA_IMAGES
+	2023-05-01 17:18:29	com.google.android.GoogleCamera				LEGACY_STORAGE
+	2023-05-01 20:30:06	com.google.android.GoogleCamera				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 20:30:06	com.google.android.GoogleCamera				NO_ISOLATED_STORAGE
+	2023-05-01 17:40:33	com.google.android.apps.turbo				SYSTEM_ALERT_WINDOW
+	2023-05-08 20:26:53	com.google.android.apps.turbo				GET_USAGE_STATS
+	2023-05-01 07:46:43	com.google.android.apps.turbo				GET_USAGE_STATS
+	2023-05-01 06:20:56	com.google.android.euicc				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 20:58:04		com.google.android.apps.safetyhub				WAKE_LOCK
+2023-05-01 06:31:08		com.google.android.apps.safetyhub				WAKE_LOCK
+	2023-05-05 01:55:06	com.google.android.apps.scone				SYSTEM_ALERT_WINDOW
+2023-05-08 18:05:34		com.google.android.apps.scone				ACTIVITY_RECOGNITION
+2023-05-08 20:55:46		com.google.android.apps.scone		com.google.android.gms	10162	ACTIVITY_RECOGNITION
+2023-05-08 18:05:52		com.google.android.apps.scone				ACTIVITY_RECOGNITION
+	2023-05-08 18:05:34	com.google.android.apps.scone				MANAGE_ONGOING_CALLS
+	2023-05-08 20:26:55	com.google.android.apps.scone				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 07:28:05		com.google.android.apps.wellbeing				WAKE_LOCK
+2023-05-06 14:11:51		com.google.android.apps.wellbeing				WAKE_LOCK
+2023-05-03 17:49:27		com.google.android.apps.wellbeing				WAKE_LOCK
+2023-05-08 20:58:04		com.google.android.apps.wellbeing				WAKE_LOCK
+2023-05-07 08:23:58		com.google.android.apps.wellbeing				WAKE_LOCK
+	2023-05-01 07:28:03	com.google.android.apps.wellbeing				GET_USAGE_STATS
+	2023-05-08 21:05:12	com.google.android.apps.wellbeing				GET_USAGE_STATS
+	2023-05-08 08:25:56	com.google.android.apps.wellbeing				GET_USAGE_STATS
+	2023-05-06 08:21:59	com.google.android.apps.wellbeing				GET_USAGE_STATS
+2023-05-08 02:25:27		com.google.android.apps.wellbeing				START_FOREGROUND
+2023-05-01 20:36:37		com.google.android.apps.wellbeing				START_FOREGROUND
+2023-05-08 02:25:27		com.google.android.apps.wellbeing				START_FOREGROUND
+	2023-05-01 06:21:21	com.google.android.carrier				SYSTEM_ALERT_WINDOW
+2023-05-01 06:21:18		com.google.android.carrier				WAKE_LOCK
+	2023-05-08 09:00:05	com.google.android.carrier				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 20:34:17		com.google.android.settings.intelligence				FINE_LOCATION
+2023-05-08 20:58:41		com.google.android.settings.intelligence				FINE_LOCATION
+2023-05-01 20:34:17		com.google.android.settings.intelligence				WIFI_SCAN
+2023-05-08 20:58:41		com.google.android.settings.intelligence				WIFI_SCAN
+	2023-05-08 08:25:54	com.google.android.partnersetup				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:32:06	com.android.imsserviceentitlement				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 08:25:57	com.google.android.apps.carrier.log				GET_USAGE_STATS
+2023-05-08 20:57:36		com.google.android.as				FINE_LOCATION
+2023-05-08 02:25:35		com.google.android.as				READ_CONTACTS
+2023-05-08 21:01:02		com.google.android.as				READ_CALL_LOG
+2023-05-08 20:57:36		com.google.android.as				WIFI_SCAN
+2023-05-08 20:56:17		com.google.android.as				READ_SMS
+2023-05-08 21:03:53		com.google.android.as				READ_CLIPBOARD
+2023-05-07 02:23:47		com.google.android.as				MONITOR_LOCATION
+	2023-05-08 20:56:30	com.google.android.as				GET_USAGE_STATS
+2023-05-08 20:57:04		com.google.android.as				READ_MEDIA_IMAGES
+	2023-05-08 20:57:04	com.google.android.as				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:57:04	com.google.android.as				NO_ISOLATED_STORAGE
+	2023-05-08 18:05:34	com.google.android.as				MANAGE_ONGOING_CALLS
+2023-05-02 06:45:54		com.google.android.googlequicksearchbox	assistant.clientsync_lo			FINE_LOCATION
+2023-05-08 14:26:22		com.google.android.googlequicksearchbox	assistant.clientsync_lo			FINE_LOCATION
+2023-05-08 20:55:36		com.google.android.googlequicksearchbox	services.mdi_lib			FINE_LOCATION
+2023-05-05 01:55:16		com.google.android.googlequicksearchbox	voice_search.lo			FINE_LOCATION
+2023-05-01 20:37:42		com.google.android.googlequicksearchbox	google_app.search			FINE_LOCATION
+2023-05-08 20:57:01		com.google.android.googlequicksearchbox	google_app.search			FINE_LOCATION
+2023-05-07 08:23:53		com.google.android.googlequicksearchbox	services.co			READ_CONTACTS
+2023-05-02 06:45:55		com.google.android.googlequicksearchbox	services.contactaffinity			READ_CONTACTS
+2023-05-08 20:26:53		com.google.android.googlequicksearchbox	services.contactaffinity			READ_CONTACTS
+2023-05-07 08:23:53		com.google.android.googlequicksearchbox	services.co			READ_CALL_LOG
+2023-05-01 06:21:16		com.google.android.googlequicksearchbox	assistant.ambient_classic			READ_CALENDAR
+2023-05-08 20:58:02		com.google.android.googlequicksearchbox	assistant.pcp			READ_CALENDAR
+2023-05-07 08:24:12		com.google.android.googlequicksearchbox	assistant.pcp			READ_CALENDAR
+2023-05-07 08:23:53		com.google.android.googlequicksearchbox	services.co			READ_SMS
+2023-05-08 20:58:05		com.google.android.googlequicksearchbox				WAKE_LOCK
+2023-05-08 21:00:35		com.google.android.googlequicksearchbox				WAKE_LOCK
+	2023-05-04 03:05:01	com.google.android.googlequicksearchbox				GET_USAGE_STATS
+2023-05-08 20:58:03		com.google.android.googlequicksearchbox				START_FOREGROUND
+2023-05-08 20:58:01		com.google.android.googlequicksearchbox				START_FOREGROUND
+	2023-05-01 06:33:31	com.google.android.googlequicksearchbox				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:33:31	com.google.android.googlequicksearchbox				NO_ISOLATED_STORAGE
+	2023-05-08 18:05:34	com.google.android.googlequicksearchbox				MANAGE_ONGOING_CALLS
+2023-05-01 06:32:19		com.google.android.googlequicksearchbox				OP_BLUETOOTH_CONNECT
+2023-05-05 01:55:20		com.google.android.googlequicksearchbox				OP_BLUETOOTH_CONNECT
+2023-05-08 21:00:34		com.google.android.dialer				VIBRATE
+2023-05-08 21:01:00		com.google.android.dialer				READ_CONTACTS
+2023-05-08 18:05:35		com.google.android.dialer				READ_CONTACTS
+2023-05-08 14:26:25		com.google.android.dialer				READ_CONTACTS
+2023-05-08 21:01:10		com.google.android.dialer				READ_CONTACTS
+2023-05-08 21:01:00		com.google.android.dialer				READ_CALL_LOG
+2023-05-08 18:05:35		com.google.android.dialer				READ_CALL_LOG
+2023-05-08 14:26:25		com.google.android.dialer				READ_CALL_LOG
+2023-05-08 21:01:10		com.google.android.dialer				READ_CALL_LOG
+2023-05-08 21:01:00		com.google.android.dialer				WRITE_CALL_LOG
+2023-05-08 09:00:06		com.google.android.dialer				SYSTEM_ALERT_WINDOW
+2023-05-08 14:26:25		com.google.android.dialer				WAKE_LOCK
+2023-05-01 06:20:33		com.google.android.dialer				WAKE_LOCK
+2023-05-08 21:01:00		com.google.android.dialer				READ_PHONE_STATE
+2023-05-08 09:00:06		com.google.android.dialer				READ_PHONE_STATE
+2023-05-08 09:00:06		com.google.android.dialer				READ_PHONE_STATE
+2023-05-08 21:00:50		com.google.android.dialer				ADD_VOICEMAIL
+2023-05-01 07:16:14		com.google.android.dialer				ADD_VOICEMAIL
+2023-05-08 18:05:35		com.google.android.dialer				START_FOREGROUND
+2023-05-08 18:05:50		com.google.android.dialer				START_FOREGROUND
+2023-05-08 18:05:35		com.google.android.dialer				START_FOREGROUND
+	2023-05-08 21:01:01	com.google.android.dialer				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 18:05:35	com.google.android.dialer				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 14:26:25	com.google.android.dialer				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 21:01:10	com.google.android.dialer				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:31:00	com.google.android.wfcactivation				SYSTEM_ALERT_WINDOW
+	2023-05-01 06:20:58	com.google.android.wfcactivation				SYSTEM_ALERT_WINDOW
+2023-05-01 06:31:00		com.google.android.wfcactivation				WAKE_LOCK
+2023-05-01 06:31:00		com.google.android.wfcactivation				WAKE_LOCK
+	2023-05-01 06:32:17	com.google.android.wfcactivation				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 06:25:34		com.google.android.apps.nbu.files				VIBRATE
+	2023-05-08 20:57:53	com.google.android.apps.nbu.files				SYSTEM_ALERT_WINDOW
+	2023-05-08 08:25:56	com.google.android.apps.nbu.files				SYSTEM_ALERT_WINDOW
+2023-05-01 06:24:44		com.google.android.apps.nbu.files				WAKE_LOCK
+2023-05-08 20:57:52		com.google.android.apps.nbu.files				WAKE_LOCK
+	2023-05-01 06:25:55	com.google.android.apps.nbu.files				GET_USAGE_STATS
+	2023-05-03 03:44:57	com.google.android.apps.nbu.files				LEGACY_STORAGE
+2023-05-01 06:24:46		com.google.android.apps.nbu.files		com.google.android.providers.media.module	10236	ACCESS_MEDIA_LOCATION
+	2023-05-01 06:26:06	com.google.android.apps.nbu.files				MANAGE_EXTERNAL_STORAGE
+	2023-05-03 06:28:41	com.google.android.apps.nbu.files				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:26:06	com.google.android.apps.nbu.files				NO_ISOLATED_STORAGE
+	2023-05-03 06:28:41	com.google.android.apps.nbu.files				NO_ISOLATED_STORAGE
+	2023-05-08 20:57:58	com.google.android.apps.work.oobconfig				SYSTEM_ALERT_WINDOW
+	2023-05-01 06:32:00	com.google.android.apps.work.oobconfig				SYSTEM_ALERT_WINDOW
+2023-05-08 20:57:57		com.google.android.apps.work.oobconfig				WAKE_LOCK
+	2023-05-01 06:21:17	com.google.android.apps.work.oobconfig				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-07 08:24:04	com.google.audio.hearing.visualization.accessibility.scribe				SYSTEM_ALERT_WINDOW
+	2023-05-08 09:49:50	com.google.android.ims				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-02 06:45:53		com.google.android.gms	location_nlp_network			FINE_LOCATION
+2023-05-08 20:54:15		com.google.android.gms	location_nlp_network			FINE_LOCATION
+2023-05-08 20:57:36		com.google.android.gms	com.google.android.gms.gcm			FINE_LOCATION
+2023-05-02 06:45:58		com.google.android.gms	com.google.android.gms.enpromo			FINE_LOCATION
+2023-05-08 08:25:54		com.google.android.gms	com.google.android.gms.enpromo			FINE_LOCATION
+2023-05-08 20:54:25		com.google.android.gms	earthquake_alerting			FINE_LOCATION
+2023-05-03 03:44:58		com.google.android.gms	geofencer_provider			FINE_LOCATION
+2023-05-02 05:45:52		com.google.android.gms				GPS
+2023-05-04 06:52:07		com.google.android.gms				GPS
+2023-05-01 06:20:29		com.google.android.gms	gms_broadcast_receiver			READ_CONTACTS
+2023-05-01 06:33:35		com.google.android.gms	com.google.android.gms.people			READ_CONTACTS
+2023-05-01 17:18:39		com.google.android.gms	com.google.android.gms.people			READ_CONTACTS
+2023-05-08 02:25:37		com.google.android.gms	com.google.android.gms.people			READ_CONTACTS
+2023-05-01 06:32:23		com.google.android.gms	nearby_sharing			READ_CONTACTS
+2023-05-01 06:31:07		com.google.android.gms	nearby_sharing			READ_CONTACTS
+2023-05-01 06:32:35		com.google.android.gms	com.google.android.gms.icing			READ_CONTACTS
+2023-05-01 21:22:25		com.google.android.gms	com.google.android.gms.icing			READ_CONTACTS
+2023-05-08 02:25:54		com.google.android.gms	com.google.android.gms.icing			READ_CONTACTS
+2023-05-01 06:33:28		com.google.android.gms	com.google.android.gms.people			WRITE_CONTACTS
+2023-05-01 17:18:40		com.google.android.gms	com.google.android.gms.people			WRITE_CONTACTS
+2023-05-08 02:25:25		com.google.android.gms	com.google.android.gms.people			WRITE_CONTACTS
+2023-05-01 06:33:40		com.google.android.gms	com.google.android.gms.constellation			READ_CALL_LOG
+2023-05-06 08:21:56		com.google.android.gms	com.google.android.gms.constellation			READ_CALL_LOG
+2023-05-01 06:20:41		com.google.android.gms	network_location_provider			WIFI_SCAN
+2023-05-02 06:45:58		com.google.android.gms	network_location_provider			WIFI_SCAN
+2023-05-08 20:54:14		com.google.android.gms	network_location_provider			WIFI_SCAN
+2023-05-08 20:57:36		com.google.android.gms	network_location_calibration			WIFI_SCAN
+2023-05-08 20:57:36		com.google.android.gms	com.google.android.gms.gcm			WIFI_SCAN
+2023-05-08 20:57:35		com.google.android.gms	fused_location_provider			WIFI_SCAN
+2023-05-01 06:20:29		com.google.android.gms	geofencer_provider			WIFI_SCAN
+2023-05-08 20:57:35		com.google.android.gms	geofencer_provider			WIFI_SCAN
+2023-05-01 06:33:40		com.google.android.gms	com.google.android.gms.constellation			READ_SMS
+2023-05-06 08:21:56		com.google.android.gms	com.google.android.gms.constellation			READ_SMS
+2023-05-02 05:04:22		com.google.android.gms	com.google.android.gms.thunderbird			READ_SMS
+2023-05-08 20:56:14		com.google.android.gms	com.google.android.gms.thunderbird			READ_SMS
+2023-05-01 06:39:15		com.google.android.gms				WAKE_LOCK
+2023-05-08 20:57:39		com.google.android.gms				WAKE_LOCK
+2023-05-08 21:05:14		com.google.android.gms				WAKE_LOCK
+2023-05-02 06:45:57		com.google.android.gms	com.google.android.gms.enpromo			MONITOR_LOCATION
+2023-05-08 08:25:53		com.google.android.gms	com.google.android.gms.enpromo			MONITOR_LOCATION
+2023-05-01 06:39:23		com.google.android.gms	earthquake_alerting			MONITOR_LOCATION
+2023-05-08 20:57:38		com.google.android.gms	earthquake_alerting			MONITOR_LOCATION
+2023-05-08 20:57:38		com.google.android.gms	earthquake_alerting			MONITOR_LOCATION
+2023-05-05 01:55:01		com.google.android.gms	earthquake_alerting			MONITOR_LOCATION
+2023-05-08 20:57:38		com.google.android.gms				MONITOR_LOCATION
+2023-05-08 20:57:38		com.google.android.gms				MONITOR_LOCATION
+2023-05-05 01:55:01		com.google.android.gms				MONITOR_LOCATION
+2023-05-02 05:45:52		com.google.android.gms	fused_location_provider			MONITOR_LOCATION
+2023-05-04 06:52:07		com.google.android.gms	fused_location_provider			MONITOR_LOCATION
+2023-05-01 06:31:57		com.google.android.gms	earthquake_alerting			MONITOR_HIGH_POWER_LOCATION
+2023-05-02 05:45:52		com.google.android.gms	fused_location_provider			MONITOR_HIGH_POWER_LOCATION
+2023-05-04 06:52:07		com.google.android.gms	fused_location_provider			MONITOR_HIGH_POWER_LOCATION
+	2023-05-01 06:33:22	com.google.android.gms	com.google.android.gms.checkinbase			GET_USAGE_STATS
+	2023-05-05 01:56:12	com.google.android.gms	com.google.android.gms.checkinbase			GET_USAGE_STATS
+	2023-05-08 20:27:54	com.google.android.gms	com.google.android.gms.checkinbase			GET_USAGE_STATS
+	2023-05-01 06:33:39	com.google.android.gms				GET_USAGE_STATS
+	2023-05-08 20:57:39	com.google.android.gms				GET_USAGE_STATS
+	2023-05-08 21:05:20	com.google.android.gms				GET_USAGE_STATS
+	2023-05-01 06:33:26	com.google.android.gms	com.google.android.gms.security__nonwearable			GET_USAGE_STATS
+	2023-05-08 02:25:32	com.google.android.gms	com.google.android.gms.security__nonwearable			GET_USAGE_STATS
+	2023-05-08 20:56:18	com.google.android.gms	com.google.android.gms.security__nonwearable			GET_USAGE_STATS
+	2023-05-01 06:33:26	com.google.android.gms	com.google.android.gms.stats			GET_USAGE_STATS
+	2023-05-08 02:25:32	com.google.android.gms	com.google.android.gms.stats			GET_USAGE_STATS
+	2023-05-08 20:56:18	com.google.android.gms	com.google.android.gms.stats			GET_USAGE_STATS
+2023-05-01 06:32:30		com.google.android.gms	nearby_messages			BLUETOOTH_SCAN
+2023-05-08 18:05:35		com.google.android.gms	nearby_messages			BLUETOOTH_SCAN
+2023-05-08 21:05:11		com.google.android.gms	nearby_messages			BLUETOOTH_SCAN
+2023-05-01 06:32:23		com.google.android.gms	nearby_sharing			BLUETOOTH_SCAN
+2023-05-02 04:22:18		com.google.android.gms	nearby_sharing			BLUETOOTH_SCAN
+2023-05-08 21:05:08		com.google.android.gms	nearby_sharing			BLUETOOTH_SCAN
+2023-05-08 18:05:35		com.google.android.gms	nearby_fast_pair			BLUETOOTH_SCAN
+2023-05-08 21:05:11		com.google.android.gms	nearby_fast_pair			BLUETOOTH_SCAN
+2023-05-01 06:33:30		com.google.android.gms	com.google.android.gms.wallet			BIOMETRIC
+2023-05-01 06:33:41		com.google.android.gms	com.google.android.gms.auth_cryptauth			BIOMETRIC
+2023-05-01 06:38:08		com.google.android.gms	com.google.android.gms.auth_cryptauth			BIOMETRIC
+2023-05-07 14:24:22		com.google.android.gms	com.google.android.gms.auth_cryptauth			BIOMETRIC
+2023-05-01 06:33:41		com.google.android.gms	com.google.android.gms.fido			BIOMETRIC
+2023-05-01 17:18:39		com.google.android.gms	com.google.android.gms.fido			BIOMETRIC
+2023-05-08 20:57:59		com.google.android.gms	com.google.android.gms.fido			BIOMETRIC
+2023-05-03 03:45:11		com.google.android.gms	com.google.android.gms.security__nonwearable			BIOMETRIC
+2023-05-01 06:32:30		com.google.android.gms	com.google.android.gms.location_base			ACTIVITY_RECOGNITION
+2023-05-01 06:20:30		com.google.android.gms	com.google.android.gms.location_base			ACTIVITY_RECOGNITION
+2023-05-02 05:04:41		com.google.android.gms	com.google.android.gms.location_base			ACTIVITY_RECOGNITION
+2023-05-08 20:55:46		com.google.android.gms	com.google.android.gms.location_base			ACTIVITY_RECOGNITION
+2023-05-01 06:21:33		com.google.android.gms	com.google.android.gms.location_base			ACTIVITY_RECOGNITION
+2023-05-01 07:33:00		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_AUDIO
+2023-05-08 21:04:48		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_AUDIO
+2023-05-05 01:55:15		com.google.android.gms				READ_MEDIA_AUDIO
+	2023-05-05 01:55:15	com.google.android.gms				WRITE_MEDIA_AUDIO
+2023-05-01 07:33:00		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_VIDEO
+2023-05-08 21:04:48		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_VIDEO
+2023-05-05 01:55:15		com.google.android.gms				READ_MEDIA_VIDEO
+	2023-05-05 01:55:15	com.google.android.gms				WRITE_MEDIA_VIDEO
+2023-05-01 07:33:00		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_IMAGES
+2023-05-08 21:04:48		com.google.android.gms	com.google.android.gms.ipa			READ_MEDIA_IMAGES
+2023-05-05 01:55:15		com.google.android.gms				READ_MEDIA_IMAGES
+	2023-05-05 01:55:15	com.google.android.gms				WRITE_MEDIA_IMAGES
+	2023-05-01 07:33:00	com.google.android.gms	com.google.android.gms.ipa			MANAGE_EXTERNAL_STORAGE
+	2023-05-08 21:04:48	com.google.android.gms	com.google.android.gms.ipa			MANAGE_EXTERNAL_STORAGE
+	2023-05-05 01:55:15	com.google.android.gms				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 07:33:00	com.google.android.gms	com.google.android.gms.ipa			NO_ISOLATED_STORAGE
+	2023-05-08 21:04:48	com.google.android.gms	com.google.android.gms.ipa			NO_ISOLATED_STORAGE
+	2023-05-05 01:55:15	com.google.android.gms				NO_ISOLATED_STORAGE
+	2023-05-01 06:32:20	com.google.android.gms	com.google.android.gms.auth_account_base			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:33:30	com.google.android.gms	com.google.android.gms.wallet			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:33:38	com.google.android.gms	com.google.android.gms.setupservices			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:33:34	com.google.android.gms	com.google.android.gms.checkinbase			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 02:25:29	com.google.android.gms	com.google.android.gms.checkinbase			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:27:24	com.google.android.gms	com.google.android.gms.checkinbase			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:39:23	com.google.android.gms	com.google.android.gms.constellation			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 02:25:28	com.google.android.gms	com.google.android.gms.constellation			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:26:53	com.google.android.gms	com.google.android.gms.constellation			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:32:22	com.google.android.gms	com.google.android.gms.mobiledataplan			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-05 01:55:13	com.google.android.gms	com.google.android.gms.mobiledataplan			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-02 03:54:26	com.google.android.gms	com.google.android.gms.thunderbird			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:56:14	com.google.android.gms	com.google.android.gms.thunderbird			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:33:41	com.google.android.gms				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:41	com.google.android.gms				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:44	com.google.android.gms				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-01 06:33:41	com.google.android.gms	com.google.android.gms.droidguard			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:41	com.google.android.gms	com.google.android.gms.droidguard			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 20:57:44	com.google.android.gms	com.google.android.gms.droidguard			USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 20:54:25		com.google.android.gms	awareness_provider			OP_FINE_LOCATION_SOURCE
+2023-05-01 06:20:41		com.google.android.gms	network_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-04 19:54:25		com.google.android.gms	network_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-08 20:54:25		com.google.android.gms	network_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-08 20:57:36		com.google.android.gms	network_location_calibration			OP_FINE_LOCATION_SOURCE
+2023-05-01 06:32:23		com.google.android.gms	fused_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-04 19:54:25		com.google.android.gms	fused_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-08 20:57:35		com.google.android.gms	fused_location_provider			OP_FINE_LOCATION_SOURCE
+2023-05-01 06:20:29		com.google.android.gms	geofencer_provider			OP_FINE_LOCATION_SOURCE
+2023-05-08 20:57:35		com.google.android.gms	geofencer_provider			OP_FINE_LOCATION_SOURCE
+2023-05-01 17:18:43		com.google.android.gms	nearby_fast_pair			OP_BLUETOOTH_CONNECT
+2023-05-07 02:23:47		com.google.android.gms	nearby_fast_pair			OP_BLUETOOTH_CONNECT
+2023-05-01 06:32:39		com.google.android.gms	nearby_connections			OP_BLUETOOTH_CONNECT
+2023-05-06 08:22:09		com.google.android.gms	nearby_connections			OP_BLUETOOTH_CONNECT
+2023-05-08 21:05:08		com.google.android.gms	nearby_connections			OP_BLUETOOTH_CONNECT
+2023-05-01 06:33:41		com.google.android.gms	com.google.android.gms.auth_proximity			OP_BLUETOOTH_CONNECT
+2023-05-08 02:25:22		com.google.android.gms	com.google.android.gms.auth_proximity			OP_BLUETOOTH_CONNECT
+2023-05-01 06:39:23		com.google.android.gms	fused_location_provider			OP_ACTIVITY_RECOGNITION_SOURCE
+2023-05-08 20:57:38		com.google.android.gms	fused_location_provider			OP_ACTIVITY_RECOGNITION_SOURCE
+2023-05-08 20:57:38		com.google.android.gms	fused_location_provider			OP_ACTIVITY_RECOGNITION_SOURCE
+2023-05-05 01:55:01		com.google.android.gms	fused_location_provider			OP_ACTIVITY_RECOGNITION_SOURCE
+2023-05-01 06:23:18		com.google.android.gms	fused_location_provider			OP_ACTIVITY_RECOGNITION_SOURCE
+2023-05-01 06:33:44		com.google.android.gsf				SEND_SMS
+2023-05-01 06:32:22		com.google.android.gsf				READ_MEDIA_AUDIO
+2023-05-01 06:20:59		com.google.android.gsf				READ_MEDIA_AUDIO
+	2023-05-01 06:32:22	com.google.android.gsf				WRITE_MEDIA_AUDIO
+	2023-05-01 06:20:59	com.google.android.gsf				WRITE_MEDIA_AUDIO
+2023-05-01 06:32:22		com.google.android.gsf				READ_MEDIA_VIDEO
+2023-05-01 06:20:59		com.google.android.gsf				READ_MEDIA_VIDEO
+	2023-05-01 06:32:22	com.google.android.gsf				WRITE_MEDIA_VIDEO
+	2023-05-01 06:20:59	com.google.android.gsf				WRITE_MEDIA_VIDEO
+2023-05-01 06:32:22		com.google.android.gsf				READ_MEDIA_IMAGES
+2023-05-01 06:20:59		com.google.android.gsf				READ_MEDIA_IMAGES
+	2023-05-01 06:32:22	com.google.android.gsf				WRITE_MEDIA_IMAGES
+	2023-05-01 06:20:59	com.google.android.gsf				WRITE_MEDIA_IMAGES
+	2023-05-01 06:32:22	com.google.android.gsf				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:20:59	com.google.android.gsf				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:32:22	com.google.android.gsf				NO_ISOLATED_STORAGE
+	2023-05-01 06:20:59	com.google.android.gsf				NO_ISOLATED_STORAGE
+	2023-05-08 20:58:03	com.google.android.apps.docs				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:00:44	com.google.android.apps.docs				SYSTEM_ALERT_WINDOW
+2023-05-08 20:58:03		com.google.android.apps.docs				WAKE_LOCK
+	2023-05-08 20:57:51	com.google.android.youtube				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:01:44	com.google.android.youtube				SYSTEM_ALERT_WINDOW
+2023-05-01 20:36:31		com.google.android.youtube				TAKE_AUDIO_FOCUS
+2023-05-01 20:36:22		com.google.android.youtube				WAKE_LOCK
+2023-05-08 21:05:16		com.google.android.youtube				WAKE_LOCK
+2023-05-08 20:58:06		com.google.android.youtube				WAKE_LOCK
+2023-05-08 20:58:06		com.google.android.youtube				WAKE_LOCK
+	2023-05-02 05:35:45	com.google.android.accessibility.soundamplifier				SYSTEM_ALERT_WINDOW
+2023-05-08 21:05:14		com.google.android.marvin.talkback				OP_BIND_ACCESSIBILITY_SERVICE
+2023-05-01 06:32:34		com.google.android.inputmethod.latin				VIBRATE
+2023-05-08 21:04:16		com.google.android.inputmethod.latin				VIBRATE
+	2023-05-08 18:06:00	com.google.android.inputmethod.latin				SYSTEM_ALERT_WINDOW
+2023-05-08 21:03:53		com.google.android.inputmethod.latin				READ_CLIPBOARD
+2023-05-08 21:05:09		com.google.android.inputmethod.latin				READ_CLIPBOARD
+2023-05-01 06:32:24		com.google.android.inputmethod.latin				WAKE_LOCK
+2023-05-01 06:32:30		com.google.android.inputmethod.latin				WAKE_LOCK
+2023-05-01 06:21:39		com.google.android.inputmethod.latin				WAKE_LOCK
+2023-05-01 06:32:24		com.google.android.inputmethod.latin				START_FOREGROUND
+2023-05-01 06:32:24		com.google.android.inputmethod.latin				START_FOREGROUND
+2023-05-01 06:21:35		com.google.android.inputmethod.latin				START_FOREGROUND
+2023-05-01 06:20:43		com.google.android.apps.accessibility.voiceaccess				OP_BIND_ACCESSIBILITY_SERVICE
+2023-05-08 21:05:14		com.google.android.apps.accessibility.voiceaccess				OP_BIND_ACCESSIBILITY_SERVICE
+2023-05-08 20:57:52		com.google.android.apps.work.clouddpc				WAKE_LOCK
+2023-05-01 06:30:56		com.google.android.apps.work.clouddpc				WAKE_LOCK
+2023-05-08 20:57:52		com.google.android.calendar				READ_CALENDAR
+2023-05-08 20:58:05		com.google.android.calendar				READ_CALENDAR
+2023-05-08 20:57:52		com.google.android.calendar				WRITE_CALENDAR
+2023-05-07 08:24:02		com.google.android.calendar				WRITE_CALENDAR
+	2023-05-07 08:24:01	com.google.android.calendar				SYSTEM_ALERT_WINDOW
+	2023-05-08 15:59:52	com.google.android.calendar				SYSTEM_ALERT_WINDOW
+2023-05-08 20:58:05		com.google.android.calendar				WAKE_LOCK
+2023-05-08 18:05:38		com.google.android.contacts				READ_CONTACTS
+2023-05-08 02:25:37		com.google.android.contacts				READ_CONTACTS
+2023-05-08 02:25:46		com.google.android.contacts				READ_CONTACTS
+	2023-05-08 18:05:38	com.google.android.contacts				WRITE_SMS
+	2023-05-08 02:25:30	com.google.android.contacts				WRITE_SMS
+	2023-05-08 02:25:33	com.google.android.contacts				WRITE_SMS
+	2023-05-01 06:45:12	com.google.android.contacts				SYSTEM_ALERT_WINDOW
+2023-05-08 18:05:38		com.google.android.contacts				READ_PHONE_STATE
+2023-05-08 02:25:30		com.google.android.contacts				READ_PHONE_STATE
+2023-05-08 02:25:33		com.google.android.contacts				READ_PHONE_STATE
+	2023-05-08 18:05:38	com.google.android.contacts				READ_DEVICE_IDENTIFIERS
+	2023-05-08 02:25:30	com.google.android.contacts				READ_DEVICE_IDENTIFIERS
+	2023-05-08 02:25:33	com.google.android.contacts				READ_DEVICE_IDENTIFIERS
+	2023-05-08 18:05:38	com.google.android.contacts				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 02:25:30	com.google.android.contacts				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 02:25:33	com.google.android.contacts				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 18:05:35	com.google.android.tts				SYSTEM_ALERT_WINDOW
+2023-05-08 20:26:55		com.google.android.tts				WAKE_LOCK
+2023-05-06 14:22:22		com.google.android.tts				WAKE_LOCK
+2023-05-08 20:58:08		com.google.android.apps.photos				VIBRATE
+	2023-05-08 21:04:36	com.google.android.apps.photos				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:04:36	com.google.android.apps.photos				SYSTEM_ALERT_WINDOW
+2023-05-08 20:58:23		com.google.android.apps.photos				WAKE_LOCK
+2023-05-08 02:25:31		com.google.android.apps.photos				WAKE_LOCK
+2023-05-08 21:01:11		com.google.android.apps.photos				WAKE_LOCK
+2023-05-08 20:58:25		com.google.android.apps.photos				READ_MEDIA_AUDIO
+2023-05-06 02:11:00		com.google.android.apps.photos				READ_MEDIA_AUDIO
+2023-05-08 02:25:30		com.google.android.apps.photos				READ_MEDIA_AUDIO
+2023-05-08 21:04:36		com.google.android.apps.photos				READ_MEDIA_AUDIO
+2023-05-08 20:58:25		com.google.android.apps.photos				READ_MEDIA_VIDEO
+2023-05-06 02:11:00		com.google.android.apps.photos				READ_MEDIA_VIDEO
+2023-05-08 02:25:30		com.google.android.apps.photos				READ_MEDIA_VIDEO
+2023-05-08 21:04:36		com.google.android.apps.photos				READ_MEDIA_VIDEO
+2023-05-08 20:57:56		com.google.android.apps.photos				WRITE_MEDIA_VIDEO
+2023-05-08 20:58:25		com.google.android.apps.photos				READ_MEDIA_IMAGES
+2023-05-06 02:11:00		com.google.android.apps.photos				READ_MEDIA_IMAGES
+2023-05-08 02:25:30		com.google.android.apps.photos				READ_MEDIA_IMAGES
+2023-05-08 21:04:36		com.google.android.apps.photos				READ_MEDIA_IMAGES
+2023-05-08 20:58:15		com.google.android.apps.photos				WRITE_MEDIA_IMAGES
+2023-05-01 06:51:24		com.google.android.apps.photos				WRITE_MEDIA_IMAGES
+	2023-05-08 20:58:02	com.google.android.apps.photos				LEGACY_STORAGE
+	2023-05-01 17:18:23	com.google.android.apps.photos				LEGACY_STORAGE
+2023-05-01 06:51:24		com.google.android.apps.photos		com.google.android.providers.media.module	10236	ACCESS_MEDIA_LOCATION
+	2023-05-08 20:58:25	com.google.android.apps.photos				MANAGE_EXTERNAL_STORAGE
+	2023-05-06 02:11:00	com.google.android.apps.photos				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 02:25:30	com.google.android.apps.photos				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 21:04:36	com.google.android.apps.photos				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:58:25	com.google.android.apps.photos				NO_ISOLATED_STORAGE
+	2023-05-06 02:11:00	com.google.android.apps.photos				NO_ISOLATED_STORAGE
+	2023-05-08 02:25:30	com.google.android.apps.photos				NO_ISOLATED_STORAGE
+	2023-05-08 21:04:36	com.google.android.apps.photos				NO_ISOLATED_STORAGE
+	2023-05-08 20:58:05	com.google.android.apps.youtube.music				SYSTEM_ALERT_WINDOW
+	2023-05-02 06:10:39	com.google.android.apps.youtube.music				SYSTEM_ALERT_WINDOW
+2023-05-08 20:58:05		com.google.android.apps.youtube.music				WAKE_LOCK
+2023-05-01 06:30:56		com.google.android.apps.youtube.music				WAKE_LOCK
+2023-05-01 22:22:13		com.google.android.apps.maps				FINE_LOCATION
+	2023-05-08 21:05:14	com.google.android.apps.maps				FINE_LOCATION
+	2023-05-08 02:25:27	com.google.android.apps.maps				FINE_LOCATION
+2023-05-01 22:22:01		com.google.android.apps.maps				GPS
+2023-05-01 22:22:13		com.google.android.apps.maps				GPS
+	2023-05-08 21:05:14	com.google.android.apps.maps				SYSTEM_ALERT_WINDOW
+	2023-05-08 08:26:13	com.google.android.apps.maps				SYSTEM_ALERT_WINDOW
+2023-05-01 20:38:03		com.google.android.apps.maps				WAKE_LOCK
+2023-05-01 22:22:01		com.google.android.apps.maps				MONITOR_LOCATION
+2023-05-01 22:22:13		com.google.android.apps.maps				MONITOR_LOCATION
+2023-05-01 22:22:01		com.google.android.apps.maps				MONITOR_HIGH_POWER_LOCATION
+2023-05-01 22:22:13		com.google.android.apps.maps				MONITOR_HIGH_POWER_LOCATION
+2023-05-01 22:22:23		com.android.chrome				FINE_LOCATION
+2023-05-01 22:22:23		com.android.chrome				WIFI_SCAN
+	2023-05-08 08:25:56	com.android.chrome				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:03:29	com.android.chrome				SYSTEM_ALERT_WINDOW
+2023-05-01 20:37:09		com.android.chrome				MONITOR_LOCATION
+2023-05-01 07:34:45	2023-05-01 07:32:36	com.android.chrome				REQUEST_INSTALL_PACKAGES
+2023-05-01 07:34:39		com.android.chrome				START_FOREGROUND
+	2023-05-01 07:34:45	com.android.chrome				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 08:25:56	com.android.chrome				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:57:41	com.android.chrome				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 07:34:45	com.android.chrome				NO_ISOLATED_STORAGE
+	2023-05-08 08:25:56	com.android.chrome				NO_ISOLATED_STORAGE
+	2023-05-08 20:57:41	com.android.chrome				NO_ISOLATED_STORAGE
+	2023-05-08 02:25:23	com.google.android.webview				SYSTEM_ALERT_WINDOW
+	2023-05-08 02:25:31	com.google.android.deskclock				SYSTEM_ALERT_WINDOW
+	2023-05-07 08:23:57	com.google.android.deskclock				SYSTEM_ALERT_WINDOW
+2023-05-08 02:25:31		com.google.android.deskclock				WAKE_LOCK
+2023-05-01 06:32:12		com.google.android.deskclock				WAKE_LOCK
+	2023-05-01 06:21:21	com.google.android.videos				SYSTEM_ALERT_WINDOW
+	2023-05-08 20:58:05	com.google.android.videos				SYSTEM_ALERT_WINDOW
+2023-05-01 06:21:19		com.google.android.videos				WAKE_LOCK
+2023-05-08 20:58:06		com.google.android.videos				WAKE_LOCK
+2023-05-01 06:21:19		com.google.android.videos				WAKE_LOCK
+2023-05-01 06:21:19		com.google.android.videos				START_FOREGROUND
+2023-05-01 06:21:19		com.google.android.videos				START_FOREGROUND
+2023-05-01 22:23:45		com.google.android.gm				VIBRATE
+2023-05-01 06:27:42		com.google.android.gm				READ_CONTACTS
+2023-05-01 06:33:24		com.google.android.gm				READ_CONTACTS
+	2023-05-01 06:21:18	com.google.android.gm				SYSTEM_ALERT_WINDOW
+	2023-05-08 02:25:25	com.google.android.gm				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:03:29	com.google.android.gm				SYSTEM_ALERT_WINDOW
+2023-05-08 20:57:41		com.google.android.gm				WAKE_LOCK
+2023-05-01 06:33:30		com.google.android.gm				WAKE_LOCK
+2023-05-08 20:58:05		com.google.android.gm				WAKE_LOCK
+2023-05-01 06:34:56		com.google.android.gm				WAKE_LOCK
+2023-05-01 22:23:29		com.google.android.gm				START_FOREGROUND
+	2023-05-08 09:00:03	com.shannon.qualifiednetworksservice				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 20:57:38		com.shannon.imsservice				COARSE_LOCATION
+2023-05-08 21:04:48		com.shannon.imsservice				FINE_LOCATION
+2023-05-08 20:57:38		com.shannon.imsservice				WIFI_SCAN
+2023-05-08 20:54:05		com.shannon.imsservice				WAKE_LOCK
+	2023-05-08 18:05:49	com.shannon.imsservice				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 09:00:06	com.google.android.connectivitythermalpowermanager				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 08:25:52		com.google.android.apps.wallpaper				WAKE_LOCK
+	2023-05-08 20:57:37	com.shannon.rcsservice				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 09:00:03	com.samsung.slsi.telephony.oemril				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 06:20:33		com.google.android.pixel.setupwizard				VIBRATE
+2023-05-01 06:20:33		com.google.android.pixel.setupwizard				VIBRATE
+	2023-05-01 06:20:26	com.google.android.pixel.setupwizard				WRITE_SETTINGS
+2023-05-08 21:05:10		com.google.android.apps.nexuslauncher				VIBRATE
+2023-05-08 21:03:58		com.google.android.apps.nexuslauncher				VIBRATE
+2023-05-01 07:33:22		com.google.android.apps.nexuslauncher				OP_REQUEST_DELETE_PACKAGES
+2023-05-08 21:05:07		com.android.systemui				VIBRATE
+2023-05-08 21:05:03	2023-05-01 06:31:46	com.android.systemui				SYSTEM_ALERT_WINDOW
+2023-05-08 21:04:58		com.android.systemui				SYSTEM_ALERT_WINDOW
+2023-05-08 21:03:53		com.android.systemui				READ_CLIPBOARD
+2023-05-08 20:56:16		com.android.systemui				TAKE_AUDIO_FOCUS
+2023-05-08 02:11:01		com.android.systemui				TAKE_AUDIO_FOCUS
+2023-05-08 21:05:05		com.android.systemui				WAKE_LOCK
+2023-05-08 21:05:03		com.android.systemui				WAKE_LOCK
+2023-05-08 21:01:10		com.android.systemui				TOAST_WINDOW
+2023-05-08 20:55:20		com.android.systemui				TURN_SCREEN_ON
+2023-05-08 21:05:03		com.android.systemui				TURN_SCREEN_ON
+2023-05-02 03:54:23		com.android.systemui				READ_MEDIA_IMAGES
+2023-05-08 02:25:27		com.android.systemui				READ_MEDIA_IMAGES
+	2023-05-02 03:54:23	com.android.systemui				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 02:25:27	com.android.systemui				MANAGE_EXTERNAL_STORAGE
+	2023-05-01 06:27:45	com.android.systemui				NO_ISOLATED_STORAGE
+	2023-05-01 17:18:09	com.android.systemui				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+	2023-05-08 09:00:06	com.android.systemui				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-08 21:03:02		com.android.systemui				OP_BLUETOOTH_CONNECT
+2023-05-08 08:26:03		com.android.systemui				OP_BLUETOOTH_CONNECT
+	2023-05-01 06:20:42	com.google.android.providers.media.module				WRITE_SETTINGS
+2023-05-01 06:51:24		com.google.android.providers.media.module				ACCESS_MEDIA_LOCATION
+	2023-05-01 06:32:02	com.google.android.providers.media.module				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 21:03:33	com.google.android.providers.media.module				NO_ISOLATED_STORAGE
+2023-05-01 06:20:26		com.google.android.cellbroadcastreceiver		com.android.cellbroadcastreceiver	10081	READ_CELL_BROADCASTS
+	2023-05-08 20:58:09	com.google.android.cellbroadcastreceiver				USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+2023-05-01 06:31:06	2023-05-01 06:31:02	com.topjohnwu.magisk				REQUEST_INSTALL_PACKAGES
+	2023-05-01 07:41:53	com.joeykrim.rootcheck				SYSTEM_ALERT_WINDOW
+	2023-05-08 21:04:00	com.joeykrim.rootcheck				SYSTEM_ALERT_WINDOW
+2023-05-08 21:01:07		com.joeykrim.rootcheck				WAKE_LOCK
+2023-05-08 21:04:24		com.hld.anzenbokusucal				VIBRATE
+	2023-05-08 20:59:32	com.hld.anzenbokusucal				SYSTEM_ALERT_WINDOW
+2023-05-01 20:35:20		com.hld.anzenbokusucal				TOAST_WINDOW
+2023-05-08 20:59:18		com.hld.anzenbokusucal				MANAGE_EXTERNAL_STORAGE
+	2023-05-08 20:59:18	com.hld.anzenbokusucal				NO_ISOLATED_STORAGE
+	2023-05-08 21:03:23	com.zhiliaoapp.musically				SYSTEM_ALERT_WINDOW
+	2023-05-08 20:57:39	com.zhiliaoapp.musically				SYSTEM_ALERT_WINDOW
+2023-05-08 21:02:18		com.zhiliaoapp.musically				TAKE_AUDIO_FOCUS
+2023-05-01 20:38:55		com.zhiliaoapp.musically				WAKE_LOCK
+2023-05-08 20:57:40		com.zhiliaoapp.musically				WAKE_LOCK
+2023-05-08 20:57:39		com.zhiliaoapp.musically				WAKE_LOCK
+	2023-05-01 20:39:56	com.zhiliaoapp.musically				GET_USAGE_STATS
+	2023-05-08 20:57:37	com.zhiliaoapp.musically				GET_USAGE_STATS
+	2023-05-08 20:57:38	com.zhiliaoapp.musically				GET_USAGE_STATS

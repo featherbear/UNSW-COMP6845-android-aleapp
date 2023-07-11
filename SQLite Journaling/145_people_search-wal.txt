@@ -1,0 +1,67 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+CP!)E
+en_US
+uSQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)}
+indexindex_search_index_store_idsearch_index
+CREATE INDEX `index_search_index_store_id` ON `search_index` (`store_id`)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)N
+_tablesearch_indexsearch_index
+CREATE TABLE `search_index` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `entity_id` INTEGER, `entity_type` INTEGER NOT NULL, `store_id` BLOB)
+ytablesearch_entitysearch_entity
+CREATE TABLE `search_entity` (`id` INTEGER NOT NULL, `type` INTEGER NOT NULL, `blob` BLOB NOT NULL, PRIMARY KEY(`id`))W
+CP!9
+CP!	I
+M6384ad76105b860cb7db5661bd1670bd
+vc0x"
+CP!4
+sSSQLite format 3
+CREATE INDEX `index_search_index_store_id` ON `search_index` (`store_id`)y
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)P
+CP!
+
+CP!M
+CP!y
+vR`%S
+
+CP!)h
+CP!-5+
+AHSQLite format 3
+CP!&vl
+CP!>
+CP!n`
+CP!ow
+CP!T
+CP!I9~
+CP!]ux
+CP!m7
++p{
+
+CP!W
+CP!j
+CP!c
+w,bNS
+n\5"
+CP!)
+CP!6t
+CP!U
+CP!(
+CP!]U
+CP!=5B
+ $f%
+CP!|)
+	vPhone
+com.google.android.dialer
+tel://(03) 7043 9422>
+	v079
+tel://(03) 7043 9422G
+	v03 7043 9422
+tel://(03) 7043 9422
+search_index
+CP!De
+CP!v
+CP!+

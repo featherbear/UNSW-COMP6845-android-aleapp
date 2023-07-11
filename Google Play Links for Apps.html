@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ALEAPP - Google Play Links for Apps report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Highlight.js -->
+        <link rel="stylesheet" href="_elements/highlight.min.css">
+        <script src="_elements/highlight.min.js"></script>
+        <!-- Cal-Heatmap -->
+        <script src="_elements/d3.v7.min.js"></script>
+        <script src="_elements/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="_elements/cal-heatmap.css">
+        <script src="_elements/popper.min.js"></script>
+        <script src="_elements/Tooltip.min.js"></script>
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chat.css">
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+        <link href="_elements/timeline/css/timeline.min.css" rel="stylesheet" />
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">ALEAPP 3.1.8</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+<h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Saved Reports
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="index.html">
+            <span data-feather="home"></span> Report Home
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_ce
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Authtokens_0.html">
+            <span data-feather="key"></span> Authtokens_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_ce_0.html">
+            <span data-feather="user"></span> accounts_ce_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Accounts_de
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="accounts_de_0.html">
+            <span data-feather="user"></span> accounts_de_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Adb Hosts
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="ADB Hosts.html">
+            <span data-feather="terminal"></span> ADB Hosts
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Android System Intelligence
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SimpleStorage - App Launch.html">
+            <span data-feather="loader"></span> SimpleStorage - App Launch
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        App Roles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Android 11 Roles_0.html">
+            <span data-feather="tool"></span> Android 11 Roles_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Bluetooth Connections
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Adapter Information.html">
+            <span data-feather="bluetooth"></span> Bluetooth Adapter Information
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Bluetooth Connections.html">
+            <span data-feather="bluetooth"></span> Bluetooth Connections
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Browser Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome Browser Cache.html">
+            <span data-feather="chrome"></span> Chrome Browser Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Calendar
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calendar - Calendars.html">
+            <span data-feather="calendar"></span> Calendar - Calendars
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Chromium
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies-01.html">
+            <span data-feather="chrome"></span> Chrome - Cookies-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Cookies.html">
+            <span data-feather="chrome"></span> Chrome - Cookies
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads-01.html">
+            <span data-feather="download"></span> Chrome - Downloads-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Downloads.html">
+            <span data-feather="download"></span> Chrome - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Keyword Search Terms.html">
+            <span data-feather="search"></span> Chrome - Keyword Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor-01.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Network Action Predictor.html">
+            <span data-feather="type"></span> Chrome - Network Action Predictor
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms-01.html">
+            <span data-feather="search"></span> Chrome - Search Terms-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Search Terms.html">
+            <span data-feather="search"></span> Chrome - Search Terms
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History-01.html">
+            <span data-feather="chrome"></span> Chrome - Web History-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web History.html">
+            <span data-feather="chrome"></span> Chrome - Web History
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits-01.html">
+            <span data-feather="globe"></span> Chrome - Web Visits-01
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Chrome - Web Visits.html">
+            <span data-feather="globe"></span> Chrome - Web Visits
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Health Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Application Usage.html">
+            <span data-feather="bar-chart-2"></span> Turbo - Application Usage
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Turbo - Phone Battery.html">
+            <span data-feather="battery-charging"></span> Turbo - Phone Battery
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Device Info
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Partner Settings.html">
+            <span data-feather="settings"></span> Partner Settings
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SIM_info_0.html">
+            <span data-feather="info"></span> SIM_info_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings_Secure_0.html">
+            <span data-feather="settings"></span> Settings_Secure_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Digital Wellbeing
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Account Data.html">
+            <span data-feather="user"></span> Account Data
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Events.html">
+            <span data-feather="layers"></span> Events
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Downloads
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Native Downloads.html">
+            <span data-feather="download"></span> Native Downloads
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Emulated Storage Metadata
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Downloads.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Downloads
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Files.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Files
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Emulated Storage Metadata - Images.html">
+            <span data-feather="database"></span> Emulated Storage Metadata - Images
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Encrypting Media Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker Database.html">
+            <span data-feather="lock"></span> Calculator Locker Database
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Calculator Locker.html">
+            <span data-feather="lock"></span> Calculator Locker
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Files by Google
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Files by Google - Files Master.html">
+            <span data-feather="file"></span> Files by Google - Files Master
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Firebase Cloud Messaging
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.android.vending.html">
+            <span data-feather="database"></span> FCM-Dump-com.android.vending
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.gm.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.gm
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.google.android.googlequicksearchbox.html">
+            <span data-feather="database"></span> FCM-Dump-com.google.android.googlequicksearchbox
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="FCM-Dump-com.zhiliaoapp.musically.html">
+            <span data-feather="database"></span> FCM-Dump-com.zhiliaoapp.musically
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        GEO Location
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Search History Maps.html">
+            <span data-feather="map-pin"></span> Google Search History Maps
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gboard Keyboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gboard - Sessions.html">
+            <span data-feather="edit-3"></span> Gboard - Sessions
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Gmail
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Active.html">
+            <span data-feather="at-sign"></span> Gmail - Active
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - App Emails.html">
+            <span data-feather="at-sign"></span> Gmail - App Emails
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Gmail - Label Details.html">
+            <span data-feather="mail"></span> Gmail - Label Details
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Messages
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Messages.html">
+            <span data-feather="message-circle"></span> Google Messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Photos
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos-1) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos-1) - Local Media
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Cache.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Cache
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Photos (gphotos0) - Local Media.html">
+            <span data-feather="image"></span> Google Photos (gphotos0) - Local Media
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Google Play
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Google Play Searches.html">
+            <span data-feather="search"></span> Google Play Searches
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Image Manager Cache
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Image Manager Cache.html">
+            <span data-feather="image"></span> Image Manager Cache
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Installed Apps
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Icons.html">
+            <span data-feather="package"></span> App Icons
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="App Updates (Frosting.db).html">
+            <span data-feather="package"></span> App Updates (Frosting.db)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link  active" href="Google Play Links for Apps.html">
+            <span data-feather="package"></span> Google Play Links for Apps
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS).html">
+            <span data-feather="package"></span> Installed Apps (GMS)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (GMS)_0.html">
+            <span data-feather="package"></span> Installed Apps (GMS)_0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Library).html">
+            <span data-feather="package"></span> Installed Apps (Library)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Installed Apps (Vending).html">
+            <span data-feather="package"></span> Installed Apps (Vending)
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Packages.html">
+            <span data-feather="package"></span> Packages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Permissions
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml.html">
+            <span data-feather="check"></span> Appops.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permission Trees.html">
+            <span data-feather="check"></span> Permission Trees
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Permissions.html">
+            <span data-feather="check"></span> Permissions
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Runtime Permissions_0.html">
+            <span data-feather="check"></span> Runtime Permissions_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Power Events
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Last Boot Time.html">
+            <span data-feather="power"></span> Last Boot Time
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Shutdown Checkpoints.html">
+            <span data-feather="power"></span> Shutdown Checkpoints
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Privacy Dashboard
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Privacy Dashboard.html">
+            <span data-feather="eye"></span> Privacy Dashboard
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Recent Activity
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Recent Activity_0.html">
+            <span data-feather="activity"></span> Recent Activity_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SMS & MMS
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="SMS messages.html">
+            <span data-feather="message-square"></span> SMS messages
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        SQLite Journaling
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Strings - SQLite Journal & WAL.html">
+            <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Settings Services
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Settings Services - Battery Usage.html">
+            <span data-feather="battery-charging"></span> Settings Services - Battery Usage
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Usage Stats
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="OS Version.html">
+            <span data-feather="bar-chart-2"></span> OS Version
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="UsageStats_0.html">
+            <span data-feather="bar-chart-2"></span> UsageStats_0
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        WiFi Profiles
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wi-Fi Profiles.html">
+            <span data-feather="wifi"></span> Wi-Fi Profiles
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 0.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 0
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Wifi Configuration Store - 1.html">
+            <span data-feather="wifi"></span> Wifi Configuration Store - 1
+        </a>
+    </li>
+    <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        Wipe & Setup
+    </h6>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Appops.xml Setup Wizard.html">
+            <span data-feather="loader"></span> Appops.xml Setup Wizard
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Factory Reset.html">
+            <span data-feather="loader"></span> Factory Reset
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Setup_Wizard_Info.xml.html">
+            <span data-feather="loader"></span> Setup_Wizard_Info.xml
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link " href="Suggestions.xml.html">
+            <span data-feather="loader"></span> Suggestions.xml
+        </a>
+    </li>
+    
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="display-5">Google Play Links for Apps report</h1>
+                    <h6 class="animated fadeIn mb-3"></h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 284</h6><p class="lead">Google Play Links for Apps located at: C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\system\packages.list</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Bundle ID</th><th class="th-sm">Possible Google Play Store Link</th></tr></thead><tbody><tr><td>com.shannon.qualifiednetworksservice</td><td><a href="https://play.google.com/store/apps/details?id=com.shannon.qualifiednetworksservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.shannon.qualifiednetworksservice</font></a></td></tr><tr><td>com.google.android.uvexposurereporter</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.uvexposurereporter" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.uvexposurereporter</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.noCutout</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.noCutout" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.noCutout</font></a></td></tr><tr><td>com.google.android.networkstack.tethering</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.networkstack.tethering" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.networkstack.tethering</font></a></td></tr><tr><td>com.google.android.overlay.trafficlightfaceoverlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.trafficlightfaceoverlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.trafficlightfaceoverlay</font></a></td></tr><tr><td>com.google.omadm.trigger</td><td><a href="https://play.google.com/store/apps/details?id=com.google.omadm.trigger" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.omadm.trigger</font></a></td></tr><tr><td>com.google.android.carriersetup</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.carriersetup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.carriersetup</font></a></td></tr><tr><td>com.android.cts.priv.ctsshim</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cts.priv.ctsshim" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cts.priv.ctsshim</font></a></td></tr><tr><td>com.google.android.youtube</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.youtube" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.youtube</font></a></td></tr><tr><td>com.vzw.apnlib</td><td><a href="https://play.google.com/store/apps/details?id=com.vzw.apnlib" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.vzw.apnlib</font></a></td></tr><tr><td>com.android.uwb.resources</td><td><a href="https://play.google.com/store/apps/details?id=com.android.uwb.resources" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.uwb.resources</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.corner</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.corner" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.corner</font></a></td></tr><tr><td>com.android.settings.overlay.pixel2021</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings.overlay.pixel2021" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings.overlay.pixel2021</font></a></td></tr><tr><td>com.google.android.ext.services</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.ext.services" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.ext.services</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.double</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.double" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.double</font></a></td></tr><tr><td>com.google.android.overlay.pixelconfig2018</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2018" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2018</font></a></td></tr><tr><td>com.google.android.overlay.pixelconfig2019</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2019" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2019</font></a></td></tr><tr><td>com.google.android.overlay.pixelconfig2021</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2021" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2021</font></a></td></tr><tr><td>com.android.providers.telephony</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.telephony" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.telephony</font></a></td></tr><tr><td>com.google.android.carrierlocation</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.carrierlocation" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.carrierlocation</font></a></td></tr><tr><td>com.android.dynsystem</td><td><a href="https://play.google.com/store/apps/details?id=com.android.dynsystem" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.dynsystem</font></a></td></tr><tr><td>com.android.sdm.plugins.connmo</td><td><a href="https://play.google.com/store/apps/details?id=com.android.sdm.plugins.connmo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.sdm.plugins.connmo</font></a></td></tr><tr><td>com.google.android.googlequicksearchbox</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox</font></a></td></tr><tr><td>com.google.android.cellbroadcastservice</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.cellbroadcastservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.cellbroadcastservice</font></a></td></tr><tr><td>com.verizon.mips.services</td><td><a href="https://play.google.com/store/apps/details?id=com.verizon.mips.services" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.verizon.mips.services</font></a></td></tr><tr><td>com.google.android.flipendo.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.flipendo.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.flipendo.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.android.providers.calendar</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.calendar" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.calendar</font></a></td></tr><tr><td>com.google.android.googlequicksearchbox.nga_resources</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox.nga_resources" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox.nga_resources</font></a></td></tr><tr><td>com.android.providers.media</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.media" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.media</font></a></td></tr><tr><td>com.google.pixel.livewallpaper</td><td><a href="https://play.google.com/store/apps/details?id=com.google.pixel.livewallpaper" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.pixel.livewallpaper</font></a></td></tr><tr><td>com.google.android.onetimeinitializer</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.onetimeinitializer" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.onetimeinitializer</font></a></td></tr><tr><td>com.google.android.ext.shared</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.ext.shared" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.ext.shared</font></a></td></tr><tr><td>com.android.internal.systemui.navbar.gestural_wide_back</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_wide_back" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_wide_back</font></a></td></tr><tr><td>com.qorvo.uwb.vendorservice</td><td><a href="https://play.google.com/store/apps/details?id=com.qorvo.uwb.vendorservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.qorvo.uwb.vendorservice</font></a></td></tr><tr><td>com.android.hbmsvmanager</td><td><a href="https://play.google.com/store/apps/details?id=com.android.hbmsvmanager" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.hbmsvmanager</font></a></td></tr><tr><td>com.google.android.euiccoverlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.euiccoverlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.euiccoverlay</font></a></td></tr><tr><td>com.google.android.apps.diagnosticstool</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.diagnosticstool" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.diagnosticstool</font></a></td></tr><tr><td>com.google.euiccpixel.permissions</td><td><a href="https://play.google.com/store/apps/details?id=com.google.euiccpixel.permissions" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.euiccpixel.permissions</font></a></td></tr><tr><td>com.google.euiccpixel</td><td><a href="https://play.google.com/store/apps/details?id=com.google.euiccpixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.euiccpixel</font></a></td></tr><tr><td>com.google.android.flipendo</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.flipendo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.flipendo</font></a></td></tr><tr><td>com.android.settings.overlay.g8v0u</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings.overlay.g8v0u" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings.overlay.g8v0u</font></a></td></tr><tr><td>com.google.android.storagemanager.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.storagemanager.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.storagemanager.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.settings.overlay.raven</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings.overlay.raven" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings.overlay.raven</font></a></td></tr><tr><td>com.android.simappdialog.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.simappdialog.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.simappdialog.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.safetyregulatoryinfo.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.safetyregulatoryinfo.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.safetyregulatoryinfo.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.omadm.service.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.omadm.service.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.omadm.service.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.externalstorage</td><td><a href="https://play.google.com/store/apps/details?id=com.android.externalstorage" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.externalstorage</font></a></td></tr><tr><td>com.android.htmlviewer</td><td><a href="https://play.google.com/store/apps/details?id=com.android.htmlviewer" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.htmlviewer</font></a></td></tr><tr><td>com.android.companiondevicemanager</td><td><a href="https://play.google.com/store/apps/details?id=com.android.companiondevicemanager" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.companiondevicemanager</font></a></td></tr><tr><td>com.android.mms.service</td><td><a href="https://play.google.com/store/apps/details?id=com.android.mms.service" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.mms.service</font></a></td></tr><tr><td>com.android.providers.downloads</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.downloads" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.downloads</font></a></td></tr><tr><td>com.android.systemui.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.systemui.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.systemui.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.apps.messaging</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.messaging" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.messaging</font></a></td></tr><tr><td>com.google.android.soundpicker</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.soundpicker" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.soundpicker</font></a></td></tr><tr><td>com.google.android.systemui.overlay.pixelbatteryhealthconfig</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.systemui.overlay.pixelbatteryhealthconfig" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.systemui.overlay.pixelbatteryhealthconfig</font></a></td></tr><tr><td>android.autoinstalls.config.google.nexus</td><td><a href="https://play.google.com/store/apps/details?id=android.autoinstalls.config.google.nexus" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=android.autoinstalls.config.google.nexus</font></a></td></tr><tr><td>com.google.android.apps.scone.overlays</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.scone.overlays" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.scone.overlays</font></a></td></tr><tr><td>com.google.android.configupdater</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.configupdater" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.configupdater</font></a></td></tr><tr><td>com.google.android.providers.media.module</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.providers.media.module" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.providers.media.module</font></a></td></tr><tr><td>com.google.android.overlay.udfpsoverlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.udfpsoverlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.udfpsoverlay</font></a></td></tr><tr><td>com.google.android.wifi.resources.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.wifi.resources.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.wifi.resources.pixel</font></a></td></tr><tr><td>com.google.android.overlay.googlewebview</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.googlewebview" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.googlewebview</font></a></td></tr><tr><td>com.google.android.apps.safetyhub</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub</font></a></td></tr><tr><td>com.google.android.factoryota</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.factoryota" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.factoryota</font></a></td></tr><tr><td>com.android.systemui.plugin.globalactions.wallet</td><td><a href="https://play.google.com/store/apps/details?id=com.android.systemui.plugin.globalactions.wallet" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.systemui.plugin.globalactions.wallet</font></a></td></tr><tr><td>com.google.ar.core</td><td><a href="https://play.google.com/store/apps/details?id=com.google.ar.core" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.ar.core</font></a></td></tr><tr><td>com.android.providers.downloads.ui</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.downloads.ui" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.downloads.ui</font></a></td></tr><tr><td>com.google.android.hotspot2.osulogin</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.hotspot2.osulogin" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.hotspot2.osulogin</font></a></td></tr><tr><td>com.android.vending</td><td><a href="https://play.google.com/store/apps/details?id=com.android.vending" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.vending</font></a></td></tr><tr><td>com.android.pacprocessor</td><td><a href="https://play.google.com/store/apps/details?id=com.android.pacprocessor" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.pacprocessor</font></a></td></tr><tr><td>com.android.simappdialog</td><td><a href="https://play.google.com/store/apps/details?id=com.android.simappdialog" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.simappdialog</font></a></td></tr><tr><td>com.android.cellbroadcastreceiver.overlay.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cellbroadcastreceiver.overlay.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cellbroadcastreceiver.overlay.pixel</font></a></td></tr><tr><td>com.joeykrim.rootcheck</td><td><a href="https://play.google.com/store/apps/details?id=com.joeykrim.rootcheck" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.joeykrim.rootcheck</font></a></td></tr><tr><td>com.google.android.adservices.api</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.adservices.api" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.adservices.api</font></a></td></tr><tr><td>com.google.android.overlay.pixelconfig2019midyear</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2019midyear" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfig2019midyear</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.hole</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.hole" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.hole</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.tall</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.tall" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.tall</font></a></td></tr><tr><td>com.android.networkstack.overlay</td><td><a href="https://play.google.com/store/apps/details?id=com.android.networkstack.overlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.networkstack.overlay</font></a></td></tr><tr><td>com.android.certinstaller</td><td><a href="https://play.google.com/store/apps/details?id=com.android.certinstaller" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.certinstaller</font></a></td></tr><tr><td>com.google.android.marvin.talkback</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback</font></a></td></tr><tr><td>com.google.android.apps.accessibility.voiceaccess</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess</font></a></td></tr><tr><td>com.google.android.connectivity.resources.overlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.connectivity.resources.overlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.connectivity.resources.overlay</font></a></td></tr><tr><td>com.android.internal.systemui.navbar.threebutton</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.threebutton" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.threebutton</font></a></td></tr><tr><td>com.google.android.apps.work.oobconfig</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.work.oobconfig" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.work.oobconfig</font></a></td></tr><tr><td>android</td><td><a href="https://play.google.com/store/apps/details?id=android" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=android</font></a></td></tr><tr><td>com.android.hotwordenrollment.xgoogle</td><td><a href="https://play.google.com/store/apps/details?id=com.android.hotwordenrollment.xgoogle" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.hotwordenrollment.xgoogle</font></a></td></tr><tr><td>com.google.android.pixel.setupwizard</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard</font></a></td></tr><tr><td>com.google.android.grilservice</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.grilservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.grilservice</font></a></td></tr><tr><td>com.google.android.sdksandbox</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.sdksandbox" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.sdksandbox</font></a></td></tr><tr><td>com.android.egg</td><td><a href="https://play.google.com/store/apps/details?id=com.android.egg" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.egg</font></a></td></tr><tr><td>com.android.mtp</td><td><a href="https://play.google.com/store/apps/details?id=com.android.mtp" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.mtp</font></a></td></tr><tr><td>com.android.nfc</td><td><a href="https://play.google.com/store/apps/details?id=com.android.nfc" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.nfc</font></a></td></tr><tr><td>com.android.ons</td><td><a href="https://play.google.com/store/apps/details?id=com.android.ons" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.ons</font></a></td></tr><tr><td>com.android.stk</td><td><a href="https://play.google.com/store/apps/details?id=com.android.stk" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.stk</font></a></td></tr><tr><td>com.android.backupconfirm</td><td><a href="https://play.google.com/store/apps/details?id=com.android.backupconfirm" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.backupconfirm</font></a></td></tr><tr><td>com.android.settings.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.android.systemui.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.systemui.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.systemui.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.samsung.slsi.telephony.oem.oemrilhookservice</td><td><a href="https://play.google.com/store/apps/details?id=com.samsung.slsi.telephony.oem.oemrilhookservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.samsung.slsi.telephony.oem.oemrilhookservice</font></a></td></tr><tr><td>com.google.android.deskclock</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.deskclock" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.deskclock</font></a></td></tr><tr><td>com.google.android.as</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.as" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.as</font></a></td></tr><tr><td>com.google.android.gm</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.gm" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.gm</font></a></td></tr><tr><td>com.google.android.carrier</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.carrier" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.carrier</font></a></td></tr><tr><td>com.google.android.apps.security.securityhub</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.security.securityhub" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.security.securityhub</font></a></td></tr><tr><td>com.google.android.turboadapter</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.turboadapter" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.turboadapter</font></a></td></tr><tr><td>com.android.managedprovisioning.overlay</td><td><a href="https://play.google.com/store/apps/details?id=com.android.managedprovisioning.overlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.managedprovisioning.overlay</font></a></td></tr><tr><td>com.android.internal.systemui.navbar.gestural_extra_wide_back</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_extra_wide_back" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_extra_wide_back</font></a></td></tr><tr><td>com.google.android.permissioncontroller</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.permissioncontroller" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.permissioncontroller</font></a></td></tr><tr><td>com.google.android.setupwizard</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.setupwizard" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.setupwizard</font></a></td></tr><tr><td>com.google.android.bluetooth</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.bluetooth" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.bluetooth</font></a></td></tr><tr><td>com.google.pixel.digitalkey.timesync</td><td><a href="https://play.google.com/store/apps/details?id=com.google.pixel.digitalkey.timesync" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.pixel.digitalkey.timesync</font></a></td></tr><tr><td>com.android.providers.settings</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.settings" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.settings</font></a></td></tr><tr><td>com.google.android.networkstack.tethering.overlay2021</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.networkstack.tethering.overlay2021" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.networkstack.tethering.overlay2021</font></a></td></tr><tr><td>com.android.sharedstoragebackup</td><td><a href="https://play.google.com/store/apps/details?id=com.android.sharedstoragebackup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.sharedstoragebackup</font></a></td></tr><tr><td>com.verizon.services</td><td><a href="https://play.google.com/store/apps/details?id=com.verizon.services" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.verizon.services</font></a></td></tr><tr><td>com.android.nfc.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.nfc.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.nfc.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.euicc</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.euicc" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.euicc</font></a></td></tr><tr><td>com.google.android.iwlan</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.iwlan" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.iwlan</font></a></td></tr><tr><td>com.android.printspooler</td><td><a href="https://play.google.com/store/apps/details?id=com.android.printspooler" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.printspooler</font></a></td></tr><tr><td>com.android.hotwordenrollment.okgoogle</td><td><a href="https://play.google.com/store/apps/details?id=com.android.hotwordenrollment.okgoogle" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.hotwordenrollment.okgoogle</font></a></td></tr><tr><td>com.android.sdm.plugins.diagmon</td><td><a href="https://play.google.com/store/apps/details?id=com.android.sdm.plugins.diagmon" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.sdm.plugins.diagmon</font></a></td></tr><tr><td>com.android.dreams.basic</td><td><a href="https://play.google.com/store/apps/details?id=com.android.dreams.basic" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.dreams.basic</font></a></td></tr><tr><td>com.google.android.pixel.setupwizard.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.providers.settings.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.settings.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.settings.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.as.oss</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.as.oss" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.as.oss</font></a></td></tr><tr><td>com.android.se</td><td><a href="https://play.google.com/store/apps/details?id=com.android.se" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.se</font></a></td></tr><tr><td>com.android.inputdevices</td><td><a href="https://play.google.com/store/apps/details?id=com.android.inputdevices" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.inputdevices</font></a></td></tr><tr><td>com.android.traceur.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.traceur.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.traceur.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.apps.wellbeing</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing</font></a></td></tr><tr><td>com.google.android.dialer</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.dialer" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.dialer</font></a></td></tr><tr><td>com.android.bips</td><td><a href="https://play.google.com/store/apps/details?id=com.android.bips" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.bips</font></a></td></tr><tr><td>com.google.audio.hearing.visualization.accessibility.scribe</td><td><a href="https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe</font></a></td></tr><tr><td>com.google.android.apps.nbu.files</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files</font></a></td></tr><tr><td>com.google.android.captiveportallogin</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.captiveportallogin" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.captiveportallogin</font></a></td></tr><tr><td>com.google.android.flipendo.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.flipendo.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.flipendo.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.accessibility.soundamplifier</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier</font></a></td></tr><tr><td>com.shannon.rcsservice</td><td><a href="https://play.google.com/store/apps/details?id=com.shannon.rcsservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.shannon.rcsservice</font></a></td></tr><tr><td>com.google.ambient.streaming</td><td><a href="https://play.google.com/store/apps/details?id=com.google.ambient.streaming" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.ambient.streaming</font></a></td></tr><tr><td>com.android.musicfx</td><td><a href="https://play.google.com/store/apps/details?id=com.android.musicfx" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.musicfx</font></a></td></tr><tr><td>com.android.ons.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.ons.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.ons.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.google.android.apps.docs</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.docs" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.docs</font></a></td></tr><tr><td>com.google.android.apps.maps</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.maps</font></a></td></tr><tr><td>com.google.android.apps.tips</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.tips" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.tips</font></a></td></tr><tr><td>com.google.android.documentsui.theme.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.documentsui.theme.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.documentsui.theme.pixel</font></a></td></tr><tr><td>com.google.android.modulemetadata</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.modulemetadata" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.modulemetadata</font></a></td></tr><tr><td>com.google.android.markup</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.markup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.markup</font></a></td></tr><tr><td>com.android.cellbroadcastreceiver</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cellbroadcastreceiver" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cellbroadcastreceiver</font></a></td></tr><tr><td>com.google.android.webview</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.webview" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.webview</font></a></td></tr><tr><td>com.google.android.apps.carrier.log</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.carrier.log" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.carrier.log</font></a></td></tr><tr><td>com.google.android.networkstack</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.networkstack" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.networkstack</font></a></td></tr><tr><td>com.google.android.contacts</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.contacts" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.contacts</font></a></td></tr><tr><td>com.android.server.telecom</td><td><a href="https://play.google.com/store/apps/details?id=com.android.server.telecom" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.server.telecom</font></a></td></tr><tr><td>com.android.keychain</td><td><a href="https://play.google.com/store/apps/details?id=com.android.keychain" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.keychain</font></a></td></tr><tr><td>com.android.server.telecom.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.server.telecom.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.server.telecom.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.overlay.googleconfig</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.googleconfig" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.googleconfig</font></a></td></tr><tr><td>com.google.android.calculator</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.calculator" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.calculator</font></a></td></tr><tr><td>com.android.chrome</td><td><a href="https://play.google.com/store/apps/details?id=com.android.chrome" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.chrome</font></a></td></tr><tr><td>com.android.bips.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.bips.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.bips.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.packageinstaller</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.packageinstaller" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.packageinstaller</font></a></td></tr><tr><td>com.google.android.apps.customization.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.customization.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.customization.pixel</font></a></td></tr><tr><td>com.google.android.gms</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.gms" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.gms</font></a></td></tr><tr><td>com.google.android.gsf</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.gsf" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.gsf</font></a></td></tr><tr><td>com.google.android.ims</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.ims" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.ims</font></a></td></tr><tr><td>com.google.android.tag</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.tag" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.tag</font></a></td></tr><tr><td>com.google.android.tts</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.tts" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.tts</font></a></td></tr><tr><td>com.google.android.overlay.permissioncontroller</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.permissioncontroller" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.permissioncontroller</font></a></td></tr><tr><td>com.android.calllogbackup</td><td><a href="https://play.google.com/store/apps/details?id=com.android.calllogbackup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.calllogbackup</font></a></td></tr><tr><td>com.google.android.partnersetup</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.partnersetup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.partnersetup</font></a></td></tr><tr><td>com.android.safetyregulatoryinfo</td><td><a href="https://play.google.com/store/apps/details?id=com.android.safetyregulatoryinfo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.safetyregulatoryinfo</font></a></td></tr><tr><td>com.android.cameraextensions</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cameraextensions" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cameraextensions</font></a></td></tr><tr><td>com.google.android.pixel.setupwizard.overlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay</font></a></td></tr><tr><td>com.google.android.apps.wallpaper.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper.pixel</font></a></td></tr><tr><td>com.android.localtransport</td><td><a href="https://play.google.com/store/apps/details?id=com.android.localtransport" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.localtransport</font></a></td></tr><tr><td>com.google.android.videos</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.videos" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.videos</font></a></td></tr><tr><td>com.google.euiccpixel.overlay.gs101</td><td><a href="https://play.google.com/store/apps/details?id=com.google.euiccpixel.overlay.gs101" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.euiccpixel.overlay.gs101</font></a></td></tr><tr><td>com.google.android.wallpaper.effects</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.wallpaper.effects" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.wallpaper.effects</font></a></td></tr><tr><td>com.google.android.apps.nexuslauncher</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nexuslauncher" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.nexuslauncher</font></a></td></tr><tr><td>com.google.android.nearby.halfsheet</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.nearby.halfsheet" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.nearby.halfsheet</font></a></td></tr><tr><td>com.android.carrierdefaultapp</td><td><a href="https://play.google.com/store/apps/details?id=com.android.carrierdefaultapp" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.carrierdefaultapp</font></a></td></tr><tr><td>com.google.android.virtualmachine.res</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.virtualmachine.res" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.virtualmachine.res</font></a></td></tr><tr><td>com.google.RilConfigService</td><td><a href="https://play.google.com/store/apps/details?id=com.google.RilConfigService" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.RilConfigService</font></a></td></tr><tr><td>com.android.theme.font.notoserifsource</td><td><a href="https://play.google.com/store/apps/details?id=com.android.theme.font.notoserifsource" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.theme.font.notoserifsource</font></a></td></tr><tr><td>com.android.proxyhandler</td><td><a href="https://play.google.com/store/apps/details?id=com.android.proxyhandler" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.proxyhandler</font></a></td></tr><tr><td>com.google.android.safetycenter.resources</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.safetycenter.resources" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.safetycenter.resources</font></a></td></tr><tr><td>com.google.android.compos.payload</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.compos.payload" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.compos.payload</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.waterfall</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.waterfall" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.waterfall</font></a></td></tr><tr><td>com.android.intentresolver</td><td><a href="https://play.google.com/store/apps/details?id=com.android.intentresolver" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.intentresolver</font></a></td></tr><tr><td>com.google.SSRestartDetector</td><td><a href="https://play.google.com/store/apps/details?id=com.google.SSRestartDetector" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.SSRestartDetector</font></a></td></tr><tr><td>com.google.android.storagemanager.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.storagemanager.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.storagemanager.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.customermobile.preload.vzw</td><td><a href="https://play.google.com/store/apps/details?id=com.customermobile.preload.vzw" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.customermobile.preload.vzw</font></a></td></tr><tr><td>com.zhiliaoapp.musically</td><td><a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically</font></a></td></tr><tr><td>com.google.android.connectivity.resources</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.connectivity.resources" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.connectivity.resources</font></a></td></tr><tr><td>com.android.providers.contacts.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.contacts.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.contacts.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.feedback</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.feedback" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.feedback</font></a></td></tr><tr><td>com.topjohnwu.magisk</td><td><a href="https://play.google.com/store/apps/details?id=com.topjohnwu.magisk" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.topjohnwu.magisk</font></a></td></tr><tr><td>com.google.android.printservice.recommendation</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.printservice.recommendation" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.printservice.recommendation</font></a></td></tr><tr><td>com.google.android.apps.photos</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.photos</font></a></td></tr><tr><td>com.google.android.calendar</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.calendar" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.calendar</font></a></td></tr><tr><td>com.android.managedprovisioning</td><td><a href="https://play.google.com/store/apps/details?id=com.android.managedprovisioning" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.managedprovisioning</font></a></td></tr><tr><td>com.google.android.pixelnfc</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixelnfc" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixelnfc</font></a></td></tr><tr><td>com.android.soundpicker</td><td><a href="https://play.google.com/store/apps/details?id=com.android.soundpicker" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.soundpicker</font></a></td></tr><tr><td>com.google.android.documentsui</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.documentsui" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.documentsui</font></a></td></tr><tr><td>com.google.mainline.telemetry</td><td><a href="https://play.google.com/store/apps/details?id=com.google.mainline.telemetry" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.mainline.telemetry</font></a></td></tr><tr><td>com.google.android.systemui.gxoverlay</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.systemui.gxoverlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.systemui.gxoverlay</font></a></td></tr><tr><td>com.google.android.apps.internal.betterbug</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.internal.betterbug" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.internal.betterbug</font></a></td></tr><tr><td>com.android.cellbroadcastservice.overlay.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cellbroadcastservice.overlay.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cellbroadcastservice.overlay.pixel</font></a></td></tr><tr><td>com.android.sdm.plugins.dcmo</td><td><a href="https://play.google.com/store/apps/details?id=com.android.sdm.plugins.dcmo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.sdm.plugins.dcmo</font></a></td></tr><tr><td>com.google.android.apps.camera.services</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.camera.services" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.camera.services</font></a></td></tr><tr><td>com.android.providers.partnerbookmarks</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.partnerbookmarks" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.partnerbookmarks</font></a></td></tr><tr><td>com.google.android.pixel.setupwizard.overlay2019</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay2019" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay2019</font></a></td></tr><tr><td>com.google.android.pixel.setupwizard.overlay2021</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay2021" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.pixel.setupwizard.overlay2021</font></a></td></tr><tr><td>com.shannon.imsservice</td><td><a href="https://play.google.com/store/apps/details?id=com.shannon.imsservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.shannon.imsservice</font></a></td></tr><tr><td>com.android.wallpaper.livepicker</td><td><a href="https://play.google.com/store/apps/details?id=com.android.wallpaper.livepicker" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.wallpaper.livepicker</font></a></td></tr><tr><td>com.android.providers.telephony.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.telephony.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.telephony.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.phone.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.phone.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.phone.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.google.mainline.adservices</td><td><a href="https://play.google.com/store/apps/details?id=com.google.mainline.adservices" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.mainline.adservices</font></a></td></tr><tr><td>com.android.imsserviceentitlement</td><td><a href="https://play.google.com/store/apps/details?id=com.android.imsserviceentitlement" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.imsserviceentitlement</font></a></td></tr><tr><td>com.android.traceur.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.traceur.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.traceur.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.google.android.apps.cbrsnetworkmonitor</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.cbrsnetworkmonitor" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.cbrsnetworkmonitor</font></a></td></tr><tr><td>com.android.internal.display.cutout.emulation.avoidAppsInCutout</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.avoidAppsInCutout" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.display.cutout.emulation.avoidAppsInCutout</font></a></td></tr><tr><td>com.google.android.gms.supervision</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.gms.supervision" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.gms.supervision</font></a></td></tr><tr><td>com.android.bookmarkprovider</td><td><a href="https://play.google.com/store/apps/details?id=com.android.bookmarkprovider" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.bookmarkprovider</font></a></td></tr><tr><td>com.google.android.overlay.pixelconfigcommon</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfigcommon" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.overlay.pixelconfigcommon</font></a></td></tr><tr><td>com.android.settings</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings</font></a></td></tr><tr><td>com.google.android.wfcactivation</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.wfcactivation" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.wfcactivation</font></a></td></tr><tr><td>com.google.android.apps.healthdata</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata</font></a></td></tr><tr><td>com.samsung.slsi.telephony.oemril</td><td><a href="https://play.google.com/store/apps/details?id=com.samsung.slsi.telephony.oemril" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.samsung.slsi.telephony.oemril</font></a></td></tr><tr><td>com.google.android.settings.intelligence</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.settings.intelligence" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.settings.intelligence</font></a></td></tr><tr><td>com.google.android.projection.gearhead</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead</font></a></td></tr><tr><td>com.google.android.apps.scone</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.scone" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.scone</font></a></td></tr><tr><td>com.google.android.apps.turbo</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.turbo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.turbo</font></a></td></tr><tr><td>com.google.android.apps.tycho</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.tycho" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.tycho</font></a></td></tr><tr><td>com.google.android.tetheringentitlement</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.tetheringentitlement" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.tetheringentitlement</font></a></td></tr><tr><td>com.android.omadm.service</td><td><a href="https://play.google.com/store/apps/details?id=com.android.omadm.service" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.omadm.service</font></a></td></tr><tr><td>com.google.android.apps.dreamliner</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.dreamliner" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.dreamliner</font></a></td></tr><tr><td>com.android.cts.ctsshim</td><td><a href="https://play.google.com/store/apps/details?id=com.android.cts.ctsshim" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.cts.ctsshim</font></a></td></tr><tr><td>com.google.android.apps.wearables.maestro.companion</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.wearables.maestro.companion" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.wearables.maestro.companion</font></a></td></tr><tr><td>com.google.android.wifi.resources</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.wifi.resources" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.wifi.resources</font></a></td></tr><tr><td>com.android.remoteprovisioner</td><td><a href="https://play.google.com/store/apps/details?id=com.android.remoteprovisioner" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.remoteprovisioner</font></a></td></tr><tr><td>com.google.android.wifi.dialog</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.wifi.dialog" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.wifi.dialog</font></a></td></tr><tr><td>com.android.nfc.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.nfc.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.nfc.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.google.android.connectivitythermalpowermanager</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.connectivitythermalpowermanager" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.connectivitythermalpowermanager</font></a></td></tr><tr><td>com.android.vpndialogs</td><td><a href="https://play.google.com/store/apps/details?id=com.android.vpndialogs" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.vpndialogs</font></a></td></tr><tr><td>com.google.android.apps.wallpaper</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper</font></a></td></tr><tr><td>com.google.android.odad</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.odad" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.odad</font></a></td></tr><tr><td>com.android.angle</td><td><a href="https://play.google.com/store/apps/details?id=com.android.angle" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.angle</font></a></td></tr><tr><td>com.android.phone</td><td><a href="https://play.google.com/store/apps/details?id=com.android.phone" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.phone</font></a></td></tr><tr><td>com.android.shell</td><td><a href="https://play.google.com/store/apps/details?id=com.android.shell" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.shell</font></a></td></tr><tr><td>com.google.android.apps.recorder</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.recorder" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.recorder</font></a></td></tr><tr><td>com.android.wallpaperbackup</td><td><a href="https://play.google.com/store/apps/details?id=com.android.wallpaperbackup" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.wallpaperbackup</font></a></td></tr><tr><td>com.android.providers.blockednumber</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.blockednumber" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.blockednumber</font></a></td></tr><tr><td>com.android.settings.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.settings.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.settings.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.apps.work.clouddpc</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.work.clouddpc" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.work.clouddpc</font></a></td></tr><tr><td>com.android.providers.userdictionary</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.userdictionary" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.userdictionary</font></a></td></tr><tr><td>com.hld.anzenbokusucal</td><td><a href="https://play.google.com/store/apps/details?id=com.hld.anzenbokusucal" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.hld.anzenbokusucal</font></a></td></tr><tr><td>com.google.android.apps.carrier.carrierwifi</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.carrier.carrierwifi" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.carrier.carrierwifi</font></a></td></tr><tr><td>com.android.emergency</td><td><a href="https://play.google.com/store/apps/details?id=com.android.emergency" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.emergency</font></a></td></tr><tr><td>com.android.providers.media.overlay.pixel</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.media.overlay.pixel" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.media.overlay.pixel</font></a></td></tr><tr><td>com.android.captiveportallogin.overlay</td><td><a href="https://play.google.com/store/apps/details?id=com.android.captiveportallogin.overlay" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.captiveportallogin.overlay</font></a></td></tr><tr><td>com.google.android.gms.location.history</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.gms.location.history" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.gms.location.history</font></a></td></tr><tr><td>com.android.internal.systemui.navbar.gestural</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural</font></a></td></tr><tr><td>com.android.location.fused</td><td><a href="https://play.google.com/store/apps/details?id=com.android.location.fused" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.location.fused</font></a></td></tr><tr><td>com.android.systemui</td><td><a href="https://play.google.com/store/apps/details?id=com.android.systemui" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.systemui</font></a></td></tr><tr><td>com.google.android.ondevicepersonalization.services</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.ondevicepersonalization.services" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.ondevicepersonalization.services</font></a></td></tr><tr><td>com.google.android.hardwareinfo</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.hardwareinfo" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.hardwareinfo</font></a></td></tr><tr><td>com.google.android.apps.youtube.music</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music</font></a></td></tr><tr><td>com.android.bluetoothmidiservice</td><td><a href="https://play.google.com/store/apps/details?id=com.android.bluetoothmidiservice" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.bluetoothmidiservice</font></a></td></tr><tr><td>com.google.android.dreamlinerupdater</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.dreamlinerupdater" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.dreamlinerupdater</font></a></td></tr><tr><td>com.android.traceur</td><td><a href="https://play.google.com/store/apps/details?id=com.android.traceur" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.traceur</font></a></td></tr><tr><td>com.google.android.cellbroadcastreceiver</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.cellbroadcastreceiver" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.cellbroadcastreceiver</font></a></td></tr><tr><td>com.google.android.apps.helprtc</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc</font></a></td></tr><tr><td>com.android.phone.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.phone.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.phone.auto_generated_rro_product__</font></a></td></tr><tr><td>com.android.omadm.service.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=com.android.omadm.service.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.omadm.service.auto_generated_rro_vendor__</font></a></td></tr><tr><td>android.auto_generated_rro_product__</td><td><a href="https://play.google.com/store/apps/details?id=android.auto_generated_rro_product__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=android.auto_generated_rro_product__</font></a></td></tr><tr><td>com.google.android.apps.gcs</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.gcs" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.gcs</font></a></td></tr><tr><td>com.android.bluetooth</td><td><a href="https://play.google.com/store/apps/details?id=com.android.bluetooth" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.bluetooth</font></a></td></tr><tr><td>com.android.providers.contacts</td><td><a href="https://play.google.com/store/apps/details?id=com.android.providers.contacts" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.providers.contacts</font></a></td></tr><tr><td>com.google.android.GoogleCamera</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera</font></a></td></tr><tr><td>com.android.internal.systemui.navbar.gestural_narrow_back</td><td><a href="https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_narrow_back" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.android.internal.systemui.navbar.gestural_narrow_back</font></a></td></tr><tr><td>com.verizon.llkagent</td><td><a href="https://play.google.com/store/apps/details?id=com.verizon.llkagent" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.verizon.llkagent</font></a></td></tr><tr><td>com.google.android.inputmethod.latin</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin</font></a></td></tr><tr><td>com.google.android.trichromelibrary_506007133</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.trichromelibrary_506007133" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.trichromelibrary_506007133</font></a></td></tr><tr><td>com.google.android.storagemanager</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.storagemanager" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.storagemanager</font></a></td></tr><tr><td>android.auto_generated_rro_vendor__</td><td><a href="https://play.google.com/store/apps/details?id=android.auto_generated_rro_vendor__" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=android.auto_generated_rro_vendor__</font></a></td></tr><tr><td>com.google.android.apps.restore</td><td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.restore" target="_blank"><font color="blue">https://play.google.com/store/apps/details?id=com.google.android.apps.restore</font></a></td></tr></tbody><tfoot><tr><th>Bundle ID</th><th>Possible Google Play Store Link</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <!-- Chart.js -->
+    <script type="text/javascript" src="_elements/chart.umd.min.js"></script>
+    <script type="text/javascript" src="_elements/moment.min.js"></script>
+    <script type="text/javascript" src="_elements/timeline/js/timeline.min.js"></script>
+    <!-- Garmin Functions -->
+    <script type="text/javascript" src="_elements/garmin-functions.js"></script>
+    <script type="text/javascript" src="_elements/chat.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

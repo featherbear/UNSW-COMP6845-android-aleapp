@@ -1,0 +1,18 @@
+@c\#
+UC-LSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+XR
+
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)*
+_indexindex_AtlasData_lastModifiedTimestampMillisAtlasData
+CREATE INDEX `index_AtlasData_lastModifiedTimestampMillis` ON `AtlasData` (`lastModifiedTimestampMillis`)l
+'tableAtlasDataAtlasData
+CREATE TABLE `AtlasData` (`callCreationTimeMillis` INTEGER NOT NULL, `lastModifiedTimestampMillis` INTEGER NOT NULL, `atlasCallDetails` BLOB, `detectionMetrics` BLOB, PRIMARY KEY(`callCreationTimeMillis`))W
+Ejg
+
+M99fdc90faec001cfaf00549c8ebf3e43
+:$539eba9b-28bf-4c89-bf31-fd956a62f779

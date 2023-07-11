@@ -1,0 +1,154 @@
+live_client_feature_centerDatabaseCache_live_client_feature_centera
+live_gift_guide_dialog_duration_predictDatabaseCache_live_gift_guide_dialog_duration_predictc
+live_gift_panel_open_behavior_predictionDatabaseCache_live_gift_panel_open_behavior_predictioni
+rematch_once_more_display_duration_strategyDatabaseCache_rematch_once_more_display_duration_strategyi
+live_cohost_friend_notice_optimize_strategyDatabaseCache_live_cohost_friend_notice_optimize_strategyK
+live_revenue_feature_collectDatabaseCache_live_revenue_feature_collectG
+tiktok_promote_ad_antispamDatabaseCache_tiktok_promote_ad_antispam?
+tiktok_showtime_ad_gapDatabaseCache_tiktok_showtime_ad_gapE
+tiktok_network_predictionDatabaseCache_tiktok_network_prediction
+live_client_feature_center	+
+live_gift_guide_dialog_duration_predict
+live_gift_panel_open_behavior_prediction
+rematch_once_more_display_duration_strategy
+live_cohost_friend_notice_optimize_strategy
+live_revenue_feature_collect
+tiktok_promote_ad_antispam
+tiktok_showtime_ad_gap
+?	tiktok_network_prediction
+DatabaseCache_live_client_feature_center	9
+DatabaseCache_live_gift_guide_dialog_duration_predict
+DatabaseCache_live_gift_panel_open_behavior_prediction
+DatabaseCache_rematch_once_more_display_duration_strategy
+DatabaseCache_live_cohost_friend_notice_optimize_strategy
+DatabaseCache_live_revenue_feature_collect
+DatabaseCache_tiktok_promote_ad_antispam
+DatabaseCache_tiktok_showtime_ad_gap
+[	DatabaseCache_tiktok_network_prediction
+FEInternalKVCacheConfigTable
+C	FEInternalAppLogConfigTable&
+FEInternalDatabaseCacheConfigTable	
+9	FEInternalVersionTable
+SQLite format 3
+
+RT+
+
+
+ItableKeyValueCache_live_client_feature_centerKeyValueCache_live_client_feature_center2CREATE TABLE KeyValueCache_live_client_feature_center (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))p1
+indexsqlite_autoindex_KeyValueCache_live_client_feature_center_1KeyValueCache_live_client_feature_center3
+GindexDatabaseCache_live_client_feature_center_IndexDatabaseCache_live_client_feature_center1CREATE INDEX DatabaseCache_live_client_feature_center_Index ON DatabaseCache_live_client_feature_center (label, tag, arg0, arg1, arg2, permission, timestamp)
+utableDatabaseCache_live_client_feature_centerDatabaseCache_live_client_feature_center0CREATE TABLE DatabaseCache_live_client_feature_center (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+-
+indexsqlite_autoindex_KeyValueCache_live_gift_guide_dialog_duration_predict_1KeyValueCache_live_gift_guide_dialog_duration_predict/
+ctableKeyValueCache_live_gift_guide_dialog_duration_predictKeyValueCache_live_gift_guide_dialog_duration_predict.CREATE TABLE KeyValueCache_live_gift_guide_dialog_duration_predict (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+{indexDatabaseCache_live_gift_guide_dialog_duration_predict_IndexDatabaseCache_live_gift_guide_dialog_duration_predict-CREATE INDEX DatabaseCache_live_gift_guide_dialog_duration_predict_Index ON DatabaseCache_live_gift_guide_dialog_duration_predict (label, tag, arg0, arg1, arg2, permission, timestamp)
+
+s	+	+	+
+indexDatabaseCache_live_cohost_friend_notice_optimize_strategy_IndexDatabaseCache_live_cohost_friend_notice_optimize_strategy!CREATE INDEX DatabaseCache_live_cohost_friend_notice_optimize_strategy_Index ON DatabaseCache_live_cohost_friend_notice_optimize_strategy (label, tag, arg0, arg1, arg2, permission, timestamp)
+tableDatabaseCache_live_cohost_friend_notice_optimize_strategyDatabaseCache_live_cohost_friend_notice_optimize_strategy CREATE TABLE DatabaseCache_live_cohost_friend_notice_optimize_strategy (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+MtableKeyValueCache_live_revenue_feature_collectKeyValueCache_live_revenue_feature_collect
+CREATE TABLE KeyValueCache_live_revenue_feature_collect (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))t
+indexsqlite_autoindex_KeyValueCache_live_revenue_feature_collect_1KeyValueCache_live_revenue_feature_collect
+OindexDatabaseCache_live_revenue_feature_collect_IndexDatabaseCache_live_revenue_feature_collect
+CREATE INDEX DatabaseCache_live_revenue_feature_collect_Index ON DatabaseCache_live_revenue_feature_collect (label, tag, arg0, arg1, arg2, permission, timestamp)
+indexDatabaseCache_rematch_once_more_display_duration_strategy_IndexDatabaseCache_rematch_once_more_display_duration_strategy%CREATE INDEX DatabaseCache_rematch_once_more_display_duration_strategy_Index ON DatabaseCache_rematch_once_more_display_duration_strategy (label, tag, arg0, arg1, arg2, permission, timestamp)
+tableDatabaseCache_rematch_once_more_display_duration_strategyDatabaseCache_rematch_once_more_display_duration_strategy$CREATE TABLE DatabaseCache_rematch_once_more_display_duration_strategy (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+indexsqlite_autoindex_KeyValueCache_live_cohost_friend_notice_optimize_strategy_1KeyValueCache_live_cohost_friend_notice_optimize_strategy#
+ktableKeyValueCache_live_cohost_friend_notice_optimize_strategyKeyValueCache_live_cohost_friend_notice_optimize_strategy"CREATE TABLE KeyValueCache_live_cohost_friend_notice_optimize_strategy (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+etableKeyValueCache_live_gift_panel_open_behavior_predictionKeyValueCache_live_gift_panel_open_behavior_prediction*CREATE TABLE KeyValueCache_live_gift_panel_open_behavior_prediction (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key)))
+indexsqlite_autoindex_KeyValueCache_live_gift_panel_open_behavior_prediction_1KeyValueCache_live_gift_panel_open_behavior_prediction+
+
+indexDatabaseCache_live_gift_panel_open_behavior_prediction_IndexDatabaseCache_live_gift_panel_open_behavior_prediction)CREATE INDEX DatabaseCache_live_gift_panel_open_behavior_prediction_Index ON DatabaseCache_live_gift_panel_open_behavior_prediction (label, tag, arg0, arg1, arg2, permission, timestamp)
+tableDatabaseCache_live_gift_panel_open_behavior_predictionDatabaseCache_live_gift_panel_open_behavior_prediction(CREATE TABLE DatabaseCache_live_gift_panel_open_behavior_prediction (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+indexsqlite_autoindex_KeyValueCache_rematch_once_more_display_duration_strategy_1KeyValueCache_rematch_once_more_display_duration_strategy'
+ktableKeyValueCache_rematch_once_more_display_duration_strategyKeyValueCache_rematch_once_more_display_duration_strategy&CREATE TABLE KeyValueCache_rematch_once_more_display_duration_strategy (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+tableDatabaseCache_live_gift_guide_dialog_duration_predictDatabaseCache_live_gift_guide_dialog_duration_predict,CREATE TABLE DatabaseCache_live_gift_guide_dialog_duration_predict (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+FEInternalKVCacheConfigTable	
+A]live_client_feature_centerKeyValueCache_live_client_feature_center`
+[wlive_gift_guide_dialog_duration_predictKeyValueCache_live_gift_guide_dialog_duration_predictb
+]ylive_gift_panel_open_behavior_predictionKeyValueCache_live_gift_panel_open_behavior_predictionh
+rematch_once_more_display_duration_strategyKeyValueCache_rematch_once_more_display_duration_strategyh
+live_cohost_friend_notice_optimize_strategyKeyValueCache_live_cohost_friend_notice_optimize_strategyJ
+Ealive_revenue_feature_collectKeyValueCache_live_revenue_feature_collectF
+A]tiktok_promote_ad_antispamKeyValueCache_tiktok_promote_ad_antispam>
+9Utiktok_showtime_ad_gapKeyValueCache_tiktok_showtime_ad_gapD
+?[tiktok_network_predictionKeyValueCache_tiktok_network_prediction
+ZRkP
+KeyValueCache_live_client_feature_center	9
+KeyValueCache_live_gift_guide_dialog_duration_predict
+KeyValueCache_live_gift_panel_open_behavior_prediction
+KeyValueCache_rematch_once_more_display_duration_strategy
+KeyValueCache_live_cohost_friend_notice_optimize_strategy
+KeyValueCache_live_revenue_feature_collect
+KeyValueCache_tiktok_promote_ad_antispam
+KeyValueCache_tiktok_showtime_ad_gap
+[	KeyValueCache_tiktok_network_prediction
+ytableDatabaseCache_live_revenue_feature_collectDatabaseCache_live_revenue_feature_collect
+CREATE TABLE DatabaseCache_live_revenue_feature_collect (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)p
+indexsqlite_autoindex_KeyValueCache_tiktok_promote_ad_antispam_1KeyValueCache_tiktok_promote_ad_antispam
+ItableKeyValueCache_tiktok_promote_ad_antispamKeyValueCache_tiktok_promote_ad_antispam
+CREATE TABLE KeyValueCache_tiktok_promote_ad_antispam (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))g
+indexsqlite_autoindex_KeyValueCache_tiktok_showtime_ad_gap_1KeyValueCache_tiktok_showtime_ad_gap
+AtableKeyValueCache_tiktok_showtime_ad_gapKeyValueCache_tiktok_showtime_ad_gap
+CREATE TABLE KeyValueCache_tiktok_showtime_ad_gap (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))n
+indexsqlite_autoindex_KeyValueCache_tiktok_network_prediction_1KeyValueCache_tiktok_network_prediction
+
+Ne
+2
+mtableDa
+CindexDatabaseCache_tiktok_network_prediction_IndexDatabaseCache_tiktok_network_prediction
+CREATE INDEX DatabaseCache_tiktok_network_prediction_Index ON DatabaseCache_tiktok_network_prediction (label, tag, arg0, arg1, arg2, permission, timestamp)
+stableDatabaseCache_tiktok_network_predictionDatabaseCache_tiktok_network_prediction
+CREATE TABLE DatabaseCache_tiktok_network_prediction (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+tableFEInternalKVCacheConfigTableFEInternalKVCacheConfigTableCREATE TABLE FEInternalKVCacheConfigTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business         TEXT        NOT NULL UNIQUE,table_name       TEXT        NOT NULL UNIQUE)W
+indexsqlite_autoindex_FEInternalKVCacheConfigTable_2FEInternalKVCacheConfigTable
+W
+
+indexsqlite_autoindex_FEInternalKVCacheConfigTable_1FEInternalKVCacheConfigTable
+{tableFEInternalVersionTableFEInternalVersionTable
+CREATE TABLE FEInternalVersionTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER     DEFAULT 0,database_version INTEGER     NOT NULL)#
+aindexapplogConfigIndexFEInternalAppLogConfigTable	CREATE INDEX applogConfigIndex ON FEInternalAppLogConfigTable (business_name, package_version, table_name)
+tableFEInternalAppLogConfigTableFEInternalAppLogConfigTable
+CREATE TABLE FEInternalAppLogConfigTable (id              INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business_name   TEXT        NOT NULL,package_version TEXT        NOT NULL,table_name      TEXT        NOT NULL,config_md5      TEXT        NOT NULL)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+OtableFEInternalDatabaseCacheConfigTableFEInternalDatabaseCacheConfigTable
+CREATE TABLE FEInternalDatabaseCacheConfigTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business         TEXT        NOT NULL UNIQUE,table_name       TEXT        NOT NULL UNIQUE,feature_config   TEXT)c
+indexsqlite_autoindex_FEInternalDatabaseCacheConfigTable_2FEInternalDatabaseCacheConfigTable
+indexsqlite_autoindex_FEInternalDatabaseCacheConfigTable_1FEInternalDatabaseCacheConfigTable
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+FEInternalDatabaseCacheConfigTable
+[30)
+mtableDatabaseCache_tiktok_showtime_ad_gapDatabaseCache_tiktok_showtime_ad_gap
+CREATE TABLE DatabaseCache_tiktok_showtime_ad_gap (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)|
+
+
+{	x
+GtableKeyValueCache_tiktok_network_predictionKeyValueCache_tiktok_network_prediction
+CREATE TABLE KeyValueCache_tiktok_network_prediction (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))n
+eindexAppLog_tt_sexual_activity_2081_Index_V2AppLog_tt_sexual_activity
+CREATE INDEX AppLog_tt_sexual_activity_2081_Index_V2 ON AppLog_tt_sexual_activity (event_name, timestamp_ms)
+
+tableAppLog_tt_sexual_activityAppLog_tt_sexual_activity
+CREATE TABLE AppLog_tt_sexual_activity (id           INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT, timestamp    INTEGER     NOT NULL DEFAULT (strftime('%s','now')), timestamp_ms INTEGER     DEFAULT 0, event_name   TEXT        NOT NULL, params       TEXT)
+GindexDatabaseCache_tiktok_promote_ad_antispam_IndexDatabaseCache_tiktok_promote_ad_antispam
+CREATE INDEX DatabaseCache_tiktok_promote_ad_antispam_Index ON DatabaseCache_tiktok_promote_ad_antispam (label, tag, arg0, arg1, arg2, permission, timestamp)
+utableDatabaseCache_tiktok_promote_ad_antispamDatabaseCache_tiktok_promote_ad_antispam
+CREATE TABLE DatabaseCache_tiktok_promote_ad_antispam (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)p
+7indexDatabaseCache_tiktok_showtime_ad_gap_IndexDatabaseCache_tiktok_showtime_ad_gap
+CREATE INDEX DatabaseCache_tiktok_showtime_ad_gap_Index ON DatabaseCache_tiktok_showtime_ad_gap (label, tag, arg0, arg1, arg2, permission, timestamp)
+CREATE TABLE KeyValueCache_tiktok_showtime_ad_gap (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+i,b8
+(* 
+
+HJD2.1
+	+	+
+OSQLite format 3
+|~gK
+indexsqlite_autoindex_KeyValueCache_live_gift_panel_open_behavior_prediction_1KeyValueCache_live_gift_panel_open_behavior_prediction+
+ISQLite format 3
+1jr
+
+o:SQLite format 3
+CSQLite format 3

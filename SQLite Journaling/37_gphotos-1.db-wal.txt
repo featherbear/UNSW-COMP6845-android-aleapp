@@ -1,0 +1,111 @@
+yV&
+jD-
+
+all_media_count1G
+obsolete_processor_idssqlite_autoindex_obsolete_processor_ids_161 1
+media_generation1$
+mediasqlite_autoindex_media_15 1-
+mediamedia_deleted_timestamp_idx5 5 1 1 14
+I'mediamedia_camera_folder_paging_idx5 3 3 3 1 1 1.
+A#mediamedia_composition_type_idx5 5 5 1 1 1%
+/#mediamedia_vr_type_idx5 5 5 3 1 1.
+A#mediamedia_oem_special_type_idx5 5 5 1 1 1!
+mediais_favorite_idx5 5 5 3 1!
+mediais_archived_idx5 5 5 3 1.
+mediamin_upload_utc_timestamp_idx5 5 3 3 1(
+1'mediamedia_location_idx5 3 3 3 3 1 1N
+day_segmented_date_headerssqlite_autoindex_day_segmented_date_headers_12 1A
+
+day_segmented_date_headersday_segmented_date_headers_idx2 1 1
+android_metadata1>
+partition_tablessqlite_autoindex_partition_tables_1111 7 1:
+
+partition_viewssqlite_autoindex_partition_views_18 4 10	
+local_mediasqlite_autoindex_local_media_15 1(
+local_mediamain_local_media_idx5 1 1/
+local_medialocal_media_bucket_id_idx5 3 1 1<
+local_mediacamera_state_dedup_key_local_media_idx5 3 3 1,
+local_mediafirst_backup_timestamp_idx5 5<
+local_mediamedia_store_id_dedup_key_local_media_idx5 1 1-
+local_mediacontent_uri_local_media_idx5 1;
+local_mediautc_timestamp_dedup_key_local_media_idx5 1 1?
+partition_versionssqlite_autoindex_partition_versions_116 1
+gG)v
+1S)
+
+com.google.android.apps.photos.search.index.SearchIndexStatus.2
+	com.google.android.apps.photos.search.index.SearchIndexStatus.2
+6com.google.android.apps.photos.search.index.SearchIndexStatus.2
+9}
+
+4com.google.android.apps.photos.search.index.SearchIndexStatus.2
+
+`
+I
+
+\9
+Y*
+day_segmented_date_headerssqlite_autoindex_day_segmented_date_headers_12 1A
+android_metadata1>
+partition_tablessqlite_autoindex_partition_tables_1111 7 1:
+partition_viewssqlite_autoindex_partition_views_18 4 10
+
+local_mediasqlite_autoindex_local_media_15 1(	
+local_mediautc_timestamp_dedup_key_local_media_idx5 1 1>
+search_proto_storesqlite_autoindex_search_proto_store_11 1?
+rosulWUBGuzZz2Sp8-H2TAOZsNs
+kz5BB48uG-UBJgV2CqzcwMYTKJ4
+sDLcnUC9jjXRzHOo6a4ruwTxW18
+thb5QE_p75aZmBlAuG_gxahGqUM
+IwxNfVsAtDrSFEsc9WtTIjZQbbE
+UU8
+
+content://media/external/images/media/1000000029
+content://media/external/images/media/1000000028
+content://media/external/images/media/1000000027
+content://media/external/images/media/1000000024
+m	content://media/external/images/media/1000000022
+Ls/	
+rosulWUBGuzZz2Sp8-H2TAOZsNscontent://media/external/images/media/1000000029
+kz5BB48uG-UBJgV2CqzcwMYTKJ4content://media/external/images/media/1000000027
+sDLcnUC9jjXRzHOo6a4ruwTxW18content://media/external/images/media/1000000028
+Cm	thb5QE_p75aZmBlAuG_gxahGqUMcontent://media/external/images/media/1000000022P
+IwxNfVsAtDrSFEsc9WtTIjZQbbEcontent://media/external/images/media/1000000024
+-1739773001rosulWUBGuzZz2Sp8-H2TAOZsNs
+-1739773001kz5BB48uG-UBJgV2CqzcwMYTKJ4
+-1739773001sDLcnUC9jjXRzHOo6a4ruwTxW18
+	1028075469thb5QE_p75aZmBlAuG_gxahGqUM,
+-1739773001IwxNfVsAtDrSFEsc9WtTIjZQbbE
+C	thb5QE_p75aZmBlAuG_gxahGqUM!
+WVsN
+thb5QE_p75aZmBlAuG_gxahGqUM$
+'6jb
+thb5QE_p75aZmBlAuG_gxahGqUM+
+$ProsulWUBGuzZz2Sp8-H2TAOZsNs
+thb5QE_p75aZmBlAuG_gxahGqUM&
+5;$M"
+	thb5QE_p75aZmBlAuG_gxahGqUM
+Op9)	
+B<=,
+$PPXL_20230502_001826761.jpg/storage/emulated/0/DCIM/Camera/PXL_20230502_001826761.jpg
+-1739773001image/jpegCamera;
+PXL_20230502_001821322.jpg/storage/emulated/0/DCIM/Camera/PXL_20230502_001821322.jpg
+PXL_20230502_001823292.jpg/storage/emulated/0/DCIM/Camera/PXL_20230502_001823292.jpg
+|-1739773001image/jpegCamera;
+thb5QE_p75aZmBlAuG_gxahGqUMcontent://media/external/images/media/1000000022
+Screenshot_20230501-212742.png/storage/emulated/0/Pictures/Screenshots/Screenshot_20230501-212742.pngZ
+1028075469image/pngScreenshots;
+.trashed-1686196695-PXL_20230501_135120735.jpg/storage/emulated/0/DCIM/Camera/.trashed-1686196695-PXL_20230501_135120735.jpg
+NO7
+
+n/p<;
+	1028075469thb5QE_p75aZmBlAuG_gxahGqUM
+C	thb5QE_p75aZmBlAuG_gxahGqUM
+.anO
+;b-s
+eB9
+
+5EfI
+:=&iJ^
+h@]
+

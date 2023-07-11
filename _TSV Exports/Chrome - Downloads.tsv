@@ -1,0 +1,7 @@
+﻿Start Time	End Time	Last Access Time	URL	Target Path	State	Danger Type	Interrupt Reason	Opened?	Received Bytes	Total Bytes
+2023-05-01 13:24:30	2023-05-01 13:24:36	2023-05-01 13:24:38	https://github.com/topjohnwu/Magisk/releases	content://media/external/downloads/1000000018	Complete	Dangerous But User Validated		Yes	11411692	11411692
+2023-05-01 14:32:30	2023-05-01 14:32:34	2023-05-01 14:32:35	https://github.com/meefik/busybox/releases/tag/1.34.1	content://media/external/downloads/1000000025	Complete	Dangerous But User Validated		Yes	5902918	5902918
+2023-05-01 14:34:36	2023-05-01 14:34:43	2023-05-01 14:34:45	https://m.apkpure.com/busybox/stericson.busybox/download	content://media/external/downloads/1000000026	Complete	Dangerous But User Validated		Yes	4248439	4248439
+﻿2023-05-01 13:24:30	2023-05-01 13:24:36	2023-05-01 13:24:38	https://github.com/topjohnwu/Magisk/releases	content://media/external/downloads/1000000018	Complete	Dangerous But User Validated		Yes	11411692	11411692
+2023-05-01 14:32:30	2023-05-01 14:32:34	2023-05-01 14:32:35	https://github.com/meefik/busybox/releases/tag/1.34.1	content://media/external/downloads/1000000025	Complete	Dangerous But User Validated		Yes	5902918	5902918
+2023-05-01 14:34:36	2023-05-01 14:34:43	2023-05-01 14:34:45	https://m.apkpure.com/busybox/stericson.busybox/download	content://media/external/downloads/1000000026	Complete	Dangerous But User Validated		Yes	4248439	4248439

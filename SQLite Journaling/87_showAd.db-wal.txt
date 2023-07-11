@@ -1,0 +1,15 @@
+BBSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+VkW1Z
+bSQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)l
+3tableshowAdshowAd
+CREATE TABLE `showAd` (`awemeId` TEXT NOT NULL, `cid` TEXT, PRIMARY KEY(`awemeId`))+
+indexsqlite_autoindex_showAd_1showAd
+Me04cf56d01dc68702059f284d226e920
+uL
+
+3-72295198541040222741765019386536049
+3	7229519854104022274

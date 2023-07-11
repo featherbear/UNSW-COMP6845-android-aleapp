@@ -1,0 +1,147 @@
+:V=S
+jSQLite format 3
+lsX
+
+u0
+global_live_basiclivesdk_viewer_recharge_success_timestamp
+global_live_basiclivesdk_viewer_send_gift_cnt
+global_live_basiclivesdk_viewer_send_gift_price
+
+|
+T	
+livesdk_viewer_send_gift_price
+dy	d
+livesdk_viewer_send_gift_cnt
+livesdk_viewer_recharge_success_timestamp
+NSQLite format 3
+en_US
+tiktok_network_predictionDatabaseCache_tiktok_network_prediction?
+tiktok_showtime_ad_gapDatabaseCache_tiktok_showtime_ad_gapG
+tiktok_promote_ad_antispamDatabaseCache_tiktok_promote_ad_antispam
+tiktok_showtime_ad_gap
+A	tiktok_promote_ad_antispam
+tiktok_network_prediction
+.)Ts
+DatabaseCache_tiktok_showtime_ad_gap
+]	DatabaseCache_tiktok_promote_ad_antispam+
+DatabaseCache_tiktok_network_prediction
+FEInternalKVCacheConfigTable
+FEInternalDatabaseCacheConfigTable
+C	FEInternalAppLogConfigTable
+FEInternalAppSessionTable
+K	FEInternalFeatureMigrationTable
+9	FEInternalVersionTable
+?Mtt_sexual_activity2081AppLog_tt_sexual_activitycdbe87c6dc1954d0a6a81cb698cddfd1
+94f85ca9d7b4e82ca7d4ea4305c5c4a5leave_appdP
+r94f85ca9d7b4e82ca7d4ea4305c5c4a5enter_appdP
+cQaa104b74ff793bf40257ba39c71db659leave_appdP
+
+Vaa104b74ff793bf40257ba39c71db659enter_appdP
+=h[y
+
+z
+R
+*
+
+b:
+mD
+afu;
+Sotiktok_clientai_cloud_local_predictKeyValueCache_tiktok_clientai_cloud_local_predictD
+?[tiktok_network_predictionKeyValueCache_tiktok_network_prediction>
+9Utiktok_showtime_ad_gapKeyValueCache_tiktok_showtime_ad_gapF
+A]tiktok_promote_ad_antispamKeyValueCache_tiktok_promote_ad_antispam
+tiktok_clientai_cloud_local_predict
+KeyValueCache_tiktok_showtime_ad_gap
+]	KeyValueCache_tiktok_promote_ad_antispam+
+KeyValueCache_tiktok_network_prediction
+KeyValueCache_tiktok_clientai_cloud_local_predict
+b	/b
+
+5vaS
+?	tt_sexual_activity2081AppLog_tt_sexual_activity
+
+N 	
+;tableFEInternalFeatureStoreKVTableFEInternalFeatureStoreKVTable
+CREATE TABLE FEInternalFeatureStoreKVTable (group_name      TEXT        DEFAULT "",feature_name    TEXT        NOT NULL,feature_type    INTEGER     NOT NULL,value_type      INTEGER     NOT NULL,detail_index    INTEGER     NOT NULL,numic_value     REAL        NOT NULL,string_value    TEXT        NOT NULL,ext1            TEXT        ,ext2            TEXT        ,ext3            TEXT        ,ext4            TEXT        ,ext5            TEXT        ,timestamp       INTEGER     NOT NULL DEFAULT (strftime('%s','now')),UNIQUE(feature_name, feature_type, value_type, detail_index) ON CONFLICT REPLACE)
+tableFEInternalUserActivityTableFEInternalUserActivityTableCREATE TABLE FEInternalUserActivityTable (id                  INTEGER         NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp           INTEGER         NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms        INTEGER         DEFAULT 0,start_timestamp_ms  INTEGER         NOT NULL,end_timestamp_ms    INTEGER         NOT NULL,open_app_count      INTEGER         NOT NULL,launch_hour_0 INTEGER NOT NULL,launch_hour_1 INTEGER NOT NULL,launch_hour_2 INTEGER NOT NULL,launch_hour_3 INTEGER NOT NULL,launch_hour_4 INTEGER NOT NULL,launch_hour_5 INTEGER NOT NULL,launch_hour_6 INTEGER NOT NULL,launch_hour_7 INTEGER NOT NULL,launch_hour_8 INTEGER NOT NULL,launch_hour_9 INTEGER NOT NULL,launch_hour_10 INTEGER NOT NULL,launch_hour_11 INTEGER NOT NULL,launch_hour_12 INTEGER NOT NULL,launch_hour_13 INTEGER NOT NULL,launch_hour_14 INTEGER NOT NULL,launch_hour_15 INTEGER NOT NULL,launch_hour_16 INTEGER NOT NULL,launch_hour_17 INTEGER NOT NULL,launch_hour_18 INTEGER NOT NULL,launch_hour_19 INTEGER NOT NULL,launch_hour_20 INTEGER NOT NULL,launch_hour_21 INTEGER NOT NULL,launch_hour_22 INTEGER NOT NULL,launch_hour_23 INTEGER NOT NULL,total_duration INTEGER NOT NULL)
+9tableFEInternalAppSessionTableFEInternalAppSessionTableCREATE TABLE FEInternalAppSessionTable (id                 INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp          INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms       INTEGER     DEFAULT 0,session            TEXT        NOT NULL,event_name         TEXT        NOT NULL,is_launch          INTEGER,enter_timestamp    INTEGER,enter_timestamp_ms INTEGER,duration           INTEGER)
+{tableFEInternalVersionTableFEInternalVersionTable
+CREATE TABLE FEInternalVersionTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER     DEFAULT 0,database_version INTEGER     NOT NULL)h
+GtableFEInternalFeatureMigrationTableFEInternalFeatureMigrationTable	CREATE TABLE FEInternalFeatureMigrationTable (id              INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,kv_store_down   INTEGER,db_store_down   INTEGER)
+tableFEInternalAppLogConfigTableFEInternalAppLogConfigTable
+CREATE TABLE FEInternalAppLogConfigTable (id              INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business_name   TEXT        NOT NULL,package_version TEXT        NOT NULL,table_name      TEXT        NOT NULL,config_md5      TEXT        NOT NULL)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+OtableFEInternalDatabaseCacheConfigTableFEInternalDatabaseCacheConfigTable
+CREATE TABLE FEInternalDatabaseCacheConfigTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business         TEXT        NOT NULL UNIQUE,table_name       TEXT        NOT NULL UNIQUE,feature_config   TEXT)c
+indexsqlite_autoindex_FEInternalDatabaseCacheConfigTable_2FEInternalDatabaseCacheConfigTable
+indexsqlite_autoindex_FEInternalDatabaseCacheConfigTable_1FEInternalDatabaseCacheConfigTable
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+utableDatabaseCache_tiktok_promote_ad_antispamDatabaseCache_tiktok_promote_ad_antispam
+CREATE TABLE DatabaseCache_tiktok_promote_ad_antispam (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+
+tableAppLog_tt_sexual_activityAppLog_tt_sexual_activity
+CREATE TABLE AppLog_tt_sexual_activity (id           INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT, timestamp    INTEGER     NOT NULL DEFAULT (strftime('%s','now')), timestamp_ms INTEGER     DEFAULT 0, event_name   TEXT        NOT NULL, params       TEXT)
+tableFEInternalKVCacheConfigTableFEInternalKVCacheConfigTable
+CREATE TABLE FEInternalKVCacheConfigTable (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,business         TEXT        NOT NULL UNIQUE,table_name       TEXT        NOT NULL UNIQUE)W
+indexsqlite_autoindex_FEInternalKVCacheConfigTable_2FEInternalKVCacheConfigTable
+indexsqlite_autoindex_FEInternalKVCacheConfigTable_1FEInternalKVCacheConfigTable
+3tableFEInternalFeatureStoreSessionTableFEInternalFeatureStoreSessionTable
+CREATE TABLE FEInternalFeatureStoreSessionTable (group_name      TEXT        DEFAULT "",feature_name    TEXT        NOT NULL,sub_feature_name    TEXT    NOT NULL,feature_type    INTEGER     NOT NULL,value_type      INTEGER     NOT NULL,session_index   INTEGER     NOT NULL,detail_index    INTEGER     NOT NULL,numic_value     REAL        NOT NULL,string_value    TEXT        NOT NULL,ext1            TEXT        ,ext2            TEXT        ,ext3            TEXT        ,ext4            TEXT        ,ext5            TEXT        ,timestamp       INTEGER     NOT NULL DEFAULT (strftime('%s','now')),UNIQUE(group_name, feature_name, sub_feature_name, feature_type, value_type, session_index, detail_index) ON CONFLICT REPLACE)c
+indexsqlite_autoindex_FEInternalFeatureStoreSessionTable_1FEInternalFeatureStoreSessionTable
+=tableFEInternalFeatureStoreSeqTableFEInternalFeatureStoreSeqTable
+CREATE TABLE FEInternalFeatureStoreSeqTable (group_name      TEXT        DEFAULT "",feature_name    TEXT        NOT NULL,feature_type    INTEGER     NOT NULL,value_type      INTEGER     NOT NULL,detail_index    INTEGER     NOT NULL,numic_value     REAL        NOT NULL,string_value    TEXT        NOT NULL,ext1            TEXT        ,ext2            TEXT        ,ext3            TEXT        ,ext4            TEXT        ,ext5            TEXT        ,timestamp       INTEGER     NOT NULL DEFAULT (strftime('%s','now')),UNIQUE(feature_name, feature_type, value_type, detail_index) ON CONFLICT REPLACE)[
+indexsqlite_autoindex_FEInternalFeatureStoreSeqTable_1FEInternalFeatureStoreSeqTable
+indexsqlite_autoindex_FEInternalFeatureStoreKVTable_1FEInternalFeatureStoreKVTable
+
+EB
+stableDatabaseCache_tiktok_network_predictionDatabaseCache_tiktok_network_prediction
+CREATE TABLE DatabaseCache_tiktok_network_prediction (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)
+AtableKeyValueCache_tiktok_showtime_ad_gapKeyValueCache_tiktok_showtime_ad_gap
+CREATE TABLE KeyValueCache_tiktok_showtime_ad_gap (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))g
+indexsqlite_autoindex_KeyValueCache_tiktok_showtime_ad_gap_1KeyValueCache_tiktok_showtime_ad_gap
+mtableDatabaseCache_tiktok_showtime_ad_gapDatabaseCache_tiktok_showtime_ad_gap
+CREATE TABLE DatabaseCache_tiktok_showtime_ad_gap (id               INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT,timestamp        INTEGER     NOT NULL DEFAULT (strftime('%s','now')),timestamp_ms     INTEGER              DEFAULT 0,owner            TEXT        NOT NULL,business         TEXT        NOT NULL,version          TEXT        NOT NULL,model_name       TEXT,model_version    TEXT,input_data       TEXT,predict          INTEGER,label            INTEGER,permission       INTEGER     NOT NULL DEFAULT 0,tag              TEXT,arg0             TEXT,arg1             TEXT,arg2             TEXT,arg3             TEXT,arg4             TEXT,arg5             TEXT,arg6             TEXT,arg7             TEXT,arg8             TEXT,arg9             TEXT)p
+indexsqlite_autoindex_KeyValueCache_tiktok_promote_ad_antispam_1KeyValueCache_tiktok_promote_ad_antispam
+ItableKeyValueCache_tiktok_promote_ad_antispamKeyValueCache_tiktok_promote_ad_antispam
+CREATE TABLE KeyValueCache_tiktok_promote_ad_antispam (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+CindexDatabaseCache_tiktok_network_prediction_IndexDatabaseCache_tiktok_network_prediction&CREATE INDEX DatabaseCache_tiktok_network_prediction_Index ON DatabaseCache_tiktok_network_prediction (label, tag, arg0, arg1, arg2, permission, timestamp)p#
+7indexDatabaseCache_tiktok_showtime_ad_gap_IndexDatabaseCache_tiktok_showtime_ad_gap%CREATE INDEX DatabaseCache_tiktok_showtime_ad_gap_Index ON DatabaseCache_tiktok_showtime_ad_gap (label, tag, arg0, arg1, arg2, permission, timestamp)
+GindexDatabaseCache_tiktok_promote_ad_antispam_IndexDatabaseCache_tiktok_promote_ad_antispam$CREATE INDEX DatabaseCache_tiktok_promote_ad_antispam_Index ON DatabaseCache_tiktok_promote_ad_antispam (label, tag, arg0, arg1, arg2, permission, timestamp)9!
+eindexAppLog_tt_sexual_activity_2081_Index_V2AppLog_tt_sexual_activity#CREATE INDEX AppLog_tt_sexual_activity_2081_Index_V2 ON AppLog_tt_sexual_activity (event_name, timestamp_ms)# 
+aindexapplogConfigIndexFEInternalAppLogConfigTable"CREATE INDEX applogConfigIndex ON FEInternalAppLogConfigTable (business_name, package_version, table_name)
+indexsqlite_autoindex_KeyValueCache_tiktok_clientai_cloud_local_predict_1KeyValueCache_tiktok_clientai_cloud_local_predict!
+[tableKeyValueCache_tiktok_clientai_cloud_local_predictKeyValueCache_tiktok_clientai_cloud_local_predict CREATE TABLE KeyValueCache_tiktok_clientai_cloud_local_predict (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))n
+indexsqlite_autoindex_KeyValueCache_tiktok_network_prediction_1KeyValueCache_tiktok_network_prediction
+GtableKeyValueCache_tiktok_network_predictionKeyValueCache_tiktok_network_prediction
+CREATE TABLE KeyValueCache_tiktok_network_prediction (key                    TEXT        NOT NULL,value                  TEXT        NOT NULL,modification_time      integer,last_access_time       integer,primary key(key))
+SQLite format 3
+T?ns
+!hMv
+~ev
+
+;i;a
+{)|d
+
+.j>3
+
+)fi
+
+94L0
+kc328a7bbdbf61d822f97f313deb5ecc8enter_appdY
+C	FEInternalUserActivityTable 
+c328a7bbdbf61d822f97f313deb5ecc8leave_appdY
+5Vdj
+;]5
+
+p6c}'
+
+kD
+
+|
+T
+,
+
+	d	<	
+Js[P

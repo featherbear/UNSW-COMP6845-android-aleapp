@@ -1,0 +1,7 @@
+﻿Timestamp	Requestor	Entry
+2023-05-01 13:27:04	BINDER	Shutdown request from BINDER for reason userrequested at 2023-05-01 21:27:04.599 GMT+08:00 (epoch=1682947624599)
+2023-05-01 13:27:04	SYSTEM	Shutdown request from SYSTEM at 2023-05-01 21:27:04.600 GMT+08:00 (epoch=1682947624600)
+2023-05-01 13:27:45	BINDER	Shutdown request from BINDER for reason userrequested at 2023-05-01 21:27:45.243 GMT+08:00 (epoch=1682947665243)
+2023-05-01 13:27:45	SYSTEM	Shutdown request from SYSTEM at 2023-05-01 21:27:45.244 GMT+08:00 (epoch=1682947665244)
+2023-05-01 13:31:18	BINDER	Shutdown request from BINDER at 2023-05-01 21:31:18.971 GMT+08:00 (epoch=1682947878971)
+2023-05-01 13:31:18	SYSTEM	Shutdown request from SYSTEM at 2023-05-01 21:31:18.972 GMT+08:00 (epoch=1682947878972)

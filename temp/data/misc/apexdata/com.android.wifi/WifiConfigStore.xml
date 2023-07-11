@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="3" />
+<WifiCarrierInfoStoreManagerDataStores>
+<map name="MergedCarrierNetworkOffloadMap" />
+<map name="UnmergedCarrierNetworkOffloadMap" />
+</WifiCarrierInfoStoreManagerDataStores>
+<NetworkList>
+<Network>
+<WifiConfiguration>
+<string name="ConfigKey">&quot;wes’s iPhone&quot;WPA_PSK</string>
+<string name="SSID">&quot;wes’s iPhone&quot;</string>
+<string name="PreSharedKey">&quot;Test1234!&quot;</string>
+<null name="WEPKeys" />
+<int name="WEPTxKeyIndex" value="0" />
+<boolean name="HiddenSSID" value="false" />
+<boolean name="RequirePMF" value="false" />
+<byte-array name="AllowedKeyMgmt" num="1">02</byte-array>
+<byte-array name="AllowedProtocols" num="1">03</byte-array>
+<byte-array name="AllowedAuthAlgos" num="0"></byte-array>
+<byte-array name="AllowedGroupCiphers" num="1">0f</byte-array>
+<byte-array name="AllowedPairwiseCiphers" num="1">06</byte-array>
+<byte-array name="AllowedGroupMgmtCiphers" num="0"></byte-array>
+<byte-array name="AllowedSuiteBCiphers" num="0"></byte-array>
+<boolean name="Shared" value="true" />
+<boolean name="AutoJoinEnabled" value="true" />
+<int name="DeletionPriority" value="0" />
+<int name="NumRebootsSinceLastUse" value="0" />
+<boolean name="RepeaterEnabled" value="false" />
+<SecurityParamsList>
+<SecurityParams>
+<int name="SecurityType" value="2" />
+<boolean name="IsEnabled" value="true" />
+<boolean name="SaeIsH2eOnlyMode" value="false" />
+<boolean name="SaeIsPkOnlyMode" value="false" />
+<boolean name="IsAddedByAutoUpgrade" value="false" />
+</SecurityParams>
+<SecurityParams>
+<int name="SecurityType" value="4" />
+<boolean name="IsEnabled" value="true" />
+<boolean name="SaeIsH2eOnlyMode" value="false" />
+<boolean name="SaeIsPkOnlyMode" value="false" />
+<boolean name="IsAddedByAutoUpgrade" value="true" />
+</SecurityParams>
+</SecurityParamsList>
+<boolean name="Trusted" value="true" />
+<boolean name="IsRestricted" value="false" />
+<boolean name="OemPaid" value="false" />
+<boolean name="OemPrivate" value="false" />
+<boolean name="CarrierMerged" value="false" />
+<null name="BSSID" />
+<int name="Status" value="0" />
+<null name="FQDN" />
+<null name="ProviderFriendlyName" />
+<null name="LinkedNetworksList" />
+<string name="DefaultGwMacAddress">56:eb:e9:57:c9:64</string>
+<boolean name="ValidatedInternetAccess" value="true" />
+<boolean name="NoInternetAccessExpected" value="false" />
+<boolean name="MeteredHint" value="false" />
+<int name="MeteredOverride" value="0" />
+<boolean name="UseExternalScores" value="false" />
+<int name="CreatorUid" value="1000" />
+<string name="CreatorName">android.uid.system:1000</string>
+<int name="LastUpdateUid" value="1000" />
+<string name="LastUpdateName">android.uid.system:1000</string>
+<int name="LastConnectUid" value="1000" />
+<boolean name="IsLegacyPasspointConfig" value="false" />
+<long-array name="RoamingConsortiumOIs" num="0" />
+<string name="RandomizedMacAddress">1a:f6:9e:4f:12:5d</string>
+<int name="MacRandomizationSetting" value="1" />
+<int name="CarrierId" value="-1" />
+<boolean name="IsMostRecentlyConnected" value="true" />
+<int name="SubscriptionId" value="-1" />
+<byte-array name="DppPrivateEcKey" num="0"></byte-array>
+<byte-array name="DppConnector" num="0"></byte-array>
+<byte-array name="DppCSignKey" num="0"></byte-array>
+<byte-array name="DppNetAccessKey" num="0"></byte-array>
+</WifiConfiguration>
+<NetworkStatus>
+<string name="SelectionStatus">NETWORK_SELECTION_ENABLED</string>
+<string name="DisableReason">NETWORK_SELECTION_ENABLE</string>
+<null name="ConnectChoice" />
+<int name="ConnectChoiceRssi" value="0" />
+<boolean name="HasEverConnected" value="true" />
+<boolean name="CaptivePortalNeverDetected" value="true" />
+</NetworkStatus>
+<IpConfiguration>
+<string name="IpAssignment">DHCP</string>
+<string name="ProxySettings">NONE</string>
+</IpConfiguration>
+</Network>
+</NetworkList>
+<MacAddressMap>
+<map name="MacMapEntry" />
+</MacAddressMap>
+<Settings>
+<map name="Values">
+<boolean name="wifi_p2p_pending_factory_reset" value="false" />
+<null name="wifi_p2p_device_name" />
+<boolean name="wifi_scan_always_enabled" value="true" />
+<string name="wifi_sta_factory_mac_address">dc:e5:5b:e3:83:70</string>
+<string name="wifi_static_chip_info">[{&quot;chipId&quot;:0,&quot;chipCapabilities&quot;:16356,&quot;availableModes&quot;:[{&quot;id&quot;:3,&quot;availableCombinations&quot;:[{&quot;limits&quot;:[{&quot;maxIfaces&quot;:1,&quot;types&quot;:[0]},{&quot;maxIfaces&quot;:1,&quot;types&quot;:[3,4,1,2]}]},{&quot;limits&quot;:[{&quot;maxIfaces&quot;:2,&quot;types&quot;:[0]}]}]}]}]</string>
+<boolean name="wifi_scan_throttle_enabled" value="true" />
+<long name="wifi_native_supported_features" value="8868497576236509" />
+<boolean name="wifi_verbose_logging_enabled" value="false" />
+</map>
+</Settings>
+<PasspointConfigData>
+<long name="ProviderIndex" value="0" />
+</PasspointConfigData>
+</WifiConfigStoreData>

@@ -1,0 +1,238 @@
+delete_message
+
+iBdelete_message-1e11a928-066d-4ee3-a91a-cc8d769387c3N
+icing_index_update_handler
+iYicing_index_update_handler-
+iBdelete_message-1e11a928-066d-4ee3-a91a-cc8d769387c3
+iYicing_index_update_handler-32ce2ade-2afb-4a8a-acdc-06ed58fec159
+conversations
+work_queue
+parts
+messages
+messages_annotations
+user_references
+add_contact_banner
+conversation_participants
+phone_number_min_match_guesser1
+generic_worker_queueQ
+settings
+self_participants
+participants
+refresh_incoming_message_notifications
+refresh_incoming_message_notifications-X
+refresh_incoming_message_notifications-
+icing_index_update_handler-
+delete_message-
+delete_message
+Hh^7kFK
+
+&dO
+
+refresh_message_failure_notification
+refresh_message_failure_notification-`
+refresh_message_failure_notification-
+refresh_incoming_message_notifications-30e98e8b-a337-4725-8380-995d6ada0ee8\
+delete_message_from_telephony
+content://sms/15
+delete_message_from_telephony-r
+delete_message_from_telephony-
+refresh_incoming_message_notifications-30e98e8b-a337-4725-8380-995d6ada0ee8
+refresh_message_failure_notification-23e1a9b8-5666-46b2-ab60-a1cd04ca737b`
+delete_message_from_telephony-71efbe41-ddd9-4b4d-9797-2f62a9fd6686
+refresh_message_failure_notification-23e1a9b8-5666-46b2-ab60-a1cd04ca737b
+hX9
+
+c4Oi
+x"e
+
+jo9[
+
+a%Vt
+
+2+61475468135
+$1e536f3e-b413-4244-b4a6-75c9758a2a86
+Qecx
+"Ro*
+CH="
+p$s"
+b* (
+{ a:A
++g.gsma.rcs.botversion
+#=0.92
+!
+
+#=1
+#
+
+#=1.2
+K
+
++g.3gpp.iari-ref
+5
+3urn%3Aurn-7%3A3gpp-application.ims.iari.rcs.chatbot
+K
+
+5
+3urn%3Aurn-7%3A3gpp-application.ims.iari.joyn.intmsg
+G
+
+1
+/urn%3Aurn-7%3A3gpp-application.ims.iari.rcse.im
+Q
+
++g.3gpp.icsi-ref
+;
+9urn%3Aurn-7%3A3gpp-service.ims.icsi.oma.cpm.session.group
+J
+
+4
+2urn%3Aurn-7%3A3gpp-application.ims.iari.rcs.fthttp
+K
+
+5
+3urn%3Aurn-7%3A3gpp-application.ims.iari.rcs.geopush
+CooBAKl97VHFqZ_gkOaTmYUT2I4WNvC2-pgZF1Ulcd54IHYnjxar4u9MkRBAnkKdO65mT5ho_CEVx0bwV8kUeZ4fgiw7Q0IJAgz83CkztAc-EwZYv9JjcXmnT68DuvSVJkGiIHiwBE7crE95_JQ8tGq5N28JBkCAURfSqc4w_Z8qP9tkNiPoHWhxNPSO
+d3ygatyrXG0:APA91bHMMVEnYpfRCtx62CAxtauL_rmyC8iYvD7uzwiheJPxGGZMY-HaxGIHxSytd4kjh7MMh-RtdrWneJwtVAIokDx482MKn5Lf6uEaCmwnreL-fINhvPJaaEdVdBdIguqAs6Up3raVBP
+'https://jibe.google.com/policies/terms/
+en_US 
+89610182500689175396
+Z(
+$upiAttemptsCount89610182500689175396
+zm
+.provisioning_success_data_89610182500689175396
+&http://rcs-acs-mcc505.jibe.google.com/
+505013548836341l
++61-61mEbPDaCU2By82FECfSuC0
+|6Qum
+S0* 
+dGPnl0IrQXy1VnRVAOFuG5:APA91bGHyap_IovzGqT8tuRVW0BZRc-gJjKmpG-7nDKEM5OXbctcLTWUZ3LthZ3uzpSM74onxSR-FoncSWKVBM_yk5ggpJGEiroHKKq5om3zvm59BU3SKrWv-HD4WjM8Jg8PWI3aAQSa
+141
+	
+14-1m
+content://mms/part/1
+L/data/user_de/0/com.android.providers.telephony/app_parts/PART_1682947273836k
+content://mms/drm/1
+L/data/user_de/0/com.android.providers.telephony/app_parts/PART_1682947273758
+
+4+61475468135
+Hiqr
+O(IQzh.z
+
+hC
+
+s5e4
+*K1]
+G50	
+U=~w
+&IZ0
+	h
+z
+
+
+
+
+
+0448 804 154
+Are you free to meet up tomorrow. Usual spot ? 
+content://com.google.android.apps.messaging.shared.ui.avatar.AvatarContentProvider/d?i=%2B61448804154
++614488041542
+B
+w0448 804 154
+Telstra
+Your Pre-Paid recharge for 0475468135 will expire on 08/05/23 at 11:59 PM AEST. 
+
+Recharge and manage your service via the My Telstra app - https://tel.st/umf5x or by visiting https://tel.st/recharge.
+content://com.google.android.apps.messaging.shared.ui.avatar.AvatarContentProvider/d?i=Telstra
+Telstra2
+0436 950 054
+Wrong number mate I'm
+kcontent://com.google.android.apps.messaging.shared.ui.avatar.AvatarContentProvider/d?i=%2B61436950054
++614369500542
++61448804154
+%	+61436950054
+content://sms/22
+content://sms/21
+content://sms/20
+content://sms/19
+content://sms/18
+content://sms/17
+content://sms/16
+content://sms/10
+content://sms/8
+
+content://sms/7
+content://sms/6
+content://sms/5
+
+content://sms/4	
+content://sms/3
+content://sms/2
+content://sms/1
+
+^
+4
+
+rG
+J Nb
+COMMANDj	
+
+COMMAND#
+G Ib
+COMMAND-
+https://tel.st/recharge.)
+https://tel.st/umf5x#
+] ab
+Z \b
+COMMAND,
+https://tel.st/recharge(
+https://tel.st/cruv#
+! "b
+6 7b
+COMMAND
+COMMAND!
+Are you free to meet up tomorrow. Usual spot ? text/plain
+Your Pre-Paid recharge for 0475468135 will expire on 08/05/23 at 11:59 PM AEST. 
+
+Recharge and manage your service via the My Telstra app - https://tel.st/umf5x or by visiting https://tel.st/recharge.text/plain
+You have less than 0.10 GB in your Data remaining, which will expire on 08/05/23 at 11:59 PM AEST.
+
+An additional data balance may be available. Check your balance and recharge in the My Telstra app by visiting https://tel.st/cruv or at https://tel.st/rechargetext/plain
+You better bring the best stuff, I ain't paying that for trash text/plain
+$200. Meet at usual spottext/plain
+You're an absolute joke, I'm calling the cops on you, I know plenty of stuff you've done and you'll go down for all of ittext/plain
+$300text/plain
+Well no apples for you thentext/plain
+
+Inflationtext/plain
+Last time was $200text/plain
+Alright $350 cash text/plain
+
+You have less than 0.75 GB in your Data remaining, which will expire on 08/05/23 at 11:59 PM AEST.
+
+An additional data balance may be available. Check your balance and recharge in the My Telstra app by visiting https://tel.st/cruv or at https://tel.st/rechargetext/plain
+	Yeah, I need three apples and two peaches text/plain
+Still chasing that fruit ? text/plain
+I'mtext/plain
+Wrong number mate text/plain
+Got my money ? text/plain
+text/plain
+text/plain
+
+text/plain
+text/plain	
+!	text/plain
+Pd8n
+
+iYicing_index_update_handler-4
+iBdelete_message-
+QLcj_(
+
+X1f%
+I don't remember nothin. I just saw you doing what you didtext/plain
+Remember who provided me the information. text/plain
+The way I see it, I was an innocent bystander. You're the one who did it text/plain
+Remember you played a part in that deal aswelltext/plain
+You'll give me what I want, or I tell the cops about your last deal with Steve text/plain
+I'm not paying that. $200. text/plain
+g#/
+

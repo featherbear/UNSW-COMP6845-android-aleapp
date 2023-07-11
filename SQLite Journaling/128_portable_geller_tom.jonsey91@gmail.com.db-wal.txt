@@ -1,0 +1,37 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+Ktablegeller_file_tablegeller_file_table	CREATE TABLE geller_file_table (data_type TEXT NOT NULL, key TEXT NOT NULL, timestamp_micro INTEGER NOT NULL, sync_status TEXT, delete_status TEXT, num_times_used INTEGER, deletion_sync_status TEXT, file_path TEXT NOT NULL)
+[tablegeller_metadata_tablegeller_metadata_table
+CREATE TABLE geller_metadata_table (data_type TEXT NOT NULL, key TEXT NOT NULL, metadata TEXT NOT NULL)q
+indexdatatype_dataidgeller_key_table
+CREATE INDEX datatype_dataid ON geller_key_table (data_type, data_id)
+
+Gindexdatatype_key_dataidgeller_key_table
+CREATE INDEX datatype_key_dataid ON geller_key_table (data_type, key, delete_status, data_id)
+gtablegeller_key_tablegeller_key_table
+CREATE TABLE geller_key_table (data_type TEXT NOT NULL, key TEXT NOT NULL, timestamp_micro INTEGER NOT NULL, sync_status TEXT, delete_status TEXT, num_times_used INTEGER, deletion_sync_status TEXT, data_id INTEGER NOT NULL,  FOREIGN KEY (data_id) REFERENCES geller_data_table (_id) ON DELETE CASCADE ){
+%tablegeller_data_tablegeller_data_table
+CREATE TABLE geller_data_table (_id INTEGER PRIMARY KEY, data BLOB NOT NULL)W
+k&K(
+_,rh
+
+E=nP
+
+9-FAST_PAIR_sync_timestamp_micros1682948006132315
+#-FAST_PAIR_sync_tokenEgkI2/TS8J3U/gI=3
+
+Ctype.googleapis.com/personalization.geller.proto.GellerClientConfig
+ 
+
+
+
+4type.googleapis.com/geller.externaldb.ExternalDbSync
+	GELLER_CONFIG
+[SYNCED
+		GELLER_CONFIG
+'		GELLER_CONFIG
+'9-GELLER_CONFIG_sync_timestamp_micros1682948006132315(
+'#
+GELLER_CONFIG_sync_tokenEi4I2/TS8J3U/gLiPiIKIDc4ODBhNDcxMjEyN2ZkZDk4YmNhYmE5MGE4NWU3ZTY17

@@ -1,0 +1,30 @@
+gSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)F
+'tableaction_invocation_metaaction_invocation_meta
+CREATE TABLE `action_invocation_meta` (`table_name` TEXT NOT NULL, `last_updated_time_in_millis` INTEGER NOT NULL, PRIMARY KEY(`table_name`))K
+indexsqlite_autoindex_action_invocation_meta_1action_invocation_meta
+Stableaction_invocationsaction_invocations
+CREATE TABLE `action_invocations` (`app_key` TEXT NOT NULL, `frequency_score` REAL NOT NULL, `last_invoke_time_in_millis` INTEGER NOT NULL, PRIMARY KEY(`app_key`))C
+indexsqlite_autoindex_action_invocations_1action_invocations
+w&x+
+M807020ae8658310c74f8c61cfb6c6894
+action_invocations
+1	action_invocations
+'E }C
+h;=
+
+wD$
+
+action_invocations	
+action_invocations
+
+action_invocations
+>'hs
+action_invocations
+/N*
+

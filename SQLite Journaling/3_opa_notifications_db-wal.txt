@@ -1,0 +1,14 @@
+=\vl"ZSQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+\uqLG
+
+en_US
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)]
+Mtableopa_delayed_notificationopa_delayed_notification
+CREATE TABLE `opa_delayed_notification` (`groupingKey` TEXT NOT NULL, `notificationArgs` BLOB NOT NULL, `uniqueId` INTEGER NOT NULL, PRIMARY KEY(`groupingKey`))O
+indexsqlite_autoindex_opa_delayed_notification_1opa_delayed_notification
+/yjv
+Med1b6e318977d6d859fe4767649f5a2b

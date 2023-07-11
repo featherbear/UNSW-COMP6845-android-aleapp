@@ -1,0 +1,17 @@
+﻿Timestamp	Bundle	Module	Operation	Usage in Seconds
+2023-05-08 16:00:00	android	CountryDetector	Location	
+2023-05-09 04:01:18	com.google.android.setupwizard		Location	
+2023-05-09 03:58:41	com.google.android.settings.intelligence		Location	
+2023-05-09 03:57:31	com.google.android.as		Location	
+2023-05-09 03:57:01	com.google.android.googlequicksearchbox	google_app.search	Location	
+2023-05-03 10:44:58	com.google.android.gms	geofencer_provider	Location	
+2023-05-02 05:22:02	com.google.android.apps.maps		Location	
+2023-05-02 05:22:23	com.android.chrome		Location	
+2023-05-09 03:57:38	com.shannon.imsservice			
+2023-05-09 04:04:31	com.shannon.imsservice		Location	
+2023-05-09 04:06:04	com.google.android.GoogleCamera		Location	
+2023-05-09 04:06:03	com.google.android.GoogleCamera		Camera	67.9
+2023-05-09 04:06:06	com.google.android.gms	earthquake_alerting	Location	
+2023-05-09 04:08:00	com.google.android.apps.maps		Location	
+2023-05-09 04:05:37	com.shannon.imsservice			
+2023-05-09 04:08:07	com.shannon.imsservice		Location	

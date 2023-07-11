@@ -1,0 +1,180 @@
+BatteryStatet|
+SAustralia/Perth
+?#G,
+?> G{4
+(
+BusyBox Freestericson.busybox''
+'com.android.imsserviceentitlementcom.android.imsserviceentitlement''
+Carrier Setupcom.google.android.carriersetup''
+NFC/eSE/eSIM firmware updatercom.google.euiccpixel''
+Carrier Setupcom.google.android.wfcactivation''
+Soundscom.google.android.soundpicker''
+com.qorvo.uwb.vendorservice.android.UwbAppcom.qorvo.uwb.vendorservice''
+lQH?
+com.google.pixel.digitalkey.timesync.CccDkTimeSyncApplicationcom.google.pixel.digitalkey.timesync''
+com.google.android.apps.cbrsnetworkmonitorcom.google.android.apps.cbrsnetworkmonitor''
+Carrier Settingscom.google.android.carrier''
+BatteryStatet}
+BatteryStatet~
+BatteryStatet
+BatteryStatetO
+'{Android Setupcom.google.android.setupwizard''
+Device setupcom.google.android.apps.work.oobconfig''
+'~Security Hubcom.google.android.apps.security.securityhub''
+Device Health Services Adaptercom.google.android.turboadapter''
+'eCalendar Storagecom.android.providers.calendar''
+'[android.process.acoreandroid.process.acore''
+?ST	
+Carrier App Loggingcom.google.android.apps.carrier.log''
+<ff 
+Data Restore Toolcom.google.android.apps.restore''
+Mediacom.google.android.providers.media.module''
+?[5v^C
+Cameracom.google.android.GoogleCamera''
+tU?\
+Drivecom.google.android.apps.docs''
+VB?_SjL
+BatteryStatetP
+Carrier Servicescom.google.android.ims''
+"A?K
+BatteryStatetQ
+'SIM Managercom.google.android.euicc''
+a!R
+
+BatteryStatetR
+L1I
+
+Magiskcom.topjohnwu.magisk''
+H?I1
+BatteryStatetS
+Mediaservermediaserver''
+)NO?H
+BatteryStatetT
+Google Partner Setupcom.google.android.partnersetup''
+F=]n
+BatteryStatetU
+RemoteProvisionercom.android.remoteprovisioner''
+BatteryStatetV
+'tSystem Tracingcom.android.traceur''
+BatteryStatetW
+[kZ/8
+
+Google Wi-Fi Provisionercom.google.android.apps.carrier.carrierwifi''
+BatteryStatetX
+'Xandroid.process.mediaandroid.process.media''
+?Bs!|[Su
+BatteryStatetY
+Wireless emergency alertscom.google.android.cellbroadcastreceiver''
+BatteryStatetZ
+com.android.hbmsvmanagercom.android.hbmsvmanager''
+a?8T
+OP4_(')
+BatteryStatet[
+ConfigUpdatercom.google.android.configupdater''
+BatteryStatet\
+QualifiedNetworksServicecom.shannon.qualifiednetworksservice''
+?4"kN
+BatteryStatet]
+RcsServicecom.shannon.rcsservice''
+BatteryStatet^
+com.google.android.grilservicecom.google.android.grilservice''
+p?0C
+BatteryStatet_
+Pixel Standcom.google.android.apps.dreamliner''
+BatteryStatet`
+Wallpaper & stylecom.google.android.apps.wallpaper''
+BatteryStateta
+com.google.android.uvexposurereportercom.google.android.uvexposurereporter''
+{?)[
+BatteryStatetb
+Android Autocom.google.android.projection.gearhead''
+]w?#!5fT
+BatteryStatetc
+692
+Android Accessibility Suitecom.google.android.marvin.talkback''
+?z<Q
+2;l?!#T3m
+RQ*
+
+BatteryStatetd
+Ih/
+
+com.samsung.slsi.telephony.oemril.OemRilAppcom.samsung.slsi.telephony.oemril''
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+[tableBatteryStateBatteryState
+CREATE TABLE `BatteryState` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `uid` INTEGER NOT NULL, `userId` INTEGER NOT NULL, `appLabel` TEXT, `packageName` TEXT, `isHidden` INTEGER NOT NULL, `bootTimestamp` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL, `zoneId` TEXT, `totalPower` REAL NOT NULL, `consumePower` REAL NOT NULL, `percentOfTotal` REAL NOT NULL, `foregroundUsageTimeInMs` INTEGER NOT NULL, `backgroundUsageTimeInMs` INTEGER NOT NULL, `drainType` INTEGER NOT NULL, `consumerType` INTEGER NOT NULL, `batteryLevel` INTEGER NOT NULL, `batteryStatus` INTEGER NOT NULL, `batteryHealth` INTEGER NOT NULL)W
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+BatteryStatete
+]ztnhb\VPJD>82,& 
+
+y
+r
+k
+d
+]
+V
+O
+H
+A
+:
+3
+,
+%
+
+	}	v	o	h	a	Z	S	L	E	>	7	0	)	"	
+
+|
+u
+n
+g
+`
+Y
+R
+K
+D
+=
+6
+/
+(
+!
+
+BatteryStatetf
+RZ&m
+BatteryStatetg
+BatteryStateth
+BatteryStateti
+BatteryStatetj
+BatteryStatetk
+BatteryStatetl
+1(<
+
+BatteryStatetm
+BatteryStatetn
+BatteryStateto
+BatteryStatetp
+Xg2&
+BatteryStatetq
+BatteryStatetr
+BatteryStatets
+gdow
+
+BatteryStatett
+BatteryStatetu
+BatteryStatetv
+BatteryStatetw
+BatteryStatetx
+BatteryStatety
+BatteryStatetz
+BatteryStatet{
+com.google.android.uvexposurereportercom.google.android.uvexposurereporter&
+Australia/Perth
+
+|vpjd^XRLF@:4.("
+ztnhb\VPJD>82,& 
+Adaptive Connectivity Servicescom.google.android.apps.scone 
+Australia/Perth	

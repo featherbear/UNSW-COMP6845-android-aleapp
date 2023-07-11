@@ -1,0 +1,2 @@
+﻿SecurityMode	SSID	PreSharedKey	WEPKeys	Password	Identity	DefaultGwMacAddress	semCreationTime	semUpdateTime	LastConnectedTime	CaptivePortal	LoginUrl	IpAssignment	Path
+WPA_PSK	wes’s iPhone	"""Test1234!"""				56:eb:e9:57:c9:64						DHCP	\\?\C:\Temp\UNSW_ALEAP\ALEAPP_Reports_2023-05-27_Saturday_075547\temp\data\misc\apexdata\com.android.wifi\WifiConfigStore.xml

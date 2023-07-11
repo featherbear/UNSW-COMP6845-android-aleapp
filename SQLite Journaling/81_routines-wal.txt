@@ -1,0 +1,13 @@
+SQLite format 3
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+en_US
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+etableRoutineEntityRoutineEntity
+CREATE TABLE `RoutineEntity` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `ssid` TEXT, `location_metadata` BLOB, `routine_action` INTEGER NOT NULL, `routine_status` INTEGER NOT NULL, `ordering` INTEGER NOT NULL, `notification_sent_count` INTEGER NOT NULL, `notification_dismissed_count` INTEGER NOT NULL, `fyi` INTEGER NOT NULL, `confidence` INTEGER NOT NULL)W
+7tC[Kb
+
+M9a004db3012099c933752bed1023a53f

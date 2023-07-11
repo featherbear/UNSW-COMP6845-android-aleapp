@@ -1,0 +1,104 @@
+logs
+ru.meefik.busyboxBusyBox/system/bin/sh
+/%)	
+Lzstericson.busyboxBusyBox Free/system/bin/sh
+LCstericson.busyboxBusyBox Free/system/bin/sh
+L!stericson.busyboxBusyBox Free/system/bin/sh
+stericson.busyboxBusyBox Free/system/bin/sh
+05
+|
+
+q
+/
+
+q
+/
+i'
+(
+]Ostericson.busyboxBusyBox Free/system/bin/sh
+i'
+(
+]ostericson.busyboxBusyBox Free/system/bin/sh
+:mA
+
+(
+]vstericson.busyboxBusyBox Free/system/bin/sh
+(
+Jcstericson.busyboxBusyBox Free/system/bin/sh
+(
+Justericson.busyboxBusyBox Free/system/bin/sh
+@+S@
+(
+Kstericson.busyboxBusyBox Free/system/bin/sh
+(
+K8stericson.busyboxBusyBox Free/system/bin/sh
+(
+KSstericson.busyboxBusyBox Free/system/bin/sh
+AWSn 
+(
+K|stericson.busyboxBusyBox Free/system/bin/sh
+*"cf
+
+91)	
+com.joeykrim.rootcheckRoot Checker Basic/system/bin/sh
+=Dandroid.uid.shell:2000Shellcat /proc/partitions
+n+=i
+
+=randroid.uid.shell:2000Shellcat /proc/partitions
+android.uid.shell:2000Shellcat /proc/partitions
+;>d 
+
+android.uid.shell:2000Shellls
+?7android.uid.shell:2000Shellcat /proc/partitions
+?Mandroid.uid.shell:2000Shellchmod 777 /data/local/tmp/busybox
+aW>O
+
+?Tandroid.uid.shell:2000Shell/data/local/tmp/busybox
+?handroid.uid.shell:2000Shellrm -r /data/local/tmp/busybox
+`hN#S
+android.uid.shell:2000Shellchmod 777 /data/local/tmp/busybox
+android.uid.shell:2000Shell/data/local/tmp/busybox
+android.uid.shell:2000Shell-s 21041FDEE006K4 shell netstat -na
+android.uid.shell:2000Shell/data/local/tmp/busybox tar -c --exclude=data/user/1* --exclude=data/media/1* --exclude=data/system_ce/1* --exclude=data/misc_ce/1* data | /data/local/tmp/busybox nc -l -p 5555
+gUq_
+KYstericson.busyboxBusyBox Free/system/bin/sh
+KGstericson.busyboxBusyBox Free/system/bin/sh
+K%stericson.busyboxBusyBox Free/system/bin/sh
+K$stericson.busyboxBusyBox Free/system/bin/sh
+Cstericson.busyboxBusyBox Free/system/bin/sh
+Custericson.busyboxBusyBox Free/system/bin/sh
+CVstericson.busyboxBusyBox Free/system/bin/sh
+CHstericson.busyboxBusyBox Free/system/bin/sh
+C6stericson.busyboxBusyBox Free/system/bin/sh
+ZFstericson.busyboxBusyBox Free/system/bin/sh
+Z\stericson.busyboxBusyBox Free/system/bin/sh
+Z.stericson.busyboxBusyBox Free/system/bin/sh
+Zstericson.busyboxBusyBox Free/system/bin/sh
+Y}stericson.busyboxBusyBox Free/system/bin/sh
+YCstericson.busyboxBusyBox Free/system/bin/sh
+YBstericson.busyboxBusyBox Free/system/bin/sh
+6Fstericson.busyboxBusyBox Free/system/bin/sh
+5:android.uid.shell:2000Shell/system/bin/sh
+4candroid.uid.shell:2000Shell/system/bin/sh
+1tcom.jrummy.busybox.installerBusyBox/system/bin/sh
+com.jrummy.busybox.installerBusyBox/system/bin/sh
+,=android.uid.shell:2000Shell/system/bin/sh
+android.uid.shell:2000Shell/system/bin/sh
+&Yandroid.uid.shell:2000Shellcat /proc/partitions
+&4android.uid.shell:2000Shellcat /proc/partitions
+android.uid.shell:2000Shellrm -r /data/local/tmp/busybox
+%qandroid.uid.shell:2000Shell/data/local/tmp/busybox
+%jandroid.uid.shell:2000Shellchmod 777 /data/local/tmp/busybox
+%Nandroid.uid.shell:2000Shellcat /proc/partitions
+%/android.uid.shell:2000Shellrm -r /data/local/tmp/busybox
+SQLite format 3
+!tableroom_master_tableroom_master_table
+CREATE TABLE room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Atablelogslogs
+CREATE TABLE `logs` (`fromUid` INTEGER NOT NULL, `toUid` INTEGER NOT NULL, `fromPid` INTEGER NOT NULL, `packageName` TEXT NOT NULL, `appName` TEXT NOT NULL, `command` TEXT NOT NULL, `action` INTEGER NOT NULL, `time` INTEGER NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)W
+ctableandroid_metadataandroid_metadata
+CREATE TABLE android_metadata (locale TEXT)
+C?PTt
+ +android.uid.shell:2000Shellcat /data/data/com.android.providers.calendar/databases/calendar.db

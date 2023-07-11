@@ -1,0 +1,661 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', sans-serif;
+}
+
+html,
+body,
+div,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+a,
+button {
+  color: inherit;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  font-family: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+body {
+  line-height: 18px;
+  background-color: rgb(249, 249, 251);
+}
+html,
+body {
+  height: 100%;  
+}
+
+.lite {
+  color: rgb(170, 170, 180);
+}
+
+.tooltip {
+  padding: 0 5px;
+  margin-left: -3px;
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: normal;
+  filter: alpha(opacity=0);
+  line-break: auto;
+}
+
+.tooltip .tooltip-inner {
+  font-size: 14px;
+  font-weight: normal;
+  word-break: break-word;
+  max-width: 200px;
+  padding: 6px 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #323a46;
+  border-radius: 2px;
+}
+
+.tooltip .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #323a46;
+}
+
+.web-messenger {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  height: 100%;
+  letter-spacing: -0.02em;
+}
+
+.web-messenger-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+
+  /* height and min-height needed so that headerbar */
+  /* size is preserved once content has loaded */
+  height: 60px;
+  min-height: 60px;
+}
+
+.web-messenger-title {
+  flex: 4;
+  font-weight: 600;
+  color: #333;
+}
+
+.web-messenger-title-skeleton {
+  width: 150px;
+  height: 20px;
+  background-color: rgb(230, 230, 235);
+  border-radius: 10px;
+}
+
+.web-messenger-messages {
+  padding: 0 10px;
+  font-size: 14px;
+  flex: auto;
+
+  overflow-y: auto;
+  /* It would be nice to uncomment the next line      */
+  /* so that the message view has momentum scrolling. */
+  /* Unfortunately Safari has a bug which prevent us  */
+  /* from using this.                                 */
+  /* https://bugs.webkit.org/show_bug.cgi?id=158342   */
+  /* bug appears fixed according to the bug log in the link above */
+  -webkit-overflow-scrolling: touch;
+}
+
+.web-messenger-message {
+  margin: 20px 0;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.web-messenger-message-icon-placeholder {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 4px 14px 4px 4px;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  background-color: white;
+}
+
+.web-messenger-message-bubble {
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 14px;
+  color: rgb(45, 51, 57);
+  background-color: white;
+  box-shadow: -1px 2px 30px rgba(17, 54, 84, 0.03);
+}
+
+.web-messenger-typing {
+  margin: 0 auto;
+  width: 40px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.web-messenger-typing > div {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(201, 201, 211);
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.web-messenger-typing .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.web-messenger-typing .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.markdown ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.markdown ul li {
+  display: list-item;
+  padding: 3px 0;
+}
+.markdown :first-child {
+  margin-top: 0;
+}
+.markdown :last-child {
+  margin-bottom: 0;
+}
+.emoji {
+  height: 18px;
+  width: 18px;
+  vertical-align: text-bottom;
+}
+
+li > div.main > div.text a {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+li > div.main > div.text a:hover {
+  opacity: 1;
+}
+
+/* Attachments Compontent */
+button.attachment-button {
+  height: 40px;
+  margin: 0;
+  width: 40px;
+  padding: 10px 0 10px 5px;
+  background-color: transparent;
+  border: none;
+}
+
+button.attachment-button svg {
+  width: 25px;
+  height: 25px;
+}
+/* End Attachments Component */
+
+/* Messages Component */
+div.powered-by {
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  font-weight: 600;
+}
+div.powered-by a {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(232, 232, 238);
+}
+div.powered-by a:hover,
+div.powered-by a:active,
+div.powered-by a:focus {
+  border-bottom-color: inherit;
+  cursor: pointer;
+}
+
+ul.messages {
+  padding-top: 10px;
+}
+
+div.error {
+  color: #cc0000;
+  text-align: center;
+  padding: 30px 0;
+}
+div.error p {
+  margin: 5px 0;
+}
+/* End MEssages Component */
+
+/* Begin Compose Component */
+div.compose {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+div.compose div.container {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+div.compose textarea {
+  height: 25px;
+  margin: 0;
+  -webkit-flex: 1;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgb(45, 51, 57);
+  letter-spacing: -0.02em;
+  font-family: inherit;
+  padding: 10px 0;
+}
+div.compose ::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+div.compose ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(200, 200, 210);
+}
+div.compose :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(200, 200, 210);
+  opacity: 1;
+}
+div.compose ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(200, 200, 210);
+  opacity: 1;
+}
+div.compose :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(200, 200, 210);
+}
+
+div.compose button {
+  height: 40px;
+  margin: 0;
+  width: 40px;
+  padding: 10px 10px 10px 5px;
+  background-color: transparent;
+  border: none;
+}
+
+div.compose button svg {
+  width: 20px;
+  height: 20px;
+}
+/* End Compose Component */
+
+/* Header component */
+/* Title */
+div.web-messenger-header .title {
+  flex: 4;
+  font-weight: 600;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* fix for font descendants on ie */
+  line-height: normal;
+}
+
+/* Help */
+div.web-messenger-header .help {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+div.web-messenger-header .help path {
+  fill: #67c18e;
+}
+
+/* Close */
+
+.close {
+  padding-left: 0px;
+}
+
+.close,
+.clear-chat {
+  cursor: pointer;
+}
+.close svg,
+.clear-chat svg {
+  display: block;
+  stroke: rgb(45, 51, 57);
+  fill: rgb(45, 51, 57);
+}
+.close-x {
+  stroke: rgb(45, 51, 57);
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+.clear-chat {
+  padding-right: 15px;
+}
+.reset-icon {
+  stroke: rgb(45, 51, 57);
+  fill: rgb(45, 51, 57);
+}
+/* End Header Component */
+
+/* Card component */
+div.card {
+  border: solid 1px rgb(229, 229, 241);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 0;
+  background-color: #fff;
+}
+
+/* Header Image */
+div.card div.image_container {
+  position: relative;
+  border-bottom: solid 1px rgb(229, 229, 241);
+}
+div.card div.image_container div.image {
+  background-position: 50% 50%;
+  background-size: cover;
+  display: block;
+  padding-bottom: 52%;
+  position: relative;
+}
+
+div.card div.main {
+  padding: 10px;
+}
+
+div.card div.main > div.title {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(45, 51, 57);
+}
+
+div.card div.main > div.text {
+  margin-top: 2px;
+  color: rgb(170, 170, 180);
+}
+
+div.card div.main > div.link {
+  color: rgb(170, 170, 180);
+  margin-top: 5px;
+  font-size: 12px;
+}
+div.card div.main > div.link a:hover {
+  text-decoration: underline;
+}
+
+/* Choices */
+div.card div.card-choices {
+}
+div.card div.card-choices > div.card-choice {
+  text-align: center;
+  padding: 5px;
+  border-top: solid 1px rgb(229, 229, 241);
+  cursor: pointer;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+div.card div.card-choices > div.card-choice > a {
+  display: block;
+}
+/* End Card Component */
+
+/* Message Component */
+li.message div.bubble {
+  border-radius: 20px;
+}
+
+li.message {
+  margin: 20px 0 0;
+}
+
+li.message > div.timestamp {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+li.bot.message > div.timestamp {
+  text-align: left;
+  margin-left: 46px;
+}
+
+li.user.message > div.timestamp {
+  text-align: right;
+  margin-right: 10px;
+}
+
+li.message > div.main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+li.message div.text {
+  word-wrap: break-word;
+  /* The following line fixes an issue with Safari on iOS which causes the long strings to not break correctly. */
+  word-break: break-word;
+  max-width: calc(100% - 30px);
+}
+
+/* This is the typing annimation/indicator */
+li.message:last-child {
+  margin: 10px 0 20px 0;
+}
+li.message:last-child > div.main {
+  min-height: 30px;
+}
+
+li.message > div.main > div.bubble {
+  display: inline-block;
+  padding: 10px 14px;
+}
+
+li.message > div.main > img.icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  margin-right: 10px;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+/* Message from Bot */
+li.bot.message > div.main > div.bubble {
+  color: rgb(45, 51, 57);
+  background-color: white;
+  box-shadow: -1px 2px 30px rgba(17, 54, 84, 0.03);
+}
+
+li.bot.message > div.main {
+  margin-right: 30px;
+}
+
+/* Message from User */
+li.user.message > div.main {
+  margin-left: 30px;
+}
+
+li.user.message div.text {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Choices */
+li.message div.choices {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+li.message div.choice {
+  border: solid 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px;
+  margin: 12px 5px;
+}
+
+/* Image */
+li.message div.image_container {
+  position: relative;
+  border: solid 1px rgb(229, 229, 241);
+  /*width: 100%;*/
+  z-index: 0;
+  padding: 0 !important;
+  overflow: hidden;
+}
+li.user.message > div.main > div.image_container {
+  margin-left: auto;
+  margin-right: 0;
+}
+li.message div.image_container > .image {
+  max-height: 300px;
+  display: block;
+}
+/* End Message Component */
+
+/* Video component */
+.container.has-video {
+  position: relative;
+  width: 100%;
+}
+
+/* Inspired by http://embedresponsively.com/ */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* End Video Component */
+
+/* Send Button */
+#send-button-icon {
+    stroke-width:4
+}

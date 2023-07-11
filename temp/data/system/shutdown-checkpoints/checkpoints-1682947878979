@@ -1,0 +1,16 @@
+Shutdown request from BINDER at 2023-05-01 21:31:18.971 GMT+08:00 (epoch=1682947878971)
+com.android.server.power.PowerManagerService$BinderService.reboot
+From process ? (pid=7700)
+
+Shutdown request from SYSTEM at 2023-05-01 21:31:18.972 GMT+08:00 (epoch=1682947878972)
+com.android.server.power.ShutdownThread.shutdownInner
+ at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:245)
+ at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:3845)
+ at android.os.Handler.handleCallback(Handler.java:942)
+ at android.os.Handler.dispatchMessage(Handler.java:99)
+ at android.os.Looper.loopOnce(Looper.java:201)
+ at android.os.Looper.loop(Looper.java:288)
+ at android.os.HandlerThread.run(HandlerThread.java:67)
+ at com.android.server.ServiceThread.run(ServiceThread.java:44)
+ at com.android.server.UiThread.run(UiThread.java:45)
+

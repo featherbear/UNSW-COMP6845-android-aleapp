@@ -1,0 +1,152 @@
+/**
+ * Globals.
+ */
+var tl, gld, ptr, grp;
+var loops = 0;
+tl = new TimelineLite();
+
+
+
+var sources = {
+	background: 'images/background.jpg',
+	
+};
+
+function loadImages(sources, callback) {
+	var images = {};
+	var loadedImages = 0;
+	var numImages = 0;
+	for (var src in sources) {
+		numImages++;
+	}
+	for (var src in sources) {
+		images[src] = new Image();
+		images[src].onload = function () {
+			if (++loadedImages >= numImages) {
+				callback(images);
+			}
+		};
+		images[src].src = sources[src];
+	}
+}
+
+/**
+ * Init.
+ */
+function init() {
+	loadImages(sources, startAnimation);
+}
+
+
+function startAnimation() {
+
+	tl = new TimelineLite(); //{onComplete: restart});
+
+	var time = 1;
+
+
+	appear("copy1", 1, {  opacity: 0, force3D: true, ease: Sine.easeIn }, "f1");
+	
+	
+	disappear("copy1", 1, {  opacity: 0, force3D: true, ease: Sine.easeOut }, "f1Out+=1");
+	
+	appear("copy2", 1, {  opacity: 0, force3D: true, ease: Sine.easeIn}, "f2");
+	appear("bucket",0.7,{opacity:0,ease:Expo.easeInOut},"f2");
+	appear("spade",0.7,{opacity:0,ease:Expo.easeInOut},"f2+=.4");
+	
+	disappear("copy2", 1, {  opacity: 0, force3D: true, ease: Sine.easeOut }, "f2Out+=1");
+	
+	appear("copy3", 1, {  opacity: 0, force3D: true, ease: Sine.easeIn}, "f3");
+	disappear("copy3", 1, {  opacity: 0, force3D: true, ease: Sine.easeOut }, "f3Out+=1");
+
+	appear("copy4", 1, {  scale:0,transformOrigin:"50% 30%", opacity: 0, force3D: true, ease: Expo.easeIn }, "f4");
+	appear("tc", 1, {  opacity: 0, force3D: true, ease: Sine.easeIn }, "f4+=.25");
+
+	disappear("copy4", time, { opacity: 0, force3D: true, ease: Sine.easeOut }, "f4Out+=1.6");
+	disappear("tc", time, { opacity: 0, force3D: true, ease: Sine.easeOut }, "f4Out+=1.6");
+	disappear("bucket", time, { opacity: 0, force3D: true, ease: Sine.easeOut }, "f4Out+=1.6");
+	disappear("spade", time, { opacity: 0, force3D: true, ease: Sine.easeOut }, "f4Out+=1.6");
+	disappear("sand", time, { opacity: 0, force3D: true, ease: Sine.easeOut }, "f4Out+=1.6");
+
+	appear("logo", time, { opacity: 0, force3D: true, ease: Sine.easeIn }, "f5");
+	appear("cta", time, { opacity: 0, force3D: true, onComplete:loopCheck, ease: Sine.easeIn}, "f5+=.5");
+
+	
+	
+
+}
+/**
+ * For animating assets at the start of each frame.
+ */
+function appear(name, time, specs, label) {
+	specs.onStart = show;
+	specs.onStartParams = [name];
+
+	tl.from("#" + name, time, specs, label);
+}
+
+/**
+ * For animating assets at the end of each frame.
+ */
+function disappear(name, time, specs, label, hideOnComplete) {
+	hideOnComplete = (hideOnComplete == undefined) ? true : hideOnComplete;
+	if (hideOnComplete) {
+		specs.onComplete = hide;
+		specs.onCompleteParams = [name];
+	}
+
+	tl.to("#" + name, time, specs, label);
+}
+
+/**
+ * Show an element with display block.
+ */
+function show(name) {
+	e(name).style.display = "block";
+}
+
+/**
+ * Hide an element with display none.
+ */
+function hide(name) {
+	e(name).style.display = "none";
+}
+
+/**
+ * Check loops. If we've reached the loop limit, clear our TimelineLite object.
+ * Otherwise, simply increment the loops and let TimelineLite restart.
+ */
+function loopCheck() {
+	if (loops >= 1) {
+		tl.clear();
+
+	}
+	loops++;
+}
+
+/**
+ * Start over all the animations as part of our TimelineLite object.
+ */
+function restart() {
+	tl.restart();
+}
+
+
+
+/**
+ * Shorthand to grab an element.
+ */
+var e = getElement = function (name) {
+	return document.getElementById(name);
+};
+
+
+// function onMouseOverCTA() {
+// 	TweenMax.to("#cta_hover", .35,{opacity:1});
+// 	TweenMax.to("#cta", .35,{opacity:0});
+// }
+// function onMouseOutCTA() {
+// 	TweenMax.to("#cta_hover", .35,{opacity:0});
+// 	TweenMax.to("#cta", .35,{opacity:1});
+// }
+

@@ -1,0 +1,123 @@
+
+w
+Z
+4
+
+yW0
+notifySessionUpdated 
+updateThumbnail0
+updateCaptureIndicatorThumbnail$
+Touched MediaFile-3
+startEmpty#
+ShotInfo{shotId=ShotId-1, shotIdForTracker=1682986703292, title=IMG_20230502_081823, pid=19960} HDR_PLUS_AUTO started at 2023-05-02T00:18:23.293Z#
+csetProgressMessage%
+
+notifySessionUpdated 
+
+updateThumbnail0
+updateCaptureIndicatorThumbnail$
+
+>Touched MediaFile-1
+startEmpty#
+
+ShotInfo{shotId=ShotId-0, shotIdForTracker=1682986701322, title=IMG_20230502_081821, pid=19960} HDR_PLUS_AUTO started at 2023-05-02T00:18:21.325Z
+%PERSISTED
+"onPublished
+saveAndFinish#
+setProgressMessage%
+Touched MediaFile-1
+ShotInfo{shotId=ShotId-0, shotIdForTracker=1682949080735, title=IMG_20230501_215120, pid=31577} HDR_PLUS_AUTO started at 2023-05-01T13:51:20.742Z
+shot_log
+
+
+
+
+
+
+
+
+IMG_20230502_081823
+XHDR_PLUS_AUTOShotId-1M
+IMG_20230502_081821
+HDR_PLUS_AUTOShotId-0M
+IMG_20230501_215120
+%HDR_PLUS_AUTOShotId-0{Y
+/SYm
+
+yW0
+XsetProgressMessage%
+`Av#
+yW0
+
+onPublished (also resetting watchdog on 1 other shots)
+HDR_PLUS_AUTOShotId-1M
+watchdog reset (caused by shot 1682986701322, onPublished)G
+A#
+
+hF,-
+
+T
+8
+PERSISTEDL
+kx?C
+
+#*HDR_PLUS_AUTOShotId-1M
+
+T
+8
+
+#*saveAndFinish
+hx#rW
+onPublished
+PERSISTED
+IMG_20230502_081826
+'JHDR_PLUS_AUTOShotId-2M
+'JShotInfo{shotId=ShotId-2, shotIdForTracker=1682986706761, title=IMG_20230502_081826, pid=19960} HDR_PLUS_AUTO started at 2023-05-02T00:18:26.762Z
+shot_log 
+'I  
+'JstartEmpty# 
+shot_log!
+'I!!
+'[HDR_PLUS_AUTOShotId-2M
+HDR_PLUS_AUTOShotId-2M
+Touched MediaFile-5
+shot_log"
+'I""
+hS3M
+h(r>
+updateCaptureIndicatorThumbnail$"
+shot_log#
+'I##
+updateThumbnail0#
+shot_log$
+'I$$
+notifySessionUpdated $
+ \%
+
+shot_log%
+'I%%
+):HDR_PLUS_AUTOShotId-2M
+):setProgressMessage%%
+shot_log&
+'I&&
+saveAndFinish#&
+shot_log'
+aI	 
+'I''
+shot_log(
+'I((
+WhV
+
+shot_log)
+'I))
+XT(
+
+h<=s
+`?d+
+
+cHDR_PLUS_AUTOShotId-0M
+XH?z
+
+73O
+p,X
+yW
